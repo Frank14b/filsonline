@@ -1,0 +1,7 @@
+2022-03-16 8:06:05 - PHP Warning:  mysqli::__construct(): (HY000/1049): Unknown database 'test2' in C:\xampp\htdocs\test2\system\library\db\mysqli.php on line 7
+2022-03-16 8:11:11 - PHP Warning:  mysqli::__construct(): (HY000/1049): Unknown database 'test2' in C:\xampp\htdocs\test2\system\library\db\mysqli.php on line 7
+2022-03-16 8:14:23 - PHP Warning:  mysqli::__construct(): (HY000/1049): Unknown database 'test2' in C:\xampp\htdocs\test2\system\library\db\mysqli.php on line 7
+2022-03-16 8:14:24 - PHP Warning:  mysqli::__construct(): (HY000/1049): Unknown database 'test2' in C:\xampp\htdocs\test2\system\library\db\mysqli.php on line 7
+2022-03-16 8:14:33 - PHP Warning:  mysqli::__construct(): (HY000/1049): Unknown database 'test2' in C:\xampp\htdocs\test2\system\library\db\mysqli.php on line 7
+2022-03-16 8:14:48 - PHP Warning:  mysqli::__construct(): (HY000/1049): Unknown database 'test2' in C:\xampp\htdocs\test2\system\library\db\mysqli.php on line 7
+2022-03-16 8:16:57 - PHP Warning:  mysqli::__construct(): (HY000/1049): Unknown database 'test2' in C:\xampp\htdocs\test2\system\library\db\mysqli.php on line 7

@@ -1,0 +1,207 @@
+<?php $val = array (
+  'css' => '.icons-menu-364
+a{background:rgba(0, 0, 0, 0)}.icons-menu-364
+ul{background:rgba(221,221,221,1);justify-content:center}.icons-menu-364>ul{margin:10px;margin-bottom:30px;padding:10px}.icons-menu-364 .links-text{white-space:normal;overflow:visible;text-overflow:ellipsis}.icons-menu-364 .module-title{text-align:center}.icons-menu-364 .module-title::after{left:50%;right:auto;transform:translate3d(-50%,0,0)}',
+  'fonts' => 
+  array (
+  ),
+  'settings' => 
+  array (
+    'schedule' => 
+    array (
+      'from' => '',
+      'to' => '',
+      'between' => true,
+    ),
+    'title' => '',
+    'tooltipStatus' => false,
+    'tooltipPosition' => 'top',
+    'imageDimensions' => 
+    array (
+      'width' => 200,
+      'height' => 150,
+      'resize' => 'fit',
+    ),
+    'status' => true,
+    'id' => 'icons-menu-62334d0d9adee',
+    'module_id' => 364,
+    'classes' => 
+    array (
+      0 => 'icons-menu',
+      1 => 'icons-menu-364',
+    ),
+    'items' => 
+    array (
+      1 => 
+      array (
+        'title' => '',
+        'link' => 
+        array (
+          'type' => 'custom',
+          'id' => '',
+          'href' => 'test',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'type' => 'image',
+        'classes' => 
+        array (
+          0 => 'menu-item',
+          1 => 'icons-menu-item',
+          2 => 'icons-menu-item-1',
+          'multi-level' => false,
+          'dropdown' => false,
+          'drop-menu' => false,
+          3 => 'icon-menu-image',
+        ),
+        'items' => 
+        array (
+        ),
+        'image' => 'http://localhost/test2/image/cache/catalog/IMG20220217164511-200x150h.jpg',
+        'image2x' => 'http://localhost/test2/image/cache/catalog/IMG20220217164511-400x300h.jpg',
+      ),
+      2 => 
+      array (
+        'title' => '',
+        'link' => 
+        array (
+          'type' => 'custom',
+          'id' => '',
+          'href' => 'test',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'type' => 'image',
+        'classes' => 
+        array (
+          0 => 'menu-item',
+          1 => 'icons-menu-item',
+          2 => 'icons-menu-item-2',
+          'multi-level' => false,
+          'dropdown' => false,
+          'drop-menu' => false,
+          3 => 'icon-menu-image',
+        ),
+        'items' => 
+        array (
+        ),
+        'image' => 'http://localhost/test2/image/cache/catalog/IMG20220217164511-200x150h.jpg',
+        'image2x' => 'http://localhost/test2/image/cache/catalog/IMG20220217164511-400x300h.jpg',
+      ),
+      3 => 
+      array (
+        'title' => '',
+        'link' => 
+        array (
+          'type' => 'custom',
+          'id' => '',
+          'href' => 'test',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'type' => 'image',
+        'classes' => 
+        array (
+          0 => 'menu-item',
+          1 => 'icons-menu-item',
+          2 => 'icons-menu-item-3',
+          'multi-level' => false,
+          'dropdown' => false,
+          'drop-menu' => false,
+          3 => 'icon-menu-image',
+        ),
+        'items' => 
+        array (
+        ),
+        'image' => 'http://localhost/test2/image/cache/catalog/IMG20220217164511-200x150h.jpg',
+        'image2x' => 'http://localhost/test2/image/cache/catalog/IMG20220217164511-400x300h.jpg',
+      ),
+      4 => 
+      array (
+        'title' => '',
+        'link' => 
+        array (
+          'type' => 'custom',
+          'id' => '',
+          'href' => 'test',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'type' => 'image',
+        'classes' => 
+        array (
+          0 => 'menu-item',
+          1 => 'icons-menu-item',
+          2 => 'icons-menu-item-4',
+          'multi-level' => false,
+          'dropdown' => false,
+          'drop-menu' => false,
+          3 => 'icon-menu-image',
+        ),
+        'items' => 
+        array (
+        ),
+        'image' => 'http://localhost/test2/image/cache/catalog/IMG20220217164511-200x150h.jpg',
+        'image2x' => 'http://localhost/test2/image/cache/catalog/IMG20220217164511-400x300h.jpg',
+      ),
+      5 => 
+      array (
+        'title' => '',
+        'link' => 
+        array (
+          'type' => 'custom',
+          'id' => '',
+          'href' => 'test',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'type' => 'image',
+        'classes' => 
+        array (
+          0 => 'menu-item',
+          1 => 'icons-menu-item',
+          2 => 'icons-menu-item-5',
+          'multi-level' => false,
+          'dropdown' => false,
+          'drop-menu' => false,
+          3 => 'icon-menu-image',
+        ),
+        'items' => 
+        array (
+        ),
+        'image' => 'http://localhost/test2/image/cache/catalog/IMG20220217164511-200x150h.jpg',
+        'image2x' => 'http://localhost/test2/image/cache/catalog/IMG20220217164511-400x300h.jpg',
+      ),
+    ),
+  ),
+);

@@ -1,0 +1,42 @@
+<?php $val = array (
+  'css' => '.module-title-361 .title-wrapper
+h3{font-family:\'Oswald\';font-weight:700;font-size:40px;color:rgba(19, 32, 58, 1);text-align:center}.module-title-361 .title-wrapper::before{opacity:.05;display:block}.module-title-361 .title-wrapper{text-align:center}.module-title-361 .title-divider{margin-left:auto;margin-right:auto}',
+  'fonts' => 
+  array (
+    'fonts' => 
+    array (
+      'Oswald' => 
+      array (
+        700 => '700',
+      ),
+    ),
+    'subsets' => 
+    array (
+      'latin-ext' => 'latin-ext',
+    ),
+  ),
+  'settings' => 
+  array (
+    'schedule' => 
+    array (
+      'from' => '',
+      'to' => '',
+      'between' => true,
+    ),
+    'type' => 'custom',
+    'title' => 'TOP BRANDS',
+    'subtitle' => '',
+    'status' => true,
+    'id' => 'title-62334d0da757d',
+    'module_id' => 361,
+    'classes' => 
+    array (
+      0 => 'module',
+      1 => 'module-title',
+      2 => 'module-title-361',
+    ),
+    'items' => 
+    array (
+    ),
+  ),
+);

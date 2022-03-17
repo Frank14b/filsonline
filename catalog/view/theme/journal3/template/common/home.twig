@@ -1,0 +1,157 @@
+{{ header }}
+
+<div class="container first-items">
+	<div class="col-md-10" style="margin:auto; padding-top: 2em">
+		<div class="row">
+			<div class="col-md-3 col-sm-6 col-xs-6 caard-item">
+				<div class="card-item-img">
+          <img class="normal" src="catalog/view/theme/journal3/image/goldmarket.png"/>
+          <img class="img-active" src="catalog/view/theme/journal3/image/goldmarket-active.png"/>
+        </div>
+				<label class="card-item-text">GOLD MARKET</label>
+			</div>
+			<div class="col-md-3 col-sm-6 col-xs-6 caard-item">
+				<div class="card-item-img">
+          <img class="normal" src="catalog/view/theme/journal3/image/from1to10.png"/>
+          <img class="img-active" src="catalog/view/theme/journal3/image/from1to10-active.png"/>
+        </div>
+				<label class="card-item-text">FROM 1-10 AED</label>
+			</div>
+			<div class="col-md-3 col-sm-6 col-xs-6 caard-item">
+				<div class="card-item-img">
+          <img class="normal" src="catalog/view/theme/journal3/image/outlet.png"/>
+          <img class="img-active" src="catalog/view/theme/journal3/image/outlet-active.png"/>
+        </div>
+				<label class="card-item-text">OUTLET</label>
+			</div>
+			<div class="col-md-3 col-sm-6 col-xs-6 caard-item">
+				<div class="card-item-img">
+          <img class="normal" src="catalog/view/theme/journal3/image/bestdeals.png"/>
+          <img class="img-active" src="catalog/view/theme/journal3/image/bestdeals-active.png"/>
+        </div>
+				<label class="card-item-text">BEST DEALS</label>
+			</div>
+		</div>
+	</div>
+</div>
+
+<style>
+/* card eleemnts custom css */
+	.first-items .caard-item .card-item-img {
+		width: 100px;
+		height: 100px;
+		background: rgba(140, 187, 13, 0.993);
+		margin: auto;
+    border-radius: 5%;
+    position: relative;
+	}
+  .first-items .caard-item .card-item-img .img-active {
+    display: none;
+	}
+  .first-items .caard-item .card-item-img:hover {
+    background: #111;
+    border: 2px solid rgba(140, 187, 13, 0.993);
+  }
+  .first-items .caard-item .card-item-img:hover .img-active{
+    display: block;
+  }
+  .first-items .caard-item .card-item-img:hover .normal{
+    display: none;
+  }
+	.first-items .caard-item {
+		text-align: center;
+	}
+  .first-items .caard-item .card-item-text {
+    font-weight: 800;
+  }
+  .first-items .caard-item .card-item-img img {
+    object-fit: contain;
+    object-position: middle;
+    width: 100px;
+		height: 90px;
+    padding: 0.5em;
+	}
+
+  /** home slide custom css */
+  .ms-view {
+    border-radius: 3em;
+    box-shadow: rgba(50, 50, 93, 0.55) 0px 13px 27px 5px, rgba(0, 0, 0, 0.5) 0px 8px 16px -8px; 
+  }
+  .ms-slide {
+    border-radius: 3em;
+  }
+  .ms-time-bar {
+    display: none;
+  }
+
+  /** module module-catalog-119 css custom */
+  .module-catalog-119 .title.module-title {
+    text-align: center;
+    text-transform: capitalize;
+  }
+  .grid-item-top-3-1-1 {
+    margin-bottom: 80px;
+  }
+  .grid-item-top-3-1-1 .module-item {
+    width: 100px !important;
+    height: auto !important;
+    font-size: 11px;
+    text-align: center;
+    margin:auto;
+  }
+  .grid-item-top-3-1-1 .module-item .item-content {
+    text-align: center;
+  }
+  .grid-item-top-3-1-1 .module-item .item-content .catalog-title{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  .grid-item-top-3-1-1 .module-item .item-content img {
+    min-width: 100px !important;
+    min-height: 100px !important;
+    object-fit: scale-down;
+  }
+  .grid-item-top-3-1-1 .module-item .item-content .subitems{
+    display: none;
+  }
+  .catalog-title {
+    display: block !important;
+  }
+  .module-catalog-119 .catalog-title {
+    margin-right: 0 !important;
+  }
+  .item-assets{
+    display: block !important;
+  }
+
+  /** banners custom css */
+
+  .module-products-360 {
+    margin-bottom: 50px;
+    margin-top: -40px;
+  }
+
+  .module-banners-132 .module-item a img{
+    object-fit: contain;
+  }
+</style>
+
+{{ j3.loadController('journal3/layout', 'top') }}
+{% if content_top or content_bottom or column_left or column_right %}
+	<div id="common-home" class="container">
+		<div class="row">{{ column_left }}
+			{% if column_left and column_right %}
+				{% set class = 'col-sm-6' %}
+			{% elseif column_left or column_right %}
+				{% set class = 'col-sm-9' %}
+			{% else %}
+				{% set class = 'col-sm-12' %}
+			{% endif %}
+			{% if content_top or content_bottom %}
+				<div id="content" class="{{ class }}">{{ content_top }}{{ content_bottom }}</div>
+			{% endif %}
+			{{ column_right }}</div>
+	</div>
+{% endif %}
+{{ j3.loadController('journal3/seo/rich_snippets') }}
+{{ footer }}

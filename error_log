@@ -1,0 +1,441 @@
+[08-Feb-2022 15:28:09 UTC] PHP Warning:  require_once(/public_html/test/system/startup.php): Failed to open stream: No such file or directory in /home/filsshop/public_html/test/index.php on line 17
+[08-Feb-2022 15:28:09 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/public_html/test/system/startup.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/filsshop/public_html/test/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/filsshop/public_html/test/index.php on line 17
+[08-Feb-2022 15:28:42 UTC] PHP Warning:  require_once(/public_html/test/system/startup.php): Failed to open stream: No such file or directory in /home/filsshop/public_html/test/index.php on line 17
+[08-Feb-2022 15:28:42 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/public_html/test/system/startup.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/filsshop/public_html/test/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/filsshop/public_html/test/index.php on line 17
+[08-Feb-2022 15:28:43 UTC] PHP Warning:  require_once(/public_html/test/system/startup.php): Failed to open stream: No such file or directory in /home/filsshop/public_html/test/index.php on line 17
+[08-Feb-2022 15:28:43 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/public_html/test/system/startup.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/filsshop/public_html/test/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/filsshop/public_html/test/index.php on line 17
+[08-Feb-2022 15:29:46 UTC] PHP Warning:  require_once(/public_html/test/system/startup.php): Failed to open stream: No such file or directory in /home/filsshop/public_html/test/index.php on line 17
+[08-Feb-2022 15:29:46 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/public_html/test/system/startup.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/filsshop/public_html/test/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/filsshop/public_html/test/index.php on line 17
+[08-Feb-2022 15:31:10 UTC] PHP Warning:  require_once(/public_html/test/system/startup.php): Failed to open stream: No such file or directory in /home/filsshop/public_html/test/index.php on line 17
+[08-Feb-2022 15:31:10 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/public_html/test/system/startup.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/filsshop/public_html/test/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/filsshop/public_html/test/index.php on line 17
+[08-Feb-2022 15:32:50 UTC] PHP Warning:  require_once(/public_html/test/system/startup.php): Failed to open stream: No such file or directory in /home/filsshop/public_html/test/index.php on line 17
+[08-Feb-2022 15:32:50 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/public_html/test/system/startup.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/filsshop/public_html/test/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/filsshop/public_html/test/index.php on line 17
+[14-Feb-2022 15:35:10 Asia/Riyadh] PHP Fatal error:  Uncaught Twig\Error\SyntaxError: Unexpected "endfor" tag (expecting closing tag for the "if" tag defined near line 322) in "default/template/product/product.twig" at line 341. in /home/filsshop/storage/vendor/twig/twig/src/Parser.php:169
+Stack trace:
+#0 /home/filsshop/storage/vendor/twig/twig/src/TokenParser/IfTokenParser.php(39): Twig\Parser->subparse(Array)
+#1 /home/filsshop/storage/vendor/twig/twig/src/Parser.php(185): Twig\TokenParser\IfTokenParser->parse(Object(Twig\Token))
+#2 /home/filsshop/storage/vendor/twig/twig/src/TokenParser/ForTokenParser.php(52): Twig\Parser->subparse(Array)
+#3 /home/filsshop/storage/vendor/twig/twig/src/Parser.php(185): Twig\TokenParser\ForTokenParser->parse(Object(Twig\Token))
+#4 /home/filsshop/storage/vendor/twig/twig/src/TokenParser/IfTokenParser.php(39): Twig\Parser->subparse(Array)
+#5 /home/filsshop/storage/vendor/twig/twig/src/Parser.php(185): Twig\TokenParser\IfTokenParser->parse(Object(Twig\Token))
+#6 /home/filsshop/storage/vendor/twig/twig/src/Parser.php(98): Twig\Parser->subparse(NULL, false)
+#7 /home/filsshop/storage/vendor/twig/twig/src/Environment.php(563): Twig\Parser->parse(Object(Twig\TokenStream))
+#8 /home/filsshop/storage/vendor/twig/twig/src/Environment.php(595): Twig\Environment->parse(Object(Twig\TokenStream))
+#9 /home/filsshop/storage/vendor/twig/twig/src/Environment.php(408): Twig\Environment->compileSource(Object(Twig\Source))
+#10 /home/filsshop/storage/vendor/twig/twig/src/Environment.php(381): Twig\Environment->loadClass('__TwigTemplate_...', 'default/templat...', NULL)
+#11 /home/filsshop/storage/vendor/twig/twig/src/Environment.php(359): Twig\Environment->loadTemplate('default/templat...')
+#12 /home/filsshop/storage/vendor/twig/twig/src/Environment.php(318): Twig\Environment->load('default/templat...')
+#13 /home/filsshop/storage/modification/system/library/template/twig.php(39): Twig\Environment->render('default/templat...', Array)
+#14 /home/filsshop/public_html/test/system/library/template.php(51): Template\Twig->render('default/templat...', '{{ header }}\n<d...')
+#15 /home/filsshop/storage/modification/system/engine/loader.php(125): Template->render('default/templat...', '')
+#16 /home/filsshop/public_html/test/catalog/controller/product/product.php(453): Loader->view('product/product', Array)
+#17 /home/filsshop/storage/modification/system/engine/action.php(79): ControllerProductProduct->index()
+#18 /home/filsshop/public_html/test/catalog/controller/startup/router.php(25): Action->execute(Object(Registry))
+#19 /home/filsshop/storage/modification/system/engine/action.php(79): ControllerStartupRouter->index()
+#20 /home/filsshop/public_html/test/system/engine/router.php(67): Action->execute(Object(Registry))
+#21 /home/filsshop/public_html/test/system/engine/router.php(56): Router->execute(Object(Action))
+#22 /home/filsshop/public_html/test/system/framework.php(169): Router->dispatch(Object(Action), Object(Action))
+#23 /home/filsshop/public_html/test/system/startup.php(104): require_once('/home/filsshop/...')
+#24 /home/filsshop/public_html/test/index.php(19): start('catalog')
+#25 {main}
+  thrown in /home/filsshop/storage/vendor/twig/twig/src/Parser.php on line 169
+[14-Feb-2022 15:35:19 Asia/Riyadh] PHP Fatal error:  Uncaught Twig\Error\SyntaxError: Unexpected "endfor" tag (expecting closing tag for the "if" tag defined near line 322) in "default/template/product/product.twig" at line 341. in /home/filsshop/storage/vendor/twig/twig/src/Parser.php:169
+Stack trace:
+#0 /home/filsshop/storage/vendor/twig/twig/src/TokenParser/IfTokenParser.php(39): Twig\Parser->subparse(Array)
+#1 /home/filsshop/storage/vendor/twig/twig/src/Parser.php(185): Twig\TokenParser\IfTokenParser->parse(Object(Twig\Token))
+#2 /home/filsshop/storage/vendor/twig/twig/src/TokenParser/ForTokenParser.php(52): Twig\Parser->subparse(Array)
+#3 /home/filsshop/storage/vendor/twig/twig/src/Parser.php(185): Twig\TokenParser\ForTokenParser->parse(Object(Twig\Token))
+#4 /home/filsshop/storage/vendor/twig/twig/src/TokenParser/IfTokenParser.php(39): Twig\Parser->subparse(Array)
+#5 /home/filsshop/storage/vendor/twig/twig/src/Parser.php(185): Twig\TokenParser\IfTokenParser->parse(Object(Twig\Token))
+#6 /home/filsshop/storage/vendor/twig/twig/src/Parser.php(98): Twig\Parser->subparse(NULL, false)
+#7 /home/filsshop/storage/vendor/twig/twig/src/Environment.php(563): Twig\Parser->parse(Object(Twig\TokenStream))
+#8 /home/filsshop/storage/vendor/twig/twig/src/Environment.php(595): Twig\Environment->parse(Object(Twig\TokenStream))
+#9 /home/filsshop/storage/vendor/twig/twig/src/Environment.php(408): Twig\Environment->compileSource(Object(Twig\Source))
+#10 /home/filsshop/storage/vendor/twig/twig/src/Environment.php(381): Twig\Environment->loadClass('__TwigTemplate_...', 'default/templat...', NULL)
+#11 /home/filsshop/storage/vendor/twig/twig/src/Environment.php(359): Twig\Environment->loadTemplate('default/templat...')
+#12 /home/filsshop/storage/vendor/twig/twig/src/Environment.php(318): Twig\Environment->load('default/templat...')
+#13 /home/filsshop/storage/modification/system/library/template/twig.php(39): Twig\Environment->render('default/templat...', Array)
+#14 /home/filsshop/public_html/test/system/library/template.php(51): Template\Twig->render('default/templat...', '{{ header }}\n<d...')
+#15 /home/filsshop/storage/modification/system/engine/loader.php(125): Template->render('default/templat...', '')
+#16 /home/filsshop/public_html/test/catalog/controller/product/product.php(453): Loader->view('product/product', Array)
+#17 /home/filsshop/storage/modification/system/engine/action.php(79): ControllerProductProduct->index()
+#18 /home/filsshop/public_html/test/catalog/controller/startup/router.php(25): Action->execute(Object(Registry))
+#19 /home/filsshop/storage/modification/system/engine/action.php(79): ControllerStartupRouter->index()
+#20 /home/filsshop/public_html/test/system/engine/router.php(67): Action->execute(Object(Registry))
+#21 /home/filsshop/public_html/test/system/engine/router.php(56): Router->execute(Object(Action))
+#22 /home/filsshop/public_html/test/system/framework.php(169): Router->dispatch(Object(Action), Object(Action))
+#23 /home/filsshop/public_html/test/system/startup.php(104): require_once('/home/filsshop/...')
+#24 /home/filsshop/public_html/test/index.php(19): start('catalog')
+#25 {main}
+  thrown in /home/filsshop/storage/vendor/twig/twig/src/Parser.php on line 169
+[14-Feb-2022 17:02:43 Asia/Riyadh] PHP Parse error:  syntax error, unexpected end of file in /home/filsshop/public_html/test/catalog/language/en-gb/common/footer.php on line 17
+[14-Feb-2022 17:38:15 Asia/Riyadh] PHP Fatal error:  Uncaught Twig\Error\SyntaxError: Unexpected "endfor" tag (expecting closing tag for the "if" tag defined near line 322) in "default/template/product/product.twig" at line 341. in /home/filsshop/storage/vendor/twig/twig/src/Parser.php:169
+Stack trace:
+#0 /home/filsshop/storage/vendor/twig/twig/src/TokenParser/IfTokenParser.php(39): Twig\Parser->subparse(Array)
+#1 /home/filsshop/storage/vendor/twig/twig/src/Parser.php(185): Twig\TokenParser\IfTokenParser->parse(Object(Twig\Token))
+#2 /home/filsshop/storage/vendor/twig/twig/src/TokenParser/ForTokenParser.php(52): Twig\Parser->subparse(Array)
+#3 /home/filsshop/storage/vendor/twig/twig/src/Parser.php(185): Twig\TokenParser\ForTokenParser->parse(Object(Twig\Token))
+#4 /home/filsshop/storage/vendor/twig/twig/src/TokenParser/IfTokenParser.php(39): Twig\Parser->subparse(Array)
+#5 /home/filsshop/storage/vendor/twig/twig/src/Parser.php(185): Twig\TokenParser\IfTokenParser->parse(Object(Twig\Token))
+#6 /home/filsshop/storage/vendor/twig/twig/src/Parser.php(98): Twig\Parser->subparse(NULL, false)
+#7 /home/filsshop/storage/vendor/twig/twig/src/Environment.php(563): Twig\Parser->parse(Object(Twig\TokenStream))
+#8 /home/filsshop/storage/vendor/twig/twig/src/Environment.php(595): Twig\Environment->parse(Object(Twig\TokenStream))
+#9 /home/filsshop/storage/vendor/twig/twig/src/Environment.php(408): Twig\Environment->compileSource(Object(Twig\Source))
+#10 /home/filsshop/storage/vendor/twig/twig/src/Environment.php(381): Twig\Environment->loadClass('__TwigTemplate_...', 'default/templat...', NULL)
+#11 /home/filsshop/storage/vendor/twig/twig/src/Environment.php(359): Twig\Environment->loadTemplate('default/templat...')
+#12 /home/filsshop/storage/vendor/twig/twig/src/Environment.php(318): Twig\Environment->load('default/templat...')
+#13 /home/filsshop/storage/modification/system/library/template/twig.php(39): Twig\Environment->render('default/templat...', Array)
+#14 /home/filsshop/public_html/test/system/library/template.php(51): Template\Twig->render('default/templat...', '{{ header }}\n<d...')
+#15 /home/filsshop/storage/modification/system/engine/loader.php(125): Template->render('default/templat...', '')
+#16 /home/filsshop/public_html/test/catalog/controller/product/product.php(453): Loader->view('product/product', Array)
+#17 /home/filsshop/storage/modification/system/engine/action.php(79): ControllerProductProduct->index()
+#18 /home/filsshop/public_html/test/catalog/controller/startup/router.php(25): Action->execute(Object(Registry))
+#19 /home/filsshop/storage/modification/system/engine/action.php(79): ControllerStartupRouter->index()
+#20 /home/filsshop/public_html/test/system/engine/router.php(67): Action->execute(Object(Registry))
+#21 /home/filsshop/public_html/test/system/engine/router.php(56): Router->execute(Object(Action))
+#22 /home/filsshop/public_html/test/system/framework.php(169): Router->dispatch(Object(Action), Object(Action))
+#23 /home/filsshop/public_html/test/system/startup.php(104): require_once('/home/filsshop/...')
+#24 /home/filsshop/public_html/test/index.php(19): start('catalog')
+#25 {main}
+  thrown in /home/filsshop/storage/vendor/twig/twig/src/Parser.php on line 169
+[14-Feb-2022 17:38:17 Asia/Riyadh] PHP Fatal error:  Uncaught Twig\Error\SyntaxError: Unexpected "endfor" tag (expecting closing tag for the "if" tag defined near line 322) in "default/template/product/product.twig" at line 341. in /home/filsshop/storage/vendor/twig/twig/src/Parser.php:169
+Stack trace:
+#0 /home/filsshop/storage/vendor/twig/twig/src/TokenParser/IfTokenParser.php(39): Twig\Parser->subparse(Array)
+#1 /home/filsshop/storage/vendor/twig/twig/src/Parser.php(185): Twig\TokenParser\IfTokenParser->parse(Object(Twig\Token))
+#2 /home/filsshop/storage/vendor/twig/twig/src/TokenParser/ForTokenParser.php(52): Twig\Parser->subparse(Array)
+#3 /home/filsshop/storage/vendor/twig/twig/src/Parser.php(185): Twig\TokenParser\ForTokenParser->parse(Object(Twig\Token))
+#4 /home/filsshop/storage/vendor/twig/twig/src/TokenParser/IfTokenParser.php(39): Twig\Parser->subparse(Array)
+#5 /home/filsshop/storage/vendor/twig/twig/src/Parser.php(185): Twig\TokenParser\IfTokenParser->parse(Object(Twig\Token))
+#6 /home/filsshop/storage/vendor/twig/twig/src/Parser.php(98): Twig\Parser->subparse(NULL, false)
+#7 /home/filsshop/storage/vendor/twig/twig/src/Environment.php(563): Twig\Parser->parse(Object(Twig\TokenStream))
+#8 /home/filsshop/storage/vendor/twig/twig/src/Environment.php(595): Twig\Environment->parse(Object(Twig\TokenStream))
+#9 /home/filsshop/storage/vendor/twig/twig/src/Environment.php(408): Twig\Environment->compileSource(Object(Twig\Source))
+#10 /home/filsshop/storage/vendor/twig/twig/src/Environment.php(381): Twig\Environment->loadClass('__TwigTemplate_...', 'default/templat...', NULL)
+#11 /home/filsshop/storage/vendor/twig/twig/src/Environment.php(359): Twig\Environment->loadTemplate('default/templat...')
+#12 /home/filsshop/storage/vendor/twig/twig/src/Environment.php(318): Twig\Environment->load('default/templat...')
+#13 /home/filsshop/storage/modification/system/library/template/twig.php(39): Twig\Environment->render('default/templat...', Array)
+#14 /home/filsshop/public_html/test/system/library/template.php(51): Template\Twig->render('default/templat...', '{{ header }}\n<d...')
+#15 /home/filsshop/storage/modification/system/engine/loader.php(125): Template->render('default/templat...', '')
+#16 /home/filsshop/public_html/test/catalog/controller/product/product.php(453): Loader->view('product/product', Array)
+#17 /home/filsshop/storage/modification/system/engine/action.php(79): ControllerProductProduct->index()
+#18 /home/filsshop/public_html/test/catalog/controller/startup/router.php(25): Action->execute(Object(Registry))
+#19 /home/filsshop/storage/modification/system/engine/action.php(79): ControllerStartupRouter->index()
+#20 /home/filsshop/public_html/test/system/engine/router.php(67): Action->execute(Object(Registry))
+#21 /home/filsshop/public_html/test/system/engine/router.php(56): Router->execute(Object(Action))
+#22 /home/filsshop/public_html/test/system/framework.php(169): Router->dispatch(Object(Action), Object(Action))
+#23 /home/filsshop/public_html/test/system/startup.php(104): require_once('/home/filsshop/...')
+#24 /home/filsshop/public_html/test/index.php(19): start('catalog')
+#25 {main}
+  thrown in /home/filsshop/storage/vendor/twig/twig/src/Parser.php on line 169
+[14-Feb-2022 17:38:30 Asia/Riyadh] PHP Fatal error:  Uncaught Twig\Error\SyntaxError: Unexpected "endfor" tag (expecting closing tag for the "if" tag defined near line 322) in "default/template/product/product.twig" at line 341. in /home/filsshop/storage/vendor/twig/twig/src/Parser.php:169
+Stack trace:
+#0 /home/filsshop/storage/vendor/twig/twig/src/TokenParser/IfTokenParser.php(39): Twig\Parser->subparse(Array)
+#1 /home/filsshop/storage/vendor/twig/twig/src/Parser.php(185): Twig\TokenParser\IfTokenParser->parse(Object(Twig\Token))
+#2 /home/filsshop/storage/vendor/twig/twig/src/TokenParser/ForTokenParser.php(52): Twig\Parser->subparse(Array)
+#3 /home/filsshop/storage/vendor/twig/twig/src/Parser.php(185): Twig\TokenParser\ForTokenParser->parse(Object(Twig\Token))
+#4 /home/filsshop/storage/vendor/twig/twig/src/TokenParser/IfTokenParser.php(39): Twig\Parser->subparse(Array)
+#5 /home/filsshop/storage/vendor/twig/twig/src/Parser.php(185): Twig\TokenParser\IfTokenParser->parse(Object(Twig\Token))
+#6 /home/filsshop/storage/vendor/twig/twig/src/Parser.php(98): Twig\Parser->subparse(NULL, false)
+#7 /home/filsshop/storage/vendor/twig/twig/src/Environment.php(563): Twig\Parser->parse(Object(Twig\TokenStream))
+#8 /home/filsshop/storage/vendor/twig/twig/src/Environment.php(595): Twig\Environment->parse(Object(Twig\TokenStream))
+#9 /home/filsshop/storage/vendor/twig/twig/src/Environment.php(408): Twig\Environment->compileSource(Object(Twig\Source))
+#10 /home/filsshop/storage/vendor/twig/twig/src/Environment.php(381): Twig\Environment->loadClass('__TwigTemplate_...', 'default/templat...', NULL)
+#11 /home/filsshop/storage/vendor/twig/twig/src/Environment.php(359): Twig\Environment->loadTemplate('default/templat...')
+#12 /home/filsshop/storage/vendor/twig/twig/src/Environment.php(318): Twig\Environment->load('default/templat...')
+#13 /home/filsshop/storage/modification/system/library/template/twig.php(39): Twig\Environment->render('default/templat...', Array)
+#14 /home/filsshop/public_html/test/system/library/template.php(51): Template\Twig->render('default/templat...', '{{ header }}\n<d...')
+#15 /home/filsshop/storage/modification/system/engine/loader.php(125): Template->render('default/templat...', '')
+#16 /home/filsshop/public_html/test/catalog/controller/product/product.php(453): Loader->view('product/product', Array)
+#17 /home/filsshop/storage/modification/system/engine/action.php(79): ControllerProductProduct->index()
+#18 /home/filsshop/public_html/test/catalog/controller/startup/router.php(25): Action->execute(Object(Registry))
+#19 /home/filsshop/storage/modification/system/engine/action.php(79): ControllerStartupRouter->index()
+#20 /home/filsshop/public_html/test/system/engine/router.php(67): Action->execute(Object(Registry))
+#21 /home/filsshop/public_html/test/system/engine/router.php(56): Router->execute(Object(Action))
+#22 /home/filsshop/public_html/test/system/framework.php(169): Router->dispatch(Object(Action), Object(Action))
+#23 /home/filsshop/public_html/test/system/startup.php(104): require_once('/home/filsshop/...')
+#24 /home/filsshop/public_html/test/index.php(19): start('catalog')
+#25 {main}
+  thrown in /home/filsshop/storage/vendor/twig/twig/src/Parser.php on line 169
+[14-Feb-2022 17:38:31 Asia/Riyadh] PHP Fatal error:  Uncaught Twig\Error\SyntaxError: Unexpected "endfor" tag (expecting closing tag for the "if" tag defined near line 322) in "default/template/product/product.twig" at line 341. in /home/filsshop/storage/vendor/twig/twig/src/Parser.php:169
+Stack trace:
+#0 /home/filsshop/storage/vendor/twig/twig/src/TokenParser/IfTokenParser.php(39): Twig\Parser->subparse(Array)
+#1 /home/filsshop/storage/vendor/twig/twig/src/Parser.php(185): Twig\TokenParser\IfTokenParser->parse(Object(Twig\Token))
+#2 /home/filsshop/storage/vendor/twig/twig/src/TokenParser/ForTokenParser.php(52): Twig\Parser->subparse(Array)
+#3 /home/filsshop/storage/vendor/twig/twig/src/Parser.php(185): Twig\TokenParser\ForTokenParser->parse(Object(Twig\Token))
+#4 /home/filsshop/storage/vendor/twig/twig/src/TokenParser/IfTokenParser.php(39): Twig\Parser->subparse(Array)
+#5 /home/filsshop/storage/vendor/twig/twig/src/Parser.php(185): Twig\TokenParser\IfTokenParser->parse(Object(Twig\Token))
+#6 /home/filsshop/storage/vendor/twig/twig/src/Parser.php(98): Twig\Parser->subparse(NULL, false)
+#7 /home/filsshop/storage/vendor/twig/twig/src/Environment.php(563): Twig\Parser->parse(Object(Twig\TokenStream))
+#8 /home/filsshop/storage/vendor/twig/twig/src/Environment.php(595): Twig\Environment->parse(Object(Twig\TokenStream))
+#9 /home/filsshop/storage/vendor/twig/twig/src/Environment.php(408): Twig\Environment->compileSource(Object(Twig\Source))
+#10 /home/filsshop/storage/vendor/twig/twig/src/Environment.php(381): Twig\Environment->loadClass('__TwigTemplate_...', 'default/templat...', NULL)
+#11 /home/filsshop/storage/vendor/twig/twig/src/Environment.php(359): Twig\Environment->loadTemplate('default/templat...')
+#12 /home/filsshop/storage/vendor/twig/twig/src/Environment.php(318): Twig\Environment->load('default/templat...')
+#13 /home/filsshop/storage/modification/system/library/template/twig.php(39): Twig\Environment->render('default/templat...', Array)
+#14 /home/filsshop/public_html/test/system/library/template.php(51): Template\Twig->render('default/templat...', '{{ header }}\n<d...')
+#15 /home/filsshop/storage/modification/system/engine/loader.php(125): Template->render('default/templat...', '')
+#16 /home/filsshop/public_html/test/catalog/controller/product/product.php(453): Loader->view('product/product', Array)
+#17 /home/filsshop/storage/modification/system/engine/action.php(79): ControllerProductProduct->index()
+#18 /home/filsshop/public_html/test/catalog/controller/startup/router.php(25): Action->execute(Object(Registry))
+#19 /home/filsshop/storage/modification/system/engine/action.php(79): ControllerStartupRouter->index()
+#20 /home/filsshop/public_html/test/system/engine/router.php(67): Action->execute(Object(Registry))
+#21 /home/filsshop/public_html/test/system/engine/router.php(56): Router->execute(Object(Action))
+#22 /home/filsshop/public_html/test/system/framework.php(169): Router->dispatch(Object(Action), Object(Action))
+#23 /home/filsshop/public_html/test/system/startup.php(104): require_once('/home/filsshop/...')
+#24 /home/filsshop/public_html/test/index.php(19): start('catalog')
+#25 {main}
+  thrown in /home/filsshop/storage/vendor/twig/twig/src/Parser.php on line 169
+[14-Feb-2022 17:38:39 Asia/Riyadh] PHP Fatal error:  Uncaught Twig\Error\SyntaxError: Unexpected "endfor" tag (expecting closing tag for the "if" tag defined near line 322) in "default/template/product/product.twig" at line 341. in /home/filsshop/storage/vendor/twig/twig/src/Parser.php:169
+Stack trace:
+#0 /home/filsshop/storage/vendor/twig/twig/src/TokenParser/IfTokenParser.php(39): Twig\Parser->subparse(Array)
+#1 /home/filsshop/storage/vendor/twig/twig/src/Parser.php(185): Twig\TokenParser\IfTokenParser->parse(Object(Twig\Token))
+#2 /home/filsshop/storage/vendor/twig/twig/src/TokenParser/ForTokenParser.php(52): Twig\Parser->subparse(Array)
+#3 /home/filsshop/storage/vendor/twig/twig/src/Parser.php(185): Twig\TokenParser\ForTokenParser->parse(Object(Twig\Token))
+#4 /home/filsshop/storage/vendor/twig/twig/src/TokenParser/IfTokenParser.php(39): Twig\Parser->subparse(Array)
+#5 /home/filsshop/storage/vendor/twig/twig/src/Parser.php(185): Twig\TokenParser\IfTokenParser->parse(Object(Twig\Token))
+#6 /home/filsshop/storage/vendor/twig/twig/src/Parser.php(98): Twig\Parser->subparse(NULL, false)
+#7 /home/filsshop/storage/vendor/twig/twig/src/Environment.php(563): Twig\Parser->parse(Object(Twig\TokenStream))
+#8 /home/filsshop/storage/vendor/twig/twig/src/Environment.php(595): Twig\Environment->parse(Object(Twig\TokenStream))
+#9 /home/filsshop/storage/vendor/twig/twig/src/Environment.php(408): Twig\Environment->compileSource(Object(Twig\Source))
+#10 /home/filsshop/storage/vendor/twig/twig/src/Environment.php(381): Twig\Environment->loadClass('__TwigTemplate_...', 'default/templat...', NULL)
+#11 /home/filsshop/storage/vendor/twig/twig/src/Environment.php(359): Twig\Environment->loadTemplate('default/templat...')
+#12 /home/filsshop/storage/vendor/twig/twig/src/Environment.php(318): Twig\Environment->load('default/templat...')
+#13 /home/filsshop/storage/modification/system/library/template/twig.php(39): Twig\Environment->render('default/templat...', Array)
+#14 /home/filsshop/public_html/test/system/library/template.php(51): Template\Twig->render('default/templat...', '{{ header }}\n<d...')
+#15 /home/filsshop/storage/modification/system/engine/loader.php(125): Template->render('default/templat...', '')
+#16 /home/filsshop/public_html/test/catalog/controller/product/product.php(453): Loader->view('product/product', Array)
+#17 /home/filsshop/storage/modification/system/engine/action.php(79): ControllerProductProduct->index()
+#18 /home/filsshop/public_html/test/catalog/controller/startup/router.php(25): Action->execute(Object(Registry))
+#19 /home/filsshop/storage/modification/system/engine/action.php(79): ControllerStartupRouter->index()
+#20 /home/filsshop/public_html/test/system/engine/router.php(67): Action->execute(Object(Registry))
+#21 /home/filsshop/public_html/test/system/engine/router.php(56): Router->execute(Object(Action))
+#22 /home/filsshop/public_html/test/system/framework.php(169): Router->dispatch(Object(Action), Object(Action))
+#23 /home/filsshop/public_html/test/system/startup.php(104): require_once('/home/filsshop/...')
+#24 /home/filsshop/public_html/test/index.php(19): start('catalog')
+#25 {main}
+  thrown in /home/filsshop/storage/vendor/twig/twig/src/Parser.php on line 169
+[14-Feb-2022 17:38:49 Asia/Riyadh] PHP Fatal error:  Uncaught Twig\Error\SyntaxError: Unexpected "endfor" tag (expecting closing tag for the "if" tag defined near line 322) in "default/template/product/product.twig" at line 341. in /home/filsshop/storage/vendor/twig/twig/src/Parser.php:169
+Stack trace:
+#0 /home/filsshop/storage/vendor/twig/twig/src/TokenParser/IfTokenParser.php(39): Twig\Parser->subparse(Array)
+#1 /home/filsshop/storage/vendor/twig/twig/src/Parser.php(185): Twig\TokenParser\IfTokenParser->parse(Object(Twig\Token))
+#2 /home/filsshop/storage/vendor/twig/twig/src/TokenParser/ForTokenParser.php(52): Twig\Parser->subparse(Array)
+#3 /home/filsshop/storage/vendor/twig/twig/src/Parser.php(185): Twig\TokenParser\ForTokenParser->parse(Object(Twig\Token))
+#4 /home/filsshop/storage/vendor/twig/twig/src/TokenParser/IfTokenParser.php(39): Twig\Parser->subparse(Array)
+#5 /home/filsshop/storage/vendor/twig/twig/src/Parser.php(185): Twig\TokenParser\IfTokenParser->parse(Object(Twig\Token))
+#6 /home/filsshop/storage/vendor/twig/twig/src/Parser.php(98): Twig\Parser->subparse(NULL, false)
+#7 /home/filsshop/storage/vendor/twig/twig/src/Environment.php(563): Twig\Parser->parse(Object(Twig\TokenStream))
+#8 /home/filsshop/storage/vendor/twig/twig/src/Environment.php(595): Twig\Environment->parse(Object(Twig\TokenStream))
+#9 /home/filsshop/storage/vendor/twig/twig/src/Environment.php(408): Twig\Environment->compileSource(Object(Twig\Source))
+#10 /home/filsshop/storage/vendor/twig/twig/src/Environment.php(381): Twig\Environment->loadClass('__TwigTemplate_...', 'default/templat...', NULL)
+#11 /home/filsshop/storage/vendor/twig/twig/src/Environment.php(359): Twig\Environment->loadTemplate('default/templat...')
+#12 /home/filsshop/storage/vendor/twig/twig/src/Environment.php(318): Twig\Environment->load('default/templat...')
+#13 /home/filsshop/storage/modification/system/library/template/twig.php(39): Twig\Environment->render('default/templat...', Array)
+#14 /home/filsshop/public_html/test/system/library/template.php(51): Template\Twig->render('default/templat...', '{{ header }}\n<d...')
+#15 /home/filsshop/storage/modification/system/engine/loader.php(125): Template->render('default/templat...', '')
+#16 /home/filsshop/public_html/test/catalog/controller/product/product.php(453): Loader->view('product/product', Array)
+#17 /home/filsshop/storage/modification/system/engine/action.php(79): ControllerProductProduct->index()
+#18 /home/filsshop/public_html/test/catalog/controller/startup/router.php(25): Action->execute(Object(Registry))
+#19 /home/filsshop/storage/modification/system/engine/action.php(79): ControllerStartupRouter->index()
+#20 /home/filsshop/public_html/test/system/engine/router.php(67): Action->execute(Object(Registry))
+#21 /home/filsshop/public_html/test/system/engine/router.php(56): Router->execute(Object(Action))
+#22 /home/filsshop/public_html/test/system/framework.php(169): Router->dispatch(Object(Action), Object(Action))
+#23 /home/filsshop/public_html/test/system/startup.php(104): require_once('/home/filsshop/...')
+#24 /home/filsshop/public_html/test/index.php(19): start('catalog')
+#25 {main}
+  thrown in /home/filsshop/storage/vendor/twig/twig/src/Parser.php on line 169
+[14-Feb-2022 17:39:04 Asia/Riyadh] PHP Fatal error:  Uncaught Twig\Error\SyntaxError: Unexpected "endfor" tag (expecting closing tag for the "if" tag defined near line 322) in "default/template/product/product.twig" at line 341. in /home/filsshop/storage/vendor/twig/twig/src/Parser.php:169
+Stack trace:
+#0 /home/filsshop/storage/vendor/twig/twig/src/TokenParser/IfTokenParser.php(39): Twig\Parser->subparse(Array)
+#1 /home/filsshop/storage/vendor/twig/twig/src/Parser.php(185): Twig\TokenParser\IfTokenParser->parse(Object(Twig\Token))
+#2 /home/filsshop/storage/vendor/twig/twig/src/TokenParser/ForTokenParser.php(52): Twig\Parser->subparse(Array)
+#3 /home/filsshop/storage/vendor/twig/twig/src/Parser.php(185): Twig\TokenParser\ForTokenParser->parse(Object(Twig\Token))
+#4 /home/filsshop/storage/vendor/twig/twig/src/TokenParser/IfTokenParser.php(39): Twig\Parser->subparse(Array)
+#5 /home/filsshop/storage/vendor/twig/twig/src/Parser.php(185): Twig\TokenParser\IfTokenParser->parse(Object(Twig\Token))
+#6 /home/filsshop/storage/vendor/twig/twig/src/Parser.php(98): Twig\Parser->subparse(NULL, false)
+#7 /home/filsshop/storage/vendor/twig/twig/src/Environment.php(563): Twig\Parser->parse(Object(Twig\TokenStream))
+#8 /home/filsshop/storage/vendor/twig/twig/src/Environment.php(595): Twig\Environment->parse(Object(Twig\TokenStream))
+#9 /home/filsshop/storage/vendor/twig/twig/src/Environment.php(408): Twig\Environment->compileSource(Object(Twig\Source))
+#10 /home/filsshop/storage/vendor/twig/twig/src/Environment.php(381): Twig\Environment->loadClass('__TwigTemplate_...', 'default/templat...', NULL)
+#11 /home/filsshop/storage/vendor/twig/twig/src/Environment.php(359): Twig\Environment->loadTemplate('default/templat...')
+#12 /home/filsshop/storage/vendor/twig/twig/src/Environment.php(318): Twig\Environment->load('default/templat...')
+#13 /home/filsshop/storage/modification/system/library/template/twig.php(39): Twig\Environment->render('default/templat...', Array)
+#14 /home/filsshop/public_html/test/system/library/template.php(51): Template\Twig->render('default/templat...', '{{ header }}\n<d...')
+#15 /home/filsshop/storage/modification/system/engine/loader.php(125): Template->render('default/templat...', '')
+#16 /home/filsshop/public_html/test/catalog/controller/product/product.php(453): Loader->view('product/product', Array)
+#17 /home/filsshop/storage/modification/system/engine/action.php(79): ControllerProductProduct->index()
+#18 /home/filsshop/public_html/test/catalog/controller/startup/router.php(25): Action->execute(Object(Registry))
+#19 /home/filsshop/storage/modification/system/engine/action.php(79): ControllerStartupRouter->index()
+#20 /home/filsshop/public_html/test/system/engine/router.php(67): Action->execute(Object(Registry))
+#21 /home/filsshop/public_html/test/system/engine/router.php(56): Router->execute(Object(Action))
+#22 /home/filsshop/public_html/test/system/framework.php(169): Router->dispatch(Object(Action), Object(Action))
+#23 /home/filsshop/public_html/test/system/startup.php(104): require_once('/home/filsshop/...')
+#24 /home/filsshop/public_html/test/index.php(19): start('catalog')
+#25 {main}
+  thrown in /home/filsshop/storage/vendor/twig/twig/src/Parser.php on line 169
+[14-Feb-2022 17:42:38 Asia/Riyadh] PHP Fatal error:  Uncaught Twig\Error\SyntaxError: Unexpected "endfor" tag (expecting closing tag for the "if" tag defined near line 322) in "default/template/product/product.twig" at line 341. in /home/filsshop/storage/vendor/twig/twig/src/Parser.php:169
+Stack trace:
+#0 /home/filsshop/storage/vendor/twig/twig/src/TokenParser/IfTokenParser.php(39): Twig\Parser->subparse(Array)
+#1 /home/filsshop/storage/vendor/twig/twig/src/Parser.php(185): Twig\TokenParser\IfTokenParser->parse(Object(Twig\Token))
+#2 /home/filsshop/storage/vendor/twig/twig/src/TokenParser/ForTokenParser.php(52): Twig\Parser->subparse(Array)
+#3 /home/filsshop/storage/vendor/twig/twig/src/Parser.php(185): Twig\TokenParser\ForTokenParser->parse(Object(Twig\Token))
+#4 /home/filsshop/storage/vendor/twig/twig/src/TokenParser/IfTokenParser.php(39): Twig\Parser->subparse(Array)
+#5 /home/filsshop/storage/vendor/twig/twig/src/Parser.php(185): Twig\TokenParser\IfTokenParser->parse(Object(Twig\Token))
+#6 /home/filsshop/storage/vendor/twig/twig/src/Parser.php(98): Twig\Parser->subparse(NULL, false)
+#7 /home/filsshop/storage/vendor/twig/twig/src/Environment.php(563): Twig\Parser->parse(Object(Twig\TokenStream))
+#8 /home/filsshop/storage/vendor/twig/twig/src/Environment.php(595): Twig\Environment->parse(Object(Twig\TokenStream))
+#9 /home/filsshop/storage/vendor/twig/twig/src/Environment.php(408): Twig\Environment->compileSource(Object(Twig\Source))
+#10 /home/filsshop/storage/vendor/twig/twig/src/Environment.php(381): Twig\Environment->loadClass('__TwigTemplate_...', 'default/templat...', NULL)
+#11 /home/filsshop/storage/vendor/twig/twig/src/Environment.php(359): Twig\Environment->loadTemplate('default/templat...')
+#12 /home/filsshop/storage/vendor/twig/twig/src/Environment.php(318): Twig\Environment->load('default/templat...')
+#13 /home/filsshop/storage/modification/system/library/template/twig.php(39): Twig\Environment->render('default/templat...', Array)
+#14 /home/filsshop/public_html/test/system/library/template.php(51): Template\Twig->render('default/templat...', '{{ header }}\n<d...')
+#15 /home/filsshop/storage/modification/system/engine/loader.php(125): Template->render('default/templat...', '')
+#16 /home/filsshop/public_html/test/catalog/controller/product/product.php(453): Loader->view('product/product', Array)
+#17 /home/filsshop/storage/modification/system/engine/action.php(79): ControllerProductProduct->index()
+#18 /home/filsshop/public_html/test/catalog/controller/startup/router.php(25): Action->execute(Object(Registry))
+#19 /home/filsshop/storage/modification/system/engine/action.php(79): ControllerStartupRouter->index()
+#20 /home/filsshop/public_html/test/system/engine/router.php(67): Action->execute(Object(Registry))
+#21 /home/filsshop/public_html/test/system/engine/router.php(56): Router->execute(Object(Action))
+#22 /home/filsshop/public_html/test/system/framework.php(169): Router->dispatch(Object(Action), Object(Action))
+#23 /home/filsshop/public_html/test/system/startup.php(104): require_once('/home/filsshop/...')
+#24 /home/filsshop/public_html/test/index.php(19): start('catalog')
+#25 {main}
+  thrown in /home/filsshop/storage/vendor/twig/twig/src/Parser.php on line 169
+[14-Feb-2022 17:43:06 Asia/Riyadh] PHP Fatal error:  Uncaught Twig\Error\SyntaxError: Unexpected "endfor" tag (expecting closing tag for the "if" tag defined near line 322) in "default/template/product/product.twig" at line 341. in /home/filsshop/storage/vendor/twig/twig/src/Parser.php:169
+Stack trace:
+#0 /home/filsshop/storage/vendor/twig/twig/src/TokenParser/IfTokenParser.php(39): Twig\Parser->subparse(Array)
+#1 /home/filsshop/storage/vendor/twig/twig/src/Parser.php(185): Twig\TokenParser\IfTokenParser->parse(Object(Twig\Token))
+#2 /home/filsshop/storage/vendor/twig/twig/src/TokenParser/ForTokenParser.php(52): Twig\Parser->subparse(Array)
+#3 /home/filsshop/storage/vendor/twig/twig/src/Parser.php(185): Twig\TokenParser\ForTokenParser->parse(Object(Twig\Token))
+#4 /home/filsshop/storage/vendor/twig/twig/src/TokenParser/IfTokenParser.php(39): Twig\Parser->subparse(Array)
+#5 /home/filsshop/storage/vendor/twig/twig/src/Parser.php(185): Twig\TokenParser\IfTokenParser->parse(Object(Twig\Token))
+#6 /home/filsshop/storage/vendor/twig/twig/src/Parser.php(98): Twig\Parser->subparse(NULL, false)
+#7 /home/filsshop/storage/vendor/twig/twig/src/Environment.php(563): Twig\Parser->parse(Object(Twig\TokenStream))
+#8 /home/filsshop/storage/vendor/twig/twig/src/Environment.php(595): Twig\Environment->parse(Object(Twig\TokenStream))
+#9 /home/filsshop/storage/vendor/twig/twig/src/Environment.php(408): Twig\Environment->compileSource(Object(Twig\Source))
+#10 /home/filsshop/storage/vendor/twig/twig/src/Environment.php(381): Twig\Environment->loadClass('__TwigTemplate_...', 'default/templat...', NULL)
+#11 /home/filsshop/storage/vendor/twig/twig/src/Environment.php(359): Twig\Environment->loadTemplate('default/templat...')
+#12 /home/filsshop/storage/vendor/twig/twig/src/Environment.php(318): Twig\Environment->load('default/templat...')
+#13 /home/filsshop/storage/modification/system/library/template/twig.php(39): Twig\Environment->render('default/templat...', Array)
+#14 /home/filsshop/public_html/test/system/library/template.php(51): Template\Twig->render('default/templat...', '{{ header }}\n<d...')
+#15 /home/filsshop/storage/modification/system/engine/loader.php(125): Template->render('default/templat...', '')
+#16 /home/filsshop/public_html/test/catalog/controller/product/product.php(453): Loader->view('product/product', Array)
+#17 /home/filsshop/storage/modification/system/engine/action.php(79): ControllerProductProduct->index()
+#18 /home/filsshop/public_html/test/catalog/controller/startup/router.php(25): Action->execute(Object(Registry))
+#19 /home/filsshop/storage/modification/system/engine/action.php(79): ControllerStartupRouter->index()
+#20 /home/filsshop/public_html/test/system/engine/router.php(67): Action->execute(Object(Registry))
+#21 /home/filsshop/public_html/test/system/engine/router.php(56): Router->execute(Object(Action))
+#22 /home/filsshop/public_html/test/system/framework.php(169): Router->dispatch(Object(Action), Object(Action))
+#23 /home/filsshop/public_html/test/system/startup.php(104): require_once('/home/filsshop/...')
+#24 /home/filsshop/public_html/test/index.php(19): start('catalog')
+#25 {main}
+  thrown in /home/filsshop/storage/vendor/twig/twig/src/Parser.php on line 169
+[14-Feb-2022 22:02:52 Asia/Riyadh] PHP Fatal error:  Uncaught Twig\Error\SyntaxError: Unexpected "endfor" tag (expecting closing tag for the "if" tag defined near line 322) in "default/template/product/product.twig" at line 341. in /home/filsshop/storage/vendor/twig/twig/src/Parser.php:169
+Stack trace:
+#0 /home/filsshop/storage/vendor/twig/twig/src/TokenParser/IfTokenParser.php(39): Twig\Parser->subparse(Array)
+#1 /home/filsshop/storage/vendor/twig/twig/src/Parser.php(185): Twig\TokenParser\IfTokenParser->parse(Object(Twig\Token))
+#2 /home/filsshop/storage/vendor/twig/twig/src/TokenParser/ForTokenParser.php(52): Twig\Parser->subparse(Array)
+#3 /home/filsshop/storage/vendor/twig/twig/src/Parser.php(185): Twig\TokenParser\ForTokenParser->parse(Object(Twig\Token))
+#4 /home/filsshop/storage/vendor/twig/twig/src/TokenParser/IfTokenParser.php(39): Twig\Parser->subparse(Array)
+#5 /home/filsshop/storage/vendor/twig/twig/src/Parser.php(185): Twig\TokenParser\IfTokenParser->parse(Object(Twig\Token))
+#6 /home/filsshop/storage/vendor/twig/twig/src/Parser.php(98): Twig\Parser->subparse(NULL, false)
+#7 /home/filsshop/storage/vendor/twig/twig/src/Environment.php(563): Twig\Parser->parse(Object(Twig\TokenStream))
+#8 /home/filsshop/storage/vendor/twig/twig/src/Environment.php(595): Twig\Environment->parse(Object(Twig\TokenStream))
+#9 /home/filsshop/storage/vendor/twig/twig/src/Environment.php(408): Twig\Environment->compileSource(Object(Twig\Source))
+#10 /home/filsshop/storage/vendor/twig/twig/src/Environment.php(381): Twig\Environment->loadClass('__TwigTemplate_...', 'default/templat...', NULL)
+#11 /home/filsshop/storage/vendor/twig/twig/src/Environment.php(359): Twig\Environment->loadTemplate('default/templat...')
+#12 /home/filsshop/storage/vendor/twig/twig/src/Environment.php(318): Twig\Environment->load('default/templat...')
+#13 /home/filsshop/storage/modification/system/library/template/twig.php(39): Twig\Environment->render('default/templat...', Array)
+#14 /home/filsshop/public_html/test/system/library/template.php(51): Template\Twig->render('default/templat...', '{{ header }}\n<d...')
+#15 /home/filsshop/storage/modification/system/engine/loader.php(125): Template->render('default/templat...', '')
+#16 /home/filsshop/public_html/test/catalog/controller/product/product.php(453): Loader->view('product/product', Array)
+#17 /home/filsshop/storage/modification/system/engine/action.php(79): ControllerProductProduct->index()
+#18 /home/filsshop/public_html/test/catalog/controller/startup/router.php(25): Action->execute(Object(Registry))
+#19 /home/filsshop/storage/modification/system/engine/action.php(79): ControllerStartupRouter->index()
+#20 /home/filsshop/public_html/test/system/engine/router.php(67): Action->execute(Object(Registry))
+#21 /home/filsshop/public_html/test/system/engine/router.php(56): Router->execute(Object(Action))
+#22 /home/filsshop/public_html/test/system/framework.php(169): Router->dispatch(Object(Action), Object(Action))
+#23 /home/filsshop/public_html/test/system/startup.php(104): require_once('/home/filsshop/...')
+#24 /home/filsshop/public_html/test/index.php(19): start('catalog')
+#25 {main}
+  thrown in /home/filsshop/storage/vendor/twig/twig/src/Parser.php on line 169
+[14-Feb-2022 22:03:56 Asia/Riyadh] PHP Fatal error:  Uncaught Twig\Error\SyntaxError: Unexpected "endfor" tag (expecting closing tag for the "if" tag defined near line 322) in "default/template/product/product.twig" at line 341. in /home/filsshop/storage/vendor/twig/twig/src/Parser.php:169
+Stack trace:
+#0 /home/filsshop/storage/vendor/twig/twig/src/TokenParser/IfTokenParser.php(39): Twig\Parser->subparse(Array)
+#1 /home/filsshop/storage/vendor/twig/twig/src/Parser.php(185): Twig\TokenParser\IfTokenParser->parse(Object(Twig\Token))
+#2 /home/filsshop/storage/vendor/twig/twig/src/TokenParser/ForTokenParser.php(52): Twig\Parser->subparse(Array)
+#3 /home/filsshop/storage/vendor/twig/twig/src/Parser.php(185): Twig\TokenParser\ForTokenParser->parse(Object(Twig\Token))
+#4 /home/filsshop/storage/vendor/twig/twig/src/TokenParser/IfTokenParser.php(39): Twig\Parser->subparse(Array)
+#5 /home/filsshop/storage/vendor/twig/twig/src/Parser.php(185): Twig\TokenParser\IfTokenParser->parse(Object(Twig\Token))
+#6 /home/filsshop/storage/vendor/twig/twig/src/Parser.php(98): Twig\Parser->subparse(NULL, false)
+#7 /home/filsshop/storage/vendor/twig/twig/src/Environment.php(563): Twig\Parser->parse(Object(Twig\TokenStream))
+#8 /home/filsshop/storage/vendor/twig/twig/src/Environment.php(595): Twig\Environment->parse(Object(Twig\TokenStream))
+#9 /home/filsshop/storage/vendor/twig/twig/src/Environment.php(408): Twig\Environment->compileSource(Object(Twig\Source))
+#10 /home/filsshop/storage/vendor/twig/twig/src/Environment.php(381): Twig\Environment->loadClass('__TwigTemplate_...', 'default/templat...', NULL)
+#11 /home/filsshop/storage/vendor/twig/twig/src/Environment.php(359): Twig\Environment->loadTemplate('default/templat...')
+#12 /home/filsshop/storage/vendor/twig/twig/src/Environment.php(318): Twig\Environment->load('default/templat...')
+#13 /home/filsshop/storage/modification/system/library/template/twig.php(39): Twig\Environment->render('default/templat...', Array)
+#14 /home/filsshop/public_html/test/system/library/template.php(51): Template\Twig->render('default/templat...', '{{ header }}\n<d...')
+#15 /home/filsshop/storage/modification/system/engine/loader.php(125): Template->render('default/templat...', '')
+#16 /home/filsshop/public_html/test/catalog/controller/product/product.php(453): Loader->view('product/product', Array)
+#17 /home/filsshop/storage/modification/system/engine/action.php(79): ControllerProductProduct->index()
+#18 /home/filsshop/public_html/test/catalog/controller/startup/router.php(25): Action->execute(Object(Registry))
+#19 /home/filsshop/storage/modification/system/engine/action.php(79): ControllerStartupRouter->index()
+#20 /home/filsshop/public_html/test/system/engine/router.php(67): Action->execute(Object(Registry))
+#21 /home/filsshop/public_html/test/system/engine/router.php(56): Router->execute(Object(Action))
+#22 /home/filsshop/public_html/test/system/framework.php(169): Router->dispatch(Object(Action), Object(Action))
+#23 /home/filsshop/public_html/test/system/startup.php(104): require_once('/home/filsshop/...')
+#24 /home/filsshop/public_html/test/index.php(19): start('catalog')
+#25 {main}
+  thrown in /home/filsshop/storage/vendor/twig/twig/src/Parser.php on line 169
+[14-Feb-2022 22:03:58 Asia/Riyadh] PHP Fatal error:  Uncaught Twig\Error\SyntaxError: Unexpected "endfor" tag (expecting closing tag for the "if" tag defined near line 322) in "default/template/product/product.twig" at line 341. in /home/filsshop/storage/vendor/twig/twig/src/Parser.php:169
+Stack trace:
+#0 /home/filsshop/storage/vendor/twig/twig/src/TokenParser/IfTokenParser.php(39): Twig\Parser->subparse(Array)
+#1 /home/filsshop/storage/vendor/twig/twig/src/Parser.php(185): Twig\TokenParser\IfTokenParser->parse(Object(Twig\Token))
+#2 /home/filsshop/storage/vendor/twig/twig/src/TokenParser/ForTokenParser.php(52): Twig\Parser->subparse(Array)
+#3 /home/filsshop/storage/vendor/twig/twig/src/Parser.php(185): Twig\TokenParser\ForTokenParser->parse(Object(Twig\Token))
+#4 /home/filsshop/storage/vendor/twig/twig/src/TokenParser/IfTokenParser.php(39): Twig\Parser->subparse(Array)
+#5 /home/filsshop/storage/vendor/twig/twig/src/Parser.php(185): Twig\TokenParser\IfTokenParser->parse(Object(Twig\Token))
+#6 /home/filsshop/storage/vendor/twig/twig/src/Parser.php(98): Twig\Parser->subparse(NULL, false)
+#7 /home/filsshop/storage/vendor/twig/twig/src/Environment.php(563): Twig\Parser->parse(Object(Twig\TokenStream))
+#8 /home/filsshop/storage/vendor/twig/twig/src/Environment.php(595): Twig\Environment->parse(Object(Twig\TokenStream))
+#9 /home/filsshop/storage/vendor/twig/twig/src/Environment.php(408): Twig\Environment->compileSource(Object(Twig\Source))
+#10 /home/filsshop/storage/vendor/twig/twig/src/Environment.php(381): Twig\Environment->loadClass('__TwigTemplate_...', 'default/templat...', NULL)
+#11 /home/filsshop/storage/vendor/twig/twig/src/Environment.php(359): Twig\Environment->loadTemplate('default/templat...')
+#12 /home/filsshop/storage/vendor/twig/twig/src/Environment.php(318): Twig\Environment->load('default/templat...')
+#13 /home/filsshop/storage/modification/system/library/template/twig.php(39): Twig\Environment->render('default/templat...', Array)
+#14 /home/filsshop/public_html/test/system/library/template.php(51): Template\Twig->render('default/templat...', '{{ header }}\n<d...')
+#15 /home/filsshop/storage/modification/system/engine/loader.php(125): Template->render('default/templat...', '')
+#16 /home/filsshop/public_html/test/catalog/controller/product/product.php(453): Loader->view('product/product', Array)
+#17 /home/filsshop/storage/modification/system/engine/action.php(79): ControllerProductProduct->index()
+#18 /home/filsshop/public_html/test/catalog/controller/startup/router.php(25): Action->execute(Object(Registry))
+#19 /home/filsshop/storage/modification/system/engine/action.php(79): ControllerStartupRouter->index()
+#20 /home/filsshop/public_html/test/system/engine/router.php(67): Action->execute(Object(Registry))
+#21 /home/filsshop/public_html/test/system/engine/router.php(56): Router->execute(Object(Action))
+#22 /home/filsshop/public_html/test/system/framework.php(169): Router->dispatch(Object(Action), Object(Action))
+#23 /home/filsshop/public_html/test/system/startup.php(104): require_once('/home/filsshop/...')
+#24 /home/filsshop/public_html/test/index.php(19): start('catalog')
+#25 {main}
+  thrown in /home/filsshop/storage/vendor/twig/twig/src/Parser.php on line 169
+[19-Feb-2022 11:03:43 UTC] PHP Warning:  require_once(/home/filsshop/system/startup.php): failed to open stream: No such file or directory in /home/filsshop/public_html/test2/index.php on line 17
+[19-Feb-2022 11:03:43 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/filsshop/system/startup.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/filsshop/public_html/test2/index.php on line 17
+[19-Feb-2022 11:04:07 UTC] PHP Warning:  require_once(/home/filsshop//test2/system/startup.php): failed to open stream: No such file or directory in /home/filsshop/public_html/test2/index.php on line 17
+[19-Feb-2022 11:04:07 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/filsshop//test2/system/startup.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/filsshop/public_html/test2/index.php on line 17

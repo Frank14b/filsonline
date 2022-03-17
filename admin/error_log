@@ -1,0 +1,443 @@
+[08-Feb-2022 15:58:01 UTC] PHP Warning:  require_once(/public_html/test/system/startup.php): Failed to open stream: No such file or directory in /home/filsshop/public_html/test/admin/index.php on line 17
+[08-Feb-2022 15:58:01 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/public_html/test/system/startup.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/filsshop/public_html/test/admin/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/filsshop/public_html/test/admin/index.php on line 17
+[08-Feb-2022 15:58:38 UTC] PHP Warning:  require_once(/home/filsshop/public_html/system/startup.php): Failed to open stream: No such file or directory in /home/filsshop/public_html/test/admin/index.php on line 17
+[08-Feb-2022 15:58:38 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/filsshop/public_html/system/startup.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/filsshop/public_html/test/admin/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/filsshop/public_html/test/admin/index.php on line 17
+[08-Feb-2022 15:58:48 UTC] PHP Warning:  require_once(/home/filsshop/public_html/system/startup.php): Failed to open stream: No such file or directory in /home/filsshop/public_html/test/admin/index.php on line 17
+[08-Feb-2022 15:58:48 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/filsshop/public_html/system/startup.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/filsshop/public_html/test/admin/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/filsshop/public_html/test/admin/index.php on line 17
+[08-Feb-2022 15:58:49 UTC] PHP Warning:  require_once(/home/filsshop/public_html/system/startup.php): Failed to open stream: No such file or directory in /home/filsshop/public_html/test/admin/index.php on line 17
+[08-Feb-2022 15:58:49 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/filsshop/public_html/system/startup.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/filsshop/public_html/test/admin/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/filsshop/public_html/test/admin/index.php on line 17
+[08-Feb-2022 16:00:15 UTC] PHP Warning:  require_once(/home/filsshop/public_html/system/startup.php): Failed to open stream: No such file or directory in /home/filsshop/public_html/test/admin/index.php on line 17
+[08-Feb-2022 16:00:15 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/filsshop/public_html/system/startup.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/filsshop/public_html/test/admin/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/filsshop/public_html/test/admin/index.php on line 17
+[08-Feb-2022 16:00:16 UTC] PHP Warning:  require_once(/home/filsshop/public_html/system/startup.php): Failed to open stream: No such file or directory in /home/filsshop/public_html/test/admin/index.php on line 17
+[08-Feb-2022 16:00:16 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/filsshop/public_html/system/startup.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/filsshop/public_html/test/admin/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/filsshop/public_html/test/admin/index.php on line 17
+[08-Feb-2022 16:06:15 UTC] PHP Warning:  require_once(/home/filsshop/public_html/system/startup.php): Failed to open stream: No such file or directory in /home/filsshop/public_html/test/admin/index.php on line 17
+[08-Feb-2022 16:06:15 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/filsshop/public_html/system/startup.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/filsshop/public_html/test/admin/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/filsshop/public_html/test/admin/index.php on line 17
+[12-Feb-2022 20:48:39 Asia/Riyadh] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 16384 bytes) in /home/filsshop/public_html/test/system/library/image.php on line 47
+[12-Feb-2022 20:48:51 Asia/Riyadh] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 16384 bytes) in /home/filsshop/public_html/test/system/library/image.php on line 47
+[12-Feb-2022 20:48:51 Asia/Riyadh] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 16384 bytes) in /home/filsshop/public_html/test/system/library/image.php on line 47
+[12-Feb-2022 20:48:55 Asia/Riyadh] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 16384 bytes) in /home/filsshop/public_html/test/system/library/image.php on line 47
+[12-Feb-2022 20:48:57 Asia/Riyadh] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 16384 bytes) in /home/filsshop/public_html/test/system/library/image.php on line 47
+[12-Feb-2022 20:49:01 Asia/Riyadh] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 16384 bytes) in /home/filsshop/public_html/test/system/library/image.php on line 47
+[12-Feb-2022 20:49:05 Asia/Riyadh] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 16384 bytes) in /home/filsshop/public_html/test/system/library/image.php on line 47
+[12-Feb-2022 20:49:47 Asia/Riyadh] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 16384 bytes) in /home/filsshop/public_html/test/system/library/image.php on line 47
+[12-Feb-2022 20:49:50 Asia/Riyadh] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 16384 bytes) in /home/filsshop/public_html/test/system/library/image.php on line 47
+[12-Feb-2022 20:49:51 Asia/Riyadh] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 16384 bytes) in /home/filsshop/public_html/test/system/library/image.php on line 47
+[12-Feb-2022 20:50:19 Asia/Riyadh] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 16384 bytes) in /home/filsshop/public_html/test/system/library/image.php on line 47
+[12-Feb-2022 20:50:22 Asia/Riyadh] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 16384 bytes) in /home/filsshop/public_html/test/system/library/image.php on line 47
+[12-Feb-2022 20:50:26 Asia/Riyadh] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 16384 bytes) in /home/filsshop/public_html/test/system/library/image.php on line 47
+[12-Feb-2022 20:50:29 Asia/Riyadh] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 16384 bytes) in /home/filsshop/public_html/test/system/library/image.php on line 47
+[13-Feb-2022 14:31:01 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Class "ZipArchive" not found in /home/filsshop/public_html/test/admin/controller/marketplace/install.php:61
+Stack trace:
+#0 /home/filsshop/storage/modification/system/engine/action.php(79): ControllerMarketplaceInstall->unzip()
+#1 /home/filsshop/public_html/test/admin/controller/startup/router.php(26): Action->execute(Object(Registry), Array)
+#2 /home/filsshop/storage/modification/system/engine/action.php(79): ControllerStartupRouter->index()
+#3 /home/filsshop/public_html/test/system/engine/router.php(67): Action->execute(Object(Registry))
+#4 /home/filsshop/public_html/test/system/engine/router.php(56): Router->execute(Object(Action))
+#5 /home/filsshop/public_html/test/system/framework.php(169): Router->dispatch(Object(Action), Object(Action))
+#6 /home/filsshop/public_html/test/system/startup.php(104): require_once('/home/filsshop/...')
+#7 /home/filsshop/public_html/test/admin/index.php(19): start('admin')
+#8 {main}
+  thrown in /home/filsshop/public_html/test/admin/controller/marketplace/install.php on line 61
+[13-Feb-2022 14:32:37 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Class "ZipArchive" not found in /home/filsshop/public_html/test/admin/controller/marketplace/install.php:61
+Stack trace:
+#0 /home/filsshop/storage/modification/system/engine/action.php(79): ControllerMarketplaceInstall->unzip()
+#1 /home/filsshop/public_html/test/admin/controller/startup/router.php(26): Action->execute(Object(Registry), Array)
+#2 /home/filsshop/storage/modification/system/engine/action.php(79): ControllerStartupRouter->index()
+#3 /home/filsshop/public_html/test/system/engine/router.php(67): Action->execute(Object(Registry))
+#4 /home/filsshop/public_html/test/system/engine/router.php(56): Router->execute(Object(Action))
+#5 /home/filsshop/public_html/test/system/framework.php(169): Router->dispatch(Object(Action), Object(Action))
+#6 /home/filsshop/public_html/test/system/startup.php(104): require_once('/home/filsshop/...')
+#7 /home/filsshop/public_html/test/admin/index.php(19): start('admin')
+#8 {main}
+  thrown in /home/filsshop/public_html/test/admin/controller/marketplace/install.php on line 61
+[13-Feb-2022 18:40:12 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Class "ZipArchive" not found in /home/filsshop/public_html/test/admin/controller/marketplace/install.php:61
+Stack trace:
+#0 /home/filsshop/storage/modification/system/engine/action.php(79): ControllerMarketplaceInstall->unzip()
+#1 /home/filsshop/public_html/test/admin/controller/startup/router.php(26): Action->execute(Object(Registry), Array)
+#2 /home/filsshop/storage/modification/system/engine/action.php(79): ControllerStartupRouter->index()
+#3 /home/filsshop/public_html/test/system/engine/router.php(67): Action->execute(Object(Registry))
+#4 /home/filsshop/public_html/test/system/engine/router.php(56): Router->execute(Object(Action))
+#5 /home/filsshop/public_html/test/system/framework.php(169): Router->dispatch(Object(Action), Object(Action))
+#6 /home/filsshop/public_html/test/system/startup.php(104): require_once('/home/filsshop/...')
+#7 /home/filsshop/public_html/test/admin/index.php(19): start('admin')
+#8 {main}
+  thrown in /home/filsshop/public_html/test/admin/controller/marketplace/install.php on line 61
+[15-Feb-2022 18:56:27 Asia/Riyadh] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 16384 bytes) in /home/filsshop/public_html/test/system/library/image.php on line 47
+[15-Feb-2022 18:59:04 Asia/Riyadh] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 16384 bytes) in /home/filsshop/public_html/test/system/library/image.php on line 47
+[15-Feb-2022 18:59:07 Asia/Riyadh] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 16384 bytes) in /home/filsshop/public_html/test/system/library/image.php on line 47
+[15-Feb-2022 18:59:48 Asia/Riyadh] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 16384 bytes) in /home/filsshop/public_html/test/system/library/image.php on line 47
+[15-Feb-2022 19:01:30 Asia/Riyadh] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 16384 bytes) in /home/filsshop/public_html/test/system/library/image.php on line 47
+[15-Feb-2022 19:01:40 Asia/Riyadh] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 16384 bytes) in /home/filsshop/public_html/test/system/library/image.php on line 47
+[15-Feb-2022 19:01:51 Asia/Riyadh] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 16384 bytes) in /home/filsshop/public_html/test/system/library/image.php on line 47
+[15-Feb-2022 21:09:10 Asia/Riyadh] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 16384 bytes) in /home/filsshop/public_html/test/system/library/image.php on line 47
+[15-Feb-2022 21:09:14 Asia/Riyadh] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 16384 bytes) in /home/filsshop/public_html/test/system/library/image.php on line 47
+[15-Feb-2022 21:09:15 Asia/Riyadh] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 16384 bytes) in /home/filsshop/public_html/test/system/library/image.php on line 47
+[15-Feb-2022 21:10:22 Asia/Riyadh] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 16384 bytes) in /home/filsshop/public_html/test/system/library/image.php on line 47
+[15-Feb-2022 21:10:24 Asia/Riyadh] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 16384 bytes) in /home/filsshop/public_html/test/system/library/image.php on line 47
+[15-Feb-2022 21:10:26 Asia/Riyadh] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 16384 bytes) in /home/filsshop/public_html/test/system/library/image.php on line 47
+[15-Feb-2022 21:10:28 Asia/Riyadh] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 16384 bytes) in /home/filsshop/public_html/test/system/library/image.php on line 47
+[15-Feb-2022 21:10:30 Asia/Riyadh] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 16384 bytes) in /home/filsshop/public_html/test/system/library/image.php on line 47
+[15-Feb-2022 21:10:32 Asia/Riyadh] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 16384 bytes) in /home/filsshop/public_html/test/system/library/image.php on line 47
+[16-Feb-2022 15:37:49 Asia/Riyadh] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 16384 bytes) in /home/filsshop/public_html/test/system/library/image.php on line 47
+[16-Feb-2022 15:37:53 Asia/Riyadh] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 16384 bytes) in /home/filsshop/public_html/test/system/library/image.php on line 47
+[16-Feb-2022 15:37:54 Asia/Riyadh] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 16384 bytes) in /home/filsshop/public_html/test/system/library/image.php on line 47
+[16-Feb-2022 15:38:05 Asia/Riyadh] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 16384 bytes) in /home/filsshop/public_html/test/system/library/image.php on line 47
+[16-Feb-2022 15:52:50 Asia/Riyadh] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 16384 bytes) in /home/filsshop/public_html/test/system/library/image.php on line 47
+[16-Feb-2022 15:53:04 Asia/Riyadh] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 16384 bytes) in /home/filsshop/public_html/test/system/library/image.php on line 47
+[19-Feb-2022 14:13:51 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Class 'ZipArchive' not found in /home/filsshop/public_html/test2/admin/controller/marketplace/install.php:61
+Stack trace:
+#0 /home/filsshop/public_html/test2/system/storage/modification/system/engine/action.php(79): ControllerMarketplaceInstall->unzip()
+#1 /home/filsshop/public_html/test2/admin/controller/startup/router.php(26): Action->execute(Object(Registry), Array)
+#2 /home/filsshop/public_html/test2/system/storage/modification/system/engine/action.php(79): ControllerStartupRouter->index()
+#3 /home/filsshop/public_html/test2/system/storage/modification/system/engine/router.php(134): Action->execute(Object(Registry))
+#4 /home/filsshop/public_html/test2/system/storage/modification/system/engine/router.php(123): Router->execute(Object(Action))
+#5 /home/filsshop/public_html/test2/system/framework.php(169): Router->dispatch(Object(Action), Object(Action))
+#6 /home/filsshop/public_html/test2/system/startup.php(104): require_once('/home/filsshop/...')
+#7 /home/filsshop/public_html/test2/admin/ind in /home/filsshop/public_html/test2/admin/controller/marketplace/install.php on line 61
+[19-Feb-2022 14:15:26 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Class 'ZipArchive' not found in /home/filsshop/public_html/test2/admin/controller/marketplace/install.php:61
+Stack trace:
+#0 /home/filsshop/public_html/test2/system/storage/modification/system/engine/action.php(79): ControllerMarketplaceInstall->unzip()
+#1 /home/filsshop/public_html/test2/admin/controller/startup/router.php(26): Action->execute(Object(Registry), Array)
+#2 /home/filsshop/public_html/test2/system/storage/modification/system/engine/action.php(79): ControllerStartupRouter->index()
+#3 /home/filsshop/public_html/test2/system/storage/modification/system/engine/router.php(134): Action->execute(Object(Registry))
+#4 /home/filsshop/public_html/test2/system/storage/modification/system/engine/router.php(123): Router->execute(Object(Action))
+#5 /home/filsshop/public_html/test2/system/framework.php(169): Router->dispatch(Object(Action), Object(Action))
+#6 /home/filsshop/public_html/test2/system/startup.php(104): require_once('/home/filsshop/...')
+#7 /home/filsshop/public_html/test2/admin/ind in /home/filsshop/public_html/test2/admin/controller/marketplace/install.php on line 61
+[19-Feb-2022 15:07:17 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Class 'ZipArchive' not found in /home/filsshop/public_html/test2/admin/controller/marketplace/install.php:61
+Stack trace:
+#0 /home/filsshop/public_html/test2/system/storage/modification/system/engine/action.php(79): ControllerMarketplaceInstall->unzip()
+#1 /home/filsshop/public_html/test2/admin/controller/startup/router.php(26): Action->execute(Object(Registry), Array)
+#2 /home/filsshop/public_html/test2/system/storage/modification/system/engine/action.php(79): ControllerStartupRouter->index()
+#3 /home/filsshop/public_html/test2/system/storage/modification/system/engine/router.php(134): Action->execute(Object(Registry))
+#4 /home/filsshop/public_html/test2/system/storage/modification/system/engine/router.php(123): Router->execute(Object(Action))
+#5 /home/filsshop/public_html/test2/system/framework.php(169): Router->dispatch(Object(Action), Object(Action))
+#6 /home/filsshop/public_html/test2/system/startup.php(104): require_once('/home/filsshop/...')
+#7 /home/filsshop/public_html/test2/admin/ind in /home/filsshop/public_html/test2/admin/controller/marketplace/install.php on line 61
+[19-Feb-2022 15:07:48 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Class 'ZipArchive' not found in /home/filsshop/public_html/test2/admin/controller/marketplace/install.php:61
+Stack trace:
+#0 /home/filsshop/public_html/test2/system/storage/modification/system/engine/action.php(79): ControllerMarketplaceInstall->unzip()
+#1 /home/filsshop/public_html/test2/admin/controller/startup/router.php(26): Action->execute(Object(Registry), Array)
+#2 /home/filsshop/public_html/test2/system/storage/modification/system/engine/action.php(79): ControllerStartupRouter->index()
+#3 /home/filsshop/public_html/test2/system/storage/modification/system/engine/router.php(134): Action->execute(Object(Registry))
+#4 /home/filsshop/public_html/test2/system/storage/modification/system/engine/router.php(123): Router->execute(Object(Action))
+#5 /home/filsshop/public_html/test2/system/framework.php(169): Router->dispatch(Object(Action), Object(Action))
+#6 /home/filsshop/public_html/test2/system/startup.php(104): require_once('/home/filsshop/...')
+#7 /home/filsshop/public_html/test2/admin/ind in /home/filsshop/public_html/test2/admin/controller/marketplace/install.php on line 61
+[19-Feb-2022 15:08:01 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Class 'ZipArchive' not found in /home/filsshop/public_html/test2/admin/controller/marketplace/install.php:61
+Stack trace:
+#0 /home/filsshop/public_html/test2/system/storage/modification/system/engine/action.php(79): ControllerMarketplaceInstall->unzip()
+#1 /home/filsshop/public_html/test2/admin/controller/startup/router.php(26): Action->execute(Object(Registry), Array)
+#2 /home/filsshop/public_html/test2/system/storage/modification/system/engine/action.php(79): ControllerStartupRouter->index()
+#3 /home/filsshop/public_html/test2/system/storage/modification/system/engine/router.php(134): Action->execute(Object(Registry))
+#4 /home/filsshop/public_html/test2/system/storage/modification/system/engine/router.php(123): Router->execute(Object(Action))
+#5 /home/filsshop/public_html/test2/system/framework.php(169): Router->dispatch(Object(Action), Object(Action))
+#6 /home/filsshop/public_html/test2/system/startup.php(104): require_once('/home/filsshop/...')
+#7 /home/filsshop/public_html/test2/admin/ind in /home/filsshop/public_html/test2/admin/controller/marketplace/install.php on line 61
+[19-Feb-2022 15:10:13 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Class 'ZipArchive' not found in /home/filsshop/public_html/test2/admin/controller/marketplace/install.php:61
+Stack trace:
+#0 /home/filsshop/public_html/test2/system/storage/modification/system/engine/action.php(79): ControllerMarketplaceInstall->unzip()
+#1 /home/filsshop/public_html/test2/admin/controller/startup/router.php(26): Action->execute(Object(Registry), Array)
+#2 /home/filsshop/public_html/test2/system/storage/modification/system/engine/action.php(79): ControllerStartupRouter->index()
+#3 /home/filsshop/public_html/test2/system/storage/modification/system/engine/router.php(134): Action->execute(Object(Registry))
+#4 /home/filsshop/public_html/test2/system/storage/modification/system/engine/router.php(123): Router->execute(Object(Action))
+#5 /home/filsshop/public_html/test2/system/framework.php(169): Router->dispatch(Object(Action), Object(Action))
+#6 /home/filsshop/public_html/test2/system/startup.php(104): require_once('/home/filsshop/...')
+#7 /home/filsshop/public_html/test2/admin/ind in /home/filsshop/public_html/test2/admin/controller/marketplace/install.php on line 61
+[19-Feb-2022 15:13:09 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Class 'ZipArchive' not found in /home/filsshop/public_html/test2/admin/controller/marketplace/install.php:61
+Stack trace:
+#0 /home/filsshop/public_html/test2/system/storage/modification/system/engine/action.php(79): ControllerMarketplaceInstall->unzip()
+#1 /home/filsshop/public_html/test2/admin/controller/startup/router.php(26): Action->execute(Object(Registry), Array)
+#2 /home/filsshop/public_html/test2/system/storage/modification/system/engine/action.php(79): ControllerStartupRouter->index()
+#3 /home/filsshop/public_html/test2/system/storage/modification/system/engine/router.php(134): Action->execute(Object(Registry))
+#4 /home/filsshop/public_html/test2/system/storage/modification/system/engine/router.php(123): Router->execute(Object(Action))
+#5 /home/filsshop/public_html/test2/system/framework.php(169): Router->dispatch(Object(Action), Object(Action))
+#6 /home/filsshop/public_html/test2/system/startup.php(104): require_once('/home/filsshop/...')
+#7 /home/filsshop/public_html/test2/admin/ind in /home/filsshop/public_html/test2/admin/controller/marketplace/install.php on line 61
+[19-Feb-2022 15:14:05 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Class 'ZipArchive' not found in /home/filsshop/public_html/test2/admin/controller/marketplace/install.php:61
+Stack trace:
+#0 /home/filsshop/public_html/test2/system/storage/modification/system/engine/action.php(79): ControllerMarketplaceInstall->unzip()
+#1 /home/filsshop/public_html/test2/admin/controller/startup/router.php(26): Action->execute(Object(Registry), Array)
+#2 /home/filsshop/public_html/test2/system/storage/modification/system/engine/action.php(79): ControllerStartupRouter->index()
+#3 /home/filsshop/public_html/test2/system/storage/modification/system/engine/router.php(134): Action->execute(Object(Registry))
+#4 /home/filsshop/public_html/test2/system/storage/modification/system/engine/router.php(123): Router->execute(Object(Action))
+#5 /home/filsshop/public_html/test2/system/framework.php(169): Router->dispatch(Object(Action), Object(Action))
+#6 /home/filsshop/public_html/test2/system/startup.php(104): require_once('/home/filsshop/...')
+#7 /home/filsshop/public_html/test2/admin/ind in /home/filsshop/public_html/test2/admin/controller/marketplace/install.php on line 61
+[19-Feb-2022 16:48:44 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Class 'ZipArchive' not found in /home/filsshop/public_html/test2/admin/controller/marketplace/install.php:61
+Stack trace:
+#0 /home/filsshop/public_html/test2/system/storage/modification/system/engine/action.php(79): ControllerMarketplaceInstall->unzip()
+#1 /home/filsshop/public_html/test2/admin/controller/startup/router.php(26): Action->execute(Object(Registry), Array)
+#2 /home/filsshop/public_html/test2/system/storage/modification/system/engine/action.php(79): ControllerStartupRouter->index()
+#3 /home/filsshop/public_html/test2/system/storage/modification/system/engine/router.php(134): Action->execute(Object(Registry))
+#4 /home/filsshop/public_html/test2/system/storage/modification/system/engine/router.php(123): Router->execute(Object(Action))
+#5 /home/filsshop/public_html/test2/system/framework.php(169): Router->dispatch(Object(Action), Object(Action))
+#6 /home/filsshop/public_html/test2/system/startup.php(104): require_once('/home/filsshop/...')
+#7 /home/filsshop/public_html/test2/admin/ind in /home/filsshop/public_html/test2/admin/controller/marketplace/install.php on line 61
+[19-Feb-2022 16:52:34 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Class 'ZipArchive' not found in /home/filsshop/public_html/test2/admin/controller/marketplace/install.php:61
+Stack trace:
+#0 /home/filsshop/public_html/test2/system/storage/modification/system/engine/action.php(79): ControllerMarketplaceInstall->unzip()
+#1 /home/filsshop/public_html/test2/admin/controller/startup/router.php(26): Action->execute(Object(Registry), Array)
+#2 /home/filsshop/public_html/test2/system/storage/modification/system/engine/action.php(79): ControllerStartupRouter->index()
+#3 /home/filsshop/public_html/test2/system/storage/modification/system/engine/router.php(134): Action->execute(Object(Registry))
+#4 /home/filsshop/public_html/test2/system/storage/modification/system/engine/router.php(123): Router->execute(Object(Action))
+#5 /home/filsshop/public_html/test2/system/framework.php(169): Router->dispatch(Object(Action), Object(Action))
+#6 /home/filsshop/public_html/test2/system/startup.php(104): require_once('/home/filsshop/...')
+#7 /home/filsshop/public_html/test2/admin/ind in /home/filsshop/public_html/test2/admin/controller/marketplace/install.php on line 61
+[19-Feb-2022 17:06:38 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Class 'ZipArchive' not found in /home/filsshop/public_html/test2/admin/controller/marketplace/install.php:61
+Stack trace:
+#0 /home/filsshop/public_html/test2/system/storage/modification/system/engine/action.php(79): ControllerMarketplaceInstall->unzip()
+#1 /home/filsshop/public_html/test2/admin/controller/startup/router.php(26): Action->execute(Object(Registry), Array)
+#2 /home/filsshop/public_html/test2/system/storage/modification/system/engine/action.php(79): ControllerStartupRouter->index()
+#3 /home/filsshop/public_html/test2/system/storage/modification/system/engine/router.php(134): Action->execute(Object(Registry))
+#4 /home/filsshop/public_html/test2/system/storage/modification/system/engine/router.php(123): Router->execute(Object(Action))
+#5 /home/filsshop/public_html/test2/system/framework.php(169): Router->dispatch(Object(Action), Object(Action))
+#6 /home/filsshop/public_html/test2/system/startup.php(104): require_once('/home/filsshop/...')
+#7 /home/filsshop/public_html/test2/admin/ind in /home/filsshop/public_html/test2/admin/controller/marketplace/install.php on line 61
+[19-Feb-2022 17:17:19 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Class 'ZipArchive' not found in /home/filsshop/public_html/test2/admin/controller/marketplace/install.php:61
+Stack trace:
+#0 /home/filsshop/public_html/test2/system/storage/modification/system/engine/action.php(79): ControllerMarketplaceInstall->unzip()
+#1 /home/filsshop/public_html/test2/admin/controller/startup/router.php(26): Action->execute(Object(Registry), Array)
+#2 /home/filsshop/public_html/test2/system/storage/modification/system/engine/action.php(79): ControllerStartupRouter->index()
+#3 /home/filsshop/public_html/test2/system/storage/modification/system/engine/router.php(134): Action->execute(Object(Registry))
+#4 /home/filsshop/public_html/test2/system/storage/modification/system/engine/router.php(123): Router->execute(Object(Action))
+#5 /home/filsshop/public_html/test2/system/framework.php(169): Router->dispatch(Object(Action), Object(Action))
+#6 /home/filsshop/public_html/test2/system/startup.php(104): require_once('/home/filsshop/...')
+#7 /home/filsshop/public_html/test2/admin/ind in /home/filsshop/public_html/test2/admin/controller/marketplace/install.php on line 61
+[19-Feb-2022 19:06:30 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Class 'ZipArchive' not found in /home/filsshop/public_html/test2/system/library/export_import/Classes/PHPExcel/Writer/Excel2007.php:220
+Stack trace:
+#0 /home/filsshop/public_html/test2/admin/model/extension/export_import.php(9302): PHPExcel_Writer_Excel2007->save('/tmp/phpxltmptF...')
+#1 /home/filsshop/public_html/test2/system/storage/modification/system/engine/loader.php(256): ModelToolExportImport->download('o', NULL, NULL, NULL, NULL)
+#2 /home/filsshop/public_html/test2/system/engine/proxy.php(47): Loader->{closure}(Array, Array)
+#3 /home/filsshop/public_html/test2/admin/controller/extension/export_import.php(95): Proxy->__call('download', Array)
+#4 /home/filsshop/public_html/test2/system/storage/modification/system/engine/action.php(79): ControllerExtensionExportImport->download()
+#5 /home/filsshop/public_html/test2/admin/controller/startup/router.php(26): Action->execute(Object(Registry), Array)
+#6 /home/filsshop/public_html/test2/system/storage/modification/system/engine/action.php(79):  in /home/filsshop/public_html/test2/system/library/export_import/Classes/PHPExcel/Writer/Excel2007.php on line 220
+[19-Feb-2022 19:06:44 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Class 'ZipArchive' not found in /home/filsshop/public_html/test2/system/library/export_import/Classes/PHPExcel/Writer/Excel2007.php:220
+Stack trace:
+#0 /home/filsshop/public_html/test2/admin/model/extension/export_import.php(9302): PHPExcel_Writer_Excel2007->save('/tmp/phpxltmpPP...')
+#1 /home/filsshop/public_html/test2/system/storage/modification/system/engine/loader.php(256): ModelToolExportImport->download('p', NULL, NULL, 0, 0)
+#2 /home/filsshop/public_html/test2/system/engine/proxy.php(47): Loader->{closure}(Array, Array)
+#3 /home/filsshop/public_html/test2/admin/controller/extension/export_import.php(87): Proxy->__call('download', Array)
+#4 /home/filsshop/public_html/test2/system/storage/modification/system/engine/action.php(79): ControllerExtensionExportImport->download()
+#5 /home/filsshop/public_html/test2/admin/controller/startup/router.php(26): Action->execute(Object(Registry), Array)
+#6 /home/filsshop/public_html/test2/system/storage/modification/system/engine/action.php(79): Contro in /home/filsshop/public_html/test2/system/library/export_import/Classes/PHPExcel/Writer/Excel2007.php on line 220
+[21-Feb-2022 12:10:15 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Class 'ZipArchive' not found in /home/filsshop/public_html/test2/system/library/export_import/Classes/PHPExcel/Writer/Excel2007.php:220
+Stack trace:
+#0 /home/filsshop/public_html/test2/admin/model/extension/export_import.php(9302): PHPExcel_Writer_Excel2007->save('/tmp/phpxltmpgM...')
+#1 /home/filsshop/public_html/test2/system/storage/modification/system/engine/loader.php(256): ModelToolExportImport->download('u', NULL, NULL, '1', '1')
+#2 /home/filsshop/public_html/test2/system/engine/proxy.php(47): Loader->{closure}(Array, Array)
+#3 /home/filsshop/public_html/test2/admin/controller/extension/export_import.php(87): Proxy->__call('download', Array)
+#4 /home/filsshop/public_html/test2/system/storage/modification/system/engine/action.php(79): ControllerExtensionExportImport->download()
+#5 /home/filsshop/public_html/test2/admin/controller/startup/router.php(26): Action->execute(Object(Registry), Array)
+#6 /home/filsshop/public_html/test2/system/storage/modification/system/engine/action.php(79): Co in /home/filsshop/public_html/test2/system/library/export_import/Classes/PHPExcel/Writer/Excel2007.php on line 220
+[21-Feb-2022 12:11:19 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Class 'ZipArchive' not found in /home/filsshop/public_html/test2/system/library/export_import/Classes/PHPExcel/Writer/Excel2007.php:220
+Stack trace:
+#0 /home/filsshop/public_html/test2/admin/model/extension/export_import.php(9302): PHPExcel_Writer_Excel2007->save('/tmp/phpxltmpoq...')
+#1 /home/filsshop/public_html/test2/system/storage/modification/system/engine/loader.php(256): ModelToolExportImport->download('o', NULL, NULL, NULL, NULL)
+#2 /home/filsshop/public_html/test2/system/engine/proxy.php(47): Loader->{closure}(Array, Array)
+#3 /home/filsshop/public_html/test2/admin/controller/extension/export_import.php(95): Proxy->__call('download', Array)
+#4 /home/filsshop/public_html/test2/system/storage/modification/system/engine/action.php(79): ControllerExtensionExportImport->download()
+#5 /home/filsshop/public_html/test2/admin/controller/startup/router.php(26): Action->execute(Object(Registry), Array)
+#6 /home/filsshop/public_html/test2/system/storage/modification/system/engine/action.php(79):  in /home/filsshop/public_html/test2/system/library/export_import/Classes/PHPExcel/Writer/Excel2007.php on line 220
+[21-Feb-2022 12:43:46 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Class 'ZipArchive' not found in /home/filsshop/public_html/test2/system/library/export_import/Classes/PHPExcel/Writer/Excel2007.php:220
+Stack trace:
+#0 /home/filsshop/public_html/test2/admin/model/extension/export_import.php(9302): PHPExcel_Writer_Excel2007->save('/tmp/phpxltmpQq...')
+#1 /home/filsshop/public_html/test2/system/storage/modification/system/engine/loader.php(256): ModelToolExportImport->download('f', NULL, NULL, NULL, NULL)
+#2 /home/filsshop/public_html/test2/system/engine/proxy.php(47): Loader->{closure}(Array, Array)
+#3 /home/filsshop/public_html/test2/admin/controller/extension/export_import.php(102): Proxy->__call('download', Array)
+#4 /home/filsshop/public_html/test2/system/storage/modification/system/engine/action.php(79): ControllerExtensionExportImport->download()
+#5 /home/filsshop/public_html/test2/admin/controller/startup/router.php(26): Action->execute(Object(Registry), Array)
+#6 /home/filsshop/public_html/test2/system/storage/modification/system/engine/action.php(79): in /home/filsshop/public_html/test2/system/library/export_import/Classes/PHPExcel/Writer/Excel2007.php on line 220
+[21-Feb-2022 12:49:22 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Class 'ZipArchive' not found in /home/filsshop/public_html/test2/system/library/export_import/Classes/PHPExcel/Writer/Excel2007.php:220
+Stack trace:
+#0 /home/filsshop/public_html/test2/admin/model/extension/export_import.php(9302): PHPExcel_Writer_Excel2007->save('/tmp/phpxltmpIU...')
+#1 /home/filsshop/public_html/test2/system/storage/modification/system/engine/loader.php(256): ModelToolExportImport->download('p', NULL, NULL, '32', '469')
+#2 /home/filsshop/public_html/test2/system/engine/proxy.php(47): Loader->{closure}(Array, Array)
+#3 /home/filsshop/public_html/test2/admin/controller/extension/export_import.php(87): Proxy->__call('download', Array)
+#4 /home/filsshop/public_html/test2/system/storage/modification/system/engine/action.php(79): ControllerExtensionExportImport->download()
+#5 /home/filsshop/public_html/test2/admin/controller/startup/router.php(26): Action->execute(Object(Registry), Array)
+#6 /home/filsshop/public_html/test2/system/storage/modification/system/engine/action.php(79): in /home/filsshop/public_html/test2/system/library/export_import/Classes/PHPExcel/Writer/Excel2007.php on line 220
+[21-Feb-2022 12:49:28 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Class 'ZipArchive' not found in /home/filsshop/public_html/test2/system/library/export_import/Classes/PHPExcel/Writer/Excel2007.php:220
+Stack trace:
+#0 /home/filsshop/public_html/test2/admin/model/extension/export_import.php(9302): PHPExcel_Writer_Excel2007->save('/tmp/phpxltmpCc...')
+#1 /home/filsshop/public_html/test2/system/storage/modification/system/engine/loader.php(256): ModelToolExportImport->download('p', NULL, NULL, '32', '469')
+#2 /home/filsshop/public_html/test2/system/engine/proxy.php(47): Loader->{closure}(Array, Array)
+#3 /home/filsshop/public_html/test2/admin/controller/extension/export_import.php(87): Proxy->__call('download', Array)
+#4 /home/filsshop/public_html/test2/system/storage/modification/system/engine/action.php(79): ControllerExtensionExportImport->download()
+#5 /home/filsshop/public_html/test2/admin/controller/startup/router.php(26): Action->execute(Object(Registry), Array)
+#6 /home/filsshop/public_html/test2/system/storage/modification/system/engine/action.php(79): in /home/filsshop/public_html/test2/system/library/export_import/Classes/PHPExcel/Writer/Excel2007.php on line 220
+[21-Feb-2022 12:49:35 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Class 'ZipArchive' not found in /home/filsshop/public_html/test2/system/library/export_import/Classes/PHPExcel/Writer/Excel2007.php:220
+Stack trace:
+#0 /home/filsshop/public_html/test2/admin/model/extension/export_import.php(9302): PHPExcel_Writer_Excel2007->save('/tmp/phpxltmp6v...')
+#1 /home/filsshop/public_html/test2/system/storage/modification/system/engine/loader.php(256): ModelToolExportImport->download('o', NULL, NULL, NULL, NULL)
+#2 /home/filsshop/public_html/test2/system/engine/proxy.php(47): Loader->{closure}(Array, Array)
+#3 /home/filsshop/public_html/test2/admin/controller/extension/export_import.php(95): Proxy->__call('download', Array)
+#4 /home/filsshop/public_html/test2/system/storage/modification/system/engine/action.php(79): ControllerExtensionExportImport->download()
+#5 /home/filsshop/public_html/test2/admin/controller/startup/router.php(26): Action->execute(Object(Registry), Array)
+#6 /home/filsshop/public_html/test2/system/storage/modification/system/engine/action.php(79):  in /home/filsshop/public_html/test2/system/library/export_import/Classes/PHPExcel/Writer/Excel2007.php on line 220
+[21-Feb-2022 12:49:41 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Class 'ZipArchive' not found in /home/filsshop/public_html/test2/system/library/export_import/Classes/PHPExcel/Writer/Excel2007.php:220
+Stack trace:
+#0 /home/filsshop/public_html/test2/admin/model/extension/export_import.php(9302): PHPExcel_Writer_Excel2007->save('/tmp/phpxltmpFO...')
+#1 /home/filsshop/public_html/test2/system/storage/modification/system/engine/loader.php(256): ModelToolExportImport->download('c', NULL, NULL, '18', '223')
+#2 /home/filsshop/public_html/test2/system/engine/proxy.php(47): Loader->{closure}(Array, Array)
+#3 /home/filsshop/public_html/test2/admin/controller/extension/export_import.php(87): Proxy->__call('download', Array)
+#4 /home/filsshop/public_html/test2/system/storage/modification/system/engine/action.php(79): ControllerExtensionExportImport->download()
+#5 /home/filsshop/public_html/test2/admin/controller/startup/router.php(26): Action->execute(Object(Registry), Array)
+#6 /home/filsshop/public_html/test2/system/storage/modification/system/engine/action.php(79): in /home/filsshop/public_html/test2/system/library/export_import/Classes/PHPExcel/Writer/Excel2007.php on line 220
+[21-Feb-2022 13:07:00 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Class 'ZipArchive' not found in /home/filsshop/public_html/test2/system/library/export_import/Classes/PHPExcel/Writer/Excel2007.php:220
+Stack trace:
+#0 /home/filsshop/public_html/test2/admin/model/extension/export_import.php(9302): PHPExcel_Writer_Excel2007->save('/tmp/phpxltmpkk...')
+#1 /home/filsshop/public_html/test2/system/storage/modification/system/engine/loader.php(256): ModelToolExportImport->download('p', NULL, NULL, '32', '469')
+#2 /home/filsshop/public_html/test2/system/engine/proxy.php(47): Loader->{closure}(Array, Array)
+#3 /home/filsshop/public_html/test2/admin/controller/extension/export_import.php(87): Proxy->__call('download', Array)
+#4 /home/filsshop/public_html/test2/system/storage/modification/system/engine/action.php(79): ControllerExtensionExportImport->download()
+#5 /home/filsshop/public_html/test2/admin/controller/startup/router.php(26): Action->execute(Object(Registry), Array)
+#6 /home/filsshop/public_html/test2/system/storage/modification/system/engine/action.php(79): in /home/filsshop/public_html/test2/system/library/export_import/Classes/PHPExcel/Writer/Excel2007.php on line 220
+[21-Feb-2022 13:23:28 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Class 'ZipArchive' not found in /home/filsshop/public_html/test2/system/library/export_import/Classes/PHPExcel/Writer/Excel2007.php:220
+Stack trace:
+#0 /home/filsshop/public_html/test2/admin/model/extension/export_import.php(9302): PHPExcel_Writer_Excel2007->save('/tmp/phpxltmpLe...')
+#1 /home/filsshop/public_html/test2/system/storage/modification/system/engine/loader.php(256): ModelToolExportImport->download('p', NULL, NULL, '32', '469')
+#2 /home/filsshop/public_html/test2/system/engine/proxy.php(47): Loader->{closure}(Array, Array)
+#3 /home/filsshop/public_html/test2/admin/controller/extension/export_import.php(88): Proxy->__call('download', Array)
+#4 /home/filsshop/public_html/test2/system/storage/modification/system/engine/action.php(79): ControllerExtensionExportImport->download()
+#5 /home/filsshop/public_html/test2/admin/controller/startup/router.php(26): Action->execute(Object(Registry), Array)
+#6 /home/filsshop/public_html/test2/system/storage/modification/system/engine/action.php(79): in /home/filsshop/public_html/test2/system/library/export_import/Classes/PHPExcel/Writer/Excel2007.php on line 220
+[21-Feb-2022 13:24:18 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Class 'ZipArchive' not found in /home/filsshop/public_html/test2/system/library/export_import/Classes/PHPExcel/Writer/Excel2007.php:220
+Stack trace:
+#0 /home/filsshop/public_html/test2/admin/model/extension/export_import.php(9302): PHPExcel_Writer_Excel2007->save('/tmp/phpxltmpBt...')
+#1 /home/filsshop/public_html/test2/system/storage/modification/system/engine/loader.php(256): ModelToolExportImport->download('p', NULL, NULL, '32', '469')
+#2 /home/filsshop/public_html/test2/system/engine/proxy.php(47): Loader->{closure}(Array, Array)
+#3 /home/filsshop/public_html/test2/admin/controller/extension/export_import.php(88): Proxy->__call('download', Array)
+#4 /home/filsshop/public_html/test2/system/storage/modification/system/engine/action.php(79): ControllerExtensionExportImport->download()
+#5 /home/filsshop/public_html/test2/admin/controller/startup/router.php(26): Action->execute(Object(Registry), Array)
+#6 /home/filsshop/public_html/test2/system/storage/modification/system/engine/action.php(79): in /home/filsshop/public_html/test2/system/library/export_import/Classes/PHPExcel/Writer/Excel2007.php on line 220
+[21-Feb-2022 13:25:04 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Class 'ZipArchive' not found in /home/filsshop/public_html/test2/system/library/export_import/Classes/PHPExcel/Writer/Excel2007.php:220
+Stack trace:
+#0 /home/filsshop/public_html/test2/admin/model/extension/export_import.php(9302): PHPExcel_Writer_Excel2007->save('/tmp/phpxltmp9l...')
+#1 /home/filsshop/public_html/test2/system/storage/modification/system/engine/loader.php(256): ModelToolExportImport->download('p', NULL, NULL, '32', '469')
+#2 /home/filsshop/public_html/test2/system/engine/proxy.php(47): Loader->{closure}(Array, Array)
+#3 /home/filsshop/public_html/test2/admin/controller/extension/export_import.php(90): Proxy->__call('download', Array)
+#4 /home/filsshop/public_html/test2/system/storage/modification/system/engine/action.php(79): ControllerExtensionExportImport->download()
+#5 /home/filsshop/public_html/test2/admin/controller/startup/router.php(26): Action->execute(Object(Registry), Array)
+#6 /home/filsshop/public_html/test2/system/storage/modification/system/engine/action.php(79): in /home/filsshop/public_html/test2/system/library/export_import/Classes/PHPExcel/Writer/Excel2007.php on line 220
+[21-Feb-2022 13:25:18 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Class 'ZipArchive' not found in /home/filsshop/public_html/test2/system/library/export_import/Classes/PHPExcel/Writer/Excel2007.php:220
+Stack trace:
+#0 /home/filsshop/public_html/test2/admin/model/extension/export_import.php(9302): PHPExcel_Writer_Excel2007->save('/tmp/phpxltmpZJ...')
+#1 /home/filsshop/public_html/test2/system/storage/modification/system/engine/loader.php(256): ModelToolExportImport->download('p', NULL, NULL, '32', '469')
+#2 /home/filsshop/public_html/test2/system/engine/proxy.php(47): Loader->{closure}(Array, Array)
+#3 /home/filsshop/public_html/test2/admin/controller/extension/export_import.php(90): Proxy->__call('download', Array)
+#4 /home/filsshop/public_html/test2/system/storage/modification/system/engine/action.php(79): ControllerExtensionExportImport->download()
+#5 /home/filsshop/public_html/test2/admin/controller/startup/router.php(26): Action->execute(Object(Registry), Array)
+#6 /home/filsshop/public_html/test2/system/storage/modification/system/engine/action.php(79): in /home/filsshop/public_html/test2/system/library/export_import/Classes/PHPExcel/Writer/Excel2007.php on line 220
+[21-Feb-2022 13:25:40 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Class 'ZipArchive' not found in /home/filsshop/public_html/test2/system/library/export_import/Classes/PHPExcel/Writer/Excel2007.php:220
+Stack trace:
+#0 /home/filsshop/public_html/test2/admin/model/extension/export_import.php(9302): PHPExcel_Writer_Excel2007->save('/tmp/phpxltmpSc...')
+#1 /home/filsshop/public_html/test2/system/storage/modification/system/engine/loader.php(256): ModelToolExportImport->download('p', NULL, NULL, '32', '469')
+#2 /home/filsshop/public_html/test2/system/engine/proxy.php(47): Loader->{closure}(Array, Array)
+#3 /home/filsshop/public_html/test2/admin/controller/extension/export_import.php(91): Proxy->__call('download', Array)
+#4 /home/filsshop/public_html/test2/system/storage/modification/system/engine/action.php(79): ControllerExtensionExportImport->download()
+#5 /home/filsshop/public_html/test2/admin/controller/startup/router.php(26): Action->execute(Object(Registry), Array)
+#6 /home/filsshop/public_html/test2/system/storage/modification/system/engine/action.php(79): in /home/filsshop/public_html/test2/system/library/export_import/Classes/PHPExcel/Writer/Excel2007.php on line 220
+[21-Feb-2022 13:26:56 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Class 'ZipArchive' not found in /home/filsshop/public_html/test2/system/library/export_import/Classes/PHPExcel/Writer/Excel2007.php:220
+Stack trace:
+#0 /home/filsshop/public_html/test2/admin/model/extension/export_import.php(9302): PHPExcel_Writer_Excel2007->save('/tmp/phpxltmpsk...')
+#1 /home/filsshop/public_html/test2/system/storage/modification/system/engine/loader.php(256): ModelToolExportImport->download('p', NULL, NULL, '32', '469')
+#2 /home/filsshop/public_html/test2/system/engine/proxy.php(47): Loader->{closure}(Array, Array)
+#3 /home/filsshop/public_html/test2/admin/controller/extension/export_import.php(91): Proxy->__call('download', Array)
+#4 /home/filsshop/public_html/test2/system/storage/modification/system/engine/action.php(79): ControllerExtensionExportImport->download()
+#5 /home/filsshop/public_html/test2/admin/controller/startup/router.php(26): Action->execute(Object(Registry), Array)
+#6 /home/filsshop/public_html/test2/system/storage/modification/system/engine/action.php(79): in /home/filsshop/public_html/test2/system/library/export_import/Classes/PHPExcel/Writer/Excel2007.php on line 220
+[21-Feb-2022 13:29:29 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Class 'ZipArchive' not found in /home/filsshop/public_html/test2/system/library/export_import/Classes/PHPExcel/Writer/Excel2007.php:220
+Stack trace:
+#0 /home/filsshop/public_html/test2/admin/model/extension/export_import.php(9302): PHPExcel_Writer_Excel2007->save('/tmp/phpxltmp8M...')
+#1 /home/filsshop/public_html/test2/system/storage/modification/system/engine/loader.php(256): ModelToolExportImport->download('p', NULL, NULL, '32', '34')
+#2 /home/filsshop/public_html/test2/system/engine/proxy.php(47): Loader->{closure}(Array, Array)
+#3 /home/filsshop/public_html/test2/admin/controller/extension/export_import.php(91): Proxy->__call('download', Array)
+#4 /home/filsshop/public_html/test2/system/storage/modification/system/engine/action.php(79): ControllerExtensionExportImport->download()
+#5 /home/filsshop/public_html/test2/admin/controller/startup/router.php(26): Action->execute(Object(Registry), Array)
+#6 /home/filsshop/public_html/test2/system/storage/modification/system/engine/action.php(79):  in /home/filsshop/public_html/test2/system/library/export_import/Classes/PHPExcel/Writer/Excel2007.php on line 220
+[21-Feb-2022 13:29:43 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Class 'ZipArchive' not found in /home/filsshop/public_html/test2/system/library/export_import/Classes/PHPExcel/Writer/Excel2007.php:220
+Stack trace:
+#0 /home/filsshop/public_html/test2/admin/model/extension/export_import.php(9302): PHPExcel_Writer_Excel2007->save('/tmp/phpxltmpkn...')
+#1 /home/filsshop/public_html/test2/system/storage/modification/system/engine/loader.php(256): ModelToolExportImport->download('p', NULL, NULL, '32', '34')
+#2 /home/filsshop/public_html/test2/system/engine/proxy.php(47): Loader->{closure}(Array, Array)
+#3 /home/filsshop/public_html/test2/admin/controller/extension/export_import.php(91): Proxy->__call('download', Array)
+#4 /home/filsshop/public_html/test2/system/storage/modification/system/engine/action.php(79): ControllerExtensionExportImport->download()
+#5 /home/filsshop/public_html/test2/admin/controller/startup/router.php(26): Action->execute(Object(Registry), Array)
+#6 /home/filsshop/public_html/test2/system/storage/modification/system/engine/action.php(79):  in /home/filsshop/public_html/test2/system/library/export_import/Classes/PHPExcel/Writer/Excel2007.php on line 220
+[21-Feb-2022 13:29:48 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Class 'ZipArchive' not found in /home/filsshop/public_html/test2/system/library/export_import/Classes/PHPExcel/Writer/Excel2007.php:220
+Stack trace:
+#0 /home/filsshop/public_html/test2/admin/model/extension/export_import.php(9302): PHPExcel_Writer_Excel2007->save('/tmp/phpxltmpD9...')
+#1 /home/filsshop/public_html/test2/system/storage/modification/system/engine/loader.php(256): ModelToolExportImport->download('p', NULL, NULL, '32', '34')
+#2 /home/filsshop/public_html/test2/system/engine/proxy.php(47): Loader->{closure}(Array, Array)
+#3 /home/filsshop/public_html/test2/admin/controller/extension/export_import.php(91): Proxy->__call('download', Array)
+#4 /home/filsshop/public_html/test2/system/storage/modification/system/engine/action.php(79): ControllerExtensionExportImport->download()
+#5 /home/filsshop/public_html/test2/admin/controller/startup/router.php(26): Action->execute(Object(Registry), Array)
+#6 /home/filsshop/public_html/test2/system/storage/modification/system/engine/action.php(79):  in /home/filsshop/public_html/test2/system/library/export_import/Classes/PHPExcel/Writer/Excel2007.php on line 220
+[21-Feb-2022 13:30:17 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Class 'ZipArchive' not found in /home/filsshop/public_html/test2/system/library/export_import/Classes/PHPExcel/Writer/Excel2007.php:220
+Stack trace:
+#0 /home/filsshop/public_html/test2/admin/model/extension/export_import.php(9302): PHPExcel_Writer_Excel2007->save('/tmp/phpxltmplR...')
+#1 /home/filsshop/public_html/test2/system/storage/modification/system/engine/loader.php(256): ModelToolExportImport->download('p', NULL, NULL, '32', '469')
+#2 /home/filsshop/public_html/test2/system/engine/proxy.php(47): Loader->{closure}(Array, Array)
+#3 /home/filsshop/public_html/test2/admin/controller/extension/export_import.php(91): Proxy->__call('download', Array)
+#4 /home/filsshop/public_html/test2/system/storage/modification/system/engine/action.php(79): ControllerExtensionExportImport->download()
+#5 /home/filsshop/public_html/test2/admin/controller/startup/router.php(26): Action->execute(Object(Registry), Array)
+#6 /home/filsshop/public_html/test2/system/storage/modification/system/engine/action.php(79): in /home/filsshop/public_html/test2/system/library/export_import/Classes/PHPExcel/Writer/Excel2007.php on line 220
+[21-Feb-2022 13:30:21 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Class 'ZipArchive' not found in /home/filsshop/public_html/test2/system/library/export_import/Classes/PHPExcel/Writer/Excel2007.php:220
+Stack trace:
+#0 /home/filsshop/public_html/test2/admin/model/extension/export_import.php(9302): PHPExcel_Writer_Excel2007->save('/tmp/phpxltmpGl...')
+#1 /home/filsshop/public_html/test2/system/storage/modification/system/engine/loader.php(256): ModelToolExportImport->download('p', NULL, NULL, '32', '469')
+#2 /home/filsshop/public_html/test2/system/engine/proxy.php(47): Loader->{closure}(Array, Array)
+#3 /home/filsshop/public_html/test2/admin/controller/extension/export_import.php(91): Proxy->__call('download', Array)
+#4 /home/filsshop/public_html/test2/system/storage/modification/system/engine/action.php(79): ControllerExtensionExportImport->download()
+#5 /home/filsshop/public_html/test2/admin/controller/startup/router.php(26): Action->execute(Object(Registry), Array)
+#6 /home/filsshop/public_html/test2/system/storage/modification/system/engine/action.php(79): in /home/filsshop/public_html/test2/system/library/export_import/Classes/PHPExcel/Writer/Excel2007.php on line 220
+[21-Feb-2022 13:41:49 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Class 'ZipArchive' not found in /home/filsshop/public_html/test2/system/library/export_import/Classes/PHPExcel/Writer/Excel2007.php:220
+Stack trace:
+#0 /home/filsshop/public_html/test2/admin/model/extension/export_import.php(9302): PHPExcel_Writer_Excel2007->save('/tmp/phpxltmpT2...')
+#1 /home/filsshop/public_html/test2/system/storage/modification/system/engine/loader.php(256): ModelToolExportImport->download('p', NULL, NULL, '32', '469')
+#2 /home/filsshop/public_html/test2/system/engine/proxy.php(47): Loader->{closure}(Array, Array)
+#3 /home/filsshop/public_html/test2/admin/controller/extension/export_import.php(91): Proxy->__call('download', Array)
+#4 /home/filsshop/public_html/test2/system/storage/modification/system/engine/action.php(79): ControllerExtensionExportImport->download()
+#5 /home/filsshop/public_html/test2/admin/controller/startup/router.php(26): Action->execute(Object(Registry), Array)
+#6 /home/filsshop/public_html/test2/system/storage/modification/system/engine/action.php(79): in /home/filsshop/public_html/test2/system/library/export_import/Classes/PHPExcel/Writer/Excel2007.php on line 220
+[21-Feb-2022 13:41:55 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Class 'ZipArchive' not found in /home/filsshop/public_html/test2/system/library/export_import/Classes/PHPExcel/Writer/Excel2007.php:220
+Stack trace:
+#0 /home/filsshop/public_html/test2/admin/model/extension/export_import.php(9302): PHPExcel_Writer_Excel2007->save('/tmp/phpxltmpwZ...')
+#1 /home/filsshop/public_html/test2/system/storage/modification/system/engine/loader.php(256): ModelToolExportImport->download('p', NULL, NULL, 0, 0)
+#2 /home/filsshop/public_html/test2/system/engine/proxy.php(47): Loader->{closure}(Array, Array)
+#3 /home/filsshop/public_html/test2/admin/controller/extension/export_import.php(91): Proxy->__call('download', Array)
+#4 /home/filsshop/public_html/test2/system/storage/modification/system/engine/action.php(79): ControllerExtensionExportImport->download()
+#5 /home/filsshop/public_html/test2/admin/controller/startup/router.php(26): Action->execute(Object(Registry), Array)
+#6 /home/filsshop/public_html/test2/system/storage/modification/system/engine/action.php(79): Contro in /home/filsshop/public_html/test2/system/library/export_import/Classes/PHPExcel/Writer/Excel2007.php on line 220
+[21-Feb-2022 14:02:52 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Class 'ZipArchive' not found in /home/filsshop/public_html/test2/system/library/export_import/Classes/PHPExcel/Writer/Excel2007.php:220
+Stack trace:
+#0 /home/filsshop/public_html/test2/admin/model/extension/export_import.php(9302): PHPExcel_Writer_Excel2007->save('/tmp/phpxltmpPt...')
+#1 /home/filsshop/public_html/test2/system/storage/modification/system/engine/loader.php(256): ModelToolExportImport->download('p', NULL, NULL, '32', '469')
+#2 /home/filsshop/public_html/test2/system/engine/proxy.php(47): Loader->{closure}(Array, Array)
+#3 /home/filsshop/public_html/test2/admin/controller/extension/export_import.php(91): Proxy->__call('download', Array)
+#4 /home/filsshop/public_html/test2/system/storage/modification/system/engine/action.php(79): ControllerExtensionExportImport->download()
+#5 /home/filsshop/public_html/test2/admin/controller/startup/router.php(26): Action->execute(Object(Registry), Array)
+#6 /home/filsshop/public_html/test2/system/storage/modification/system/engine/action.php(79): in /home/filsshop/public_html/test2/system/library/export_import/Classes/PHPExcel/Writer/Excel2007.php on line 220
