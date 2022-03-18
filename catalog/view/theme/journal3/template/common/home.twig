@@ -73,7 +73,7 @@
 	}
 
   /** home slide custom css */
-  .ms-view {
+  .module-master_slider-333 .ms-view {
     border-radius: 3em;
     box-shadow: rgba(50, 50, 93, 0.55) 0px 13px 27px 5px, rgba(0, 0, 0, 0.5) 0px 8px 16px -8px; 
   }
@@ -128,11 +128,45 @@
 
   .module-products-360 {
     margin-bottom: 50px;
-    margin-top: -40px;
   }
 
-  .module-banners-132 .module-item a img{
-    object-fit: contain;
+  .module-banners-323 .module-item:not(.swiper-slide), 
+  .module-banners-365 .module-item:not(.swiper-slide) {
+    width: 100% !important;
+  }
+
+  /* first product caroussel custom css */
+  .module-products-359 .product-grid .product-thumb {
+    margin: 5px !important;
+    border-radius: 15px !important;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px !important;
+  }
+  .module-products-360 .product-layout.swiper-slide {
+    margin: 5px;
+  }
+  .module-products-360 .product-grid .product-thumb .product-img {
+    border-width: 0px !important;
+  }
+
+  /** home coupon zone custom css */
+  .grid-col-top-4-8 {
+    position: relative;
+    height: 350px;
+  }
+  /** brands custom css */
+  .category-thumb .image, .manufacturer-thumb .image {
+    background: #f5f5f5;
+    border-radius: 7px !important;
+    padding: 8px;
+  }
+  .category-thumb .image, .manufacturer-thumb .image img {
+    border-radius: 7px !important;
+  }
+  .manufacturer-thumb .caption {
+    display: none;
+  }
+  .module-manufacturers-317 .manufacturer-layout:not(.swiper-slide) {
+    padding: 6px !important;
   }
 </style>
 

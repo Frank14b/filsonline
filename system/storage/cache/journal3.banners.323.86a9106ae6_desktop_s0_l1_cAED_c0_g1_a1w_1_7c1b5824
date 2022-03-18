@@ -68,13 +68,13 @@ span{font-size:13px;margin:5px;padding:5px}}',
     ),
     'imageDimensions' => 
     array (
-      'width' => 700,
-      'height' => 1300,
+      'width' => NULL,
+      'height' => NULL,
       'resize' => 'fill',
     ),
     'lazyLoad' => false,
     'status' => true,
-    'id' => 'banners-62334d0d0d75e',
+    'id' => 'banners-623454524f444',
     'module_id' => 323,
     'classes' => 
     array (
@@ -119,8 +119,8 @@ span{font-size:13px;margin:5px;padding:5px}}',
           1 => 'module-item-1',
           'swiper-slide' => false,
         ),
-        'image' => 'http://localhost/test2/image/cache/catalog/assets5-700x1300h.png',
-        'image2x' => 'http://localhost/test2/image/cache/catalog/assets5-1400x2600h.png',
+        'image' => 'http://localhost/test2/image/cache/catalog/assets5-11114x5719.png',
+        'image2x' => 'http://localhost/test2/image/cache/catalog/assets5-11114x5719.png',
         'text' => NULL,
         'items' => 
         array (

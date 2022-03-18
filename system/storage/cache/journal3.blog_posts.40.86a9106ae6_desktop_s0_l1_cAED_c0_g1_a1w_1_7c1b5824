@@ -93,7 +93,7 @@ a{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-family:\'Oswald
     'modulePostGridButtonTooltipStatus' => true,
     'modulePostGridButtonTooltipPosition' => 'top',
     'status' => true,
-    'id' => 'blog_posts-62334d0e6d48b',
+    'id' => 'blog_posts-62345453da580',
     'module_id' => 40,
     'classes' => 
     array (

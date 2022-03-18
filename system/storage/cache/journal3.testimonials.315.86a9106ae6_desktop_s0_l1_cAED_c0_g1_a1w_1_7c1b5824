@@ -88,7 +88,7 @@ i{margin-bottom:10px}@media (max-width: 1024px){.module-testimonials-315 .swiper
       'resize' => 'fill',
     ),
     'status' => true,
-    'id' => 'testimonials-62334d0e58d7d',
+    'id' => 'testimonials-62345453c29e9',
     'module_id' => 315,
     'classes' => 
     array (

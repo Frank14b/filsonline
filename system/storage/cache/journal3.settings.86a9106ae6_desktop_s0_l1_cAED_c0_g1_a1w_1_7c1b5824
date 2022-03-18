@@ -8890,6 +8890,185 @@
         ),
         'valueBorderHover' => '',
       ),
+      '__VAR__BRANDS_3C5ROD' => 
+      array (
+        'valueImageScale' => 'true',
+        'valueImageOpacity' => '',
+        'valueNameContainerBorderRadius' => 
+        array (
+          'borderRadiusUnit' => 'px',
+        ),
+        'valueNameContainerShadow' => 
+        array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
+          'inner' => 'false',
+          'none' => 'false',
+        ),
+        'valueNameDisplay' => 'none',
+        'valueNameContainerSize' => 
+        array (
+        ),
+        'valueImageBorderHover' => 
+        array (
+        ),
+        'valueImagePadding' => 
+        array (
+        ),
+        'valueImageBorderRadius' => 
+        array (
+          'borderRadiusUnit' => 'px',
+        ),
+        'valueImageShadow' => '__VAR__Soft',
+        'valueShadowHover' => 
+        array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
+          'inner' => 'false',
+          'none' => 'false',
+        ),
+        'valueNameFont' => 
+        array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
+          'text-align' => 'center',
+          'textShadowColor' => 
+          array (
+            'color' => '',
+          ),
+        ),
+        'valueNameContainerPadding' => 
+        array (
+        ),
+        'valueItemPadding' => 
+        array (
+        ),
+        'valueBorderRadius' => 
+        array (
+          'borderRadiusUnit' => 'px',
+        ),
+        'valueNameContainerBorder' => 
+        array (
+          'border-color' => 
+          array (
+            'color' => '',
+          ),
+        ),
+        'valueNameFontHover' => 
+        array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
+          'textShadowColor' => 
+          array (
+            'color' => '',
+          ),
+        ),
+        'valueShadow' => 
+        array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
+          'inner' => 'false',
+          'none' => 'false',
+        ),
+        'valueImageShadowHover' => 
+        array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
+          'inner' => 'false',
+          'none' => 'false',
+        ),
+        'valueNameContainerMargin' => 
+        array (
+        ),
+        'valueNameContainerBackground' => 
+        array (
+          'background-color' => 
+          array (
+            'color' => '',
+          ),
+          'backgroundSizeUnit' => 'px',
+          'none' => 'false',
+          'backgroundPositionUnit' => 'px',
+        ),
+        'valueNameContainerFont' => 
+        array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
+          'textShadowColor' => 
+          array (
+            'color' => '',
+          ),
+        ),
+        'valueGrayscale' => 'always',
+        'valueImageBorder' => 
+        array (
+          'border-color' => 
+          array (
+            'color' => '',
+          ),
+        ),
+        'valueNameContainerOffset' => 
+        array (
+        ),
+        'valueImageBackground' => 
+        array (
+          'background-color' => 
+          array (
+            'color' => '',
+          ),
+          'backgroundSizeUnit' => 'px',
+          'none' => 'false',
+          'backgroundPositionUnit' => 'px',
+        ),
+        'valueImageOpacityHover' => '',
+        'valueImageVisibility' => 'true',
+        'valueNameContainerDisplay' => '',
+        'valueBorder' => 
+        array (
+          'border-color' => 
+          array (
+            'color' => '',
+          ),
+        ),
+        'valueBackgroundHover' => 
+        array (
+          'background-color' => 
+          array (
+            'color' => '',
+          ),
+          'backgroundSizeUnit' => 'px',
+          'none' => 'false',
+          'backgroundPositionUnit' => 'px',
+        ),
+        'valueNameOverflow' => 'false',
+        'valueBackground' => 
+        array (
+          'background-color' => 
+          array (
+            'color' => '',
+          ),
+          'backgroundSizeUnit' => 'px',
+          'none' => 'false',
+          'backgroundPositionUnit' => 'px',
+        ),
+        'valueBorderHover' => 
+        array (
+        ),
+      ),
     ),
     'countdown' => 
     array (
@@ -16050,6 +16229,1251 @@
         ),
         'valueWishlistTooltipStatus' => 'true',
         'valueRatingEmpty' => 'false',
+        'valueExtraBoxOffset' => 
+        array (
+        ),
+      ),
+      '__VAR__PRODUCT_GRID_8IWS6I' => 
+      array (
+        'valueExtraButtonDisplay1' => 'both',
+        'valueRatingVisibility' => 'true',
+        'valueStepper' => '',
+        'valueExtraVisibility1' => 'true',
+        'valueDescriptionBoxShadow' => 
+        array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
+          'inner' => 'false',
+          'none' => 'false',
+        ),
+        'valueStat1BoxSize' => 
+        array (
+        ),
+        'valuePadding' => 
+        array (
+        ),
+        'valueCartPadding' => 
+        array (
+        ),
+        'valueDetailsPadding' => 
+        array (
+        ),
+        'valueStatsStatus' => 'true',
+        'valueCountdown' => '__VAR__DEFAULT',
+        'valueCompareTooltipStatus' => 'true',
+        'valueExtraButtonDisplay2' => 'both',
+        'valueDescriptionBoxSize' => 
+        array (
+        ),
+        'valueExtraVisibility2' => 'true',
+        'valueLayoutShadowHover' => 
+        array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
+          'inner' => 'false',
+          'none' => 'false',
+        ),
+        'valueListDetailsMargin' => 
+        array (
+        ),
+        'valueQuickviewDisplay' => 'icon',
+        'valuePriceBoxBackground' => 
+        array (
+          'background-color' => 
+          array (
+            'color' => '',
+          ),
+          'backgroundSizeUnit' => 'px',
+          'none' => 'false',
+          'backgroundPositionUnit' => 'px',
+        ),
+        'valuePriceBoxMargin' => 
+        array (
+        ),
+        'valueLabelsVisibility' => 'true',
+        'valueButtonsVisibility' => 'true',
+        'valueNameBoxPadding' => 
+        array (
+        ),
+        'valueDescriptionBoxDisplay' => '',
+        'valueLabelsStatus' => 'always',
+        'valueCompareMargin' => 
+        array (
+        ),
+        'valuePriceTaxFont' => 
+        array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
+          'textShadowColor' => 
+          array (
+            'color' => '',
+          ),
+          'font-size' => '12',
+        ),
+        'valueQuickviewIconHover' => 
+        array (
+        ),
+        'valueNameBoxOffset' => 
+        array (
+        ),
+        'valueQuickviewSize' => 
+        array (
+        ),
+        'valuePriceBoxFont' => 
+        array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
+          'textShadowColor' => 
+          array (
+            'color' => '',
+          ),
+        ),
+        'valueCartButton' => '',
+        'valueStat1BoxDisplay' => '',
+        'valueExtraButtonVisibility' => 'true',
+        'valueRatingCountdown' => '',
+        'valueGridBorder' => 
+        array (
+          'border-color' => 
+          array (
+            'color' => '',
+          ),
+        ),
+        'valueCartStatus' => 'true',
+        'valueRatingStyle' => '',
+        'valueExtraButtonTooltipStatus' => 'true',
+        'valueCartTooltipStatus' => 'true',
+        'valueStat2BoxDisplay' => '',
+        'valueExtraMargin1' => 
+        array (
+        ),
+        'valueWishlistMargin' => 
+        array (
+        ),
+        'valueQuickviewAlign' => 'center',
+        'valuePriceTaxStatus' => 'false',
+        'valueStatsLinkFontHover' => 
+        array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
+          'textShadowColor' => 
+          array (
+            'color' => '',
+          ),
+        ),
+        'valueStatsBoxDisplay' => '',
+        'valueNamePosition' => 'default',
+        'valueRatingBoxDisplay' => '',
+        'valueExtraMargin2' => 
+        array (
+        ),
+        'valueExtraBoxPadding' => 
+        array (
+        ),
+        'valueButtonsBoxListBorder' => 
+        array (
+          'border-color' => 
+          array (
+            'color' => '',
+          ),
+        ),
+        'valueExtraAlign' => 'center',
+        'valueStatsLabel' => 'true',
+        'valueCompareButton' => '',
+        'valueImageOverlay' => 
+        array (
+          'background-color' => 
+          array (
+            'color' => '',
+          ),
+          'backgroundSizeUnit' => 'px',
+          'none' => 'false',
+          'backgroundPositionUnit' => 'px',
+        ),
+        'valuePriceBoxOffset' => 
+        array (
+        ),
+        'valueDetailsBGHover' => 
+        array (
+          'background-color' => 
+          array (
+            'color' => '',
+          ),
+          'backgroundSizeUnit' => 'px',
+          'none' => 'false',
+          'backgroundPositionUnit' => 'px',
+        ),
+        'valueCompareStatus' => 'true',
+        'valueImageBorderHover' => 
+        array (
+        ),
+        'valueButtonsBoxListBackground' => 
+        array (
+          'background-color' => 
+          array (
+            'color' => '',
+          ),
+          'backgroundSizeUnit' => 'px',
+          'none' => 'false',
+          'backgroundPositionUnit' => 'px',
+        ),
+        'valueSecondImageEffect' => 'scale',
+        'valueQuickviewStockStatus' => '',
+        'valueButtonsBoxListMargin' => 
+        array (
+        ),
+        'valueButtonsBoxDisplay' => '',
+        'valueStepperHeight' => '',
+        'valueImagePadding' => 
+        array (
+        ),
+        'valuePriceFont' => 
+        array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
+          'textShadowColor' => 
+          array (
+            'color' => '',
+          ),
+        ),
+        'valueButtonsBoxBorder' => 
+        array (
+          'border-color' => 
+          array (
+            'color' => '',
+          ),
+        ),
+        'valueCompareOffset' => 
+        array (
+        ),
+        'valueStockStatFont' => 
+        array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
+          'textShadowColor' => 
+          array (
+            'color' => '',
+          ),
+        ),
+        'valueWishlistButton' => '',
+        'valueWishlistStatus' => 'true',
+        'valueButtonsBoxListFont' => 
+        array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
+          'textShadowColor' => 
+          array (
+            'color' => '',
+          ),
+        ),
+        'valueSecondImageStatus' => 'true',
+        'valueExtraPosition' => 'bottom',
+        'valueImageBorderRadius' => 
+        array (
+          'borderRadiusUnit' => 'px',
+        ),
+        'valueButtonsBoxMargin' => 
+        array (
+        ),
+        'valueButtonsBoxListDisplay' => '',
+        'valueNameAlign' => 'start',
+        'valueButtonsBoxBackground' => 
+        array (
+          'background-color' => 
+          array (
+            'color' => '',
+          ),
+          'backgroundSizeUnit' => 'px',
+          'none' => 'false',
+          'backgroundPositionUnit' => 'px',
+        ),
+        'valueRatingBoxBorder' => 
+        array (
+          'border-color' => 
+          array (
+            'color' => '',
+          ),
+        ),
+        'valueLayoutBackground' => 
+        array (
+          'background-color' => 
+          array (
+            'color' => '',
+          ),
+          'backgroundSizeUnit' => 'px',
+          'none' => 'false',
+          'backgroundPositionUnit' => 'px',
+        ),
+        'valueStatsBoxBorder' => 
+        array (
+          'border-color' => 
+          array (
+            'color' => '',
+          ),
+        ),
+        'valueImageShadow' => 
+        array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
+          'inner' => 'false',
+          'none' => 'false',
+        ),
+        'valueCartIcon' => 
+        array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
+          'margin' => 
+          array (
+            'margin' => '',
+            'margin-top' => '',
+            'margin-right' => '',
+            'margin-bottom' => '',
+            'margin-left' => '',
+          ),
+          'none' => 'false',
+          'icon' => 
+          array (
+            'code' => '',
+            'name' => '',
+          ),
+        ),
+        'valuePriceStatus' => 'true',
+        'valueButtonsBoxFont' => 
+        array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
+          'textShadowColor' => 
+          array (
+            'color' => '',
+          ),
+        ),
+        'valueExtraBoxBorderRadius' => 
+        array (
+          'borderRadiusUnit' => 'px',
+        ),
+        'valueWishGroupCountdown' => '',
+        'valueStat2BoxBorder' => 
+        array (
+          'border-color' => 
+          array (
+            'color' => '',
+          ),
+        ),
+        'valueNameWidth' => 'auto',
+        'valueWishOffset' => 
+        array (
+        ),
+        'valueQuickviewTooltipPosition' => 'top',
+        'valueRatingBoxMargin' => 
+        array (
+        ),
+        'valueStatsBoxMargin' => 
+        array (
+        ),
+        'valueRatingBoxBackground' => 
+        array (
+          'background-color' => 
+          array (
+            'color' => '',
+          ),
+          'backgroundSizeUnit' => 'px',
+          'none' => 'false',
+          'backgroundPositionUnit' => 'px',
+        ),
+        'valueShadowHover' => 
+        array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
+          'inner' => 'false',
+          'none' => 'false',
+        ),
+        'valueStat1BoxBorder' => 
+        array (
+          'border-color' => 
+          array (
+            'color' => '',
+          ),
+        ),
+        'valueNameFont' => 
+        array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
+          'textShadowColor' => 
+          array (
+            'color' => '',
+          ),
+        ),
+        'valueStatsBoxBackground' => 
+        array (
+          'background-color' => 
+          array (
+            'color' => '',
+          ),
+          'backgroundSizeUnit' => 'px',
+          'none' => 'false',
+          'backgroundPositionUnit' => 'px',
+        ),
+        'valueDetailsShadowHover' => 
+        array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
+          'inner' => 'false',
+          'none' => 'false',
+        ),
+        'valueButtonsBoxListOffset' => 
+        array (
+        ),
+        'valueDescriptionBoxBorder' => 
+        array (
+          'border-color' => 
+          array (
+            'color' => '',
+          ),
+        ),
+        'valueStat2BoxMargin' => 
+        array (
+        ),
+        'valueStepperBorder' => 
+        array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
+        ),
+        'valueExtraBoxShadow' => 
+        array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
+          'inner' => 'false',
+          'none' => 'false',
+        ),
+        'valueStat2BoxBackground' => 
+        array (
+          'background-color' => 
+          array (
+            'color' => '',
+          ),
+          'backgroundSizeUnit' => 'px',
+          'none' => 'false',
+          'backgroundPositionUnit' => 'px',
+        ),
+        'valueWishlistDisplay' => 'icon',
+        'valueRatingBoxFont' => 
+        array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
+          'textShadowColor' => 
+          array (
+            'color' => '',
+          ),
+        ),
+        'valueStatsLabel2' => 'false',
+        'valueStatsBoxFont' => 
+        array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
+          'textShadowColor' => 
+          array (
+            'color' => '',
+          ),
+        ),
+        'valueRatingEmptyOpacity' => '.3',
+        'valueCompareIcon' => 
+        array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
+          'margin' => 
+          array (
+            'margin' => '',
+            'margin-top' => '',
+            'margin-right' => '',
+            'margin-bottom' => '',
+            'margin-left' => '',
+          ),
+          'none' => 'false',
+          'icon' => 
+          array (
+            'code' => '',
+            'name' => '',
+          ),
+        ),
+        'valueNameBoxBorderRadius' => 
+        array (
+          'borderRadiusUnit' => 'px',
+        ),
+        'valueExtraBoxSize' => 
+        array (
+        ),
+        'valueStat2BoxFont' => 
+        array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
+          'textShadowColor' => 
+          array (
+            'color' => '',
+          ),
+        ),
+        'valueWishlistIconHover' => 
+        array (
+        ),
+        'valueExtraIconHover1' => 
+        array (
+        ),
+        'valueStat1BoxBackground' => 
+        array (
+          'background-color' => 
+          array (
+            'color' => '',
+          ),
+          'backgroundSizeUnit' => 'px',
+          'none' => 'false',
+          'backgroundPositionUnit' => 'px',
+        ),
+        'valueStat1BoxMargin' => 
+        array (
+        ),
+        'valueImageOverlayHeight' => '',
+        'valuePriceAlign' => 'start',
+        'valueExtraMargin' => 
+        array (
+        ),
+        'valueDescriptionBoxBackground' => 
+        array (
+          'background-color' => 
+          array (
+            'color' => '',
+          ),
+          'backgroundSizeUnit' => 'px',
+          'none' => 'false',
+          'backgroundPositionUnit' => 'px',
+        ),
+        'valueStat1BoxFont' => 
+        array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
+          'textShadowColor' => 
+          array (
+            'color' => '',
+          ),
+        ),
+        'valueDescriptionBoxMargin' => 
+        array (
+        ),
+        'valueStepperMargin' => 
+        array (
+        ),
+        'valuePriceWidth' => 'auto',
+        'valueNameStatus' => 'true',
+        'valueExtraIconHover2' => 
+        array (
+        ),
+        'valueButtonsBoxOffset' => 
+        array (
+        ),
+        'valueCompareDisplay' => 'icon',
+        'valueDescriptionBoxFont' => 
+        array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
+          'textShadowColor' => 
+          array (
+            'color' => '',
+          ),
+        ),
+        'valueCompareIconHover' => 
+        array (
+        ),
+        'valueQuickviewMargin' => 
+        array (
+        ),
+        'valuePriceBoxDisplay' => '',
+        'valueDetailsBorderRadius' => 
+        array (
+          'borderRadiusUnit' => 'px',
+        ),
+        'valueNameBoxShadow' => 
+        array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
+          'inner' => 'false',
+          'none' => 'false',
+        ),
+        'valueCartBorderRadius' => 
+        array (
+          'borderRadiusUnit' => 'px',
+        ),
+        'valueDetailsList' => 'side',
+        'valueBorderRadius' => 
+        array (
+          'borderRadiusUnit' => 'px',
+        ),
+        'valueWishlistIcon' => 
+        array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
+          'margin' => 
+          array (
+            'margin' => '',
+            'margin-top' => '',
+            'margin-right' => '',
+            'margin-bottom' => '',
+            'margin-left' => '',
+          ),
+          'none' => 'false',
+          'icon' => 
+          array (
+            'code' => '',
+            'name' => '',
+          ),
+        ),
+        'valueStatsBoxOffset' => 
+        array (
+        ),
+        'valueNameBoxSize' => 
+        array (
+        ),
+        'valueQuickviewPadding' => 
+        array (
+        ),
+        'valueWishGroupPosition' => 'cart',
+        'valueRatingBoxOffset' => 
+        array (
+        ),
+        'valueDetailsShadow' => 
+        array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
+          'inner' => 'false',
+          'none' => 'false',
+        ),
+        'valueExtraButtonStyle1' => '',
+        'valueNameFontHover' => 
+        array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
+          'textShadowColor' => 
+          array (
+            'color' => '',
+          ),
+        ),
+        'valueShadow' => 
+        array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
+          'inner' => 'false',
+          'none' => 'false',
+        ),
+        'valueCartDisplay' => 'icon',
+        'valueStat2BoxOffset' => 
+        array (
+        ),
+        'valuePriceBoxBorderRadius' => 
+        array (
+          'borderRadiusUnit' => 'px',
+        ),
+        'valueDescriptionBoxPadding' => 
+        array (
+        ),
+        'valueStepperStatus' => 'false',
+        'valueCompareBorderRadius' => 
+        array (
+          'borderRadiusUnit' => 'px',
+        ),
+        'valueStepperRadius' => 
+        array (
+          'borderRadiusUnit' => 'px',
+        ),
+        'valueExtraButtonStyle2' => '',
+        'valueStat1BoxOffset' => 
+        array (
+        ),
+        'valueStat1BoxPadding' => 
+        array (
+        ),
+        'valueWishlistStockStatus' => '',
+        'valueCountdownVisibility' => 'true',
+        'valueCartIconHover' => 
+        array (
+        ),
+        'valueImageShadowHover' => 
+        array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
+          'inner' => 'false',
+          'none' => 'false',
+        ),
+        'valueCartSize' => 
+        array (
+        ),
+        'valueCountdownOffset' => '',
+        'valueDescriptionBoxOffset' => 
+        array (
+        ),
+        'valueStat2BoxPadding' => 
+        array (
+        ),
+        'valueNameBoxDisplay' => '',
+        'valueQuickviewVisibility' => 'true',
+        'valueQuickviewButton' => '',
+        'valueLayoutBackgroundHover' => 
+        array (
+          'background-color' => 
+          array (
+            'color' => '',
+          ),
+          'backgroundSizeUnit' => 'px',
+          'none' => 'false',
+          'backgroundPositionUnit' => 'px',
+        ),
+        'valuePriceBoxShadow' => 
+        array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
+          'inner' => 'false',
+          'none' => 'false',
+        ),
+        'valueStatsBoxPadding' => 
+        array (
+        ),
+        'valueRatingBoxPadding' => 
+        array (
+        ),
+        'valuePriceBoxSize' => 
+        array (
+        ),
+        'valueListSpacing' => '',
+        'valueQuickviewTooltipStatus' => 'true',
+        'valueCompareStockStatus' => '',
+        'valueButtonsAlign' => 'end',
+        'valueCartWidth' => 'auto',
+        'valueWishGroupMargin' => 
+        array (
+        ),
+        'valueWishButtonsBorder' => 
+        array (
+          'border-color' => 
+          array (
+            'color' => '',
+          ),
+        ),
+        'valueCompareSize' => 
+        array (
+        ),
+        'valueStatsFont2' => 
+        array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
+          'textShadowColor' => 
+          array (
+            'color' => '',
+          ),
+        ),
+        'valueExtra2StockStatus' => '',
+        'valueExtra1StockStatus' => '',
+        'valueButtonsBoxPadding' => 
+        array (
+        ),
+        'valueWishlistTooltipPosition' => 'top',
+        'valueWishBorderRadius' => 
+        array (
+          'borderRadiusUnit' => 'px',
+        ),
+        'valueGrayscale' => '',
+        'valueImageOverlayHover' => 
+        array (
+          'background-color' => 
+          array (
+            'color' => '',
+          ),
+          'backgroundSizeUnit' => 'px',
+          'none' => 'false',
+          'backgroundPositionUnit' => 'px',
+        ),
+        'valueExtraBoxDisplay' => '',
+        'valueImageBorder' => 
+        array (
+          'border-color' => 
+          array (
+            'color' => '',
+          ),
+        ),
+        'valueDetailsBG' => 
+        array (
+          'background-color' => 
+          array (
+            'color' => '',
+          ),
+          'backgroundSizeUnit' => 'px',
+          'none' => 'false',
+          'backgroundPositionUnit' => 'px',
+        ),
+        'valuePriceNewFont' => 
+        array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
+          'textShadowColor' => 
+          array (
+            'color' => '',
+          ),
+        ),
+        'valueButtonsBoxListBorderRadius' => 
+        array (
+          'borderRadiusUnit' => 'px',
+        ),
+        'valueWishButtonsBackground' => 
+        array (
+          'background-color' => 
+          array (
+            'color' => '',
+          ),
+          'backgroundSizeUnit' => 'px',
+          'none' => 'false',
+          'backgroundPositionUnit' => 'px',
+        ),
+        'valueStatsPosition' => 'before',
+        'valueRatingAlign' => 'start',
+        'valueRatingPosition' => 'top',
+        'valueCartStockStatus' => '',
+        'valueStatsAlign' => 'start',
+        'valueStatsLinkFont' => 
+        array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
+          'textShadowColor' => 
+          array (
+            'color' => '',
+          ),
+        ),
+        'valueImageMargin' => 
+        array (
+        ),
+        'valueCompareTooltipPosition' => 'top',
+        'valuePriceOldPosition' => 'side',
+        'valueImageBackground' => 
+        array (
+          'background-color' => 
+          array (
+            'color' => '',
+          ),
+          'backgroundSizeUnit' => 'px',
+          'none' => 'false',
+          'backgroundPositionUnit' => 'px',
+        ),
+        'valueExtraBoxBorder' => 
+        array (
+          'border-color' => 
+          array (
+            'color' => '',
+          ),
+        ),
+        'valueButtonsBoxListPadding' => 
+        array (
+        ),
+        'valueButtonsBoxListShadow' => 
+        array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
+          'inner' => 'false',
+          'none' => 'false',
+        ),
+        'valueExtraIcon1' => 
+        array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
+          'margin' => 
+          array (
+            'margin' => '',
+            'margin-top' => '',
+            'margin-right' => '',
+            'margin-bottom' => '',
+            'margin-left' => '',
+          ),
+          'none' => 'false',
+          'icon' => 
+          array (
+            'code' => '',
+            'name' => '',
+          ),
+        ),
+        'valueWishSize' => 
+        array (
+        ),
+        'valueButtonsPosition' => 'top',
+        'valueButtonsBoxBorderRadius' => 
+        array (
+          'borderRadiusUnit' => 'px',
+        ),
+        'valueWishPadding' => 
+        array (
+        ),
+        'valueDescriptionFont' => 
+        array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
+          'textShadowColor' => 
+          array (
+            'color' => '',
+          ),
+        ),
+        'valueExtraBoxMargin' => 
+        array (
+        ),
+        'valueExtraIcon2' => 
+        array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
+          'margin' => 
+          array (
+            'margin' => '',
+            'margin-top' => '',
+            'margin-right' => '',
+            'margin-bottom' => '',
+            'margin-left' => '',
+          ),
+          'none' => 'false',
+          'icon' => 
+          array (
+            'code' => '',
+            'name' => '',
+          ),
+        ),
+        'valueButtonsBoxListSize' => 
+        array (
+        ),
+        'valueExtraBoxBackground' => 
+        array (
+          'background-color' => 
+          array (
+            'color' => '',
+          ),
+          'backgroundSizeUnit' => 'px',
+          'none' => 'false',
+          'backgroundPositionUnit' => 'px',
+        ),
+        'valueQuickviewIcon' => 
+        array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
+          'margin' => 
+          array (
+            'margin' => '',
+            'margin-top' => '',
+            'margin-right' => '',
+            'margin-bottom' => '',
+            'margin-left' => '',
+          ),
+          'none' => 'false',
+          'icon' => 
+          array (
+            'code' => 'f06e',
+            'name' => 'eye',
+          ),
+        ),
+        'valueExtraButtonTooltipPosition' => 'top',
+        'valueLayoutShadow' => 
+        array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
+          'inner' => 'false',
+          'none' => 'false',
+        ),
+        'valueRatingBoxBorderRadius' => 
+        array (
+          'borderRadiusUnit' => 'px',
+        ),
+        'valueNameBoxBorder' => 
+        array (
+          'border-color' => 
+          array (
+            'color' => '',
+          ),
+        ),
+        'valueStatsBoxBorderRadius' => 
+        array (
+          'borderRadiusUnit' => 'px',
+        ),
+        'valueCartTooltipPosition' => 'top',
+        'valueExtraBoxFont' => 
+        array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
+          'textShadowColor' => 
+          array (
+            'color' => '',
+          ),
+        ),
+        'valueButtonsBoxShadow' => 
+        array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
+          'inner' => 'false',
+          'none' => 'false',
+        ),
+        'valueStat2BoxBorderRadius' => 
+        array (
+          'borderRadiusUnit' => 'px',
+        ),
+        'valueButtonsBoxSize' => 
+        array (
+        ),
+        'valueRatingMargin' => 
+        array (
+        ),
+        'valueStatsBoxShadow' => 
+        array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
+          'inner' => 'false',
+          'none' => 'false',
+        ),
+        'valueBorder' => 
+        array (
+          'border-color' => 
+          array (
+            'color' => '',
+          ),
+        ),
+        'valueDescriptionStatus' => 'false',
+        'valueStat1BoxBorderRadius' => 
+        array (
+          'borderRadiusUnit' => 'px',
+        ),
+        'valueCountdownShow' => 'always',
+        'valueBackgroundHover' => 
+        array (
+          'background-color' => 
+          array (
+            'color' => '',
+          ),
+          'backgroundSizeUnit' => 'px',
+          'none' => 'false',
+          'backgroundPositionUnit' => 'px',
+        ),
+        'valueNameBoxMargin' => 
+        array (
+        ),
+        'valueNameBoxBackground' => 
+        array (
+          'background-color' => 
+          array (
+            'color' => '',
+          ),
+          'backgroundSizeUnit' => 'px',
+          'none' => 'false',
+          'backgroundPositionUnit' => 'px',
+        ),
+        'valueDetailsBorder' => 
+        array (
+          'border-color' => 
+          array (
+            'color' => '',
+          ),
+        ),
+        'valueStatsFont' => 
+        array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
+          'textShadowColor' => 
+          array (
+            'color' => '',
+          ),
+        ),
+        'valueComparePadding' => 
+        array (
+        ),
+        'valueCartBorder' => 
+        array (
+          'border-color' => 
+          array (
+            'color' => '',
+          ),
+        ),
+        'valueRatingBoxShadow' => 
+        array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
+          'inner' => 'false',
+          'none' => 'false',
+        ),
+        'valuePriceBoxPadding' => 
+        array (
+        ),
+        'valueNameBoxFont' => 
+        array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
+          'textShadowColor' => 
+          array (
+            'color' => '',
+          ),
+        ),
+        'valuePriceOldFont' => 
+        array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
+          'text-decoration' => 'line-through',
+          'textShadowColor' => 
+          array (
+            'color' => '',
+          ),
+        ),
+        'valueRatingBoxSize' => 
+        array (
+        ),
+        'valueQuickviewShow' => 'always',
+        'valueStatsBoxSize' => 
+        array (
+        ),
+        'valueWishGroupAlign' => 'start',
+        'valueNameOverflow' => 'false',
+        'valueStat2BoxShadow' => 
+        array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
+          'inner' => 'false',
+          'none' => 'false',
+        ),
+        'valueDescriptionBoxBorderRadius' => 
+        array (
+          'borderRadiusUnit' => 'px',
+        ),
+        'valueDetailsBorderHover' => 
+        array (
+        ),
+        'valueDetailsMargin' => 
+        array (
+        ),
+        'valueCartMargin' => 
+        array (
+        ),
+        'valueBackground' => 
+        array (
+          'background-color' => 
+          array (
+            'color' => '',
+          ),
+          'backgroundSizeUnit' => 'px',
+          'none' => 'false',
+          'backgroundPositionUnit' => 'px',
+        ),
+        'valueQuickviewBorderRadius' => 
+        array (
+          'borderRadiusUnit' => 'px',
+        ),
+        'valueStat2BoxSize' => 
+        array (
+        ),
+        'valueBorderHover' => 
+        array (
+        ),
+        'valuePriceBoxBorder' => 
+        array (
+          'border-color' => 
+          array (
+            'color' => '',
+          ),
+        ),
+        'valueStat1BoxShadow' => 
+        array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
+          'inner' => 'false',
+          'none' => 'false',
+        ),
+        'valueWishlistTooltipStatus' => 'true',
+        'valueRatingEmpty' => 'true',
         'valueExtraBoxOffset' => 
         array (
         ),

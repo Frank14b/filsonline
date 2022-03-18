@@ -68,13 +68,13 @@ span{font-size:13px;margin:5px;padding:5px}}.module-banners-321 .module-item-1>a
     ),
     'imageDimensions' => 
     array (
-      'width' => 500,
-      'height' => 200,
+      'width' => NULL,
+      'height' => NULL,
       'resize' => 'fill',
     ),
     'lazyLoad' => false,
     'status' => true,
-    'id' => 'banners-62334d0d00d36',
+    'id' => 'banners-623454523ca96',
     'module_id' => 321,
     'classes' => 
     array (
@@ -119,8 +119,8 @@ span{font-size:13px;margin:5px;padding:5px}}.module-banners-321 .module-item-1>a
           1 => 'module-item-1',
           'swiper-slide' => false,
         ),
-        'image' => 'http://localhost/test2/image/cache/catalog/home/Asset%203-500x200w.png',
-        'image2x' => 'http://localhost/test2/image/cache/catalog/home/Asset%203-1000x400w.png',
+        'image' => 'http://localhost/test2/image/cache/catalog/home/Asset%203-994x525.png',
+        'image2x' => 'http://localhost/test2/image/cache/catalog/home/Asset%203-994x525.png',
         'text' => NULL,
         'items' => 
         array (

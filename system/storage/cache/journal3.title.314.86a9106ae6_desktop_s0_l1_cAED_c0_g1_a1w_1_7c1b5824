@@ -33,7 +33,7 @@ h3{color:rgba(255, 255, 255, 1)}.module-title-314 .title-wrapper::before{font-fa
     'title' => 'What are people saying',
     'subtitle' => 'Super flexible Testimonials module, just one out of more than 30 extensions included in Journal 3.',
     'status' => true,
-    'id' => 'title-62334d0e5036a',
+    'id' => 'title-62345453b7e99',
     'module_id' => 314,
     'classes' => 
     array (
