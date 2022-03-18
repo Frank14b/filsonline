@@ -115,7 +115,7 @@ a{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-size:14px;text-
     'moduleProductStat1' => 'brand',
     'moduleProductStat2' => 'reward',
     'status' => true,
-    'id' => 'products-623454527750c',
+    'id' => 'products-623485ff9034a',
     'module_id' => 359,
     'classes' => 
     array (

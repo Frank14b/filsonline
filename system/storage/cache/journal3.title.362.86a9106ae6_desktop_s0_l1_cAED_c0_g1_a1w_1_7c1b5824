@@ -1,6 +1,6 @@
 <?php $val = array (
   'css' => '.module-title-362 .title-wrapper
-h3{font-family:\'Oswald\';font-weight:700;font-size:40px;color:rgba(19,32,58,1);text-align:center}.module-title-362{margin-top:10px}.module-title-362 .title-wrapper::before{opacity:.05;display:block}.module-title-362 .title-wrapper{text-align:center}.module-title-362 .title-divider{margin-left:auto;margin-right:auto}',
+h3{font-family:\'Oswald\';font-weight:700;font-size:40px;color:rgba(140,187,13,1);text-align:center}.module-title-362{margin-top:10px;margin-right:0px}.module-title-362 .title-wrapper::before{opacity:.05;display:block}.module-title-362 .title-wrapper{text-align:right}.module-title-362 .title-divider{margin-left:auto;margin-right:0}',
   'fonts' => 
   array (
     'fonts' => 
@@ -24,10 +24,10 @@ h3{font-family:\'Oswald\';font-weight:700;font-size:40px;color:rgba(19,32,58,1);
       'between' => true,
     ),
     'type' => 'custom',
-    'title' => 'COUPON ZONE',
+    'title' => 'BUY 1',
     'subtitle' => '',
     'status' => true,
-    'id' => 'title-6234545307d49',
+    'id' => 'title-6234860120d0e',
     'module_id' => 362,
     'classes' => 
     array (

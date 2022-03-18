@@ -43,8 +43,8 @@
                 ),
                 'item' => 
                 array (
-                  'id' => '362',
-                  'name' => 'COUPON ZONE',
+                  'id' => '369',
+                  'name' => 'coupon zone',
                   'type' => 'title',
                 ),
               ),

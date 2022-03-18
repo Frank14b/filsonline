@@ -124,7 +124,7 @@ a{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-family:\'Oswald
     'moduleProductStat1' => 'brand',
     'moduleProductStat2' => 'points',
     'status' => true,
-    'id' => 'products-62345452bbcf0',
+    'id' => 'products-623485ffed8e9',
     'module_id' => 360,
     'classes' => 
     array (

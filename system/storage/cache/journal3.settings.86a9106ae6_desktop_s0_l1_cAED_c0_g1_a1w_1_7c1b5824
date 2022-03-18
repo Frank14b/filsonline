@@ -1802,6 +1802,73 @@
           'margin-bottom' => '20',
         ),
       ),
+      '__VAR__TITLE_6IBCMV' => 
+      array (
+        'valueFont' => 
+        array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
+          'textShadowColor' => 
+          array (
+            'color' => '',
+          ),
+        ),
+        'valuePadding' => 
+        array (
+        ),
+        'valueDividerSize' => 
+        array (
+        ),
+        'valueBorderRadius' => 
+        array (
+          'borderRadiusUnit' => 'px',
+        ),
+        'valueShadow' => 
+        array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
+          'inner' => 'false',
+          'none' => 'false',
+        ),
+        'valueDividerBackground' => 
+        array (
+          'background-color' => 
+          array (
+            'color' => '',
+          ),
+          'backgroundSizeUnit' => 'px',
+          'none' => 'false',
+          'backgroundPositionUnit' => 'px',
+        ),
+        'valueDividerTopSpacing' => '',
+        'valueTruncate' => '',
+        'valueDividerStatus' => '',
+        'valueBorder' => 
+        array (
+          'border-color' => 
+          array (
+            'color' => '',
+          ),
+        ),
+        'valueDividerAlign' => 'left',
+        'valueBackground' => 
+        array (
+          'background-color' => 
+          array (
+            'color' => '',
+          ),
+          'backgroundSizeUnit' => 'px',
+          'none' => 'false',
+          'backgroundPositionUnit' => 'px',
+        ),
+        'valueMargin' => 
+        array (
+        ),
+      ),
     ),
     'tooltip' => 
     array (
@@ -8729,6 +8796,1245 @@
         ),
         'valueBorderHover' => '',
         'valueButtonDisplay' => 'both',
+      ),
+      '__VAR__CATEGORY_MMK16I' => 
+      array (
+        'valueImageScale' => 'false',
+        'valueButtonTooltip' => '',
+        'valueDetailsPadding' => 
+        array (
+        ),
+        'valueButtonIconHover' => 
+        array (
+        ),
+        'valueButtonAlign' => 'start',
+        'valueDescriptionContainerBorder' => 
+        array (
+          'border-color' => 
+          array (
+            'color' => '',
+          ),
+        ),
+        'valueNameContainerBorderRadius' => 
+        array (
+          'borderRadiusUnit' => 'px',
+        ),
+        'valueButtonWidth' => 'auto',
+        'valueDescriptionContainerMargin' => 
+        array (
+        ),
+        'valueDescriptionContainerBackground' => 
+        array (
+          'background-color' => 
+          array (
+            'color' => '',
+          ),
+          'backgroundSizeUnit' => 'px',
+          'none' => 'false',
+          'backgroundPositionUnit' => 'px',
+        ),
+        'valueButtonContainerDisplay' => '',
+        'valueDescriptionContainerFont' => 
+        array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
+          'textShadowColor' => 
+          array (
+            'color' => '',
+          ),
+        ),
+        'valueNamePosition' => 'default',
+        'valueNameContainerShadow' => 
+        array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
+          'inner' => 'false',
+          'none' => 'false',
+        ),
+        'valueNameContainerSize' => 
+        array (
+        ),
+        'valueDetailsBGHover' => 
+        array (
+          'background-color' => 
+          array (
+            'color' => '',
+          ),
+          'backgroundSizeUnit' => 'px',
+          'none' => 'false',
+          'backgroundPositionUnit' => 'px',
+        ),
+        'valueImageBorderHover' => 
+        array (
+        ),
+        'valueImageBorderRadius' => 
+        array (
+          'borderRadiusUnit' => 'px',
+        ),
+        'valueNameAlign' => 'center',
+        'valueDescriptionContainerOffset' => 
+        array (
+        ),
+        'valueButtonTooltipPosition' => 'top',
+        'valueImageShadow' => 
+        array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
+          'inner' => 'false',
+          'none' => 'false',
+        ),
+        'valueButtonRightIconHover' => 
+        array (
+        ),
+        'valueButtonContainerBorder' => 
+        array (
+          'border-color' => 
+          array (
+            'color' => '',
+          ),
+        ),
+        'valueNameWidth' => 'auto',
+        'valueShadowHover' => 
+        array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
+          'inner' => 'false',
+          'none' => 'false',
+        ),
+        'valueNameFont' => 
+        array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
+          'textShadowColor' => 
+          array (
+            'color' => '',
+          ),
+          'font-size' => '11',
+        ),
+        'valueDetailsShadowHover' => 
+        array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
+          'inner' => 'false',
+          'none' => 'false',
+        ),
+        'valueNameContainerPadding' => 
+        array (
+        ),
+        'valueDescriptionContainerDisplay' => '',
+        'valueButtonContainerMargin' => 
+        array (
+        ),
+        'valueButtonContainerBackground' => 
+        array (
+          'background-color' => 
+          array (
+            'color' => '',
+          ),
+          'backgroundSizeUnit' => 'px',
+          'none' => 'false',
+          'backgroundPositionUnit' => 'px',
+        ),
+        'valueButtonContainerFont' => 
+        array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
+          'textShadowColor' => 
+          array (
+            'color' => '',
+          ),
+        ),
+        'valueItemPadding' => 
+        array (
+        ),
+        'valueNameStatus' => 'true',
+        'valueDetailsBorderRadius' => 
+        array (
+          'borderRadiusUnit' => 'px',
+        ),
+        'valueBorderRadius' => 
+        array (
+          'border-radius' => '7',
+          'borderRadiusUnit' => 'px',
+        ),
+        'valueDetailsShadow' => 
+        array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
+          'inner' => 'false',
+          'none' => 'false',
+        ),
+        'valueNameContainerBorder' => 
+        array (
+          'border-color' => 
+          array (
+            'color' => '',
+          ),
+        ),
+        'valueNameFontHover' => 
+        array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
+          'textShadowColor' => 
+          array (
+            'color' => '',
+          ),
+        ),
+        'valueButtonContainerOffset' => 
+        array (
+        ),
+        'valueShadow' => 
+        array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
+          'inner' => 'false',
+          'none' => 'false',
+        ),
+        'valueButtonTooltipStatus' => 'true',
+        'valueImageShadowHover' => 
+        array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
+          'inner' => 'false',
+          'none' => 'false',
+        ),
+        'valueButtonRightIcon' => 
+        array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
+          'margin' => 
+          array (
+            'margin' => '',
+            'margin-top' => '',
+            'margin-right' => '',
+            'margin-bottom' => '',
+            'margin-left' => '',
+          ),
+          'none' => 'false',
+          'icon' => 
+          array (
+            'code' => '',
+            'name' => '',
+          ),
+        ),
+        'valueNameContainerMargin' => 
+        array (
+        ),
+        'valueButtonContainerPadding' => 
+        array (
+        ),
+        'valueNameContainerBackground' => 
+        array (
+          'background-color' => 
+          array (
+            'color' => '',
+          ),
+          'backgroundSizeUnit' => 'px',
+          'none' => 'false',
+          'backgroundPositionUnit' => 'px',
+        ),
+        'valueDescriptionContainerBorderRadius' => 
+        array (
+          'borderRadiusUnit' => 'px',
+        ),
+        'valueNameContainerFont' => 
+        array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
+          'textShadowColor' => 
+          array (
+            'color' => '',
+          ),
+        ),
+        'valueDetailsWidth' => '150',
+        'valueButtonButton' => '',
+        'valueButtonStatus' => 'false',
+        'valueGrayscale' => '',
+        'valueImageBorder' => 
+        array (
+          'border-width' => '0',
+          'border-color' => 
+          array (
+            'color' => '',
+          ),
+        ),
+        'valueDetailsBG' => 
+        array (
+          'background-color' => 
+          array (
+            'color' => '',
+          ),
+          'backgroundSizeUnit' => 'px',
+          'none' => 'false',
+          'backgroundPositionUnit' => 'px',
+        ),
+        'valueDescriptionContainerShadow' => 
+        array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
+          'inner' => 'false',
+          'none' => 'false',
+        ),
+        'valueDescriptionContainerSize' => 
+        array (
+        ),
+        'valueNameContainerOffset' => 
+        array (
+        ),
+        'valueDescriptionFont' => 
+        array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
+          'textShadowColor' => 
+          array (
+            'color' => '',
+          ),
+        ),
+        'valuePosition' => 'bottom',
+        'valueDescriptionContainerPadding' => 
+        array (
+        ),
+        'valueImageVisibility' => 'true',
+        'valueButtonContainerBorderRadius' => 
+        array (
+          'borderRadiusUnit' => 'px',
+        ),
+        'valueButtonIcon' => 
+        array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
+          'margin' => 
+          array (
+            'margin' => '',
+            'margin-top' => '',
+            'margin-right' => '',
+            'margin-bottom' => '',
+            'margin-left' => '',
+          ),
+          'none' => 'false',
+          'icon' => 
+          array (
+            'code' => '',
+            'name' => '',
+          ),
+        ),
+        'valueNameContainerDisplay' => '',
+        'valueBorder' => 
+        array (
+          'border-width' => '0',
+          'border-style' => 'none',
+          'border-color' => 
+          array (
+            'color' => '',
+          ),
+        ),
+        'valueDescriptionStatus' => 'false',
+        'valueBackgroundHover' => 
+        array (
+          'background-color' => 
+          array (
+            'color' => '',
+          ),
+          'backgroundSizeUnit' => 'px',
+          'none' => 'false',
+          'backgroundPositionUnit' => 'px',
+        ),
+        'valueDetailsBorder' => 
+        array (
+          'border-color' => 
+          array (
+            'color' => '',
+          ),
+        ),
+        'valueButtonContainerShadow' => 
+        array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
+          'inner' => 'false',
+          'none' => 'false',
+        ),
+        'valueNameOverflow' => 'false',
+        'valueDetailsBorderHover' => 
+        array (
+        ),
+        'valueDetailsMargin' => 
+        array (
+          'margin' => '5',
+        ),
+        'valueButtonContainerSize' => 
+        array (
+        ),
+        'valueBackground' => 
+        array (
+          'background-color' => 
+          array (
+            'color' => '',
+          ),
+          'backgroundSizeUnit' => 'px',
+          'none' => 'false',
+          'backgroundPositionUnit' => 'px',
+        ),
+        'valueBorderHover' => 
+        array (
+        ),
+        'valueButtonDisplay' => 'icon',
+      ),
+      '__VAR__CATEGORY_E4JNAU' => 
+      array (
+        'valueImageScale' => 'false',
+        'valueButtonTooltip' => '',
+        'valueDetailsPadding' => 
+        array (
+        ),
+        'valueButtonIconHover' => 
+        array (
+        ),
+        'valueButtonAlign' => 'start',
+        'valueDescriptionContainerBorder' => 
+        array (
+          'border-color' => 
+          array (
+            'color' => '',
+          ),
+        ),
+        'valueNameContainerBorderRadius' => 
+        array (
+          'borderRadiusUnit' => 'px',
+        ),
+        'valueButtonWidth' => 'auto',
+        'valueDescriptionContainerMargin' => 
+        array (
+        ),
+        'valueDescriptionContainerBackground' => 
+        array (
+          'background-color' => 
+          array (
+            'color' => '',
+          ),
+          'backgroundSizeUnit' => 'px',
+          'none' => 'false',
+          'backgroundPositionUnit' => 'px',
+        ),
+        'valueButtonContainerDisplay' => '',
+        'valueDescriptionContainerFont' => 
+        array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
+          'textShadowColor' => 
+          array (
+            'color' => '',
+          ),
+        ),
+        'valueNamePosition' => 'default',
+        'valueNameContainerShadow' => 
+        array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
+          'inner' => 'false',
+          'none' => 'false',
+        ),
+        'valueNameContainerSize' => 
+        array (
+        ),
+        'valueDetailsBGHover' => 
+        array (
+          'background-color' => 
+          array (
+            'color' => '',
+          ),
+          'backgroundSizeUnit' => 'px',
+          'none' => 'false',
+          'backgroundPositionUnit' => 'px',
+        ),
+        'valueImageBorderHover' => 
+        array (
+        ),
+        'valueImageBorderRadius' => 
+        array (
+          'borderRadiusUnit' => 'px',
+        ),
+        'valueNameAlign' => 'center',
+        'valueDescriptionContainerOffset' => 
+        array (
+        ),
+        'valueButtonTooltipPosition' => 'top',
+        'valueImageShadow' => 
+        array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
+          'inner' => 'false',
+          'none' => 'false',
+        ),
+        'valueButtonRightIconHover' => 
+        array (
+        ),
+        'valueButtonContainerBorder' => 
+        array (
+          'border-color' => 
+          array (
+            'color' => '',
+          ),
+        ),
+        'valueNameWidth' => 'auto',
+        'valueShadowHover' => 
+        array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
+          'inner' => 'false',
+          'none' => 'false',
+        ),
+        'valueNameFont' => 
+        array (
+          'font-family' => '__VAR__SERIF',
+          'color' => 
+          array (
+            'color' => '__VAR__Footer BG',
+          ),
+          'font-weight' => '700',
+          'textShadowColor' => 
+          array (
+            'color' => '',
+          ),
+          'font-size' => '11',
+        ),
+        'valueDetailsShadowHover' => 
+        array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
+          'inner' => 'false',
+          'none' => 'false',
+        ),
+        'valueNameContainerPadding' => 
+        array (
+        ),
+        'valueDescriptionContainerDisplay' => '',
+        'valueButtonContainerMargin' => 
+        array (
+        ),
+        'valueButtonContainerBackground' => 
+        array (
+          'background-color' => 
+          array (
+            'color' => '',
+          ),
+          'backgroundSizeUnit' => 'px',
+          'none' => 'false',
+          'backgroundPositionUnit' => 'px',
+        ),
+        'valueButtonContainerFont' => 
+        array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
+          'textShadowColor' => 
+          array (
+            'color' => '',
+          ),
+        ),
+        'valueItemPadding' => 
+        array (
+        ),
+        'valueNameStatus' => 'true',
+        'valueDetailsBorderRadius' => 
+        array (
+          'borderRadiusUnit' => 'px',
+        ),
+        'valueBorderRadius' => 
+        array (
+          'borderRadiusUnit' => 'px',
+        ),
+        'valueDetailsShadow' => 
+        array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
+          'inner' => 'false',
+          'none' => 'false',
+        ),
+        'valueNameContainerBorder' => 
+        array (
+          'border-color' => 
+          array (
+            'color' => '',
+          ),
+        ),
+        'valueNameFontHover' => 
+        array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
+          'textShadowColor' => 
+          array (
+            'color' => '',
+          ),
+        ),
+        'valueButtonContainerOffset' => 
+        array (
+        ),
+        'valueShadow' => 
+        array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
+          'inner' => 'false',
+          'none' => 'false',
+        ),
+        'valueButtonTooltipStatus' => 'true',
+        'valueImageShadowHover' => 
+        array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
+          'inner' => 'false',
+          'none' => 'false',
+        ),
+        'valueButtonRightIcon' => 
+        array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
+          'margin' => 
+          array (
+            'margin' => '',
+            'margin-top' => '',
+            'margin-right' => '',
+            'margin-bottom' => '',
+            'margin-left' => '',
+          ),
+          'none' => 'false',
+          'icon' => 
+          array (
+            'code' => '',
+            'name' => '',
+          ),
+        ),
+        'valueNameContainerMargin' => 
+        array (
+        ),
+        'valueButtonContainerPadding' => 
+        array (
+        ),
+        'valueNameContainerBackground' => 
+        array (
+          'background-color' => 
+          array (
+            'color' => '',
+          ),
+          'backgroundSizeUnit' => 'px',
+          'none' => 'false',
+          'backgroundPositionUnit' => 'px',
+        ),
+        'valueDescriptionContainerBorderRadius' => 
+        array (
+          'borderRadiusUnit' => 'px',
+        ),
+        'valueNameContainerFont' => 
+        array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
+          'textShadowColor' => 
+          array (
+            'color' => '',
+          ),
+        ),
+        'valueDetailsWidth' => '150',
+        'valueButtonButton' => '',
+        'valueButtonStatus' => 'false',
+        'valueGrayscale' => '',
+        'valueImageBorder' => 
+        array (
+          'border-color' => 
+          array (
+            'color' => '',
+          ),
+        ),
+        'valueDetailsBG' => 
+        array (
+          'background-color' => 
+          array (
+            'color' => '',
+          ),
+          'backgroundSizeUnit' => 'px',
+          'none' => 'true',
+          'backgroundPositionUnit' => 'px',
+        ),
+        'valueDescriptionContainerShadow' => 
+        array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
+          'inner' => 'false',
+          'none' => 'false',
+        ),
+        'valueDescriptionContainerSize' => 
+        array (
+        ),
+        'valueNameContainerOffset' => 
+        array (
+        ),
+        'valueDescriptionFont' => 
+        array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
+          'textShadowColor' => 
+          array (
+            'color' => '',
+          ),
+        ),
+        'valuePosition' => 'bottom',
+        'valueDescriptionContainerPadding' => 
+        array (
+        ),
+        'valueImageVisibility' => 'true',
+        'valueButtonContainerBorderRadius' => 
+        array (
+          'borderRadiusUnit' => 'px',
+        ),
+        'valueButtonIcon' => 
+        array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
+          'margin' => 
+          array (
+            'margin' => '',
+            'margin-top' => '',
+            'margin-right' => '',
+            'margin-bottom' => '',
+            'margin-left' => '',
+          ),
+          'none' => 'false',
+          'icon' => 
+          array (
+            'code' => '',
+            'name' => '',
+          ),
+        ),
+        'valueNameContainerDisplay' => '',
+        'valueBorder' => 
+        array (
+          'border-color' => 
+          array (
+            'color' => '',
+          ),
+        ),
+        'valueDescriptionStatus' => 'false',
+        'valueBackgroundHover' => 
+        array (
+          'background-color' => 
+          array (
+            'color' => '',
+          ),
+          'backgroundSizeUnit' => 'px',
+          'none' => 'false',
+          'backgroundPositionUnit' => 'px',
+        ),
+        'valueDetailsBorder' => 
+        array (
+          'border-color' => 
+          array (
+            'color' => '',
+          ),
+        ),
+        'valueButtonContainerShadow' => 
+        array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
+          'inner' => 'false',
+          'none' => 'false',
+        ),
+        'valueNameOverflow' => 'false',
+        'valueDetailsBorderHover' => 
+        array (
+        ),
+        'valueDetailsMargin' => 
+        array (
+        ),
+        'valueButtonContainerSize' => 
+        array (
+        ),
+        'valueBackground' => 
+        array (
+          'background-color' => 
+          array (
+            'color' => '',
+          ),
+          'backgroundSizeUnit' => 'px',
+          'none' => 'false',
+          'backgroundPositionUnit' => 'px',
+        ),
+        'valueBorderHover' => 
+        array (
+        ),
+        'valueButtonDisplay' => 'icon',
+      ),
+      '__VAR__CATEGORY_7RU1WG' => 
+      array (
+        'valueImageScale' => 'false',
+        'valueButtonTooltip' => '',
+        'valueDetailsPadding' => 
+        array (
+        ),
+        'valueButtonIconHover' => 
+        array (
+        ),
+        'valueButtonAlign' => 'start',
+        'valueDescriptionContainerBorder' => 
+        array (
+          'border-color' => 
+          array (
+            'color' => '',
+          ),
+        ),
+        'valueNameContainerBorderRadius' => 
+        array (
+          'borderRadiusUnit' => 'px',
+        ),
+        'valueButtonWidth' => 'auto',
+        'valueDescriptionContainerMargin' => 
+        array (
+        ),
+        'valueDescriptionContainerBackground' => 
+        array (
+          'background-color' => 
+          array (
+            'color' => '',
+          ),
+          'backgroundSizeUnit' => 'px',
+          'none' => 'false',
+          'backgroundPositionUnit' => 'px',
+        ),
+        'valueButtonContainerDisplay' => '',
+        'valueDescriptionContainerFont' => 
+        array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
+          'textShadowColor' => 
+          array (
+            'color' => '',
+          ),
+        ),
+        'valueNamePosition' => 'default',
+        'valueNameContainerShadow' => 
+        array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
+          'inner' => 'false',
+          'none' => 'false',
+        ),
+        'valueNameContainerSize' => 
+        array (
+        ),
+        'valueDetailsBGHover' => 
+        array (
+          'background-color' => 
+          array (
+            'color' => '',
+          ),
+          'backgroundSizeUnit' => 'px',
+          'none' => 'false',
+          'backgroundPositionUnit' => 'px',
+        ),
+        'valueImageBorderHover' => 
+        array (
+        ),
+        'valueImageBorderRadius' => 
+        array (
+          'borderRadiusUnit' => 'px',
+        ),
+        'valueNameAlign' => 'start',
+        'valueDescriptionContainerOffset' => 
+        array (
+        ),
+        'valueButtonTooltipPosition' => 'top',
+        'valueImageShadow' => 
+        array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
+          'inner' => 'false',
+          'none' => 'false',
+        ),
+        'valueButtonRightIconHover' => 
+        array (
+        ),
+        'valueButtonContainerBorder' => 
+        array (
+          'border-color' => 
+          array (
+            'color' => '',
+          ),
+        ),
+        'valueNameWidth' => 'auto',
+        'valueShadowHover' => 
+        array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
+          'inner' => 'false',
+          'none' => 'false',
+        ),
+        'valueNameFont' => 
+        array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
+          'textShadowColor' => 
+          array (
+            'color' => '',
+          ),
+        ),
+        'valueDetailsShadowHover' => 
+        array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
+          'inner' => 'false',
+          'none' => 'false',
+        ),
+        'valueNameContainerPadding' => 
+        array (
+        ),
+        'valueDescriptionContainerDisplay' => '',
+        'valueButtonContainerMargin' => 
+        array (
+        ),
+        'valueButtonContainerBackground' => 
+        array (
+          'background-color' => 
+          array (
+            'color' => '',
+          ),
+          'backgroundSizeUnit' => 'px',
+          'none' => 'false',
+          'backgroundPositionUnit' => 'px',
+        ),
+        'valueButtonContainerFont' => 
+        array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
+          'textShadowColor' => 
+          array (
+            'color' => '',
+          ),
+        ),
+        'valueItemPadding' => 
+        array (
+        ),
+        'valueNameStatus' => 'true',
+        'valueDetailsBorderRadius' => 
+        array (
+          'borderRadiusUnit' => 'px',
+        ),
+        'valueBorderRadius' => 
+        array (
+          'borderRadiusUnit' => 'px',
+        ),
+        'valueDetailsShadow' => 
+        array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
+          'inner' => 'false',
+          'none' => 'false',
+        ),
+        'valueNameContainerBorder' => 
+        array (
+          'border-color' => 
+          array (
+            'color' => '',
+          ),
+        ),
+        'valueNameFontHover' => 
+        array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
+          'textShadowColor' => 
+          array (
+            'color' => '',
+          ),
+        ),
+        'valueButtonContainerOffset' => 
+        array (
+        ),
+        'valueShadow' => 
+        array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
+          'inner' => 'false',
+          'none' => 'false',
+        ),
+        'valueButtonTooltipStatus' => 'true',
+        'valueImageShadowHover' => 
+        array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
+          'inner' => 'false',
+          'none' => 'false',
+        ),
+        'valueButtonRightIcon' => 
+        array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
+          'margin' => 
+          array (
+            'margin' => '',
+            'margin-top' => '',
+            'margin-right' => '',
+            'margin-bottom' => '',
+            'margin-left' => '',
+          ),
+          'none' => 'false',
+          'icon' => 
+          array (
+            'code' => '',
+            'name' => '',
+          ),
+        ),
+        'valueNameContainerMargin' => 
+        array (
+        ),
+        'valueButtonContainerPadding' => 
+        array (
+        ),
+        'valueNameContainerBackground' => 
+        array (
+          'background-color' => 
+          array (
+            'color' => '',
+          ),
+          'backgroundSizeUnit' => 'px',
+          'none' => 'false',
+          'backgroundPositionUnit' => 'px',
+        ),
+        'valueDescriptionContainerBorderRadius' => 
+        array (
+          'borderRadiusUnit' => 'px',
+        ),
+        'valueNameContainerFont' => 
+        array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
+          'textShadowColor' => 
+          array (
+            'color' => '',
+          ),
+        ),
+        'valueDetailsWidth' => '150',
+        'valueButtonButton' => '',
+        'valueButtonStatus' => 'false',
+        'valueGrayscale' => '',
+        'valueImageBorder' => 
+        array (
+          'border-color' => 
+          array (
+            'color' => '',
+          ),
+        ),
+        'valueDetailsBG' => 
+        array (
+          'background-color' => 
+          array (
+            'color' => '',
+          ),
+          'backgroundSizeUnit' => 'px',
+          'none' => 'false',
+          'backgroundPositionUnit' => 'px',
+        ),
+        'valueDescriptionContainerShadow' => 
+        array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
+          'inner' => 'false',
+          'none' => 'false',
+        ),
+        'valueDescriptionContainerSize' => 
+        array (
+        ),
+        'valueNameContainerOffset' => 
+        array (
+        ),
+        'valueDescriptionFont' => 
+        array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
+          'textShadowColor' => 
+          array (
+            'color' => '',
+          ),
+        ),
+        'valuePosition' => 'bottom',
+        'valueDescriptionContainerPadding' => 
+        array (
+        ),
+        'valueImageVisibility' => 'true',
+        'valueButtonContainerBorderRadius' => 
+        array (
+          'borderRadiusUnit' => 'px',
+        ),
+        'valueButtonIcon' => 
+        array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
+          'margin' => 
+          array (
+            'margin' => '',
+            'margin-top' => '',
+            'margin-right' => '',
+            'margin-bottom' => '',
+            'margin-left' => '',
+          ),
+          'none' => 'false',
+          'icon' => 
+          array (
+            'code' => '',
+            'name' => '',
+          ),
+        ),
+        'valueNameContainerDisplay' => '',
+        'valueBorder' => 
+        array (
+          'border-color' => 
+          array (
+            'color' => '',
+          ),
+        ),
+        'valueDescriptionStatus' => 'false',
+        'valueBackgroundHover' => 
+        array (
+          'background-color' => 
+          array (
+            'color' => '',
+          ),
+          'backgroundSizeUnit' => 'px',
+          'none' => 'false',
+          'backgroundPositionUnit' => 'px',
+        ),
+        'valueDetailsBorder' => 
+        array (
+          'border-color' => 
+          array (
+            'color' => '',
+          ),
+        ),
+        'valueButtonContainerShadow' => 
+        array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
+          'inner' => 'false',
+          'none' => 'false',
+        ),
+        'valueNameOverflow' => 'false',
+        'valueDetailsBorderHover' => 
+        array (
+        ),
+        'valueDetailsMargin' => 
+        array (
+        ),
+        'valueButtonContainerSize' => 
+        array (
+        ),
+        'valueBackground' => 
+        array (
+          'background-color' => 
+          array (
+            'color' => '',
+          ),
+          'backgroundSizeUnit' => 'px',
+          'none' => 'false',
+          'backgroundPositionUnit' => 'px',
+        ),
+        'valueBorderHover' => 
+        array (
+        ),
+        'valueButtonDisplay' => 'icon',
       ),
     ),
     'manufacturers' => 
