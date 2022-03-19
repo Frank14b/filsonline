@@ -1810,6 +1810,7 @@
           array (
             'color' => '',
           ),
+          'text-transform' => 'capitalize',
           'textShadowColor' => 
           array (
             'color' => '',
@@ -9327,11 +9328,13 @@
         ),
         'valueNameFont' => 
         array (
-          'font-family' => '__VAR__SERIF',
           'color' => 
           array (
             'color' => '__VAR__Footer BG',
           ),
+          'text-align' => 'center',
+          'text-transform' => 'capitalize',
+          'font-style' => 'normal',
           'font-weight' => '700',
           'textShadowColor' => 
           array (
@@ -9378,6 +9381,7 @@
         ),
         'valueItemPadding' => 
         array (
+          'padding' => '15',
         ),
         'valueNameStatus' => 'true',
         'valueDetailsBorderRadius' => 
@@ -9628,10 +9632,11 @@
       ),
       '__VAR__CATEGORY_7RU1WG' => 
       array (
-        'valueImageScale' => 'false',
+        'valueImageScale' => 'true',
         'valueButtonTooltip' => '',
         'valueDetailsPadding' => 
         array (
+          'padding' => '10',
         ),
         'valueButtonIconHover' => 
         array (
@@ -9702,9 +9707,10 @@
         ),
         'valueImageBorderRadius' => 
         array (
+          'border-radius' => '10',
           'borderRadiusUnit' => 'px',
         ),
-        'valueNameAlign' => 'start',
+        'valueNameAlign' => 'center',
         'valueDescriptionContainerOffset' => 
         array (
         ),
@@ -9742,12 +9748,17 @@
         array (
           'color' => 
           array (
-            'color' => '',
+            'color' => '__VAR__Footer BG',
           ),
+          'text-align' => 'center',
+          'text-transform' => 'uppercase',
+          'font-style' => 'normal',
+          'font-weight' => '700',
           'textShadowColor' => 
           array (
             'color' => '',
           ),
+          'font-size' => '18',
         ),
         'valueDetailsShadowHover' => 
         array (
@@ -9788,10 +9799,12 @@
         ),
         'valueItemPadding' => 
         array (
+          'padding' => '10',
         ),
         'valueNameStatus' => 'true',
         'valueDetailsBorderRadius' => 
         array (
+          'border-radius' => '10',
           'borderRadiusUnit' => 'px',
         ),
         'valueBorderRadius' => 
@@ -9914,10 +9927,10 @@
         array (
           'background-color' => 
           array (
-            'color' => '',
+            'color' => '__VAR__Border',
           ),
           'backgroundSizeUnit' => 'px',
-          'none' => 'false',
+          'none' => 'true',
           'backgroundPositionUnit' => 'px',
         ),
         'valueDescriptionContainerShadow' => 
@@ -10017,6 +10030,7 @@
         ),
         'valueDetailsMargin' => 
         array (
+          'margin' => '10',
         ),
         'valueButtonContainerSize' => 
         array (
@@ -10025,10 +10039,10 @@
         array (
           'background-color' => 
           array (
-            'color' => '',
+            'color' => '__VAR__Border',
           ),
           'backgroundSizeUnit' => 'px',
-          'none' => 'false',
+          'none' => 'true',
           'backgroundPositionUnit' => 'px',
         ),
         'valueBorderHover' => 
