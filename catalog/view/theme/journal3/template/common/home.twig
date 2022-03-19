@@ -1,177 +1,200 @@
 {{ header }}
 
-<div class="container first-items">
+{# <div class="container first-items">
 	<div class="col-md-10" style="margin:auto; padding-top: 2em">
 		<div class="row">
 			<div class="col-md-3 col-sm-6 col-xs-6 caard-item">
 				<div class="card-item-img">
-          <img class="normal" src="catalog/view/theme/journal3/image/goldmarket.png"/>
-          <img class="img-active" src="catalog/view/theme/journal3/image/goldmarket-active.png"/>
-        </div>
+					<img class="normal" src="catalog/view/theme/journal3/image/goldmarket.png"/>
+					<img class="img-active" src="catalog/view/theme/journal3/image/goldmarket-active.png"/>
+				</div>
 				<label class="card-item-text">GOLD MARKET</label>
 			</div>
 			<div class="col-md-3 col-sm-6 col-xs-6 caard-item">
 				<div class="card-item-img">
-          <img class="normal" src="catalog/view/theme/journal3/image/from1to10.png"/>
-          <img class="img-active" src="catalog/view/theme/journal3/image/from1to10-active.png"/>
-        </div>
+					<img class="normal" src="catalog/view/theme/journal3/image/from1to10.png"/>
+					<img class="img-active" src="catalog/view/theme/journal3/image/from1to10-active.png"/>
+				</div>
 				<label class="card-item-text">FROM 1-10 AED</label>
 			</div>
 			<div class="col-md-3 col-sm-6 col-xs-6 caard-item">
 				<div class="card-item-img">
-          <img class="normal" src="catalog/view/theme/journal3/image/outlet.png"/>
-          <img class="img-active" src="catalog/view/theme/journal3/image/outlet-active.png"/>
-        </div>
+					<img class="normal" src="catalog/view/theme/journal3/image/outlet.png"/>
+					<img class="img-active" src="catalog/view/theme/journal3/image/outlet-active.png"/>
+				</div>
 				<label class="card-item-text">OUTLET</label>
 			</div>
 			<div class="col-md-3 col-sm-6 col-xs-6 caard-item">
 				<div class="card-item-img">
-          <img class="normal" src="catalog/view/theme/journal3/image/bestdeals.png"/>
-          <img class="img-active" src="catalog/view/theme/journal3/image/bestdeals-active.png"/>
-        </div>
+					<img class="normal" src="catalog/view/theme/journal3/image/bestdeals.png"/>
+					<img class="img-active" src="catalog/view/theme/journal3/image/bestdeals-active.png"/>
+				</div>
 				<label class="card-item-text">BEST DEALS</label>
 			</div>
 		</div>
 	</div>
-</div>
+</div> #}
 
 <style>
-/* card eleemnts custom css */
+	/* card eleemnts custom css */
+  .icons-menu-385 {
+    margin-top: -120px !important;
+    margin-bottom: -40px !important;
+  }
+	.icons-menu-385 .icon-menu-image img {
+		background: rgba(140, 187, 13, 0.993) !important;
+		border-radius: 5%;
+		position: relative;
+		box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px !important;
+    padding: 10px;
+    margin: auto;
+	}
+  .icons-menu-385 .icon-menu-image .links-text {
+    color: #111 !important;
+  }
+  .icons-menu-385 .icon-menu-image img:hover {
+    background: #555 !important;
+		border: 2px solid rgba(140, 187, 13, 0.993);
+  }
+
 	.first-items .caard-item .card-item-img {
 		width: 100px;
 		height: 100px;
 		background: rgba(140, 187, 13, 0.993);
 		margin: auto;
-    border-radius: 5%;
-    position: relative;
+		border-radius: 5%;
+		position: relative;
+		box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px !important;
 	}
-  .first-items .caard-item .card-item-img .img-active {
-    display: none;
+	.first-items .caard-item .card-item-img .img-active {
+		display: none;
 	}
-  .first-items .caard-item .card-item-img:hover {
-    background: #111;
-    border: 2px solid rgba(140, 187, 13, 0.993);
-  }
-  .first-items .caard-item .card-item-img:hover .img-active{
-    display: block;
-  }
-  .first-items .caard-item .card-item-img:hover .normal{
-    display: none;
-  }
+	.first-items .caard-item .card-item-img:hover {
+		background: #111;
+		border: 2px solid rgba(140, 187, 13, 0.993);
+	}
+	.first-items .caard-item .card-item-img:hover .img-active {
+		display: block;
+	}
+	.first-items .caard-item .card-item-img:hover .normal {
+		display: none;
+	}
 	.first-items .caard-item {
 		text-align: center;
 	}
-  .first-items .caard-item .card-item-text {
-    font-weight: 800;
-  }
-  .first-items .caard-item .card-item-img img {
-    object-fit: contain;
-    object-position: middle;
-    width: 100px;
+	.first-items .caard-item .card-item-text {
+		font-weight: 800;
+	}
+	.first-items .caard-item .card-item-img img {
+		object-fit: contain;
+		object-position: middle;
+		width: 100px;
 		height: 90px;
-    padding: 0.5em;
+		padding: 0.5em;
 	}
 
-  /** home slide custom css */
-  .module-master_slider-333 .ms-view {
-    border-radius: 3em;
-    box-shadow: rgba(50, 50, 93, 0.55) 0px 13px 27px 5px, rgba(0, 0, 0, 0.5) 0px 8px 16px -8px; 
-  }
-  .ms-slide {
-    border-radius: 3em;
-  }
-  .ms-time-bar {
-    display: none;
-  }
+	/** home slide custom css */
+	.module-master_slider-333 .ms-view {
+		border-radius: 3em;
+		box-shadow: rgba(50, 50, 93, 0.55) 0 13px 27px 5px, rgba(0, 0, 0, 0.5) 0 8px 16px -8px;
+	}
+	.ms-slide {
+		border-radius: 3em;
+	}
+	.ms-time-bar {
+		display: none;
+	}
 
-  /** module module-catalog-119 css custom */
-  .module-catalog-119 .title.module-title {
-    text-align: center;
-    text-transform: capitalize;
-  }
-  .grid-item-top-3-1-1 {
-    margin-bottom: 80px;
-  }
-  .grid-item-top-3-1-1 .module-item {
-    width: 100px !important;
-    height: auto !important;
-    font-size: 11px;
-    text-align: center;
-    margin:auto;
-  }
-  .grid-item-top-3-1-1 .module-item .item-content {
-    text-align: center;
-  }
-  .grid-item-top-3-1-1 .module-item .item-content .catalog-title{
-    white-space: nowrap;
-    text-overflow: ellipsis;
-  }
-  .grid-item-top-3-1-1 .module-item .item-content img {
-    min-width: 100px !important;
-    min-height: 100px !important;
-    object-fit: scale-down;
-  }
-  .grid-item-top-3-1-1 .module-item .item-content .subitems{
-    display: none;
-  }
-  .catalog-title {
-    display: block !important;
-  }
-  .module-catalog-119 .catalog-title {
-    margin-right: 0 !important;
-  }
-  .item-assets{
-    display: block !important;
-  }
+	/** module module-catalog-119 css custom */
+	.module-catalog-119 .title.module-title {
+		text-align: center;
+		text-transform: capitalize;
+	}
+	.grid-item-top-2-1-1 {
+		margin-bottom: 80px;
+	}
+	.grid-item-top-2-1-1 .module-item {
+		width: 100px !important;
+		height: auto !important;
+		font-size: 11px;
+		text-align: center;
+		margin: auto;
+	}
+	.grid-item-top-2-1-1 .module-item .item-content {
+		text-align: center;
+	}
+	.grid-item-top-2-1-1 .module-item .item-content .catalog-title {
+		white-space: nowrap;
+		text-overflow: ellipsis;
+	}
+	.grid-item-top-2-1-1 .module-item .item-content img {
+		min-width: 100px !important;
+		min-height: 100px !important;
+		object-fit: scale-down;
+	}
+	.grid-item-top-2-1-1 .module-item .item-content .subitems {
+		display: none;
+	}
+	.catalog-title {
+		display: block !important;
+	}
+	.module-catalog-119 .catalog-title {
+		margin-right: 0 !important;
+	}
+	.item-assets {
+		display: block !important;
+	}
 
-  /** banners custom css */
+	/** banners custom css */
 
-  .module-products-360 {
-    margin-bottom: 50px;
-  }
+	.module-products-360 {
+		margin-bottom: 50px;
+	}
 
-  .module-banners-323 .module-item:not(.swiper-slide), 
-  .module-banners-365 .module-item:not(.swiper-slide) {
-    width: 100% !important;
-  }
+	.module-banners-323 .module-item:not(.swiper-slide),
+	.module-banners-365 .module-item:not(.swiper-slide) {
+		width: 100% !important;
+	}
 
-  /* first product caroussel custom css */
-  .module-products-359 .product-grid .product-thumb {
-    margin: 5px !important;
-    border-radius: 15px !important;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px !important;
-  }
-  .module-products-360 .product-layout.swiper-slide {
-    margin: 5px;
-  }
-  .module-products-360 .product-grid .product-thumb .product-img {
-    border-width: 0px !important;
-  }
+	/* first product caroussel custom css */
+	.module-products-359 .product-grid .product-thumb {
+		margin: 5px !important;
+		border-radius: 15px !important;
+		box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px !important;
+	}
+	.module-products-360 .product-layout.swiper-slide {
+		margin: 5px;
+	}
+	.module-products-360 .product-grid .product-thumb .product-img {
+		border-width: 0 !important;
+	}
 
-  /** home coupon zone custom css */
-  .grid-col-top-4-8 {
-    position: relative;
-    height: 350px;
-  }
-  /** brands custom css */
-  .module-manufacturers-317 .category-thumb .image, .manufacturer-thumb .image {
-    background: #f5f5f5;
-    border-radius: 7px !important;
-    padding: 8px;
-  }
-  .category-thumb .image, .manufacturer-thumb .image img {
-    border-radius: 7px !important;
-  }
-  .manufacturer-thumb .caption {
-    display: none;
-  }
-  .module-manufacturers-317 .manufacturer-layout:not(.swiper-slide) {
-    padding: 6px !important;
-  }
-  /** categories css custom */
-  .module-categories-372 .category-thumb{
-    padding: 10px;
-  }
+	/** home coupon zone custom css */
+	.grid-col-top-4-8 {
+		position: relative;
+		height: 350px;
+	}
+	/** brands custom css */
+	.module-manufacturers-317 .category-thumb .image,
+	.grid-item-top-6-1-2 .manufacturer-thumb .image {
+		background: #f5f5f5;
+		border-radius: 7px !important;
+		padding: 8px;
+	}
+	.category-thumb .image,
+	.grid-item-top-6-1-2 .manufacturer-thumb .image img {
+		border-radius: 7px !important;
+	}
+	.grid-item-top-6-1-2 .manufacturer-thumb .caption {
+		display: none;
+	}
+	.module-manufacturers-317 .manufacturer-layout:not(.swiper-slide) {
+		padding: 6px !important;
+	}
+	/** categories css custom */
+	.module-categories-372 .category-thumb {
+		padding: 10px;
+	}
 </style>
 
 {{ j3.loadController('journal3/layout', 'top') }}

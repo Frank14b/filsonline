@@ -181,51 +181,14 @@ class __TwigTemplate_5e9db3177c61484afbdc29bdeb736cdb3f956681308a3c97d84076c550c
 
 <!-- Custom menu (3rd menu ) available only on desktop screen more than 1024px -->
 <div class=\"row custom-menu-div\" style=\"background:#E6E6E6; min-height: 30px;\">
-\t<ul class=\"custom-menu\">
-\t\t<li>
-\t\t\t<a href=\"#home\">Home</a>
-\t\t</li>
-\t\t<li>
-\t\t\t<a href=\"#news\">About</a>
-\t\t</li>
-\t\t<li>
-\t\t\t<a href=\"#contact\">Brands</a>
-\t\t</li>
-\t\t<li>
-\t\t\t<a href=\"#contact\">Offers</a>
-\t\t</li>
-\t\t<li>
-\t\t\t<a href=\"#contact\">Categories</a>
-\t\t</li>
-\t\t<li>
-\t\t\t<a href=\"#contact\">Contact US</a>
-\t\t</li>
-\t</ul>
 </div>
 
 <style>
 \t.top-menu-item-6 {
 \t\tdisplay: none;
 \t}
-\t.custom-menu {
-\t\tlist-style-type: none;
-\t\ttext-align: center;
-\t}
-
-\t.custom-menu li {
-\t\tdisplay: inline-block;
-\t\tcolor: #444;
-\t}
-
-\t.custom-menu li a {
-\t\tdisplay: block;
-\t\tcolor: #444;
-\t\ttext-align: center;
-\t\tpadding: 16px 5em 5px 20px;
-\t\ttext-decoration: none;
-\t\ttext-transform: uppercase;
-\t\tfont-size: 10px;
-\t\tfont-weight: 600;
+\t.custom-menu-div {
+\t\tbox-shadow: rgba(0, 0, 0, 0.15) 0px 1px 2px !important;
 \t}
 
 \t.header-search > .search-button::before {

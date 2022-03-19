@@ -71,7 +71,7 @@ a{white-space:normal;overflow:visible;text-overflow:initial;font-size:11px;color
       'resize' => 'fit',
     ),
     'status' => true,
-    'id' => 'categories-6235422d99925',
+    'id' => 'categories-6235a92b54089',
     'module_id' => 372,
     'classes' => 
     array (

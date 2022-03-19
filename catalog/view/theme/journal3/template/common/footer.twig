@@ -45,26 +45,42 @@
 
 <style>
 /* footer last menu custom css */
-.links-menu-72 .module-body{
+.links-menu-72 .module-body, .links-menu-384 .module-body{
   list-style-type: none;
   text-align: center;
 }
-.links-menu-72 .module-body li {
+.links-menu-72 .module-body li, .links-menu-384 .module-body li {
   display: inline-block !important;
   text-align: center;
 }
-.links-menu-72 .module-body li a {
+.links-menu-72 .module-body li a{
   color: #ddd;
   text-decoration: none;
   font-size: 12px;
   padding: 10px 2em 5px 1px;
   text-align: center;
 }
+.links-menu-384 .module-body li a {
+  color: #111;
+  text-decoration: none;
+  padding: 10px 5em 5px 1px;
+  text-align: center;
+}
+.links-menu-384 .module-body{
+  padding-left:5em;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
 </style>
 
 <script>
   $(document).ready(function() {
     $(".links-menu-72 .links-menu-item").removeClass("menu-item")
+    $(".links-menu-384 .links-menu-item").removeClass("menu-item")
+
+    let headerMenu = $("footer .grid-row-1").html()
+    $("footer .grid-row-1").hide()
+    $(".custom-menu-div").html(headerMenu)
   })
 </script>
 

@@ -70,7 +70,7 @@ div{width:35px;height:35px;background:rgba(30, 46, 78, 1);border-width:4px;borde
       'resize' => 'fit',
     ),
     'status' => true,
-    'id' => 'manufacturers-6235422d3ac0e',
+    'id' => 'manufacturers-6235a92aec3f7',
     'module_id' => 317,
     'classes' => 
     array (

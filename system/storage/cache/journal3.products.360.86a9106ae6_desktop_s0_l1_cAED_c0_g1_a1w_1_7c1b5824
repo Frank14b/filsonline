@@ -124,7 +124,7 @@ a{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-family:\'Oswald
     'moduleProductStat1' => 'brand',
     'moduleProductStat2' => 'points',
     'status' => true,
-    'id' => 'products-6235422cdfa50',
+    'id' => 'products-6235a92a9b6ae',
     'module_id' => 360,
     'classes' => 
     array (
@@ -242,7 +242,7 @@ a{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-family:\'Oswald
             'status' => '1',
             'date_added' => '2018-05-21 21:26:43',
             'date_modified' => '2019-03-28 11:40:12',
-            'viewed' => '45710',
+            'viewed' => '45711',
           ),
           289 => 
           array (
@@ -286,7 +286,7 @@ a{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-family:\'Oswald
             'status' => '1',
             'date_added' => '2018-05-15 15:12:19',
             'date_modified' => '2018-07-06 10:55:39',
-            'viewed' => '23590',
+            'viewed' => '23591',
           ),
           283 => 
           array (

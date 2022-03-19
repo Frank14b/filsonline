@@ -27,7 +27,7 @@ h3{font-family:\'Oswald\';font-weight:700;font-size:20px;color:rgba(19,32,58,1);
     'title' => 'Exclusive Deals',
     'subtitle' => '',
     'status' => true,
-    'id' => 'title-6235422dac839',
+    'id' => 'title-6235a92b6b6fa',
     'module_id' => 376,
     'classes' => 
     array (

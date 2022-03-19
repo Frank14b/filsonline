@@ -1,0 +1,244 @@
+<?php $val = array (
+  'css' => '.module-manufacturers-386 .manufacturer-thumb{background:none;border-radius:0px;border-top-left-radius:10px;border-top-right-radius:10px;border-bottom-right-radius:0px;border-bottom-left-radius:0px;padding:15px}.module-manufacturers-386 .manufacturer-thumb
+.image{display:block}.module-manufacturers-386 .manufacturer-thumb .image
+a{background:rgba(255, 255, 255, 1);padding:10px;border-radius:0px;border-top-left-radius:10px;border-top-right-radius:10px;border-bottom-right-radius:0px;border-bottom-left-radius:0px}.module-manufacturers-386 .manufacturer-thumb .image
+img{transform:scale(1)}.module-manufacturers-386 .manufacturer-thumb
+.name{display:block;position:relative;opacity:1;transform:translate3d(0,0,0);background:rgba(140, 187, 13, 1);padding:10px;border-bottom-right-radius:10px;border-bottom-left-radius:10px}.module-manufacturers-386 .manufacturer-thumb .name
+a{white-space:normal;overflow:visible;text-overflow:initial;font-size:11px;color:rgba(51, 51, 51, 1);font-weight:700;text-align:center;text-transform:uppercase}.module-manufacturers-386 .module-body>.module-item{margin-bottom:10px}.module-manufacturers-386 .manufacturer-layout.swiper-slide{margin-right:0px;width:calc((100% - 7 * 0px) / 8 - 0.01px)}.module-manufacturers-386 .manufacturer-layout:not(.swiper-slide){padding:0px;width:calc(100% / 8 - 0.01px)}.one-column #content .module-manufacturers-386 .manufacturer-layout.swiper-slide{margin-right:0px;width:calc((100% - 0 * 0px) / 1 - 0.01px)}.one-column #content .module-manufacturers-386 .manufacturer-layout:not(.swiper-slide){padding:0px;width:calc(100% / 1 - 0.01px)}.two-column #content .module-manufacturers-386 .manufacturer-layout.swiper-slide{margin-right:0px;width:calc((100% - 0 * 0px) / 1 - 0.01px)}.two-column #content .module-manufacturers-386 .manufacturer-layout:not(.swiper-slide){padding:0px;width:calc(100% / 1 - 0.01px)}.side-column .module-manufacturers-386 .manufacturer-layout.swiper-slide{margin-right:0px;width:calc((100% - 0 * 0px) / 1 - 0.01px)}.side-column .module-manufacturers-386 .manufacturer-layout:not(.swiper-slide){padding:0px;width:calc(100% / 1 - 0.01px)}@media (max-width: 1024px){.module-manufacturers-386 .manufacturer-layout.swiper-slide{margin-right:0px;width:calc((100% - 3 * 0px) / 4 - 0.01px)}.module-manufacturers-386 .manufacturer-layout:not(.swiper-slide){padding:0px;width:calc(100% / 4 - 0.01px)}}@media (max-width: 760px){.module-manufacturers-386 .manufacturer-layout.swiper-slide{margin-right:0px;width:calc((100% - 1 * 0px) / 2 - 0.01px)}.module-manufacturers-386 .manufacturer-layout:not(.swiper-slide){padding:0px;width:calc(100% / 2 - 0.01px)}}@media (max-width: 470px){.module-manufacturers-386 .manufacturer-layout.swiper-slide{margin-right:0px;width:calc((100% - 0 * 0px) / 1 - 0.01px)}.module-manufacturers-386 .manufacturer-layout:not(.swiper-slide){padding:0px;width:calc(100% / 1 - 0.01px)}}',
+  'fonts' => 
+  array (
+  ),
+  'settings' => 
+  array (
+    'schedule' => 
+    array (
+      'from' => '',
+      'to' => '',
+      'between' => true,
+    ),
+    'sectionsDisplay' => 'blocks',
+    'sectionsDisplayTablet' => '',
+    'sectionsDisplayPhone' => '',
+    'carousel' => false,
+    'itemsPerRow' => 
+    array (
+      'c0' => 
+      array (
+        0 => 
+        array (
+          'items' => 8,
+          'spacing' => 0,
+        ),
+        1024 => 
+        array (
+          'spacing' => 0,
+          'items' => 4,
+        ),
+        760 => 
+        array (
+          'items' => 2,
+          'spacing' => 0,
+        ),
+        470 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+      'c1' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+      'c2' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+      'sc' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+    ),
+    'default' => '',
+    'imageDimensions' => 
+    array (
+      'width' => NULL,
+      'height' => NULL,
+      'resize' => 'fill',
+    ),
+    'status' => true,
+    'id' => 'manufacturers-6235a92beab5e',
+    'module_id' => 386,
+    'classes' => 
+    array (
+      0 => 'module',
+      1 => 'module-manufacturers',
+      2 => 'module-manufacturers-386',
+      3 => 'module-manufacturers-',
+      'carousel-mode' => false,
+      'isotope' => false,
+    ),
+    'image_width' => 100,
+    'image_height' => 100,
+    'image_resize' => 'fill',
+    'carouselOptions' => 
+    array (
+      'speed' => 0,
+      'autoplay' => false,
+      'pauseOnHover' => false,
+      'loop' => false,
+    ),
+    'dummy_image' => 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkAQMAAABKLAcXAAAABlBMVEUAAAAEAgSXNbeIAAAAAXRSTlMAQObYZgAAAAlwSFlzAAAOxAAADsQBlSsOGwAAABRJREFUOMtjYBgFo2AUjIJRQE8AAAV4AAEpcbn8AAAAAElFTkSuQmCC',
+    'default_index' => 1,
+    'items' => 
+    array (
+      1 => 
+      array (
+        'title' => '',
+        'id' => '386-1',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-1',
+          'tab-pane' => false,
+          'active' => false,
+          'panel' => false,
+          'panel-active' => false,
+          'swiper-slide' => false,
+        ),
+        'tab_classes' => 
+        array (
+          0 => 'tab-1',
+          'active' => false,
+        ),
+        'panel_classes' => 
+        array (
+          0 => 'panel-collapse',
+          1 => 'collapse',
+          'in' => false,
+        ),
+        'manufacturers' => 
+        array (
+          5 => 
+          array (
+            'classes' => 
+            array (
+              'swiper-slide' => false,
+              'isotope-item' => false,
+            ),
+            'manufacturer_id' => '5',
+            'thumb' => 'http://localhost/test2/image/cache/catalog/journal3/brands/htc_logo-100x100h.jpg',
+            'thumb2x' => 'http://localhost/test2/image/cache/catalog/journal3/brands/htc_logo-200x200h.jpg',
+            'name' => 'HTC',
+            'href' => 'http://localhost/test2/index.php?route=product/manufacturer/info&amp;manufacturer_id=5',
+          ),
+          21 => 
+          array (
+            'classes' => 
+            array (
+              'swiper-slide' => false,
+              'isotope-item' => false,
+            ),
+            'manufacturer_id' => '21',
+            'thumb' => 'http://localhost/test2/image/cache/catalog/journal3/brands/sarah-cosmetics-100x100.jpg',
+            'thumb2x' => 'http://localhost/test2/image/cache/catalog/journal3/brands/sarah-cosmetics-200x200.jpg',
+            'name' => 'Sarah Bloom',
+            'href' => 'http://localhost/test2/index.php?route=product/manufacturer/info&amp;manufacturer_id=21',
+          ),
+          20 => 
+          array (
+            'classes' => 
+            array (
+              'swiper-slide' => false,
+              'isotope-item' => false,
+            ),
+            'manufacturer_id' => '20',
+            'thumb' => 'http://localhost/test2/image/cache/catalog/journal3/brands/sarah-beauty-100x100.jpg',
+            'thumb2x' => 'http://localhost/test2/image/cache/catalog/journal3/brands/sarah-beauty-200x200.jpg',
+            'name' => 'Sarah Bell',
+            'href' => 'http://localhost/test2/index.php?route=product/manufacturer/info&amp;manufacturer_id=20',
+          ),
+          19 => 
+          array (
+            'classes' => 
+            array (
+              'swiper-slide' => false,
+              'isotope-item' => false,
+            ),
+            'manufacturer_id' => '19',
+            'thumb' => 'http://localhost/test2/image/cache/catalog/journal3/brands/olivia-fashion-100x100.jpg',
+            'thumb2x' => 'http://localhost/test2/image/cache/catalog/journal3/brands/olivia-fashion-200x200.jpg',
+            'name' => 'Olivia Smith',
+            'href' => 'http://localhost/test2/index.php?route=product/manufacturer/info&amp;manufacturer_id=19',
+          ),
+          18 => 
+          array (
+            'classes' => 
+            array (
+              'swiper-slide' => false,
+              'isotope-item' => false,
+            ),
+            'manufacturer_id' => '18',
+            'thumb' => 'http://localhost/test2/image/cache/catalog/journal3/brands/mellisa-100x100.jpg',
+            'thumb2x' => 'http://localhost/test2/image/cache/catalog/journal3/brands/mellisa-200x200.jpg',
+            'name' => 'Melissa Johnson',
+            'href' => 'http://localhost/test2/index.php?route=product/manufacturer/info&amp;manufacturer_id=18',
+          ),
+          17 => 
+          array (
+            'classes' => 
+            array (
+              'swiper-slide' => false,
+              'isotope-item' => false,
+            ),
+            'manufacturer_id' => '17',
+            'thumb' => 'http://localhost/test2/image/cache/catalog/journal3/brands/FC-fashion-100x100.jpg',
+            'thumb2x' => 'http://localhost/test2/image/cache/catalog/journal3/brands/FC-fashion-200x200.jpg',
+            'name' => 'Fort Cane',
+            'href' => 'http://localhost/test2/index.php?route=product/manufacturer/info&amp;manufacturer_id=17',
+          ),
+          16 => 
+          array (
+            'classes' => 
+            array (
+              'swiper-slide' => false,
+              'isotope-item' => false,
+            ),
+            'manufacturer_id' => '16',
+            'thumb' => 'http://localhost/test2/image/cache/catalog/journal3/brands/fashion-100x100.jpg',
+            'thumb2x' => 'http://localhost/test2/image/cache/catalog/journal3/brands/fashion-200x200.jpg',
+            'name' => 'NY Fashion',
+            'href' => 'http://localhost/test2/index.php?route=product/manufacturer/info&amp;manufacturer_id=16',
+          ),
+          15 => 
+          array (
+            'classes' => 
+            array (
+              'swiper-slide' => false,
+              'isotope-item' => false,
+            ),
+            'manufacturer_id' => '15',
+            'thumb' => 'http://localhost/test2/image/cache/catalog/journal3/brands/erikson-100x100.jpg',
+            'thumb2x' => 'http://localhost/test2/image/cache/catalog/journal3/brands/erikson-200x200.jpg',
+            'name' => 'Ericksson',
+            'href' => 'http://localhost/test2/index.php?route=product/manufacturer/info&amp;manufacturer_id=15',
+          ),
+        ),
+        'items' => 
+        array (
+        ),
+      ),
+    ),
+  ),
+);
