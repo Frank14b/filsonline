@@ -30,7 +30,7 @@ h3{font-family:\'Oswald\';font-weight:400;font-size:10px;color:rgba(51, 51, 51, 
     'title' => 'ACROSS ALL CATEGORIES',
     'subtitle' => '',
     'status' => true,
-    'id' => 'title-6235d2e3931eb',
+    'id' => 'title-6235e60eb2cc3',
     'module_id' => 368,
     'classes' => 
     array (

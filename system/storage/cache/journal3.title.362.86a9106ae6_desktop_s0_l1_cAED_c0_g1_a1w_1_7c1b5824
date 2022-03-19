@@ -29,7 +29,7 @@ h3{font-family:\'Oswald\';font-weight:400;font-size:20px;color:rgba(140, 187, 13
     'title' => 'BUY 1',
     'subtitle' => '',
     'status' => true,
-    'id' => 'title-6235d2e3856fb',
+    'id' => 'title-6235e60e9bf49',
     'module_id' => 362,
     'classes' => 
     array (

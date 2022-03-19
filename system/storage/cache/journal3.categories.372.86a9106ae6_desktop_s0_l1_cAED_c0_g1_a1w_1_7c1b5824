@@ -83,7 +83,7 @@ a{white-space:normal;overflow:visible;text-overflow:initial;font-size:11px;color
       'resize' => 'fit',
     ),
     'status' => true,
-    'id' => 'categories-6235d2e39969b',
+    'id' => 'categories-6235e60ec1d31',
     'module_id' => 372,
     'classes' => 
     array (

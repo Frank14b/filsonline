@@ -24,7 +24,7 @@ ul{background:none;justify-content:center}.icons-menu-364>ul{margin:10px;margin-
       'resize' => 'fit',
     ),
     'status' => true,
-    'id' => 'icons-menu-6235d2e3419e8',
+    'id' => 'icons-menu-6235e60e0e4d4',
     'module_id' => 364,
     'classes' => 
     array (

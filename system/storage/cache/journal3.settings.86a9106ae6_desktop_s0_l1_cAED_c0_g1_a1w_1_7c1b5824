@@ -13543,7 +13543,7 @@
         array (
           'color' => 
           array (
-            'color' => '__VAR__Background',
+            'color' => '__VAR__Text',
           ),
           'textShadowColor' => 
           array (
@@ -13575,6 +13575,10 @@
         ),
         'valueSearchAutoSuggestBG' => 
         array (
+          'background-color' => 
+          array (
+            'color' => '',
+          ),
           'backgroundSizeUnit' => 'px',
           'none' => 'false',
           'backgroundPositionUnit' => 'px',
@@ -13582,7 +13586,10 @@
         'valueSearchBorderH' => '__VAR__COLOR_9',
         'valueSearchCategoriesSelectorBGHover' => 
         array (
-          'background-color' => '__VAR__Accent Lighter',
+          'background-color' => 
+          array (
+            'color' => '__VAR__Accent Light',
+          ),
           'backgroundSizeUnit' => 'px',
           'none' => 'false',
           'backgroundPositionUnit' => 'px',
@@ -13595,6 +13602,18 @@
             'color' => '__VAR__Text Lighter',
           ),
           'font-size' => '11',
+        ),
+        'valueSearchPlaceholderColor_multi' => 
+        array (
+          0 => 
+          array (
+            'min' => '',
+            'max' => '__VAR__Tablet',
+            'value' => 
+            array (
+              'color' => '__VAR__Background Shade',
+            ),
+          ),
         ),
         'valueSearchAutoSuggestWidth_multi' => 
         array (
@@ -13610,7 +13629,10 @@
         'valueSearchCategoriesSelectorDropdown' => '__VAR__Top Menu Dropdown',
         'valueSearchIconBGHover' => 
         array (
-          'background-color' => '__VAR__Accent Lighter',
+          'background-color' => 
+          array (
+            'color' => '__VAR__Accent Lighter',
+          ),
           'backgroundSizeUnit' => 'px',
           'none' => 'false',
           'backgroundPositionUnit' => 'px',
@@ -13630,7 +13652,7 @@
         array (
           'background-color' => 
           array (
-            'color' => '__VAR__Text',
+            'color' => '__VAR__Background Darker',
           ),
           'backgroundSizeUnit' => 'px',
           'none' => 'false',
@@ -13651,6 +13673,10 @@
         'valueSearchAutoSuggestViewMoreStatus' => 'true',
         'valueSearchAutoSuggestBorder' => 
         array (
+          'border-color' => 
+          array (
+            'color' => '',
+          ),
         ),
         'valueSearchAutoSuggestPriceOldFont' => 
         array (
@@ -13658,7 +13684,7 @@
         ),
         'valueSearchPlaceholderColor' => 
         array (
-          'color' => '__VAR__Background Darker',
+          'color' => '__VAR__Text',
         ),
         'valueSearchNoResultsText' => 
         array (
@@ -13666,7 +13692,10 @@
           'lang_2' => 'No results found.',
         ),
         'valueSearchAutoSuggestWidth' => '',
-        'valueSearchIconHover' => '__VAR__COLOR_2',
+        'valueSearchIconHover' => 
+        array (
+          'color' => '__VAR__COLOR_2',
+        ),
         'valueSearchAutoSuggestFont' => 
         array (
           'font-weight' => '700',
@@ -13674,6 +13703,9 @@
         ),
         'valueSearchCategoriesTriangleMargin' => '-10',
         'valueSearchBorderActive' => '',
+        'valueSearchIcon_multi' => 
+        array (
+        ),
         'valueSearchCategoriesSelectorDropdownHeight' => '',
         'valueSearchAutoSuggestViewMoreIconHover' => '',
         'valueAutoSuggestPadding' => 
@@ -13737,10 +13769,43 @@
             'name' => 'arrow_forward',
           ),
         ),
+        'valueSearchInputBG_multi' => 
+        array (
+          0 => 
+          array (
+            'min' => '',
+            'max' => '__VAR__Tablet',
+            'value' => 
+            array (
+              'backgroundPositionX' => '',
+              'backgroundPositionY' => '',
+              'background-attachment' => '',
+              'background-color' => 
+              array (
+                'color' => '__VAR__Text',
+              ),
+              'background-origin' => '',
+              'background-position' => '',
+              'backgroundSizeW' => '',
+              'overlay' => '',
+              'gradient' => '',
+              'backgroundSizeUnit' => 'px',
+              'none' => 'false',
+              'backgroundSizeH' => '',
+              'background-repeat' => '',
+              'backgroundPositionUnit' => 'px',
+              'background-image' => '',
+              'background-blend-mode' => '',
+            ),
+          ),
+        ),
         'valueSearchCategoriesTriangleOffset' => 
         array (
         ),
         'valueSearchAutoSuggestImageStatus' => 'true',
+        'valueSearchIconBG_multi' => 
+        array (
+        ),
         'valueSearchAutoSuggestFontHover' => 
         array (
         ),
@@ -13749,7 +13814,7 @@
           'size' => '14',
           'color' => 
           array (
-            'color' => '__VAR__Background',
+            'color' => '__VAR__Accent Light',
           ),
           'margin' => 
           array (
@@ -13770,6 +13835,36 @@
         'valueSearchAutoSuggestPriceOldFontHover' => 
         array (
         ),
+        'valueSearchCategoriesSelectorBG_multi' => 
+        array (
+          0 => 
+          array (
+            'min' => '',
+            'max' => '__VAR__Tablet',
+            'value' => 
+            array (
+              'backgroundPositionX' => '',
+              'backgroundPositionY' => '',
+              'background-attachment' => '',
+              'background-color' => 
+              array (
+                'color' => '__VAR__Text',
+              ),
+              'background-origin' => '',
+              'background-position' => '',
+              'backgroundSizeW' => '',
+              'overlay' => '',
+              'gradient' => '',
+              'backgroundSizeUnit' => 'px',
+              'none' => 'false',
+              'backgroundSizeH' => '',
+              'background-repeat' => '',
+              'backgroundPositionUnit' => 'px',
+              'background-image' => '',
+              'background-blend-mode' => '',
+            ),
+          ),
+        ),
         'valueSearchAutoSuggestProductImageShadowHover' => 
         array (
           'inner' => 'false',
@@ -13788,14 +13883,16 @@
         array (
           'background-color' => 
           array (
-            'color' => '__VAR__Text',
+            'color' => '__VAR__Background Darker',
           ),
           'backgroundSizeUnit' => 'px',
           'none' => 'false',
           'backgroundPositionUnit' => 'px',
         ),
         'valueSearchAutoSuggestTriangleStatus' => 'true',
-        'valueSearchBorderHover' => '',
+        'valueSearchBorderHover' => 
+        array (
+        ),
         'valueSearchAutoSuggestViewMoreFontHover' => 
         array (
         ),
@@ -13803,7 +13900,7 @@
         array (
           'background-color' => 
           array (
-            'color' => '__VAR__Text',
+            'color' => '__VAR__Background Darker',
           ),
           'backgroundSizeUnit' => 'px',
           'none' => 'false',
@@ -13828,7 +13925,7 @@
         array (
           'background-color' => 
           array (
-            'color' => '__VAR__Text',
+            'color' => '__VAR__Accent Light',
           ),
           'backgroundSizeUnit' => 'px',
           'none' => 'false',
@@ -13838,6 +13935,39 @@
         array (
           'border-radius' => '3',
           'borderRadiusUnit' => 'px',
+        ),
+        'valueSearchInputFont_multi' => 
+        array (
+          0 => 
+          array (
+            'min' => '',
+            'max' => '__VAR__Tablet',
+            'value' => 
+            array (
+              'word-spacing' => '',
+              'line-height' => '',
+              'font-family' => '',
+              'color' => 
+              array (
+                'color' => '__VAR__Background',
+              ),
+              'text-align' => '',
+              'text-transform' => '',
+              'text-decoration' => '',
+              'font-style' => '',
+              'textShadowBlur' => '',
+              'font-weight' => '',
+              'textShadowColor' => 
+              array (
+                'color' => '',
+              ),
+              'textShadowOffsetX' => '',
+              'textShadowOffsetY' => '',
+              'word-break' => '',
+              'letter-spacing' => '',
+              'font-size' => '12',
+            ),
+          ),
         ),
         'valueSearchPlaceholder' => 
         array (
@@ -13871,18 +14001,56 @@
         array (
           'background-color' => 
           array (
-            'color' => '__VAR__Text',
+            'color' => '__VAR__Background Darker',
           ),
+          'none' => 'false',
         ),
         'valueSearchIconBGActive' => 
         array (
-          'background-color' => '__VAR__COLOR_7',
+          'background-color' => 
+          array (
+            'color' => '__VAR__COLOR_7',
+          ),
           'backgroundSizeUnit' => 'px',
           'none' => 'false',
           'backgroundPositionUnit' => 'px',
         ),
         'valueSearchAutoSuggestDivider' => 
         array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
+        ),
+        'valueSearchCategoriesSelectorBGHover_multi' => 
+        array (
+          0 => 
+          array (
+            'min' => '',
+            'max' => '__VAR__Tablet',
+            'value' => 
+            array (
+              'backgroundPositionX' => '',
+              'backgroundPositionY' => '',
+              'background-attachment' => '',
+              'background-color' => 
+              array (
+                'color' => '__VAR__Text',
+              ),
+              'background-origin' => '',
+              'background-position' => '',
+              'backgroundSizeW' => '',
+              'overlay' => '',
+              'gradient' => '',
+              'backgroundSizeUnit' => 'px',
+              'none' => 'false',
+              'backgroundSizeH' => '',
+              'background-repeat' => '',
+              'backgroundPositionUnit' => 'px',
+              'background-image' => '',
+              'background-blend-mode' => '',
+            ),
+          ),
         ),
         'valueSearchAutoSuggestPriceOldBGHover' => 
         array (
@@ -26891,7 +27059,8 @@
     'mobileHeaderOn' => 'tablet',
     'logo' => 'catalog/logo-fils.png',
     'logo2x' => 'catalog/logo-fils.png',
-    'logoMobile2x' => 'catalog/logo.png',
+    'logoMobile2x' => 'catalog/logo-fils.png',
+    'logoSocialShare' => 'catalog/logo-fils.png',
     'accountCustomerGroup' => 'visible',
     'accountAccountFirstNameField' => 'required',
     'accountAccountLastNameField' => 'required',

@@ -88,7 +88,7 @@ span{transform:scale(calc(100 / 100));transform-origin:center}.desktop .module-m
     ),
     'lazyLoad' => false,
     'status' => true,
-    'id' => 'master_slider-6235d2e3240f3',
+    'id' => 'master_slider-6235e60dd46ad',
     'module_id' => 332,
     'classes' => 
     array (
