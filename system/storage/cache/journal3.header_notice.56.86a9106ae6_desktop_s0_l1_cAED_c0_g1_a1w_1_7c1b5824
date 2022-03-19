@@ -32,7 +32,7 @@ a{color:rgba(219, 232, 242, 1);text-decoration:underline}.module-header_notice-5
     'closeText' => '',
     'content' => 'Important notice goes here.&nbsp;<a href="#">Learn more</a>',
     'status' => true,
-    'id' => 'header_notice-6235a92ca69d5',
+    'id' => 'header_notice-6235d2e4e0745',
     'module_id' => 56,
     'classes' => 
     array (

@@ -27,7 +27,7 @@ h3{font-family:\'Oswald\';font-weight:700;font-size:40px;color:rgba(238,19,72,1)
     'title' => '50-70% off',
     'subtitle' => '',
     'status' => true,
-    'id' => 'title-6235a92bdf709',
+    'id' => 'title-6235d2e4038c7',
     'module_id' => 388,
     'classes' => 
     array (

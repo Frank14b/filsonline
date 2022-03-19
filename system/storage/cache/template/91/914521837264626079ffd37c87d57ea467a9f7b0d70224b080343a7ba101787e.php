@@ -197,7 +197,7 @@ class __TwigTemplate_5e9db3177c61484afbdc29bdeb736cdb3f956681308a3c97d84076c550c
 \t}
 
 \t@media only screen and (max-width: 1024px) {
-\t\t.custom-menu-div {
+\t\t.custom-menu-div, .language-text, .currency-text{
 \t\t\tdisplay: none;
 \t\t}
 \t}

@@ -165,7 +165,14 @@ class __TwigTemplate_6cb0000a7c710480c6f56422193bfe02dae1070ed00277a590777739345
     </div>
   </div>
 </div>
-";
+
+<style>
+  @media only screen and (max-width: 1024px) {
+\t\t.custom-menu-div, .language-text, .currency-text{
+\t\t\tdisplay: none;
+\t\t}
+\t}
+</style>";
     }
 
     public function getTemplateName()

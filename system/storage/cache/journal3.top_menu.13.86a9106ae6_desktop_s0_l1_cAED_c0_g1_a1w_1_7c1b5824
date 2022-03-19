@@ -1,5 +1,5 @@
 <?php $val = array (
-  'css' => '.top-menu-13 .j-menu li.top-menu-item-1>a::before{content:\'\\e9a8\' !important;font-family:icomoon !important}.top-menu-13>ul>.top-menu-item-1>a{text-align:left}.top-menu-13>ul>.top-menu-item-1>a>.links-text{display:block}.top-menu-13 > ul > .top-menu-item-1 > a .count-badge{position:relative}.top-menu-13 .j-menu li.top-menu-item-2>a::before{content:\'\\e90d\' !important;font-family:icomoon !important;font-size:14px}.top-menu-13>ul>.top-menu-item-2>a{text-align:left}.top-menu-13>ul>.top-menu-item-2>a>.links-text{display:block}.top-menu-13 > ul > .top-menu-item-2 > a .count-badge{position:relative}',
+  'css' => '.top-menu-13 .j-menu li.top-menu-item-1>a::before{content:\'\\e9a8\' !important;font-family:icomoon !important;color:rgba(140,187,13,1)}.top-menu-13>ul>.top-menu-item-1>a{text-align:left}.top-menu-13>ul>.top-menu-item-1>a>.links-text{display:block}.top-menu-13 > ul > .top-menu-item-1 > a .count-badge{position:relative}.top-menu-13 .j-menu li.top-menu-item-2>a::before{content:\'\\e90d\' !important;font-family:icomoon !important;font-size:14px;color:rgba(140,187,13,1)}.top-menu-13>ul>.top-menu-item-2>a{text-align:left}.top-menu-13>ul>.top-menu-item-2>a>.links-text{display:block}.top-menu-13 > ul > .top-menu-item-2 > a .count-badge{position:relative}',
   'fonts' => 
   array (
   ),
@@ -12,7 +12,7 @@
       'between' => true,
     ),
     'status' => true,
-    'id' => 'top-menu-6235a92cd18d7',
+    'id' => 'top-menu-6235d2e512673',
     'module_id' => 13,
     'classes' => 
     array (

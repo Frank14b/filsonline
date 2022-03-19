@@ -41,8 +41,8 @@ span{transform:scale(calc(100 / 100));transform-origin:center}.desktop .module-m
     'parallaxMode' => false,
     'parallax' => '35',
     'layout' => 'fillwidth',
-    'layoutTablet' => 'fullscreen',
-    'layoutPhone' => 'fullscreen',
+    'layoutTablet' => '',
+    'layoutPhone' => '',
     'bottomOffset' => '',
     'bottomOffsetTablet' => '',
     'bottomOffsetPhone' => '',
@@ -88,7 +88,7 @@ span{transform:scale(calc(100 / 100));transform-origin:center}.desktop .module-m
     ),
     'lazyLoad' => false,
     'status' => true,
-    'id' => 'master_slider-6235a92979185',
+    'id' => 'master_slider-6235d2e22ec42',
     'module_id' => 383,
     'classes' => 
     array (
@@ -117,7 +117,7 @@ span{transform:scale(calc(100 / 100));transform-origin:center}.desktop .module-m
       'overPause' => true,
       'shuffle' => false,
       'view' => 'partialWave',
-      'speed' => '20',
+      'speed' => '55',
       'swipe' => true,
       'mouse' => true,
       'controls' => 

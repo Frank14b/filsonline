@@ -3,7 +3,7 @@
 img{transform:scale(1)}.module-banners-375 .module-item{margin:12px}.module-banners-375 .module-item>a{border-radius:12px}.module-banners-375 .module-item>a::before{background:rgba(0, 0, 0, 0.3)}.module-banners-375 a::before{opacity:0}.desktop .module-banners-375 a:hover::before{opacity:1}.module-banners-375 .module-item>a::after{content:\'\\e5c8\' !important;font-family:icomoon !important}.module-banners-375 a::after{opacity:0}.desktop .module-banners-375 a:hover::after{opacity:1}.module-banners-375 .banner-caption{visibility:hidden;opacity:0;display:block}.desktop .module-banners-375 a:hover .banner-caption{visibility:visible;opacity:1}.module-banners-375 a .banner-caption{width:100%}.module-banners-375 .banner-caption
 span{white-space:normal;;font-weight:700;text-align:center;text-transform:uppercase;padding:12px}.module-banners-375 .banner-caption-2{visibility:hidden;opacity:0;display:block;top:auto;left:50%;right:auto;bottom:0;transform:translate3d(-50%, 0, 0)}.desktop .module-banners-375 a:hover .banner-caption-2{visibility:visible;opacity:1}.module-banners-375 a .banner-caption-2{width:100%}.module-banners-375 .banner-caption-2
 span{white-space:normal;;padding:10px}.module-banners-375 .banner-caption-3
-span{white-space:normal;;border-radius:12px}',
+span{white-space:normal;;border-radius:12px}@media (max-width: 1024px){.module-banners-375 .module-item{margin:0px}}',
   'fonts' => 
   array (
   ),
@@ -60,7 +60,7 @@ span{white-space:normal;;border-radius:12px}',
     ),
     'lazyLoad' => false,
     'status' => true,
-    'id' => 'banners-6235a92b73cb0',
+    'id' => 'banners-6235d2e3ae111',
     'module_id' => 375,
     'classes' => 
     array (
