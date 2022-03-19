@@ -27,7 +27,7 @@ h3{font-family:\'Oswald\';font-weight:400;font-size:40px;color:rgba(19,32,58,1);
     'title' => 'THE HOTTEST BRAND',
     'subtitle' => '',
     'status' => true,
-    'id' => 'title-6235a92be4df4',
+    'id' => 'title-6235d2e40cda2',
     'module_id' => 389,
     'classes' => 
     array (

@@ -224,9 +224,12 @@
         'valueFont' => 
         array (
           'font-family' => '__VAR__DEFAULT',
-          'color' => '__VAR__Text Lighter',
+          'color' => 
+          array (
+            'color' => '__VAR__Text Lighter',
+          ),
           'text-transform' => 'none',
-          'font-size' => '__VAR__Small',
+          'font-size' => '11',
         ),
         'valueAccordionOpenIconHover' => '',
         'valueAccordionCloseIconHover' => '',
@@ -252,6 +255,10 @@
         ),
         'valueDivider' => 
         array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
         ),
         'valueIconSize' => '15',
         'valueSFontHover' => 
@@ -266,6 +273,10 @@
         'valueDropdownIndicator' => 'true',
         'valueStaticFont' => 
         array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
         ),
         'valueCountBadgePosition' => 'inline',
         'valueBorderRadius' => 
@@ -275,6 +286,10 @@
         'valueIconActive' => '',
         'valueSFont' => 
         array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
         ),
         'valueDisplay' => 'left',
         'valueIconHover' => '__VAR__Text Lighter',
@@ -345,7 +360,10 @@
         ),
         'valueBackground' => 
         array (
-          'background-color' => '__VAR__Accent Light',
+          'background-color' => 
+          array (
+            'color' => '__VAR__Text',
+          ),
           'backgroundSizeUnit' => 'px',
           'none' => 'false',
           'backgroundPositionUnit' => 'px',
@@ -1413,8 +1431,11 @@
           'style' => 'solid',
           'color' => '__VAR__COLOR_11',
         ),
-        'valueMenuTriangleStatus' => 'true',
-        'valueMenuTriangleColor' => '__VAR__Accent Light',
+        'valueMenuTriangleStatus' => 'false',
+        'valueMenuTriangleColor' => 
+        array (
+          'color' => '__VAR__Accent Light',
+        ),
         'valueMenuTriangleOffset' => 
         array (
           'first' => '-2',
@@ -1438,6 +1459,10 @@
         ),
         'valueDropBackground' => 
         array (
+          'background-color' => 
+          array (
+            'color' => '',
+          ),
           'backgroundSizeUnit' => 'px',
           'none' => 'false',
           'backgroundPositionUnit' => 'px',
@@ -1858,7 +1883,7 @@
             'color' => '',
           ),
         ),
-        'valueDividerAlign' => 'left',
+        'valueDividerAlign' => 'center',
         'valueBackground' => 
         array (
           'background-color' => 
@@ -12614,10 +12639,17 @@
         'valueMobileWrapperCartShadow' => '__VAR__Large',
         'valueMobileWrapperTitleBorder' => 
         array (
+          'border-color' => 
+          array (
+            'color' => '',
+          ),
         ),
         'valueMobileWrapperTitleBackground' => 
         array (
-          'background-color' => '__VAR__Accent',
+          'background-color' => 
+          array (
+            'color' => '__VAR__Header BG',
+          ),
           'backgroundSizeUnit' => 'px',
           'none' => 'false',
           'backgroundPositionUnit' => 'px',
@@ -12625,19 +12657,29 @@
         'valueMobileWrapperTitleFont' => 
         array (
           'font-family' => '__VAR__Headings',
-          'color' => '__VAR__Text Lighter',
+          'color' => 
+          array (
+            'color' => '__VAR__Text Lighter',
+          ),
           'text-transform' => 'uppercase',
           'font-size' => '__VAR__HEADING',
         ),
         'valueMobileWrapperCartContentBackground' => 
         array (
+          'background-color' => 
+          array (
+            'color' => '',
+          ),
           'backgroundSizeUnit' => 'px',
           'none' => 'false',
           'backgroundPositionUnit' => 'px',
         ),
         'valueMobileWrapperMenuContentBackground' => 
         array (
-          'background-color' => '__VAR__Background',
+          'background-color' => 
+          array (
+            'color' => '__VAR__Background',
+          ),
           'backgroundSizeUnit' => 'px',
           'none' => 'false',
           'backgroundPositionUnit' => 'px',
@@ -12681,6 +12723,10 @@
         ),
         'valueMobileWrapperFilterContentBackground' => 
         array (
+          'background-color' => 
+          array (
+            'color' => '',
+          ),
           'backgroundSizeUnit' => 'px',
           'none' => 'false',
           'backgroundPositionUnit' => 'px',
@@ -12692,7 +12738,10 @@
         ),
         'valueMobileWrapperCloseIcon' => 
         array (
-          'color' => '__VAR__Text Lighter',
+          'color' => 
+          array (
+            'color' => '__VAR__Text Lighter',
+          ),
           'margin' => 
           array (
             'margin' => '',
@@ -12714,7 +12763,10 @@
         ),
         'valueMobileWrapperBackdrop' => 
         array (
-          'background-color' => 'rgba(0, 0, 0, 0.5)',
+          'background-color' => 
+          array (
+            'color' => 'rgba(0, 0, 0, 0.5)',
+          ),
           'backgroundSizeUnit' => 'px',
           'none' => 'false',
           'backgroundPositionUnit' => 'px',
@@ -12735,10 +12787,18 @@
         ),
         'valueMobileWrapperCloseIconBorder' => 
         array (
+          'border-color' => 
+          array (
+            'color' => '',
+          ),
         ),
         'valueMobileWrapperTitleHeight' => '45',
         'valueMobileWrapperCloseIconBackground' => 
         array (
+          'background-color' => 
+          array (
+            'color' => '',
+          ),
           'backgroundSizeUnit' => 'px',
           'none' => 'false',
           'backgroundPositionUnit' => 'px',
@@ -13481,11 +13541,22 @@
         ),
         'valueSearchInputFont' => 
         array (
+          'color' => 
+          array (
+            'color' => '__VAR__Background',
+          ),
+          'textShadowColor' => 
+          array (
+            'color' => '',
+          ),
+          'font-size' => '12',
         ),
         'valueSearchViewMoreText' => 
         array (
           'lang_1' => 'View More',
+          'lang_2' => 'View More',
         ),
+        'valueSearchAutoSuggestSubCategories' => 'true',
         'valueSearchAutoSuggestDescription' => 'true',
         'valueSearchCategoriesSelectorDropdownWidth' => '',
         'valueSearchAutoSuggestViewMoreBGHover' => 
@@ -13497,6 +13568,10 @@
         ),
         'valueSearchCategoriesBorder' => 
         array (
+          'border-color' => 
+          array (
+            'color' => '',
+          ),
         ),
         'valueSearchAutoSuggestBG' => 
         array (
@@ -13515,7 +13590,11 @@
         'valueSearchAutoSuggestHeight' => '',
         'valueSearchCategoriesSelectorFont' => 
         array (
-          'color' => '__VAR__Text Lighter',
+          'color' => 
+          array (
+            'color' => '__VAR__Text Lighter',
+          ),
+          'font-size' => '11',
         ),
         'valueSearchAutoSuggestWidth_multi' => 
         array (
@@ -13523,6 +13602,10 @@
         'valueSearchIconBorderActive' => '',
         'valueSearchBorder' => 
         array (
+          'border-color' => 
+          array (
+            'color' => '',
+          ),
         ),
         'valueSearchCategoriesSelectorDropdown' => '__VAR__Top Menu Dropdown',
         'valueSearchIconBGHover' => 
@@ -13545,6 +13628,10 @@
         'valueSearchCategoriesSelectorStatus' => 'true',
         'valueSearchInputBGHover' => 
         array (
+          'background-color' => 
+          array (
+            'color' => '__VAR__Text',
+          ),
           'backgroundSizeUnit' => 'px',
           'none' => 'false',
           'backgroundPositionUnit' => 'px',
@@ -13569,10 +13656,14 @@
         array (
           'color' => '__VAR__GRAY',
         ),
-        'valueSearchPlaceholderColor' => '__VAR__Gray',
+        'valueSearchPlaceholderColor' => 
+        array (
+          'color' => '__VAR__Background Darker',
+        ),
         'valueSearchNoResultsText' => 
         array (
           'lang_1' => 'No results found.',
+          'lang_2' => 'No results found.',
         ),
         'valueSearchAutoSuggestWidth' => '',
         'valueSearchIconHover' => '__VAR__COLOR_2',
@@ -13590,7 +13681,10 @@
         ),
         'valueSearchCategoriesSelectorIcon' => 
         array (
-          'color' => '__VAR__Text Lighter',
+          'color' => 
+          array (
+            'color' => '__VAR__Text Lighter',
+          ),
           'margin' => 
           array (
             'margin' => '',
@@ -13606,9 +13700,25 @@
             'name' => 'caret-down',
           ),
         ),
-        'valueSearchAutoSuggestStatus' => 'true',
+        'valueSearchAutoSuggestStatus' => 
+        array (
+          'status' => 'true',
+          'device' => 
+          array (
+            0 => 'phone',
+            1 => 'tablet',
+            2 => 'desktop',
+          ),
+          'admin' => 'false',
+          'customer_group_1' => 'true',
+          'store_0' => 'true',
+          'store_1' => 'true',
+        ),
         'valueSearchCategoriesTriangleStatus' => '',
-        'valueSearchCategoriesSelectorIconHover' => '__VAR__COLOR_2',
+        'valueSearchCategoriesSelectorIconHover' => 
+        array (
+          'color' => '__VAR__COLOR_2',
+        ),
         'valueSearchCategoriesType' => 'top',
         'valueSearchAutoSuggestViewMoreIcon' => 
         array (
@@ -13636,8 +13746,11 @@
         ),
         'valueSearchIcon' => 
         array (
-          'size' => '22',
-          'color' => '__VAR__Text Lighter',
+          'size' => '14',
+          'color' => 
+          array (
+            'color' => '__VAR__Background',
+          ),
           'margin' => 
           array (
             'margin' => '',
@@ -13668,11 +13781,15 @@
         'valueSearchIconWidth' => '45',
         'valueSearchCategories' => 
         array (
-          'lang_1' => 'All',
+          'lang_1' => 'All Categories',
+          'lang_2' => 'All',
         ),
         'valueSearchInputBG' => 
         array (
-          'background-color' => '__VAR__Background Shade',
+          'background-color' => 
+          array (
+            'color' => '__VAR__Text',
+          ),
           'backgroundSizeUnit' => 'px',
           'none' => 'false',
           'backgroundPositionUnit' => 'px',
@@ -13684,7 +13801,10 @@
         ),
         'valueSearchIconBG' => 
         array (
-          'background-color' => '__VAR__Accent Light',
+          'background-color' => 
+          array (
+            'color' => '__VAR__Text',
+          ),
           'backgroundSizeUnit' => 'px',
           'none' => 'false',
           'backgroundPositionUnit' => 'px',
@@ -13706,7 +13826,10 @@
         'valueSearchAutoSuggestNameStatus' => 'true',
         'valueSearchCategoriesSelectorBG' => 
         array (
-          'background-color' => '__VAR__Accent Light',
+          'background-color' => 
+          array (
+            'color' => '__VAR__Text',
+          ),
           'backgroundSizeUnit' => 'px',
           'none' => 'false',
           'backgroundPositionUnit' => 'px',
@@ -13718,7 +13841,8 @@
         ),
         'valueSearchPlaceholder' => 
         array (
-          'lang_1' => 'Search here...',
+          'lang_1' => 'What are you looking for ?',
+          'lang_2' => 'Search...',
         ),
         'valueSearchAutoSuggestViewMorePadding' => 
         array (
@@ -13743,6 +13867,13 @@
         array (
         ),
         'valueSearchAutoSuggestShadow' => '__VAR__DEFAULT',
+        'valueSearchInputBGActive' => 
+        array (
+          'background-color' => 
+          array (
+            'color' => '__VAR__Text',
+          ),
+        ),
         'valueSearchIconBGActive' => 
         array (
           'background-color' => '__VAR__COLOR_7',
@@ -13761,6 +13892,10 @@
         ),
         'valueSearchIconBorder' => 
         array (
+          'border-color' => 
+          array (
+            'color' => '',
+          ),
         ),
         'valueSearchIconBorderHover' => '',
         'valueSearchAutoSuggestPriceOldBG' => 
@@ -19661,7 +19796,10 @@
               'word-spacing' => '',
               'line-height' => '',
               'font-family' => '',
-              'color' => '',
+              'color' => 
+              array (
+                'color' => '__VAR__Background',
+              ),
               'text-align' => '',
               'text-transform' => '',
               'text-decoration' => '',
@@ -19688,16 +19826,40 @@
         'valueDisplay_multi' => 
         array (
         ),
+        'valueButtonBackgroundHover' => 
+        array (
+          'background-color' => 
+          array (
+            'color' => '',
+          ),
+          'backgroundSizeUnit' => 'px',
+          'none' => 'false',
+          'backgroundPositionUnit' => 'px',
+        ),
+        'valueDropdownIndicator' => 'false',
         'valueTextFont' => 
         array (
           'font-family' => '__VAR__Headings',
-          'color' => '__VAR__Text Light',
+          'color' => 
+          array (
+            'color' => '__VAR__Background',
+          ),
           'text-transform' => 'uppercase',
           'font-size' => '__VAR__XS',
         ),
         'valueTextFontHover' => 
         array (
           'color' => '__VAR__Accent Lighter',
+        ),
+        'valueButtonBackground' => 
+        array (
+          'background-color' => 
+          array (
+            'color' => '',
+          ),
+          'backgroundSizeUnit' => 'px',
+          'none' => 'false',
+          'backgroundPositionUnit' => 'px',
         ),
         'valueDisplay' => 'full',
         'valueSymbolShadowHover' => 
@@ -19710,12 +19872,18 @@
         ),
         'valueSymbolBackground' => 
         array (
-          'background-color' => '__VAR__TRANSPARENT',
+          'background-color' => 
+          array (
+            'color' => '__VAR__TRANSPARENT',
+          ),
           'backgroundSizeUnit' => 'px',
           'none' => 'false',
           'backgroundPositionUnit' => 'px',
         ),
-        'valueSymbolColor' => '',
+        'valueSymbolFontSize' => '',
+        'valueSymbolColor' => 
+        array (
+        ),
         'valueSymbolRadius' => 
         array (
           'border-radius' => '0',
@@ -19743,7 +19911,10 @@
               'word-spacing' => '',
               'line-height' => '',
               'font-family' => '',
-              'color' => '',
+              'color' => 
+              array (
+                'color' => '__VAR__Background',
+              ),
               'text-align' => '',
               'text-transform' => '',
               'text-decoration' => '',
@@ -19770,16 +19941,44 @@
         'valueDisplay_multi' => 
         array (
         ),
+        'valueButtonBackgroundHover' => 
+        array (
+          'background-color' => 
+          array (
+            'color' => '',
+          ),
+          'backgroundSizeUnit' => 'px',
+          'none' => 'false',
+          'backgroundPositionUnit' => 'px',
+        ),
+        'valueDropdownIndicator' => 'false',
         'valueTextFont' => 
         array (
-          'color' => '__VAR__Text Light',
+          'color' => 
+          array (
+            'color' => '__VAR__Background',
+          ),
           'text-transform' => 'uppercase',
           'font-weight' => '700',
+          'textShadowColor' => 
+          array (
+            'color' => '',
+          ),
           'font-size' => '__VAR__XS',
         ),
         'valueTextFontHover' => 
         array (
           'color' => '__VAR__Accent Light',
+        ),
+        'valueButtonBackground' => 
+        array (
+          'background-color' => 
+          array (
+            'color' => '',
+          ),
+          'backgroundSizeUnit' => 'px',
+          'none' => 'false',
+          'backgroundPositionUnit' => 'px',
         ),
         'valueDisplay' => 'code',
         'valueSymbolShadowHover' => 
@@ -19792,12 +19991,19 @@
         ),
         'valueSymbolBackground' => 
         array (
-          'background-color' => '__VAR__TRANSPARENT',
+          'background-color' => 
+          array (
+            'color' => '__VAR__TRANSPARENT',
+          ),
           'backgroundSizeUnit' => 'px',
           'none' => 'false',
           'backgroundPositionUnit' => 'px',
         ),
-        'valueSymbolColor' => '',
+        'valueSymbolFontSize' => '',
+        'valueSymbolColor' => 
+        array (
+          'color' => '__VAR__Background',
+        ),
         'valueSymbolRadius' => 
         array (
           'border-radius' => '0',

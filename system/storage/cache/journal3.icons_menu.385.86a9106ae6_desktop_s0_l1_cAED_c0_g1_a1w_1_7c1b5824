@@ -1,8 +1,8 @@
 <?php $val = array (
-  'css' => '.icons-menu-385
+  'css' => '.icons-menu-385 .title.module-title{text-transform:capitalize;text-align:center}.icons-menu-385 .title.module-title::after{left:50%;right:initial;transform:translate3d(-50%,0,0)}.icons-menu-385 .title.module-title.page-title>span::after{left:50%;right:initial;transform:translate3d(-50%,0,0)}.icons-menu-385
 a{background:none;border-width:2px;border-color:rgba(140, 187, 13, 1);box-shadow:0 0 3px 8px rgba(0, 0, 0, 0.0024)}.desktop .icons-menu-385 a:hover{background:none;border-color:rgba(140, 187, 13, 1)}.icons-menu-385 a:active{background:none}.icons-menu-385 .menu-item
 a{border-radius:10px}.icons-menu-385
-ul{background:none;justify-content:center}.icons-menu-385>ul{margin:10px;margin-bottom:0px;padding:10px;padding-bottom:0px}.icons-menu-385 > ul > .menu-item > a .links-text{font-size:15px;font-weight:700;text-align:center;text-transform:uppercase}.icons-menu-385 .links-text{white-space:normal;overflow:visible;text-overflow:ellipsis}.icons-menu-385>ul>.icons-menu-item{padding:calc(150px / 2)}.icons-menu-385 .module-title{text-align:center}.icons-menu-385 .module-title::after{left:50%;right:auto;transform:translate3d(-50%,0,0)}@media (max-width: 1024px){.icons-menu-385>ul>.icons-menu-item{padding:calc(100px / 2)}}@media (max-width: 980px){.icons-menu-385 > ul > .menu-item > a .links-text{font-size:10px;font-weight:700;text-align:center;text-transform:uppercase}}@media (max-width: 760px){.icons-menu-385>ul>.icons-menu-item{padding:calc(20px / 2)}}@media (max-width: 470px){.icons-menu-385>ul>.icons-menu-item{padding:calc(5px / 2)}}',
+ul{background:none;justify-content:center}.icons-menu-385>ul{margin:10px;margin-bottom:0px;padding:10px;padding-bottom:0px}.icons-menu-385 > ul > .menu-item > a .links-text{font-size:15px;font-weight:700;text-align:center;text-transform:uppercase}.icons-menu-385 .links-text{white-space:normal;overflow:visible;text-overflow:ellipsis}.icons-menu-385>ul>.icons-menu-item{padding:calc(150px / 2)}.icons-menu-385 .module-title{text-align:center}.icons-menu-385 .module-title::after{left:50%;right:auto;transform:translate3d(-50%,0,0)}@media (max-width: 1024px){.icons-menu-385>ul>.icons-menu-item{padding:calc(100px / 2)}}@media (max-width: 980px){.icons-menu-385 > ul > .menu-item > a .links-text{font-size:6px;font-weight:700;text-align:center;text-transform:uppercase}}@media (max-width: 760px){.icons-menu-385>ul{margin-top:80px;margin-bottom:70px}.icons-menu-385>ul>.icons-menu-item{padding:calc(5px / 2)}}@media (max-width: 470px){.icons-menu-385>ul>.icons-menu-item{padding:calc(4px / 2)}}',
   'fonts' => 
   array (
   ),
@@ -24,7 +24,7 @@ ul{background:none;justify-content:center}.icons-menu-385>ul{margin:10px;margin-
       'resize' => 'fit',
     ),
     'status' => true,
-    'id' => 'icons-menu-6235a9296d40d',
+    'id' => 'icons-menu-6235d2e2232de',
     'module_id' => 385,
     'classes' => 
     array (
