@@ -1,19 +1,8 @@
 <?php $val = array (
   'css' => '.module-title-361 .title-wrapper
-h3{font-family:\'Oswald\';font-weight:700;font-size:40px;color:rgba(19, 32, 58, 1);text-align:center}.module-title-361 .title-wrapper::before{opacity:.05;display:block}.module-title-361 .title-wrapper{text-align:center}.module-title-361 .title-divider{margin-left:auto;margin-right:auto}',
+h3{font-family:montserratbold;font-weight:700;font-size:40px;color:rgba(19, 32, 58, 1);text-align:center}.module-title-361 .title-wrapper::before{opacity:.05;display:block}.module-title-361 .title-wrapper{text-align:center}.module-title-361 .title-divider{margin-left:auto;margin-right:auto}',
   'fonts' => 
   array (
-    'fonts' => 
-    array (
-      'Oswald' => 
-      array (
-        700 => '700',
-      ),
-    ),
-    'subsets' => 
-    array (
-      'latin-ext' => 'latin-ext',
-    ),
   ),
   'settings' => 
   array (
@@ -24,10 +13,10 @@ h3{font-family:\'Oswald\';font-weight:700;font-size:40px;color:rgba(19, 32, 58, 
       'between' => true,
     ),
     'type' => 'custom',
-    'title' => 'TOP BRANDS',
+    'title' => 'SHOP BY BRANDS',
     'subtitle' => '',
     'status' => true,
-    'id' => 'title-6236c77a2f67e',
+    'id' => 'title-6237058024b21',
     'module_id' => 361,
     'classes' => 
     array (

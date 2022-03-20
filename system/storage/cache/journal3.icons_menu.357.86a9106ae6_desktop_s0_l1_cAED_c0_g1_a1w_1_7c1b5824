@@ -23,7 +23,7 @@ ul{justify-content:flex-start}.icons-menu-357 .module-title{text-align:left}.ico
       'resize' => 'fill',
     ),
     'status' => true,
-    'id' => 'icons-menu-6236c77e9c0db',
+    'id' => 'icons-menu-623705817ae06',
     'module_id' => 357,
     'classes' => 
     array (
