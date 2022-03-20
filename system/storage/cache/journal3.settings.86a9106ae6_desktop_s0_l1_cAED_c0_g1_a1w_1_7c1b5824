@@ -1875,9 +1875,6 @@
           array (
             'color' => '',
           ),
-          'text-align' => 'left',
-          'text-transform' => 'capitalize',
-          'font-weight' => '400',
           'textShadowColor' => 
           array (
             'color' => '',
@@ -1923,6 +1920,78 @@
           ),
         ),
         'valueDividerAlign' => 'left',
+        'valueBackground' => 
+        array (
+          'background-color' => 
+          array (
+            'color' => '',
+          ),
+          'backgroundSizeUnit' => 'px',
+          'none' => 'false',
+          'backgroundPositionUnit' => 'px',
+        ),
+        'valueMargin' => 
+        array (
+        ),
+      ),
+      '__VAR__TITLE_0MS3R1' => 
+      array (
+        'valueFont' => 
+        array (
+          'font-family' => '__VAR__Headings',
+          'color' => 
+          array (
+            'color' => 'rgba(0, 0, 0, 1)',
+          ),
+          'text-align' => 'center',
+          'text-transform' => 'uppercase',
+          'font-weight' => '700',
+          'textShadowColor' => 
+          array (
+            'color' => '',
+          ),
+          'font-size' => '__VAR__Heading 2',
+        ),
+        'valuePadding' => 
+        array (
+        ),
+        'valueDividerSize' => 
+        array (
+        ),
+        'valueBorderRadius' => 
+        array (
+          'borderRadiusUnit' => 'px',
+        ),
+        'valueShadow' => 
+        array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
+          'inner' => 'false',
+          'none' => 'false',
+        ),
+        'valueDividerBackground' => 
+        array (
+          'background-color' => 
+          array (
+            'color' => '',
+          ),
+          'backgroundSizeUnit' => 'px',
+          'none' => 'false',
+          'backgroundPositionUnit' => 'px',
+        ),
+        'valueDividerTopSpacing' => '',
+        'valueTruncate' => '',
+        'valueDividerStatus' => '',
+        'valueBorder' => 
+        array (
+          'border-color' => 
+          array (
+            'color' => '',
+          ),
+        ),
+        'valueDividerAlign' => 'center',
         'valueBackground' => 
         array (
           'background-color' => 
@@ -5822,6 +5891,169 @@
         'valueFontActiveColor' => '',
         'valueBorderHover' => '__VAR__Action',
       ),
+      '__VAR__BUTTON_49DPHG' => 
+      array (
+        'valueFont' => 
+        array (
+          'font-family' => '__VAR__Headings',
+          'color' => 
+          array (
+            'color' => 'rgba(0, 0, 0, 1)',
+          ),
+          'text-align' => 'center',
+          'text-transform' => 'uppercase',
+          'font-weight' => '700',
+          'textShadowColor' => 
+          array (
+            'color' => '',
+          ),
+          'font-size' => '16',
+        ),
+        'valuePadding' => 
+        array (
+          'padding' => '10',
+        ),
+        'valueBGFocus' => 
+        array (
+          'background-color' => 
+          array (
+            'color' => '',
+          ),
+          'backgroundSizeUnit' => 'px',
+          'none' => 'false',
+          'backgroundPositionUnit' => 'px',
+        ),
+        'valueBorderActive' => 
+        array (
+        ),
+        'valueBGHover' => 
+        array (
+          'background-color' => 
+          array (
+            'color' => '__VAR__Accent Light',
+          ),
+          'backgroundSizeUnit' => 'px',
+          'none' => 'false',
+          'backgroundPositionUnit' => 'px',
+        ),
+        'valueShadowFocus' => 
+        array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
+          'inner' => 'false',
+          'none' => 'false',
+        ),
+        'valueShadowHover' => 
+        array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
+          'inner' => 'false',
+          'none' => 'false',
+        ),
+        'valueFontFocusColor' => 
+        array (
+        ),
+        'valueButtonLoadingSpeed' => '',
+        'valueBorderRadius' => 
+        array (
+          'border-radius' => '10',
+          'borderRadiusUnit' => 'px',
+        ),
+        'valueShadow' => '',
+        'valueSize' => 
+        array (
+        ),
+        'valueButtonLoadingIcon' => 
+        array (
+          'size' => '20',
+          'color' => 
+          array (
+            'color' => '',
+          ),
+          'margin' => 
+          array (
+            'margin' => '',
+            'margin-top' => '',
+            'margin-right' => '',
+            'margin-bottom' => '',
+            'margin-left' => '',
+          ),
+          'none' => 'false',
+          'icon' => 
+          array (
+            'code' => '',
+            'name' => '',
+          ),
+        ),
+        'valueButtonLoadingType' => '',
+        'valueMaxSize' => 
+        array (
+        ),
+        'valueBG' => 
+        array (
+          'background-color' => 
+          array (
+            'color' => '__VAR__Accent Light',
+          ),
+          'backgroundSizeUnit' => 'px',
+          'none' => 'false',
+          'backgroundPositionUnit' => 'px',
+        ),
+        'valueShadowActive' => 
+        array (
+          'color' => 
+          array (
+            'color' => '',
+          ),
+          'inner' => 'false',
+          'none' => 'false',
+        ),
+        'valueBorderFocus' => 
+        array (
+        ),
+        'valueBGActive' => 
+        array (
+          'background-color' => 
+          array (
+            'color' => '',
+          ),
+          'backgroundSizeUnit' => 'px',
+          'none' => 'false',
+          'backgroundPositionUnit' => 'px',
+        ),
+        'valueFontHover' => 
+        array (
+          'color' => 
+          array (
+            'color' => 'rgba(0, 0, 0, 1)',
+          ),
+          'text-align' => 'center',
+          'text-transform' => 'uppercase',
+          'font-weight' => '700',
+          'textShadowColor' => 
+          array (
+            'color' => '',
+          ),
+          'font-size' => '16',
+        ),
+        'valueBorder' => 
+        array (
+          'border-color' => 
+          array (
+            'color' => '',
+          ),
+        ),
+        'valueFontActiveColor' => 
+        array (
+        ),
+        'valueBorderHover' => 
+        array (
+        ),
+      ),
     ),
     'pagination' => 
     array (
@@ -9283,7 +9515,7 @@
       ),
       '__VAR__CATEGORY_E4JNAU' => 
       array (
-        'valueImageScale' => 'false',
+        'valueImageScale' => 'true',
         'valueButtonTooltip' => '',
         'valueDetailsPadding' => 
         array (
@@ -9357,6 +9589,7 @@
         ),
         'valueImageBorderRadius' => 
         array (
+          'border-radius' => '15',
           'borderRadiusUnit' => 'px',
         ),
         'valueNameAlign' => 'center',
@@ -9383,7 +9616,7 @@
             'color' => '',
           ),
         ),
-        'valueNameWidth' => 'auto',
+        'valueNameWidth' => 'full',
         'valueShadowHover' => 
         array (
           'color' => 
@@ -9395,19 +9628,20 @@
         ),
         'valueNameFont' => 
         array (
+          'font-family' => '__VAR__Headings',
           'color' => 
           array (
             'color' => '__VAR__Footer BG',
           ),
           'text-align' => 'center',
-          'text-transform' => 'capitalize',
+          'text-transform' => 'uppercase',
           'font-style' => 'normal',
           'font-weight' => '700',
           'textShadowColor' => 
           array (
             'color' => '',
           ),
-          'font-size' => '11',
+          'font-size' => '16',
         ),
         'valueDetailsShadowHover' => 
         array (
@@ -9531,6 +9765,7 @@
         ),
         'valueNameContainerMargin' => 
         array (
+          'margin-top' => '10',
         ),
         'valueButtonContainerPadding' => 
         array (
@@ -9566,9 +9801,11 @@
         'valueGrayscale' => '',
         'valueImageBorder' => 
         array (
+          'border-width' => '2',
+          'border-style' => 'solid',
           'border-color' => 
           array (
-            'color' => '',
+            'color' => '__VAR__Background',
           ),
         ),
         'valueDetailsBG' => 
@@ -9708,7 +9945,7 @@
         'valueButtonIconHover' => 
         array (
         ),
-        'valueButtonAlign' => 'start',
+        'valueButtonAlign' => 'center',
         'valueDescriptionContainerBorder' => 
         array (
           'border-color' => 
@@ -9720,7 +9957,7 @@
         array (
           'borderRadiusUnit' => 'px',
         ),
-        'valueButtonWidth' => 'auto',
+        'valueButtonWidth' => 'full',
         'valueDescriptionContainerMargin' => 
         array (
         ),
@@ -9746,7 +9983,7 @@
             'color' => '',
           ),
         ),
-        'valueNamePosition' => 'default',
+        'valueNamePosition' => 'image',
         'valueNameContainerShadow' => 
         array (
           'color' => 
@@ -9801,7 +10038,7 @@
             'color' => '',
           ),
         ),
-        'valueNameWidth' => 'auto',
+        'valueNameWidth' => 'full',
         'valueShadowHover' => 
         array (
           'color' => 
@@ -9813,12 +10050,13 @@
         ),
         'valueNameFont' => 
         array (
+          'font-family' => '__VAR__Headings',
           'color' => 
           array (
             'color' => '__VAR__Footer BG',
           ),
           'text-align' => 'center',
-          'text-transform' => 'capitalize',
+          'text-transform' => 'uppercase',
           'font-style' => 'normal',
           'font-weight' => '700',
           'textShadowColor' => 
@@ -9842,12 +10080,13 @@
         'valueDescriptionContainerDisplay' => '',
         'valueButtonContainerMargin' => 
         array (
+          'margin-top' => '40',
         ),
         'valueButtonContainerBackground' => 
         array (
           'background-color' => 
           array (
-            'color' => '',
+            'color' => '__VAR__Accent Light',
           ),
           'backgroundSizeUnit' => 'px',
           'none' => 'false',
@@ -9866,7 +10105,7 @@
         ),
         'valueItemPadding' => 
         array (
-          'padding' => '10',
+          'padding' => '20',
         ),
         'valueNameStatus' => 'true',
         'valueDetailsBorderRadius' => 
@@ -9876,6 +10115,7 @@
         ),
         'valueBorderRadius' => 
         array (
+          'border-radius' => '15',
           'borderRadiusUnit' => 'px',
         ),
         'valueDetailsShadow' => 
@@ -9908,15 +10148,7 @@
         'valueButtonContainerOffset' => 
         array (
         ),
-        'valueShadow' => 
-        array (
-          'color' => 
-          array (
-            'color' => '',
-          ),
-          'inner' => 'false',
-          'none' => 'false',
-        ),
+        'valueShadow' => '__VAR__Soft',
         'valueButtonTooltipStatus' => 'true',
         'valueImageShadowHover' => 
         array (
@@ -9950,6 +10182,8 @@
         ),
         'valueNameContainerMargin' => 
         array (
+          'margin-top' => '20',
+          'margin-bottom' => '25',
         ),
         'valueButtonContainerPadding' => 
         array (
@@ -9958,10 +10192,10 @@
         array (
           'background-color' => 
           array (
-            'color' => '',
+            'color' => '__VAR__Accent Light',
           ),
           'backgroundSizeUnit' => 'px',
-          'none' => 'false',
+          'none' => 'true',
           'backgroundPositionUnit' => 'px',
         ),
         'valueDescriptionContainerBorderRadius' => 
@@ -9980,16 +10214,14 @@
           ),
         ),
         'valueDetailsWidth' => '150',
-        'valueButtonButton' => '',
-        'valueButtonStatus' => 'false',
+        'valueButtonButton' => '__VAR__BUTTON_49DPHG',
+        'valueButtonStatus' => 'true',
         'valueGrayscale' => '',
         'valueImageBorder' => 
         array (
-          'border-width' => '2',
-          'border-style' => 'solid',
           'border-color' => 
           array (
-            'color' => '__VAR__Background',
+            'color' => '',
           ),
         ),
         'valueDetailsBG' => 
@@ -10035,6 +10267,7 @@
         'valueImageVisibility' => 'true',
         'valueButtonContainerBorderRadius' => 
         array (
+          'border-radius' => '10',
           'borderRadiusUnit' => 'px',
         ),
         'valueButtonIcon' => 
@@ -10109,16 +10342,16 @@
         array (
           'background-color' => 
           array (
-            'color' => '__VAR__Border',
+            'color' => '__VAR__Background Darker',
           ),
           'backgroundSizeUnit' => 'px',
-          'none' => 'true',
+          'none' => 'false',
           'backgroundPositionUnit' => 'px',
         ),
         'valueBorderHover' => 
         array (
         ),
-        'valueButtonDisplay' => 'icon',
+        'valueButtonDisplay' => 'text',
       ),
     ),
     'manufacturers' => 

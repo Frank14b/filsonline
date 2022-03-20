@@ -15,7 +15,7 @@ a{justify-content:center;width:100%}div.links-menu-391 .count-badge{display:none
     ),
     'title' => 'shop by price',
     'status' => true,
-    'id' => 'links-menu-623715ac7ff92',
+    'id' => 'links-menu-62372892bfce3',
     'module_id' => 391,
     'classes' => 
     array (

@@ -60,7 +60,7 @@ span{white-space:normal;;border-radius:0px}',
     ),
     'lazyLoad' => false,
     'status' => true,
-    'id' => 'banners-623715ac44766',
+    'id' => 'banners-62372892187a8',
     'module_id' => 378,
     'classes' => 
     array (
@@ -105,8 +105,8 @@ span{white-space:normal;;border-radius:0px}',
           1 => 'module-item-1',
           'swiper-slide' => false,
         ),
-        'image' => 'http://localhost/test2/image/cache/catalog/promo2-8001x4500.png',
-        'image2x' => 'http://localhost/test2/image/cache/catalog/promo2-8001x4500.png',
+        'image' => 'http://localhost/test2/image/cache/catalog/flashsale2-2118x1868.png',
+        'image2x' => 'http://localhost/test2/image/cache/catalog/flashsale2-2118x1868.png',
         'text' => NULL,
         'items' => 
         array (
