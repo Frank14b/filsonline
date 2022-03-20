@@ -1,0 +1,31 @@
+<?php $val = array (
+  'css' => '.module-title-361 .title-wrapper
+h3{font-family:montserratbold;font-weight:700;font-size:40px;color:rgba(19, 32, 58, 1);text-align:center}.module-title-361 .title-wrapper::before{opacity:.05;display:block}.module-title-361 .title-wrapper{text-align:center}.module-title-361 .title-divider{margin-left:auto;margin-right:auto}',
+  'fonts' => 
+  array (
+  ),
+  'settings' => 
+  array (
+    'schedule' => 
+    array (
+      'from' => '',
+      'to' => '',
+      'between' => true,
+    ),
+    'type' => 'custom',
+    'title' => 'SHOP BY BRANDS',
+    'subtitle' => '',
+    'status' => true,
+    'id' => 'title-62370c5460687',
+    'module_id' => 361,
+    'classes' => 
+    array (
+      0 => 'module',
+      1 => 'module-title',
+      2 => 'module-title-361',
+    ),
+    'items' => 
+    array (
+    ),
+  ),
+);

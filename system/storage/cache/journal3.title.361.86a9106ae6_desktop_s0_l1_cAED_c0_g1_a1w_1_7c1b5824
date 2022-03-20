@@ -16,7 +16,7 @@ h3{font-family:montserratbold;font-weight:700;font-size:40px;color:rgba(19, 32, 
     'title' => 'SHOP BY BRANDS',
     'subtitle' => '',
     'status' => true,
-    'id' => 'title-6237058024b21',
+    'id' => 'title-62370c745fe72',
     'module_id' => 361,
     'classes' => 
     array (
