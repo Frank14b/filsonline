@@ -1,0 +1,101 @@
+<?php $val = array (
+  'css' => '.icons-menu-358 .links-text{white-space:normal;overflow:visible;text-overflow:ellipsis}.icons-menu-358
+ul{justify-content:flex-end}.icons-menu-358 .module-title{text-align:right}.icons-menu-358 .module-title::after{left:100%;right:auto;transform:translate3d(-100%,0,0)}@media (max-width: 1024px){.icons-menu-358>ul>.icons-menu-item{padding:calc(20px / 2)}.icons-menu-358
+ul{justify-content:center}.icons-menu-358 .module-title{text-align:center}.icons-menu-358 .module-title::after{left:50%;right:auto;transform:translate3d(-50%,0,0)}}.icons-menu-358 .icons-menu-item-1.icon-menu-icon>a::before{content:\'\\eb6c\' !important;font-family:icomoon !important;color:rgba(140, 184, 13, 1)}.icons-menu-358 .icons-menu-item-1.icon-menu-icon .links-text{color:rgba(140, 187, 13, 1)}.icons-menu-358 .icons-menu-item-2.icon-menu-icon>a::before{content:\'\\e982\' !important;font-family:icomoon !important;color:rgba(140, 184, 13, 1)}.icons-menu-358 .icons-menu-item-2.icon-menu-icon .links-text{color:rgba(140, 187, 13, 1)}',
+  'fonts' => 
+  array (
+  ),
+  'settings' => 
+  array (
+    'schedule' => 
+    array (
+      'from' => '',
+      'to' => '',
+      'between' => true,
+    ),
+    'title' => '',
+    'tooltipStatus' => false,
+    'tooltipPosition' => 'top',
+    'imageDimensions' => 
+    array (
+      'width' => NULL,
+      'height' => NULL,
+      'resize' => 'fill',
+    ),
+    'status' => true,
+    'id' => 'icons-menu-623715add156b',
+    'module_id' => 358,
+    'classes' => 
+    array (
+      0 => 'icons-menu',
+      1 => 'icons-menu-358',
+    ),
+    'items' => 
+    array (
+      1 => 
+      array (
+        'title' => 'Help center',
+        'link' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'type' => 'icon',
+        'classes' => 
+        array (
+          0 => 'menu-item',
+          1 => 'icons-menu-item',
+          2 => 'icons-menu-item-1',
+          'multi-level' => false,
+          'dropdown' => false,
+          'drop-menu' => false,
+          3 => 'icon-menu-icon',
+        ),
+        'items' => 
+        array (
+        ),
+      ),
+      2 => 
+      array (
+        'title' => 'Email Support',
+        'link' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'type' => 'icon',
+        'classes' => 
+        array (
+          0 => 'menu-item',
+          1 => 'icons-menu-item',
+          2 => 'icons-menu-item-2',
+          'multi-level' => false,
+          'dropdown' => false,
+          'drop-menu' => false,
+          3 => 'icon-menu-icon',
+        ),
+        'items' => 
+        array (
+        ),
+      ),
+    ),
+  ),
+);
