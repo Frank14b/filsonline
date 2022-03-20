@@ -87,7 +87,7 @@ img{border-width:1px;border-style:solid;border-color:rgba(221, 221, 221, 1)}.mod
     'carouselPhone' => true,
     'viewMoreText' => 'View More',
     'status' => true,
-    'id' => 'catalog-6235e60c583ab',
+    'id' => 'catalog-6236c777ca0a9',
     'module_id' => 119,
     'classes' => 
     array (

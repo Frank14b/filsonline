@@ -1,0 +1,174 @@
+<?php $val = array (
+  'css' => '.icons-menu-385 .title.module-title{text-transform:capitalize;text-align:center}.icons-menu-385 .title.module-title::after{left:50%;right:initial;transform:translate3d(-50%,0,0)}.icons-menu-385 .title.module-title.page-title>span::after{left:50%;right:initial;transform:translate3d(-50%,0,0)}.icons-menu-385
+a{background:none;border-width:2px;border-color:rgba(140, 187, 13, 1);box-shadow:0 0 3px 8px rgba(0, 0, 0, 0.0024)}.desktop .icons-menu-385 a:hover{background:none;border-color:rgba(140, 187, 13, 1)}.icons-menu-385 a:active{background:none}.icons-menu-385 .menu-item
+a{border-radius:10px}.icons-menu-385
+ul{background:none;justify-content:center}.icons-menu-385>ul{margin:10px;margin-bottom:0px;padding:10px;padding-bottom:0px}.icons-menu-385 > ul > .menu-item > a .links-text{font-size:15px;font-weight:700;text-align:center;text-transform:uppercase}.icons-menu-385 .links-text{white-space:normal;overflow:visible;text-overflow:ellipsis}.icons-menu-385>ul>.icons-menu-item{padding:calc(150px / 2)}.icons-menu-385 .module-title{text-align:center}.icons-menu-385 .module-title::after{left:50%;right:auto;transform:translate3d(-50%,0,0)}@media (max-width: 1024px){.icons-menu-385>ul>.icons-menu-item{padding:calc(100px / 2)}}@media (max-width: 980px){.icons-menu-385 > ul > .menu-item > a .links-text{font-size:6px;font-weight:700;text-align:center;text-transform:uppercase}}@media (max-width: 760px){.icons-menu-385>ul{margin-top:80px;margin-bottom:70px}.icons-menu-385>ul>.icons-menu-item{padding:calc(5px / 2)}}@media (max-width: 470px){.icons-menu-385>ul>.icons-menu-item{padding:calc(4px / 2)}}',
+  'fonts' => 
+  array (
+  ),
+  'settings' => 
+  array (
+    'schedule' => 
+    array (
+      'from' => '',
+      'to' => '',
+      'between' => true,
+    ),
+    'title' => '',
+    'tooltipStatus' => false,
+    'tooltipPosition' => 'top',
+    'imageDimensions' => 
+    array (
+      'width' => 75,
+      'height' => 75,
+      'resize' => 'fit',
+    ),
+    'status' => true,
+    'id' => 'icons-menu-6236c7581639b',
+    'module_id' => 385,
+    'classes' => 
+    array (
+      0 => 'icons-menu',
+      1 => 'icons-menu-385',
+    ),
+    'items' => 
+    array (
+      1 => 
+      array (
+        'title' => 'GOLD MARKET',
+        'link' => 
+        array (
+          'type' => 'custom',
+          'id' => '',
+          'href' => 'test',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'type' => 'image',
+        'classes' => 
+        array (
+          0 => 'menu-item',
+          1 => 'icons-menu-item',
+          2 => 'icons-menu-item-1',
+          'multi-level' => false,
+          'dropdown' => false,
+          'drop-menu' => false,
+          3 => 'icon-menu-image',
+        ),
+        'items' => 
+        array (
+        ),
+        'image' => 'http://localhost/test2/image/cache/catalog/goldmarket-75x75w.png',
+        'image2x' => 'http://localhost/test2/image/cache/catalog/goldmarket-150x150w.png',
+      ),
+      2 => 
+      array (
+        'title' => 'FROM 1-10 AED',
+        'link' => 
+        array (
+          'type' => 'custom',
+          'id' => '',
+          'href' => 'test',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'type' => 'image',
+        'classes' => 
+        array (
+          0 => 'menu-item',
+          1 => 'icons-menu-item',
+          2 => 'icons-menu-item-2',
+          'multi-level' => false,
+          'dropdown' => false,
+          'drop-menu' => false,
+          3 => 'icon-menu-image',
+        ),
+        'items' => 
+        array (
+        ),
+        'image' => 'http://localhost/test2/image/cache/catalog/from1to10-75x75h.png',
+        'image2x' => 'http://localhost/test2/image/cache/catalog/from1to10-150x150h.png',
+      ),
+      3 => 
+      array (
+        'title' => 'OUTLET',
+        'link' => 
+        array (
+          'type' => 'custom',
+          'id' => '',
+          'href' => 'test',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'type' => 'image',
+        'classes' => 
+        array (
+          0 => 'menu-item',
+          1 => 'icons-menu-item',
+          2 => 'icons-menu-item-3',
+          'multi-level' => false,
+          'dropdown' => false,
+          'drop-menu' => false,
+          3 => 'icon-menu-image',
+        ),
+        'items' => 
+        array (
+        ),
+        'image' => 'http://localhost/test2/image/cache/catalog/outlet-75x75w.png',
+        'image2x' => 'http://localhost/test2/image/cache/catalog/outlet-150x150w.png',
+      ),
+      4 => 
+      array (
+        'title' => 'BEST DEALS',
+        'link' => 
+        array (
+          'type' => 'custom',
+          'id' => '',
+          'href' => 'test',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'type' => 'image',
+        'classes' => 
+        array (
+          0 => 'menu-item',
+          1 => 'icons-menu-item',
+          2 => 'icons-menu-item-4',
+          'multi-level' => false,
+          'dropdown' => false,
+          'drop-menu' => false,
+          3 => 'icon-menu-image',
+        ),
+        'items' => 
+        array (
+        ),
+        'image' => 'http://localhost/test2/image/cache/catalog/bestdeals-75x75h.png',
+        'image2x' => 'http://localhost/test2/image/cache/catalog/bestdeals-150x150h.png',
+      ),
+    ),
+  ),
+);
