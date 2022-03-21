@@ -113,7 +113,7 @@ a{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-size:14px;text-
     'moduleProductStat1' => 'brand',
     'moduleProductStat2' => 'points',
     'status' => true,
-    'id' => 'products-62372891d923c',
+    'id' => 'products-62386bb549b7d',
     'module_id' => 360,
     'classes' => 
     array (

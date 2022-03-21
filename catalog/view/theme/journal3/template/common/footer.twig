@@ -1,104 +1,104 @@
 {% if j3 is not defined %}
-  <style>
-    body {
-      display: none !important;
-    }
-  </style>
-  <script>
-    window.location = 'index.php?route=journal3/startup/error';
-  </script>
+	<style>
+		body {
+			display: none !important;
+		}
+	</style>
+	<script>
+		window.location = 'index.php?route=journal3/startup/error';
+	</script>
 {% endif %}
 {{ j3.loadController('journal3/layout', 'bottom') }}
 
 {% if not j3.document.isPopup() %}
 
-<footer>
-  {{ footer_menu }}
-</footer>
+	<footer>
+		{{ footer_menu }}
+	</footer>
 
-{% endif %}
-</div><!-- .site-wrapper -->
-
-{{ j3.loadController('journal3/layout', 'bottom_menu') }}
-
-{{ j3.loadController('journal3/layout', 'side_menu') }}
-
-{{ j3.loadController('journal3/layout', 'notification') }}
-
-{% for script in j3.document.getScripts('footer') %}
-<script src="{{ j3.document.staticUrl(script, false) }}" {% if j3.settings.get('performanceJSDefer') %} defer {% endif %}></script>
-{% endfor %}
-
-{% if j3.settings.get('customJS') %}
-<script type="text/javascript">{{ j3.settings.get('customJS') }}</script>
-{% endif %}
-
-{% if not j3.document.isPopup() and j3.settings.get('customCodeFooter') %}
-{{ j3.settings.get('customCodeFooter') }}
-{% endif %}
-
-{% if not j3.document.isPopup() and j3.settings.get('scrollTop') %}
+{% endif %}</div><!-- .site-wrapper -->{{ j3.loadController('journal3/layout', 'bottom_menu') }}{{ j3.loadController('journal3/layout', 'side_menu') }}{{ j3.loadController('journal3/layout', 'notification') }}{% for script in j3.document.getScripts('footer') %}
+<script src="{{ j3.document.staticUrl(script, false) }}" {% if j3.settings.get('performanceJSDefer') %} defer {% endif %}></script>{% endfor %}{% if j3.settings.get('customJS') %}
+<script type="text/javascript">{{ j3.settings.get('customJS') }}</script>{% endif %}{% if not j3.document.isPopup() and j3.settings.get('customCodeFooter') %}
+{{ j3.settings.get('customCodeFooter') }}{% endif %}{% if not j3.document.isPopup() and j3.settings.get('scrollTop') %}
 <div class="scroll-top">
-  <i class="fa fa-angle-up"></i>
-</div>
-{% endif %}
-
-<style>
+	<i class="fa fa-angle-up"></i>
+</div>{% endif %}<style>
 /* footer last menu custom css */
-.links-menu-72 .module-body, .links-menu-384 .module-body{
-  list-style-type: none;
-  text-align: center;
+.links-menu-72 .module-body,
+.links-menu-384 .module-body {
+	list-style-type: none;
+	text-align: center;
 }
-.links-menu-72 .module-body li, .links-menu-384 .module-body li {
-  display: inline-block !important;
-  text-align: center;
+.links-menu-72 .module-body li,
+.links-menu-384 .module-body li {
+	display: inline-block !important;
+	text-align: center;
 }
-.links-menu-72 .module-body li a{
-  color: #ddd;
-  text-decoration: none;
-  font-size: 12px;
-  padding: 10px 2em 5px 1px;
-  text-align: center;
+.links-menu-72 .module-body li a {
+	color: #ddd;
+	text-decoration: none;
+	font-size: 12px;
+	padding: 10px 2em 5px 1px;
+	text-align: center;
 }
 .links-menu-384 .module-body li a {
-  color: #111;
-  text-decoration: none;
-  padding: 10px 5em 5px 1px;
-  text-align: center;
+	color: #111;
+	text-decoration: none;
+	padding: 10px 5em 5px 1px;
+	text-align: center;
 }
-.links-menu-384 .module-body{
-  padding-left:5em;
-  padding-bottom: 5px;
-  padding-top: 5px;
+.links-menu-384 .module-body {
+	padding-left: 5em;
+	padding-bottom: 5px;
+	padding-top: 5px;
 }
 .links-menu-391 .module-body li a {
-  color: #111;
-  text-decoration: none;
-  text-align: center;
-  height: 90px;
-  width: 90px;
-  background: #f5f5f5;
-  border-radius: 50%;
-  margin: 20px;
-  font-size: 45px !important;
+	color: #111;
+	text-decoration: none;
+	text-align: center;
+	height: 90px;
+	width: 90px;
+	background: #f5f5f5;
+	border-radius: 50%;
+	margin: 20px;
+	font-size: 45px !important;
 }
 .links-menu-391 .module-body li a:hover {
-  box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px !important;
+	box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px !important;
+}</style><script>
+$(document).ready(function () {
+$(".links-menu-72 .links-menu-item").removeClass("menu-item")
+$(".links-menu-384 .links-menu-item").removeClass("menu-item")
+$(".links-menu-391 .links-menu-item").removeClass("menu-item")
+
+let headerMenu = $("footer .grid-row-1").html()
+$("footer .grid-row-1").hide()
+$(".custom-menu-div").html(headerMenu)
+
+let counterend = $('.date-couter').text()
+if (counterend) {
+
+setInterval(function () {
+let today = new Date()
+let endedDate = new Date(counterend);
+
+var one_day = 1000 * 60 * 60 * 24;
+var one_hour = 1000 * 60 * 60;
+var one_minute = 1000 * 60;
+
+let dayLeft = Math.ceil((endedDate.getTime() - today.getTime()) / (one_day))
+let hourLeft = Math.ceil((endedDate.getTime() - today.getTime()) / (one_hour))
+let minuteLeft = Math.ceil((endedDate.getTime() - today.getTime()) / (one_minute))
+
+$("#day-counter").text(((dayLeft - 1) < 10) ? '0' + (
+dayLeft - 1
+) : (dayLeft - 1))
+$("#day-counter2").text(((hourLeft - 1) < 10) ? '0' + (
+hourLeft - 1
+) : (hourLeft - 1))
+$("#day-counter3").text(((60 - today.getMinutes()) < 10) ? '0' + (
+Math.ceil(60 - today.getMinutes())
+) : (60 - today.getMinutes()))
+}, 1000)
 }
-
-</style>
-
-<script>
-  $(document).ready(function() {
-    $(".links-menu-72 .links-menu-item").removeClass("menu-item")
-    $(".links-menu-384 .links-menu-item").removeClass("menu-item")
-    $(".links-menu-391 .links-menu-item").removeClass("menu-item")
-
-    let headerMenu = $("footer .grid-row-1").html()
-    $("footer .grid-row-1").hide()
-    $(".custom-menu-div").html(headerMenu)
-  })
-</script>
-
-</body>
-</html>
+})</script></body></html>

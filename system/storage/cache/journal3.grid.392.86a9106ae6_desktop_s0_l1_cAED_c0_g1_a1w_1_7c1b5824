@@ -1,0 +1,123 @@
+<?php $val = array (
+  'css' => '.module-grid-392 .grid-row-1{background-image:url(\'http://localhost/test2/image/cache/catalog/bgdeal-8001x4758.png\');background-position:center center;background-repeat:no-repeat;background-size:cover;padding-top:30px;padding-bottom:30px}.module-grid-392 .grid-row-1::before{display:block;left:0;width:100vw}.module-grid-392 .grid-row-1 .grid-col-1{width:30%}.module-grid-392 .grid-row-1 .grid-col-1 .grid-item{height:auto}.module-grid-392 .grid-row-1 .grid-col-1 .grid-items{justify-content:flex-start}.module-grid-392 .grid-row-1 .grid-col-2{width:70%}.module-grid-392 .grid-row-1 .grid-col-2 .grid-item{height:auto}.module-grid-392 .grid-row-1 .grid-col-2 .grid-items{justify-content:flex-start}.module-grid-392 .grid-row-1 .grid-col-3{width:100%}.module-grid-392 .grid-row-1 .grid-col-3 .grid-item{height:auto}.module-grid-392 .grid-row-1 .grid-col-3 .grid-items{justify-content:flex-start}',
+  'fonts' => 
+  array (
+  ),
+  'settings' => 
+  array (
+    'name' => 'New Column',
+    'grid_classes' => 
+    array (
+      0 => 'module',
+      1 => 'module-grid',
+      2 => 'module-grid-392',
+      3 => 'grid-rows',
+    ),
+    'rows' => 
+    array (
+      1 => 
+      array (
+        'classes' => 
+        array (
+          0 => 'grid-row',
+          1 => 'grid-row-1',
+        ),
+        'columns' => 
+        array (
+          1 => 
+          array (
+            'name' => 'New Column',
+            'classes' => 
+            array (
+              0 => 'grid-col',
+              1 => 'grid-col-1',
+            ),
+            'items' => 
+            array (
+              1 => 
+              array (
+                'classes' => 
+                array (
+                  0 => 'grid-item',
+                  1 => 'grid-item-1',
+                ),
+                'item' => 
+                array (
+                  'id' => '204',
+                  'name' => '30% Off Side Column',
+                  'type' => 'banners',
+                ),
+              ),
+            ),
+          ),
+          2 => 
+          array (
+            'name' => 'New Column',
+            'classes' => 
+            array (
+              0 => 'grid-col',
+              1 => 'grid-col-2',
+            ),
+            'items' => 
+            array (
+              1 => 
+              array (
+                'classes' => 
+                array (
+                  0 => 'grid-item',
+                  1 => 'grid-item-1',
+                ),
+                'item' => 
+                array (
+                  'id' => '388',
+                  'name' => 'ONE DAY DEAL BY COLLECTION',
+                  'type' => 'title',
+                ),
+              ),
+              2 => 
+              array (
+                'classes' => 
+                array (
+                  0 => 'grid-item',
+                  1 => 'grid-item-2',
+                ),
+                'item' => 
+                array (
+                  'id' => '393',
+                  'name' => 'New Layout Notice',
+                  'type' => 'layout_notice',
+                ),
+              ),
+            ),
+          ),
+          3 => 
+          array (
+            'name' => 'New Column',
+            'classes' => 
+            array (
+              0 => 'grid-col',
+              1 => 'grid-col-3',
+            ),
+            'items' => 
+            array (
+              1 => 
+              array (
+                'classes' => 
+                array (
+                  0 => 'grid-item',
+                  1 => 'grid-item-1',
+                ),
+                'item' => 
+                array (
+                  'id' => '379',
+                  'name' => 'exclusive deals categories',
+                  'type' => 'categories',
+                ),
+              ),
+            ),
+          ),
+        ),
+      ),
+    ),
+  ),
+);

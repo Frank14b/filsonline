@@ -1,0 +1,31 @@
+<?php $val = array (
+  'css' => '.module-title-388 .title-wrapper
+h3{font-family:montserratbold;font-weight:700;font-size:35px;color:rgba(226,41,61,1);text-align:center}.module-title-388{margin-top:10px;margin-right:10px}.module-title-388 .title-wrapper::before{opacity:.05;display:block}.module-title-388 .title-wrapper{text-align:center}.module-title-388 .title-divider{margin-left:auto;margin-right:auto}',
+  'fonts' => 
+  array (
+  ),
+  'settings' => 
+  array (
+    'schedule' => 
+    array (
+      'from' => '',
+      'to' => '',
+      'between' => true,
+    ),
+    'type' => 'custom',
+    'title' => 'ONE DAY DEAL BY COLLECTION',
+    'subtitle' => '',
+    'status' => true,
+    'id' => 'title-62386bb562c75',
+    'module_id' => 388,
+    'classes' => 
+    array (
+      0 => 'module',
+      1 => 'module-title',
+      2 => 'module-title-388',
+    ),
+    'items' => 
+    array (
+    ),
+  ),
+);
