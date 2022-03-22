@@ -1,7 +1,7 @@
 <?php $val = array (
   'css' => '.links-menu-384 .module-body{display:block;justify-content:flex-start;align-items:flex-start;;-webkit-overflow-scrolling:touch;;column-count:initial;column-rule-style:solid}.links-menu-384 .menu-item{border-width:1px 0 0 0;justify-content:flex-start;;flex-grow:0;width:auto}.links-menu-384 .menu-item a .links-text{white-space:normal;color:rgba(139, 145, 152, 1)}.links-menu-384 .menu-item
 a{justify-content:flex-start;;padding-bottom:10px}.links-menu-384 .count-badge{display:none}.phone footer .links-menu-384 .module-title::before{display:none}.phone footer .links-menu-384 .module-title+.module-body>li{display:flex}div.links-menu-384 .title.module-title{font-size:14px;margin-bottom:8px;white-space:normal;overflow:visible;text-overflow:initial;font-size:10px;color:rgba(214, 214, 221, 1);text-align:center}div.links-menu-384 .title.module-title::after{display:none;margin-top:7px;left:50%;right:initial;transform:translate3d(-50%,0,0)}div.links-menu-384 .title.module-title.page-title>span::after{display:none;margin-top:7px}div.links-menu-384 .module-body{display:flex;flex-direction:row;justify-content:center;;-webkit-overflow-scrolling:touch}div.links-menu-384 .menu-item{border-width:0 0 0 1px;flex-grow:0;justify-content:center;width:100%}div.links-menu-384 .menu-item a .links-text{white-space:nowrap;font-size:12px}div.links-menu-384 .menu-item
-a{justify-content:center;width:100%}div.links-menu-384 .count-badge{display:none}.phone footer  div.links-menu-384 .module-title::before{display:none}.phone footer  div.links-menu-384 .module-title+.module-body>li{display:flex}div.links-menu-384 .links-menu-item-1 a .links-text{font-size:11px;font-weight:700;text-transform:uppercase}div.links-menu-384 .links-menu-item-2 a .links-text{font-size:11px;font-weight:700;text-transform:uppercase}div.links-menu-384 .links-menu-item-3 a .links-text{font-size:11px;font-weight:700;text-transform:uppercase}div.links-menu-384 .links-menu-item-4 a .links-text{font-size:11px;font-weight:700;text-transform:uppercase}div.links-menu-384 .links-menu-item-5 a .links-text{font-size:11px;font-weight:700;text-transform:uppercase}div.links-menu-384 .links-menu-item-6 a .links-text{font-size:11px;font-weight:700;text-transform:uppercase}',
+a{justify-content:center;width:100%}div.links-menu-384 .count-badge{display:none}.phone footer  div.links-menu-384 .module-title::before{display:none}.phone footer  div.links-menu-384 .module-title+.module-body>li{display:flex}div.links-menu-384 .links-menu-item-1 a .links-text{font-size:11px;color:rgba(0, 0, 0, 1);font-weight:700;text-transform:uppercase}div.links-menu-384 .links-menu-item-2 a .links-text{font-size:11px;color:rgba(0, 0, 0, 1);font-weight:700;text-transform:uppercase}div.links-menu-384 .links-menu-item-3 a .links-text{font-size:11px;color:rgba(0, 0, 0, 1);font-weight:700;text-transform:uppercase}div.links-menu-384 .links-menu-item-4 a .links-text{font-size:11px;color:rgba(0, 0, 0, 1);font-weight:700;text-transform:uppercase}div.links-menu-384 .links-menu-item-5 a .links-text{font-size:11px;color:rgba(0, 0, 0, 1);font-weight:700;text-transform:uppercase}div.links-menu-384 .links-menu-item-5:hover a .links-text{color:rgba(140, 187, 13, 1)}div.links-menu-384 .links-menu-item-6 a .links-text{font-size:11px;color:rgba(0, 0, 0, 1);font-weight:700;text-transform:uppercase}',
   'fonts' => 
   array (
   ),
@@ -15,7 +15,7 @@ a{justify-content:center;width:100%}div.links-menu-384 .count-badge{display:none
     ),
     'title' => '',
     'status' => true,
-    'id' => 'links-menu-6239b67b11d18',
+    'id' => 'links-menu-6239c4f9d905c',
     'module_id' => 384,
     'classes' => 
     array (
@@ -29,9 +29,9 @@ a{justify-content:center;width:100%}div.links-menu-384 .count-badge{display:none
         'title' => 'Home',
         'link' => 
         array (
-          'type' => 'information',
+          'type' => 'custom',
           'id' => '8',
-          'href' => '',
+          'href' => 'http://localhost/test2',
           'name' => '',
           'total' => NULL,
           'attrs' => 
@@ -153,9 +153,9 @@ a{justify-content:center;width:100%}div.links-menu-384 .count-badge{display:none
         'title' => 'Categories',
         'link' => 
         array (
-          'type' => '',
+          'type' => 'custom',
           'id' => '5',
-          'href' => '',
+          'href' => 'http://localhost/test2/index.php?route=common/categories',
           'name' => '',
           'total' => NULL,
           'attrs' => 
