@@ -181,7 +181,7 @@ i{color:rgba(105, 105, 115, 1);background-color:rgba(238, 238, 238, 1)}.module-p
     'moduleProductStat1' => 'brand',
     'moduleProductStat2' => 'none',
     'status' => true,
-    'id' => 'products-6239a5718a5b9',
+    'id' => 'products-6239b75e337c0',
     'module_id' => 349,
     'classes' => 
     array (
@@ -259,54 +259,6 @@ i{color:rgba(105, 105, 115, 1);background-color:rgba(238, 238, 238, 1)}.module-p
         ),
         'products' => 
         array (
-          470 => 
-          array (
-            'product_id' => '470',
-            'name' => 'BOLVER USA Soft Matte Lipstick 135',
-            'description' => '&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;195&quot; style=&quot;width: 146pt;&quot;&gt;&lt;tbody&gt;&lt;tr height=&quot;133&quot; style=&quot;mso-height-source:userset;height:99.95pt&quot;&gt;
-  &lt;td height=&quot;133&quot; class=&quot;xl69&quot; width=&quot;195&quot; style=&quot;height:99.95pt;width:146pt&quot;&gt;BOLVER
-  Intenselipstick focus on fashion and beauty tocreate the perfect
-  colorful&lt;br&gt;
-    manicure.&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;',
-            'meta_title' => 'BOLVER USA Soft Matte Lipstick 135',
-            'meta_description' => '',
-            'meta_keyword' => '',
-            'tag' => '',
-            'model' => 'BOLVER USA',
-            'sku' => '6971977508254',
-            'upc' => '697197750825',
-            'ean' => '',
-            'jan' => '',
-            'isbn' => '',
-            'mpn' => '',
-            'location' => '',
-            'quantity' => '100',
-            'stock_status' => '2-3 Days',
-            'image' => 'catalog/Lipstick /135.jpg',
-            'manufacturer_id' => NULL,
-            'manufacturer' => NULL,
-            'price' => '0.0000',
-            'special' => NULL,
-            'reward' => NULL,
-            'points' => '0',
-            'tax_class_id' => '0',
-            'date_available' => '2022-02-19',
-            'weight' => '0.00000000',
-            'weight_class_id' => '1',
-            'length' => '0.00000000',
-            'width' => '0.00000000',
-            'height' => '0.00000000',
-            'length_class_id' => '1',
-            'subtract' => '1',
-            'rating' => 4.0,
-            'reviews' => '2',
-            'minimum' => '1',
-            'sort_order' => '1',
-            'status' => '1',
-            'date_added' => '2022-02-19 12:02:27',
-            'date_modified' => '2022-02-19 12:02:27',
-            'viewed' => '4',
-          ),
           469 => 
           array (
             'product_id' => '469',
@@ -354,6 +306,54 @@ i{color:rgba(105, 105, 115, 1);background-color:rgba(238, 238, 238, 1)}.module-p
             'date_added' => '2022-02-19 12:02:27',
             'date_modified' => '2022-02-19 12:02:27',
             'viewed' => '3',
+          ),
+          470 => 
+          array (
+            'product_id' => '470',
+            'name' => 'BOLVER USA Soft Matte Lipstick 135',
+            'description' => '&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;195&quot; style=&quot;width: 146pt;&quot;&gt;&lt;tbody&gt;&lt;tr height=&quot;133&quot; style=&quot;mso-height-source:userset;height:99.95pt&quot;&gt;
+  &lt;td height=&quot;133&quot; class=&quot;xl69&quot; width=&quot;195&quot; style=&quot;height:99.95pt;width:146pt&quot;&gt;BOLVER
+  Intenselipstick focus on fashion and beauty tocreate the perfect
+  colorful&lt;br&gt;
+    manicure.&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;',
+            'meta_title' => 'BOLVER USA Soft Matte Lipstick 135',
+            'meta_description' => '',
+            'meta_keyword' => '',
+            'tag' => '',
+            'model' => 'BOLVER USA',
+            'sku' => '6971977508254',
+            'upc' => '697197750825',
+            'ean' => '',
+            'jan' => '',
+            'isbn' => '',
+            'mpn' => '',
+            'location' => '',
+            'quantity' => '100',
+            'stock_status' => '2-3 Days',
+            'image' => 'catalog/Lipstick /135.jpg',
+            'manufacturer_id' => NULL,
+            'manufacturer' => NULL,
+            'price' => '0.0000',
+            'special' => NULL,
+            'reward' => NULL,
+            'points' => '0',
+            'tax_class_id' => '0',
+            'date_available' => '2022-02-19',
+            'weight' => '0.00000000',
+            'weight_class_id' => '1',
+            'length' => '0.00000000',
+            'width' => '0.00000000',
+            'height' => '0.00000000',
+            'length_class_id' => '1',
+            'subtract' => '1',
+            'rating' => 4.0,
+            'reviews' => '2',
+            'minimum' => '1',
+            'sort_order' => '1',
+            'status' => '1',
+            'date_added' => '2022-02-19 12:02:27',
+            'date_modified' => '2022-02-19 12:02:27',
+            'viewed' => '4',
           ),
           468 => 
           array (

@@ -1,0 +1,63 @@
+{{ header }}
+
+{# <div class="container first-items">
+	<div class="col-md-10" style="margin:auto; padding-top: 2em">
+		<div class="row">
+			<div class="col-md-3 col-sm-6 col-xs-6 caard-item">
+				<div class="card-item-img">
+					<img class="normal" src="catalog/view/theme/journal3/image/goldmarket.png"/>
+					<img class="img-active" src="catalog/view/theme/journal3/image/goldmarket-active.png"/>
+				</div>
+				<label class="card-item-text">GOLD MARKET</label>
+			</div>
+			<div class="col-md-3 col-sm-6 col-xs-6 caard-item">
+				<div class="card-item-img">
+					<img class="normal" src="catalog/view/theme/journal3/image/from1to10.png"/>
+					<img class="img-active" src="catalog/view/theme/journal3/image/from1to10-active.png"/>
+				</div>
+				<label class="card-item-text">FROM 1-10 AED</label>
+			</div>
+			<div class="col-md-3 col-sm-6 col-xs-6 caard-item">
+				<div class="card-item-img">
+					<img class="normal" src="catalog/view/theme/journal3/image/outlet.png"/>
+					<img class="img-active" src="catalog/view/theme/journal3/image/outlet-active.png"/>
+				</div>
+				<label class="card-item-text">OUTLET</label>
+			</div>
+			<div class="col-md-3 col-sm-6 col-xs-6 caard-item">
+				<div class="card-item-img">
+					<img class="normal" src="catalog/view/theme/journal3/image/bestdeals.png"/>
+					<img class="img-active" src="catalog/view/theme/journal3/image/bestdeals-active.png"/>
+				</div>
+				<label class="card-item-text">BEST DEALS</label>
+			</div>
+		</div>
+	</div>
+</div> #}
+
+<style>
+   .grid-item-top-6-1-2 .manufacturer-thumb .image {
+		background: url("catalog/view/theme/journal3/image/bg-outlet.png")center/cover;
+	}
+</style>
+
+{{ j3.loadController('journal3/layout', 'top') }}
+{% if content_top or content_bottom or column_left or column_right %}
+	<div id="common-home" class="container">
+		<div class="row">{{ column_left }}
+			{% if column_left and column_right %}
+				{% set class = 'col-sm-6' %}
+			{% elseif column_left or column_right %}
+				{% set class = 'col-sm-9' %}
+			{% else %}
+				{% set class = 'col-sm-12' %}
+			{% endif %}
+			{% if content_top or content_bottom %}
+				<div id="content" class="{{ class }}">{{ content_top }}{{ content_bottom }}</div>
+			{% endif %}
+			{{ column_right }}</div>
+	</div>
+{% endif %}
+
+{{ j3.loadController('journal3/seo/rich_snippets') }}
+{{ footer }}
