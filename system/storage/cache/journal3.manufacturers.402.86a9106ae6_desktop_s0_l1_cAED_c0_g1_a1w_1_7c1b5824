@@ -1,0 +1,330 @@
+<?php $val = array (
+  'css' => '.module-manufacturers-402 .swiper-container{overflow:hidden;padding-bottom:10px}.module-manufacturers-402 .swiper-buttons{display:none;top:50%;width:calc(100% - (-15px * 2));margin-top:-10px}.module-manufacturers-402:hover .swiper-buttons{display:block}.module-manufacturers-402 .swiper-button-prev{left:0;right:auto;transform:translate(0, -50%)}.module-manufacturers-402 .swiper-button-next{left:auto;right:0;transform:translate(0, -50%)}.module-manufacturers-402 .swiper-buttons
+div{width:35px;height:35px;background:rgba(30, 46, 78, 1);border-width:4px;border-style:solid;border-color:rgba(255, 255, 255, 1);border-radius:50%}.module-manufacturers-402 .swiper-button-disabled{opacity:0}.module-manufacturers-402 .swiper-buttons div::before{content:\'\\e408\' !important;font-family:icomoon !important;color:rgba(255, 255, 255, 1)}.module-manufacturers-402 .swiper-buttons .swiper-button-next::before{content:\'\\e409\' !important;font-family:icomoon !important;color:rgba(255, 255, 255, 1)}.module-manufacturers-402 .swiper-buttons div:not(.swiper-button-disabled):hover{background:rgba(226, 41, 61, 1)}.module-manufacturers-402 .swiper-pagination{display:block;margin-bottom:-10px;left:50%;right:auto;transform:translateX(-50%)}.module-manufacturers-402
+.swiper{padding-bottom:15px}.module-manufacturers-402 .swiper-pagination-bullet{width:8px;height:8px;background-color:rgba(219, 232, 242, 1)}.module-manufacturers-402 .swiper-pagination>span+span{margin-left:8px}.desktop .module-manufacturers-402 .swiper-pagination-bullet:hover{background-color:rgba(226, 41, 61, 1)}.module-manufacturers-402 .swiper-pagination-bullet.swiper-pagination-bullet-active{background-color:rgba(226, 41, 61, 1)}.module-manufacturers-402 .swiper-pagination>span{border-radius:20px}.module-manufacturers-402 .manufacturer-layout.swiper-slide{margin-right:0px;width:calc((100% - 4 * 0px) / 5 - 0.01px)}.module-manufacturers-402 .manufacturer-layout:not(.swiper-slide){padding:0px;width:calc(100% / 5 - 0.01px)}.one-column #content .module-manufacturers-402 .manufacturer-layout.swiper-slide{margin-right:0px;width:calc((100% - 0 * 0px) / 1 - 0.01px)}.one-column #content .module-manufacturers-402 .manufacturer-layout:not(.swiper-slide){padding:0px;width:calc(100% / 1 - 0.01px)}.two-column #content .module-manufacturers-402 .manufacturer-layout.swiper-slide{margin-right:0px;width:calc((100% - 0 * 0px) / 1 - 0.01px)}.two-column #content .module-manufacturers-402 .manufacturer-layout:not(.swiper-slide){padding:0px;width:calc(100% / 1 - 0.01px)}.side-column .module-manufacturers-402 .manufacturer-layout.swiper-slide{margin-right:0px;width:calc((100% - 0 * 0px) / 1 - 0.01px)}.side-column .module-manufacturers-402 .manufacturer-layout:not(.swiper-slide){padding:0px;width:calc(100% / 1 - 0.01px)}.module-manufacturers-402:not(.carousel-mode) .module-body>.module-item>.manufacturer-grid{margin-bottom:10px}@media (max-width: 1024px){.module-manufacturers-402 .swiper-buttons{display:none !important}}@media (max-width: 980px){.module-manufacturers-402 .manufacturer-layout.swiper-slide{margin-right:0px;width:calc((100% - 3 * 0px) / 4 - 0.01px)}.module-manufacturers-402 .manufacturer-layout:not(.swiper-slide){padding:0px;width:calc(100% / 4 - 0.01px)}}@media (max-width: 760px){.module-manufacturers-402 .swiper-container{overflow:visible}}@media (max-width: 470px){.module-manufacturers-402 .manufacturer-layout.swiper-slide{margin-right:0px;width:calc((100% - 1 * 0px) / 2 - 0.01px)}.module-manufacturers-402 .manufacturer-layout:not(.swiper-slide){padding:0px;width:calc(100% / 2 - 0.01px)}}',
+  'fonts' => 
+  array (
+  ),
+  'settings' => 
+  array (
+    'schedule' => 
+    array (
+      'from' => '',
+      'to' => '',
+      'between' => true,
+    ),
+    'sectionsDisplay' => 'blocks',
+    'sectionsDisplayTablet' => '',
+    'sectionsDisplayPhone' => '',
+    'carousel' => false,
+    'itemsPerRow' => 
+    array (
+      'c0' => 
+      array (
+        0 => 
+        array (
+          'items' => 5,
+          'spacing' => 0,
+        ),
+        980 => 
+        array (
+          'items' => 4,
+          'spacing' => 0,
+        ),
+        470 => 
+        array (
+          'items' => 2,
+          'spacing' => 0,
+        ),
+      ),
+      'c1' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+      'c2' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+      'sc' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+    ),
+    'default' => '',
+    'imageDimensions' => 
+    array (
+      'width' => 250,
+      'height' => 150,
+      'resize' => 'fit',
+    ),
+    'status' => true,
+    'id' => 'manufacturers-6239a570b711f',
+    'module_id' => 402,
+    'classes' => 
+    array (
+      0 => 'module',
+      1 => 'module-manufacturers',
+      2 => 'module-manufacturers-402',
+      3 => 'module-manufacturers-',
+      'carousel-mode' => false,
+      'isotope' => false,
+    ),
+    'image_width' => 250,
+    'image_height' => 150,
+    'image_resize' => 'fit',
+    'carouselOptions' => 
+    array (
+      'speed' => 500,
+      'autoplay' => 
+      array (
+        'delay' => 3000,
+      ),
+      'pauseOnHover' => true,
+      'loop' => false,
+    ),
+    'dummy_image' => 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPoAAACWAQMAAADNFAdfAAAABlBMVEUAAAAEAgSXNbeIAAAAAXRSTlMAQObYZgAAAAlwSFlzAAAOxAAADsQBlSsOGwAAABxJREFUWMPtwTEBAAAAwqD1T20Gf6AAAAAAgM8AE1YAAdgjtw8AAAAASUVORK5CYII=',
+    'default_index' => 1,
+    'items' => 
+    array (
+      1 => 
+      array (
+        'title' => '',
+        'id' => '402-1',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-1',
+          'tab-pane' => false,
+          'active' => false,
+          'panel' => false,
+          'panel-active' => false,
+          'swiper-slide' => false,
+        ),
+        'tab_classes' => 
+        array (
+          0 => 'tab-1',
+          'active' => false,
+        ),
+        'panel_classes' => 
+        array (
+          0 => 'panel-collapse',
+          1 => 'collapse',
+          'in' => false,
+        ),
+        'manufacturers' => 
+        array (
+          5 => 
+          array (
+            'classes' => 
+            array (
+              'swiper-slide' => false,
+              'isotope-item' => false,
+            ),
+            'manufacturer_id' => '5',
+            'thumb' => 'http://localhost/test2/image/cache/catalog/journal3/brands/htc_logo-250x150w.jpg',
+            'thumb2x' => 'http://localhost/test2/image/cache/catalog/journal3/brands/htc_logo-500x300w.jpg',
+            'name' => 'HTC',
+            'href' => 'http://localhost/test2/index.php?route=product/manufacturer/info&amp;manufacturer_id=5',
+          ),
+          21 => 
+          array (
+            'classes' => 
+            array (
+              'swiper-slide' => false,
+              'isotope-item' => false,
+            ),
+            'manufacturer_id' => '21',
+            'thumb' => 'http://localhost/test2/image/cache/catalog/journal3/brands/sarah-cosmetics-250x150h.jpg',
+            'thumb2x' => 'http://localhost/test2/image/cache/catalog/journal3/brands/sarah-cosmetics-500x300h.jpg',
+            'name' => 'Sarah Bloom',
+            'href' => 'http://localhost/test2/index.php?route=product/manufacturer/info&amp;manufacturer_id=21',
+          ),
+          20 => 
+          array (
+            'classes' => 
+            array (
+              'swiper-slide' => false,
+              'isotope-item' => false,
+            ),
+            'manufacturer_id' => '20',
+            'thumb' => 'http://localhost/test2/image/cache/catalog/journal3/brands/sarah-beauty-250x150h.jpg',
+            'thumb2x' => 'http://localhost/test2/image/cache/catalog/journal3/brands/sarah-beauty-500x300h.jpg',
+            'name' => 'Sarah Bell',
+            'href' => 'http://localhost/test2/index.php?route=product/manufacturer/info&amp;manufacturer_id=20',
+          ),
+          19 => 
+          array (
+            'classes' => 
+            array (
+              'swiper-slide' => false,
+              'isotope-item' => false,
+            ),
+            'manufacturer_id' => '19',
+            'thumb' => 'http://localhost/test2/image/cache/catalog/journal3/brands/olivia-fashion-250x150h.jpg',
+            'thumb2x' => 'http://localhost/test2/image/cache/catalog/journal3/brands/olivia-fashion-500x300h.jpg',
+            'name' => 'Olivia Smith',
+            'href' => 'http://localhost/test2/index.php?route=product/manufacturer/info&amp;manufacturer_id=19',
+          ),
+          18 => 
+          array (
+            'classes' => 
+            array (
+              'swiper-slide' => false,
+              'isotope-item' => false,
+            ),
+            'manufacturer_id' => '18',
+            'thumb' => 'http://localhost/test2/image/cache/catalog/journal3/brands/mellisa-250x150h.jpg',
+            'thumb2x' => 'http://localhost/test2/image/cache/catalog/journal3/brands/mellisa-500x300h.jpg',
+            'name' => 'Melissa Johnson',
+            'href' => 'http://localhost/test2/index.php?route=product/manufacturer/info&amp;manufacturer_id=18',
+          ),
+          17 => 
+          array (
+            'classes' => 
+            array (
+              'swiper-slide' => false,
+              'isotope-item' => false,
+            ),
+            'manufacturer_id' => '17',
+            'thumb' => 'http://localhost/test2/image/cache/catalog/journal3/brands/FC-fashion-250x150h.jpg',
+            'thumb2x' => 'http://localhost/test2/image/cache/catalog/journal3/brands/FC-fashion-500x300h.jpg',
+            'name' => 'Fort Cane',
+            'href' => 'http://localhost/test2/index.php?route=product/manufacturer/info&amp;manufacturer_id=17',
+          ),
+          16 => 
+          array (
+            'classes' => 
+            array (
+              'swiper-slide' => false,
+              'isotope-item' => false,
+            ),
+            'manufacturer_id' => '16',
+            'thumb' => 'http://localhost/test2/image/cache/catalog/journal3/brands/fashion-250x150h.jpg',
+            'thumb2x' => 'http://localhost/test2/image/cache/catalog/journal3/brands/fashion-500x300h.jpg',
+            'name' => 'NY Fashion',
+            'href' => 'http://localhost/test2/index.php?route=product/manufacturer/info&amp;manufacturer_id=16',
+          ),
+          15 => 
+          array (
+            'classes' => 
+            array (
+              'swiper-slide' => false,
+              'isotope-item' => false,
+            ),
+            'manufacturer_id' => '15',
+            'thumb' => 'http://localhost/test2/image/cache/catalog/journal3/brands/erikson-250x150h.jpg',
+            'thumb2x' => 'http://localhost/test2/image/cache/catalog/journal3/brands/erikson-500x300h.jpg',
+            'name' => 'Ericksson',
+            'href' => 'http://localhost/test2/index.php?route=product/manufacturer/info&amp;manufacturer_id=15',
+          ),
+          14 => 
+          array (
+            'classes' => 
+            array (
+              'swiper-slide' => false,
+              'isotope-item' => false,
+            ),
+            'manufacturer_id' => '14',
+            'thumb' => 'http://localhost/test2/image/cache/catalog/journal3/brands/hipster-250x150h.jpg',
+            'thumb2x' => 'http://localhost/test2/image/cache/catalog/journal3/brands/hipster-500x300h.jpg',
+            'name' => 'Hipster',
+            'href' => 'http://localhost/test2/index.php?route=product/manufacturer/info&amp;manufacturer_id=14',
+          ),
+          13 => 
+          array (
+            'classes' => 
+            array (
+              'swiper-slide' => false,
+              'isotope-item' => false,
+            ),
+            'manufacturer_id' => '13',
+            'thumb' => 'http://localhost/test2/image/cache/catalog/journal3/brands/chic-250x150h.jpg',
+            'thumb2x' => 'http://localhost/test2/image/cache/catalog/journal3/brands/chic-500x300h.jpg',
+            'name' => 'Chic D\'or',
+            'href' => 'http://localhost/test2/index.php?route=product/manufacturer/info&amp;manufacturer_id=13',
+          ),
+          12 => 
+          array (
+            'classes' => 
+            array (
+              'swiper-slide' => false,
+              'isotope-item' => false,
+            ),
+            'manufacturer_id' => '12',
+            'thumb' => 'http://localhost/test2/image/cache/catalog/journal3/brands/awesome-250x150h.jpg',
+            'thumb2x' => 'http://localhost/test2/image/cache/catalog/journal3/brands/awesome-500x300h.jpg',
+            'name' => 'Awesome Brand',
+            'href' => 'http://localhost/test2/index.php?route=product/manufacturer/info&amp;manufacturer_id=12',
+          ),
+          11 => 
+          array (
+            'classes' => 
+            array (
+              'swiper-slide' => false,
+              'isotope-item' => false,
+            ),
+            'manufacturer_id' => '11',
+            'thumb' => 'http://localhost/test2/image/cache/catalog/journal3/brands/superbrand-250x150h.jpg',
+            'thumb2x' => 'http://localhost/test2/image/cache/catalog/journal3/brands/superbrand-500x300h.jpg',
+            'name' => 'SuperBrand',
+            'href' => 'http://localhost/test2/index.php?route=product/manufacturer/info&amp;manufacturer_id=11',
+          ),
+          10 => 
+          array (
+            'classes' => 
+            array (
+              'swiper-slide' => false,
+              'isotope-item' => false,
+            ),
+            'manufacturer_id' => '10',
+            'thumb' => 'http://localhost/test2/image/cache/catalog/journal3/brands/sony_logo-250x150h.jpg',
+            'thumb2x' => 'http://localhost/test2/image/cache/catalog/journal3/brands/sony_logo-500x300h.jpg',
+            'name' => 'Sony',
+            'href' => 'http://localhost/test2/index.php?route=product/manufacturer/info&amp;manufacturer_id=10',
+          ),
+          9 => 
+          array (
+            'classes' => 
+            array (
+              'swiper-slide' => false,
+              'isotope-item' => false,
+            ),
+            'manufacturer_id' => '9',
+            'thumb' => 'http://localhost/test2/image/cache/catalog/journal3/brands/canon_logo-250x150w.jpg',
+            'thumb2x' => 'http://localhost/test2/image/cache/catalog/journal3/brands/canon_logo-500x300w.jpg',
+            'name' => 'Canon',
+            'href' => 'http://localhost/test2/index.php?route=product/manufacturer/info&amp;manufacturer_id=9',
+          ),
+          8 => 
+          array (
+            'classes' => 
+            array (
+              'swiper-slide' => false,
+              'isotope-item' => false,
+            ),
+            'manufacturer_id' => '8',
+            'thumb' => 'http://localhost/test2/image/cache/catalog/journal3/brands/apple_logo-250x150h.jpg',
+            'thumb2x' => 'http://localhost/test2/image/cache/catalog/journal3/brands/apple_logo-500x300h.jpg',
+            'name' => 'Apple',
+            'href' => 'http://localhost/test2/index.php?route=product/manufacturer/info&amp;manufacturer_id=8',
+          ),
+        ),
+        'items' => 
+        array (
+        ),
+      ),
+    ),
+  ),
+);

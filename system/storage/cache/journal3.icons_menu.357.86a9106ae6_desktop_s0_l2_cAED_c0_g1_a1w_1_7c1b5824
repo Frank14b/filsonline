@@ -1,0 +1,71 @@
+<?php $val = array (
+  'css' => '.icons-menu-357>ul{margin-top:-30px}.icons-menu-357 .links-text{white-space:normal;overflow:visible;text-overflow:ellipsis}.icons-menu-357
+a{width:100px;height:100px}.icons-menu-357
+ul{justify-content:flex-start}.icons-menu-357 .module-title{text-align:right}.icons-menu-357 .module-title::after{left:auto;right:0;transform:none}',
+  'fonts' => 
+  array (
+  ),
+  'settings' => 
+  array (
+    'schedule' => 
+    array (
+      'from' => '',
+      'to' => '',
+      'between' => true,
+    ),
+    'title' => '',
+    'tooltipStatus' => false,
+    'tooltipPosition' => 'top',
+    'imageDimensions' => 
+    array (
+      'width' => NULL,
+      'height' => NULL,
+      'resize' => 'fill',
+    ),
+    'status' => true,
+    'id' => 'icons-menu-6239a59c35808',
+    'module_id' => 357,
+    'classes' => 
+    array (
+      0 => 'icons-menu',
+      1 => 'icons-menu-357',
+    ),
+    'items' => 
+    array (
+      1 => 
+      array (
+        'title' => '',
+        'link' => 
+        array (
+          'type' => '',
+          'id' => '',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'type' => 'image',
+        'classes' => 
+        array (
+          0 => 'menu-item',
+          1 => 'icons-menu-item',
+          2 => 'icons-menu-item-1',
+          'multi-level' => false,
+          'dropdown' => false,
+          'drop-menu' => false,
+          3 => 'icon-menu-image',
+        ),
+        'items' => 
+        array (
+        ),
+        'image' => 'http://localhost/test2/image/cache/catalog/logo-fils-724x281.png',
+        'image2x' => 'http://localhost/test2/image/cache/catalog/logo-fils-724x281.png',
+      ),
+    ),
+  ),
+);

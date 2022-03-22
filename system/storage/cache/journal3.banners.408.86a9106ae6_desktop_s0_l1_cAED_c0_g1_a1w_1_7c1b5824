@@ -1,0 +1,117 @@
+<?php $val = array (
+  'css' => '.module-banners-408 .module-item.swiper-slide{margin-right:0px;width:calc((100% - 0 * 0px) / 1 - 0.01px)}.module-banners-408 .module-item:not(.swiper-slide){padding:0px;width:calc(100% / 1 - 0.01px)}.one-column #content .module-banners-408 .module-item.swiper-slide{margin-right:0px;width:calc((100% - 0 * 0px) / 1 - 0.01px)}.one-column #content .module-banners-408 .module-item:not(.swiper-slide){padding:0px;width:calc(100% / 1 - 0.01px)}.two-column #content .module-banners-408 .module-item.swiper-slide{margin-right:0px;width:calc((100% - 0 * 0px) / 1 - 0.01px)}.two-column #content .module-banners-408 .module-item:not(.swiper-slide){padding:0px;width:calc(100% / 1 - 0.01px)}.side-column .module-banners-408 .module-item.swiper-slide{margin-right:0px;width:calc((100% - 0 * 0px) / 1 - 0.01px)}.side-column .module-banners-408 .module-item:not(.swiper-slide){padding:0px;width:calc(100% / 1 - 0.01px)}.module-banners-408 a
+img{transform:scale(1)}.module-banners-408 .module-item{margin:40px;margin-right:80px;margin-left:80px}.module-banners-408 .module-item>a{border-radius:50px}.module-banners-408 .module-item>a::before{background:rgba(0, 0, 0, 0.3)}.module-banners-408 a::before{opacity:0}.desktop .module-banners-408 a:hover::before{opacity:1}.module-banners-408 .module-item>a::after{content:\'\\e5c8\' !important;font-family:icomoon !important}.module-banners-408 a::after{opacity:0}.desktop .module-banners-408 a:hover::after{opacity:1}.module-banners-408 .banner-caption{visibility:hidden;opacity:0;display:block}.desktop .module-banners-408 a:hover .banner-caption{visibility:visible;opacity:1}.module-banners-408 a .banner-caption{width:100%}.module-banners-408 .banner-caption
+span{white-space:normal;;font-weight:700;text-align:center;text-transform:uppercase;padding:12px}.module-banners-408 .banner-caption-2{visibility:hidden;opacity:0;display:block;top:auto;left:50%;right:auto;bottom:0;transform:translate3d(-50%, 0, 0)}.desktop .module-banners-408 a:hover .banner-caption-2{visibility:visible;opacity:1}.module-banners-408 a .banner-caption-2{width:100%}.module-banners-408 .banner-caption-2
+span{white-space:normal;;padding:10px}.module-banners-408 .banner-caption-3
+span{white-space:normal;;border-radius:12px}@media (max-width: 1024px){.module-banners-408 .module-item{margin:0px}}',
+  'fonts' => 
+  array (
+  ),
+  'settings' => 
+  array (
+    'schedule' => 
+    array (
+      'from' => '',
+      'to' => '',
+      'between' => true,
+    ),
+    'title' => '',
+    'carousel' => false,
+    'itemsPerRow' => 
+    array (
+      'c0' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+      'c1' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+      'c2' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+      'sc' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+    ),
+    'imageDimensions' => 
+    array (
+      'width' => NULL,
+      'height' => NULL,
+      'resize' => 'fit',
+    ),
+    'lazyLoad' => false,
+    'status' => true,
+    'id' => 'banners-6239a57159b5f',
+    'module_id' => 408,
+    'classes' => 
+    array (
+      0 => 'module',
+      1 => 'module-banners',
+      2 => 'module-banners-408',
+      'carousel-mode' => false,
+    ),
+    'carouselOptions' => 
+    array (
+      'speed' => 0,
+      'autoplay' => false,
+      'pauseOnHover' => false,
+      'loop' => false,
+    ),
+    'items' => 
+    array (
+      1 => 
+      array (
+        'title' => '',
+        'title2' => '',
+        'title3' => '',
+        'alt' => '',
+        'link' => 
+        array (
+          'type' => 'page',
+          'id' => '',
+          'href' => 'http://localhost/test2/index.php?route=product/special',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'id' => '408-1',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-1',
+          'swiper-slide' => false,
+        ),
+        'image' => 'http://localhost/test2/image/cache/catalog/bolver%2038-7255x2425.png',
+        'image2x' => 'http://localhost/test2/image/cache/catalog/bolver%2038-7255x2425.png',
+        'text' => NULL,
+        'items' => 
+        array (
+        ),
+      ),
+    ),
+  ),
+);
