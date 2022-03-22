@@ -1,0 +1,120 @@
+<?php $val = array (
+  'css' => '.module-banners-399 .module-item.swiper-slide{margin-right:20px;width:calc((100% - 0 * 20px) / 1 - 0.01px)}.module-banners-399 .module-item:not(.swiper-slide){padding:10px;width:calc(100% / 1 - 0.01px)}.one-column #content .module-banners-399 .module-item.swiper-slide{margin-right:0px;width:calc((100% - 0 * 0px) / 1 - 0.01px)}.one-column #content .module-banners-399 .module-item:not(.swiper-slide){padding:0px;width:calc(100% / 1 - 0.01px)}.two-column #content .module-banners-399 .module-item.swiper-slide{margin-right:0px;width:calc((100% - 0 * 0px) / 1 - 0.01px)}.two-column #content .module-banners-399 .module-item:not(.swiper-slide){padding:0px;width:calc(100% / 1 - 0.01px)}.side-column .module-banners-399 .module-item.swiper-slide{margin-right:0px;width:calc((100% - 0 * 0px) / 1 - 0.01px)}.side-column .module-banners-399 .module-item:not(.swiper-slide){padding:0px;width:calc(100% / 1 - 0.01px)}.module-banners-399 .swiper-container{padding:12px}.module-banners-399 a
+img{transform:scale(1)}.desktop .module-banners-399 a:hover
+img{transform:scale(1.15)}.module-banners-399 .module-item>a{border-radius:12px}.module-banners-399 .module-item>a::before{background:rgba(140, 187, 13, 0.3)}.module-banners-399 a::before{opacity:0}.desktop .module-banners-399 a:hover::before{opacity:1}.module-banners-399 .module-item>a::after{content:\'\\e93a\' !important;font-family:icomoon !important;font-size:50px;color:rgba(255, 255, 255, 1);top:50%;left:50%;right:auto;bottom:auto;transform:translate3d(-50%, -50%, 0)}.module-banners-399 a::after{opacity:0}.desktop .module-banners-399 a:hover::after{opacity:1}.module-banners-399 a .banner-caption{visibility:visible;opacity:1;display:block;width:auto}.module-banners-399 .banner-caption{top:0;left:0;right:auto;bottom:auto;transform:translate3d(0, 0, 0)}.module-banners-399 .banner-caption
+span{white-space:normal;;font-family:montserratbold;font-weight:700;font-size:18px;color:rgba(51, 51, 51, 1);text-align:center;text-transform:uppercase;background:rgba(255, 255, 255, 1);margin:20px;padding:7px;padding-right:10px;padding-left:10px}.module-banners-399 .banner-caption-2{visibility:hidden;opacity:0;display:block;top:auto;left:50%;right:auto;bottom:0;transform:translate3d(-50%, 0, 0)}.desktop .module-banners-399 a:hover .banner-caption-2{visibility:visible;opacity:1}.module-banners-399 a .banner-caption-2{width:auto}.module-banners-399 .banner-caption-2 span::after{content:\'\\e9b1\' !important;font-family:icomoon !important;font-size:14px;margin-left:5px}.module-banners-399 .banner-caption-2
+span{white-space:normal;;font-size:13px;font-weight:400;text-transform:uppercase;padding-bottom:5px;border-width:0;border-bottom-width:1px;border-style:solid}.desktop .module-banners-399 a:hover .banner-caption-2
+span{margin-bottom:25px}.module-banners-399 .banner-caption-3
+span{white-space:normal}@media (max-width: 470px){.module-banners-399 .banner-caption
+span{font-size:13px;margin:5px}}.module-banners-399 .module-item-1>a::after{font-size:80px}',
+  'fonts' => 
+  array (
+  ),
+  'settings' => 
+  array (
+    'schedule' => 
+    array (
+      'from' => '',
+      'to' => '',
+      'between' => true,
+    ),
+    'title' => '',
+    'carousel' => false,
+    'itemsPerRow' => 
+    array (
+      'c0' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 20,
+        ),
+      ),
+      'c1' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+      'c2' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+      'sc' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+    ),
+    'imageDimensions' => 
+    array (
+      'width' => NULL,
+      'height' => NULL,
+      'resize' => 'fill',
+    ),
+    'lazyLoad' => false,
+    'status' => true,
+    'id' => 'banners-6239a56fedd05',
+    'module_id' => 399,
+    'classes' => 
+    array (
+      0 => 'module',
+      1 => 'module-banners',
+      2 => 'module-banners-399',
+      'carousel-mode' => false,
+    ),
+    'carouselOptions' => 
+    array (
+      'speed' => 0,
+      'autoplay' => false,
+      'pauseOnHover' => false,
+      'loop' => false,
+    ),
+    'items' => 
+    array (
+      1 => 
+      array (
+        'title' => '',
+        'title2' => '',
+        'title3' => '',
+        'alt' => '',
+        'link' => 
+        array (
+          'type' => 'product',
+          'id' => '321',
+          'href' => 'http://localhost/test2/index.php?route=product/product&amp;product_id=321',
+          'name' => 'Large Wallet',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'id' => '399-1',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-1',
+          'swiper-slide' => false,
+        ),
+        'image' => 'http://localhost/test2/image/cache/catalog/Asset%2011-892x496.png',
+        'image2x' => 'http://localhost/test2/image/cache/catalog/Asset%2011-892x496.png',
+        'text' => NULL,
+        'items' => 
+        array (
+        ),
+      ),
+    ),
+  ),
+);
