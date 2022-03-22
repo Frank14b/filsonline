@@ -15,7 +15,7 @@ a{justify-content:center;width:100%}div.links-menu-72 .count-badge{display:none}
     ),
     'title' => '',
     'status' => true,
-    'id' => 'links-menu-6235d14a4b8a1',
+    'id' => 'links-menu-62387d1f57a42',
     'module_id' => 72,
     'classes' => 
     array (

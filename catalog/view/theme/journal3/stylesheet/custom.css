@@ -46,13 +46,6 @@
     margin-bottom: -4%;
 }
 
-.header-search>.search-button::before {
-    content: '\ebaf' !important;
-    font-family: icomoon !important;
-    font-size: 22px;
-    color: rgba(140, 187, 13, 0.993);
-}
-
 
 /** custom text weight */
 

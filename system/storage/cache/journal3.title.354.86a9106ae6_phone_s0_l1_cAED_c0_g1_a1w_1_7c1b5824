@@ -17,7 +17,7 @@ h3{font-size:15px;color:rgba(140, 187, 13, 1)}.module-title-354 .title-wrapper
     'title' => 'We\'re Always Here To Help',
     'subtitle' => 'Reach out to us through any of these support channls',
     'status' => true,
-    'id' => 'title-6235d14a414ea',
+    'id' => 'title-62387d1f4aee1',
     'module_id' => 354,
     'classes' => 
     array (

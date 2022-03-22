@@ -1,9 +1,14 @@
 {
-  "fonts": [
-    "Helvetica, Arial, sans-serif",
-    "Georgia, serif",
-    "Times, serif",
-    "Tahoma, Geneva, sans-serif",
-    "Verdana, Geneva, sans-serif"
-  ]
+    "fonts": [
+        "Helvetica, Arial, sans-serif",
+        "Georgia, serif",
+        "Times, serif",
+        "Tahoma, Geneva, sans-serif",
+        "Verdana, Geneva, sans-serif",
+        "montserratbold",
+        "montserratlight",
+        "montserratmedium",
+        "montserratregular",
+        "montserratsemibold"
+    ]
 }

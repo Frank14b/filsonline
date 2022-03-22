@@ -157,10 +157,17 @@
 	}
 
 	/* first product caroussel custom css */
-	.module-products-359 .product-grid .product-thumb {
-		margin: 5px !important;
+	.module-products-359 .product-grid .product-thumb, 
+	.module-products-360 .product-grid .product-thumb,
+	.module-products-381 .product-grid .product-thumb,
+	.module-products-390 .product-grid .product-thumb,
+	.module-products-257 .product-grid .product-thumb{
 		border-radius: 15px !important;
 		box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px !important;
+	}
+	.module-products-359 .product-grid .product-thumb,
+	.module-products-390 .product-grid .product-thumb {
+		margin: 5px !important;
 	}
 	.module-products-360 .product-layout.swiper-slide {
 		margin: 5px;
@@ -177,9 +184,9 @@
 	/** brands custom css */
 	.module-manufacturers-317 .category-thumb .image,
 	.grid-item-top-6-1-2 .manufacturer-thumb .image {
-		background: #f5f5f5;
+		background: url("catalog/view/theme/journal3/image/bg-outlet.png")center/cover;
 		border-radius: 7px !important;
-		padding: 8px;
+		padding: 20px;
 	}
 	.category-thumb .image,
 	.grid-item-top-6-1-2 .manufacturer-thumb .image img {
@@ -194,6 +201,33 @@
 	/** categories css custom */
 	.module-categories-372 .category-thumb {
 		padding: 10px;
+	}
+
+	.module-categories-379 .category-layout:not(.swiper-slide) {
+		padding: 10px
+	}
+	.module-grid-392 .grid-row-1 .grid-col-1 {
+		margin-top: -100px;
+	}
+	.colCounter{
+		margin-top: -10px;
+		text-align: center;
+		color: #fff;
+		font-weight: bold;
+	}
+	.colCounter label {
+		background: #fff;
+		color: #222;
+		margin: 15px;
+		padding: 15px;
+		padding-left: 25px;
+		padding-right: 25px;
+		font-size: 40px;
+		font-weight: bold;
+		border-radius: 15px;
+	}
+	.date-couter {
+		display: none;
 	}
 </style>
 

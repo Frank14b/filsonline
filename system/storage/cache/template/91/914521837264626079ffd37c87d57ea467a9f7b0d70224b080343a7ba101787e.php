@@ -191,11 +191,9 @@ class __TwigTemplate_5e9db3177c61484afbdc29bdeb736cdb3f956681308a3c97d84076c550c
 \t\tbox-shadow: rgba(0, 0, 0, 0.15) 0px 1px 2px !important;
 \t}
 
-\t.header-search > .search-button::before {
-\t\tcolor: rgba(140, 187, 13, 0.993) !important;
-\t\tfont-size: 17px;
-\t}
-
+\t";
+        // line 91
+        echo "
 \t@media only screen and (max-width: 1024px) {
 \t\t.custom-menu-div, .language-text, .currency-text{
 \t\t\tdisplay: none;
@@ -227,7 +225,7 @@ class __TwigTemplate_5e9db3177c61484afbdc29bdeb736cdb3f956681308a3c97d84076c550c
 
     public function getDebugInfo()
     {
-        return array (  175 => 69,  172 => 68,  166 => 66,  163 => 65,  156 => 61,  150 => 58,  146 => 56,  144 => 55,  137 => 51,  132 => 48,  124 => 45,  121 => 44,  99 => 41,  94 => 40,  92 => 39,  88 => 37,  80 => 28,  72 => 21,  65 => 15,  59 => 12,  54 => 10,  48 => 7,  44 => 5,  42 => 4,  37 => 1,);
+        return array (  196 => 91,  175 => 69,  172 => 68,  166 => 66,  163 => 65,  156 => 61,  150 => 58,  146 => 56,  144 => 55,  137 => 51,  132 => 48,  124 => 45,  121 => 44,  99 => 41,  94 => 40,  92 => 39,  88 => 37,  80 => 28,  72 => 21,  65 => 15,  59 => 12,  54 => 10,  48 => 7,  44 => 5,  42 => 4,  37 => 1,);
     }
 
     public function getSourceContext()
