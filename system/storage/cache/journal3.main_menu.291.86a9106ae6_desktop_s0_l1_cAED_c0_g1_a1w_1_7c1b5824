@@ -1,0 +1,184 @@
+<?php $val = array (
+  'css' => 'div.main-menu.main-menu-291 > .j-menu .menu-item.main-menu-item-1>a::before{content:\'\\e9b4\' !important;font-family:icomoon !important}.desktop-main-menu-wrapper .main-menu-291 .mega-custom.main-menu-item-1 .mega-menu-content{width:550px;position:relative;left:0;transform:none}.desktop-main-menu-wrapper .main-menu-291 .mega-custom.main-menu-item-1>.dropdown-menu::before{left:0;transform:none}.main-menu-291 > .j-menu li.main-menu-item-1>a::before{margin:0}.main-menu-291 > .j-menu li.main-menu-item-1 > a .links-text{display:none}.desktop-main-menu-wrapper .main-menu-291 > .j-menu li.main-menu-item-1:not(.mega-fullwidth)>.dropdown-menu::before{display:none;border-bottom-color:rgba(255, 255, 255, 1);margin-left:10px}.desktop-main-menu-wrapper .main-menu-291 > .j-menu li.main-menu-item-1.multi-level .dropdown-menu ul li .dropdown-menu{left:100%}.main-menu-291 > .j-menu li.main-menu-item-1>a>.menu-label{color:rgba(255, 255, 255, 1);font-weight:400;text-transform:none;background:rgba(226, 41, 61, 1);border-radius:3px;padding:1px;padding-right:5px;padding-left:5px}',
+  'fonts' => 
+  array (
+  ),
+  'settings' => 
+  array (
+    'status' => true,
+    'id' => 'main-menu',
+    'module_id' => 291,
+    'classes' => 
+    array (
+      0 => 'main-menu',
+      1 => 'main-menu-291',
+      'accordion-menu' => false,
+    ),
+    'display' => 'dropdown',
+    'items' => 
+    array (
+      1 => 
+      array (
+        'title' => '',
+        'label' => '',
+        'link' => 
+        array (
+          'type' => 'category',
+          'id' => '175',
+          'href' => 'http://localhost/test2/index.php?route=product/category&amp;path=175',
+          'name' => 'Home Decor',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'type' => 'multilevel',
+        'mobileOpen' => false,
+        'classes' => 
+        array (
+          0 => 'menu-item',
+          1 => 'main-menu-item',
+          2 => 'main-menu-item-1',
+          'multi-level' => true,
+          'dropdown' => true,
+          'drop-menu' => 
+          array (
+            0 => false,
+            1 => true,
+          ),
+          'icon-only' => true,
+          'menu-fullwidth' => false,
+          'mega-fullwidth' => false,
+          'mega-custom' => false,
+        ),
+        'items' => 
+        array (
+          213 => 
+          array (
+            'category_id' => '213',
+            'parent_id' => '175',
+            'title' => 'Armchair',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c213',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://localhost/test2/index.php?route=product/category&amp;path=175_213',
+              'total' => '1',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          222 => 
+          array (
+            'category_id' => '222',
+            'parent_id' => '175',
+            'title' => 'Decor',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c222',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://localhost/test2/index.php?route=product/category&amp;path=175_222',
+              'total' => '1',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          176 => 
+          array (
+            'category_id' => '176',
+            'parent_id' => '175',
+            'title' => 'Lamps',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c176',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://localhost/test2/index.php?route=product/category&amp;path=175_176',
+              'total' => '1',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          189 => 
+          array (
+            'category_id' => '189',
+            'parent_id' => '175',
+            'title' => 'Sofa',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c189',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://localhost/test2/index.php?route=product/category&amp;path=175_189',
+              'total' => '2',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          180 => 
+          array (
+            'category_id' => '180',
+            'parent_id' => '175',
+            'title' => 'Tables',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c180',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://localhost/test2/index.php?route=product/category&amp;path=175_180',
+              'total' => '1',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+        'isOpen' => false,
+      ),
+    ),
+  ),
+);
