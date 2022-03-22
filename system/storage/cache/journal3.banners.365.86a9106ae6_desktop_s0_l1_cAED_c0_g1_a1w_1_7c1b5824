@@ -63,7 +63,7 @@ span{font-size:13px;margin:5px;padding:5px}}',
     ),
     'lazyLoad' => false,
     'status' => true,
-    'id' => 'banners-6239a56f6fc3b',
+    'id' => 'banners-6239b75cdcd12',
     'module_id' => 365,
     'classes' => 
     array (

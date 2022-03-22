@@ -18,7 +18,7 @@ h3{font-family:montserratbold;font-weight:400;font-size:20px;color:rgba(226, 41,
     'title' => 'GET 1',
     'subtitle' => '',
     'status' => true,
-    'id' => 'title-6239a57123f3f',
+    'id' => 'title-6239b75db75f7',
     'module_id' => 405,
     'classes' => 
     array (

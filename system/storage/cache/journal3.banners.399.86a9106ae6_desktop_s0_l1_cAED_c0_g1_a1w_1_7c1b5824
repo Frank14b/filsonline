@@ -63,7 +63,7 @@ span{font-size:13px;margin:5px}}.module-banners-399 .module-item-1>a::after{font
     ),
     'lazyLoad' => false,
     'status' => true,
-    'id' => 'banners-6239a56fedd05',
+    'id' => 'banners-6239b75d3a6a4',
     'module_id' => 399,
     'classes' => 
     array (

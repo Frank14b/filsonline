@@ -77,7 +77,7 @@ span{transform:scale(calc(100 / 100));transform-origin:center}.desktop .module-m
     ),
     'lazyLoad' => false,
     'status' => true,
-    'id' => 'master_slider-6239a56ef1437',
+    'id' => 'master_slider-6239b75c7e4ea',
     'module_id' => 394,
     'classes' => 
     array (

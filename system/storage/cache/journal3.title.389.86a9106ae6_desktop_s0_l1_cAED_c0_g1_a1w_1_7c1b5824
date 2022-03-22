@@ -16,7 +16,7 @@ h3{font-family:montserratbold;font-weight:400;font-size:40px;color:rgba(19,32,58
     'title' => 'THE HOTTEST BRAND',
     'subtitle' => '',
     'status' => true,
-    'id' => 'title-6239a571b54f2',
+    'id' => 'title-6239b75e667bc',
     'module_id' => 389,
     'classes' => 
     array (
