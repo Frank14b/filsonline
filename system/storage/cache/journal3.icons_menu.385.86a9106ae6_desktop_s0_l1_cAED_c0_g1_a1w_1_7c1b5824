@@ -24,7 +24,7 @@ ul{background:none;justify-content:center}.icons-menu-385>ul{margin:10px;margin-
       'resize' => 'fit',
     ),
     'status' => true,
-    'id' => 'icons-menu-6239b75c72d07',
+    'id' => 'icons-menu-6239c508b26f9',
     'module_id' => 385,
     'classes' => 
     array (
@@ -108,7 +108,7 @@ ul{background:none;justify-content:center}.icons-menu-385>ul{margin:10px;margin-
         array (
           'type' => 'custom',
           'id' => '',
-          'href' => 'test',
+          'href' => 'http://localhost/test2/index.php?route=common/homeoutlet',
           'name' => '',
           'total' => NULL,
           'attrs' => 
@@ -142,7 +142,7 @@ ul{background:none;justify-content:center}.icons-menu-385>ul{margin:10px;margin-
         array (
           'type' => 'custom',
           'id' => '',
-          'href' => 'test',
+          'href' => 'http://localhost/test2/index.php?route=common/homebestdeals',
           'name' => '',
           'total' => NULL,
           'attrs' => 

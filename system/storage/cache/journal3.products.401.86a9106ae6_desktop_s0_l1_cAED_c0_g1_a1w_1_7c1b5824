@@ -181,7 +181,7 @@ i{color:rgba(105, 105, 115, 1);background-color:rgba(238, 238, 238, 1)}.module-p
     'moduleProductStat1' => 'brand',
     'moduleProductStat2' => 'none',
     'status' => true,
-    'id' => 'products-6239b75d4ec22',
+    'id' => 'products-6239c50a5e153',
     'module_id' => 401,
     'classes' => 
     array (

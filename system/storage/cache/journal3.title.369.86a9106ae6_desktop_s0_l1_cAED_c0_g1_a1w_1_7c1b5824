@@ -16,7 +16,7 @@ h3{font-family:montserratbold;font-weight:700;font-size:40px;color:rgba(19,32,58
     'title' => 'COUPON ZONE',
     'subtitle' => '',
     'status' => true,
-    'id' => 'title-6239b75d8daf0',
+    'id' => 'title-6239c50aaecb4',
     'module_id' => 369,
     'classes' => 
     array (
