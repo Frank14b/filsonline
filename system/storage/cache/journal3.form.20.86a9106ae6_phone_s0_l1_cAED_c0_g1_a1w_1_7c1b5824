@@ -1,0 +1,166 @@
+<?php $val = array (
+  'css' => '.module-form-20 .title.module-title{font-size:22px;font-weight:700;border-width:0px;padding:0px;margin-bottom:20px;white-space:normal;overflow:visible;text-overflow:initial}.module-form-20
+.buttons{margin-top:20px;font-size:12px}.module-form-20 .buttons>div{flex:1;width:auto;flex-basis:0}.module-form-20 .buttons > div
+.btn{width:100%}.module-form-20 .buttons .pull-left{margin-right:0}.module-form-20 .buttons>div+div{padding-left:20px}.module-form-20 .buttons .pull-right:only-child{flex:1;margin:0
+0 0 auto}.module-form-20 .buttons .pull-right:only-child
+.btn{width:100%}.module-form-20 .buttons input+.btn{margin-top:5px}.module-form-20 .buttons input[type=checkbox]{margin-right:7px !important;margin-left:3px !important}@media (max-width: 470px){.module-form-20 .buttons>div{width:100%;flex-basis:auto}.module-form-20 .buttons>div+div{padding-top:10px;padding-left:0px}}',
+  'fonts' => 
+  array (
+  ),
+  'settings' => 
+  array (
+    'schedule' => 
+    array (
+      'from' => '',
+      'to' => '',
+      'between' => true,
+    ),
+    'title' => 'Looking forward to hearing from you',
+    'agree' => '3',
+    'sentText' => 'Sent',
+    'sentEmailTo' => '',
+    'sentEmailSubject' => '{{ $store }} - Enquiry from {{ $email }}',
+    'sentEmailLogo' => false,
+    'sentEmailTitle' => 'A new message has been received!',
+    'sentEmailField' => 'Field',
+    'sentEmailValue' => 'Value',
+    'sentEmailUsingModule' => 'Sent using module',
+    'sentEmailFrom' => 'Sent from',
+    'sentEmailIPAddress' => 'IP Address',
+    'status' => true,
+    'id' => 'form-623aedbbe4e3a',
+    'module_id' => 20,
+    'classes' => 
+    array (
+      0 => 'module',
+      1 => 'module-form',
+      2 => 'module-form-20',
+    ),
+    'text_select' => ' --- Please Select --- ',
+    'text_loading' => 'Loading...',
+    'button_submit' => 'Submit',
+    'button_upload' => 'Upload File',
+    'datepicker' => 'en-gb',
+    'action' => 'http://localhost/test2/index.php?route=journal3/form/send&amp;module_id=20',
+    'agree_data' => 
+    array (
+      'text' => 'I have read and agree to the <a href="http://localhost/test2/index.php?route=information/information/agree&amp;information_id=3" class="agree"><b>Privacy Policy</b></a>',
+      'error' => 'Warning: You must agree to the Privacy Policy!',
+    ),
+    'items' => 
+    array (
+      1 => 
+      array (
+        'name' => 'Name',
+        'label' => 'Your Name',
+        'placeholder' => '',
+        'type' => 'name',
+        'required' => true,
+        'id' => '20-1',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-1',
+        ),
+        'items' => 
+        array (
+        ),
+      ),
+      2 => 
+      array (
+        'name' => 'Email',
+        'label' => 'Your Email',
+        'placeholder' => '',
+        'type' => 'email',
+        'required' => true,
+        'id' => '20-2',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-2',
+        ),
+        'items' => 
+        array (
+        ),
+      ),
+      3 => 
+      array (
+        'name' => 'Topic',
+        'label' => 'Topic',
+        'placeholder' => '',
+        'type' => 'select',
+        'required' => false,
+        'id' => '20-3',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-3',
+        ),
+        'items' => 
+        array (
+          1 => 
+          array (
+            'name' => 'Option 1',
+            'label' => 'Capture the information you need',
+            'id' => '20-3-1',
+            'classes' => 
+            array (
+              0 => 'module-subitem',
+              1 => 'module-subitem-1',
+            ),
+          ),
+          2 => 
+          array (
+            'name' => 'Option 2',
+            'label' => 'Add or remove any fields',
+            'id' => '20-3-2',
+            'classes' => 
+            array (
+              0 => 'module-subitem',
+              1 => 'module-subitem-2',
+            ),
+          ),
+          3 => 
+          array (
+            'name' => 'Option 3',
+            'label' => 'Your own custom criteria',
+            'id' => '20-3-3',
+            'classes' => 
+            array (
+              0 => 'module-subitem',
+              1 => 'module-subitem-3',
+            ),
+          ),
+          4 => 
+          array (
+            'name' => 'Option 4',
+            'label' => 'Make any field required or not',
+            'id' => '20-3-4',
+            'classes' => 
+            array (
+              0 => 'module-subitem',
+              1 => 'module-subitem-4',
+            ),
+          ),
+        ),
+      ),
+      4 => 
+      array (
+        'name' => 'Textarea',
+        'label' => 'Message',
+        'placeholder' => '',
+        'type' => 'textarea',
+        'required' => true,
+        'id' => '20-4',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-4',
+        ),
+        'items' => 
+        array (
+        ),
+      ),
+    ),
+  ),
+);

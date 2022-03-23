@@ -1,0 +1,32 @@
+<?php $val = array (
+  'css' => '.module-title-427 .title-wrapper
+h3{font-family:montserratbold;font-weight:700;font-size:30px;color:rgba(19, 32, 58, 1);text-align:center;text-transform:uppercase}.module-title-427 .title-wrapper
+.subtitle{font-family:montserratbold;font-weight:400;font-size:15px;color:rgba(140, 187, 13, 1);font-style:italic;text-align:center;text-transform:capitalize;text-decoration:underline}.module-title-427 .title-wrapper::before{opacity:.05;display:block}.module-title-427 .title-wrapper{text-align:center}.module-title-427 .title-divider{margin-left:auto;margin-right:auto}',
+  'fonts' => 
+  array (
+  ),
+  'settings' => 
+  array (
+    'schedule' => 
+    array (
+      'from' => '',
+      'to' => '',
+      'between' => true,
+    ),
+    'type' => 'custom',
+    'title' => 'New arrivals by brands',
+    'subtitle' => 'Shop All',
+    'status' => true,
+    'id' => 'title-623aeaa9b1c57',
+    'module_id' => 427,
+    'classes' => 
+    array (
+      0 => 'module',
+      1 => 'module-title',
+      2 => 'module-title-427',
+    ),
+    'items' => 
+    array (
+    ),
+  ),
+);

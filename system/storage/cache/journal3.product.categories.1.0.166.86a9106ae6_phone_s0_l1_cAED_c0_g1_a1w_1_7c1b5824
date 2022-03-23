@@ -1,0 +1,743 @@
+<?php $val = array (
+  'category_id' => '166',
+  'parent_id' => '0',
+  'title' => 'Baby &amp; Kids',
+  'items' => 
+  array (
+    171 => 
+    array (
+      'category_id' => '171',
+      'parent_id' => '166',
+      'title' => 'Baby Care',
+      'items' => 
+      array (
+        174 => 
+        array (
+          'category_id' => '174',
+          'parent_id' => '171',
+          'title' => 'Bedding',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c174',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://localhost/test2/index.php?route=product/category&amp;path=166_171_174',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        172 => 
+        array (
+          'category_id' => '172',
+          'parent_id' => '171',
+          'title' => 'Diapers',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c172',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://localhost/test2/index.php?route=product/category&amp;path=166_171_172',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        173 => 
+        array (
+          'category_id' => '173',
+          'parent_id' => '171',
+          'title' => 'Wipes',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c173',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://localhost/test2/index.php?route=product/category&amp;path=166_171_173',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c171',
+        'dropdown' => 
+        array (
+          174 => 
+          array (
+            'category_id' => '174',
+            'parent_id' => '171',
+            'title' => 'Bedding',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c174',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://localhost/test2/index.php?route=product/category&amp;path=166_171_174',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          172 => 
+          array (
+            'category_id' => '172',
+            'parent_id' => '171',
+            'title' => 'Diapers',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c172',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://localhost/test2/index.php?route=product/category&amp;path=166_171_172',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          173 => 
+          array (
+            'category_id' => '173',
+            'parent_id' => '171',
+            'title' => 'Wipes',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c173',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://localhost/test2/index.php?route=product/category&amp;path=166_171_173',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://localhost/test2/index.php?route=product/category&amp;path=166_171',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    218 => 
+    array (
+      'category_id' => '218',
+      'parent_id' => '166',
+      'title' => 'Bath',
+      'items' => 
+      array (
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c218',
+        'dropdown' => 
+        array (
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://localhost/test2/index.php?route=product/category&amp;path=166_218',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    217 => 
+    array (
+      'category_id' => '217',
+      'parent_id' => '166',
+      'title' => 'Diepers',
+      'items' => 
+      array (
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c217',
+        'dropdown' => 
+        array (
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://localhost/test2/index.php?route=product/category&amp;path=166_217',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    167 => 
+    array (
+      'category_id' => '167',
+      'parent_id' => '166',
+      'title' => 'Fashion',
+      'items' => 
+      array (
+        168 => 
+        array (
+          'category_id' => '168',
+          'parent_id' => '167',
+          'title' => 'Boys',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c168',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://localhost/test2/index.php?route=product/category&amp;path=166_167_168',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+        169 => 
+        array (
+          'category_id' => '169',
+          'parent_id' => '167',
+          'title' => 'Girls',
+          'items' => 
+          array (
+          ),
+          'classes' => 
+          array (
+            0 => 'menu-item menu-item-c169',
+            'dropdown' => 
+            array (
+            ),
+          ),
+          'link' => 
+          array (
+            'href' => 'http://localhost/test2/index.php?route=product/category&amp;path=166_167_169',
+            'total' => '0',
+            'classes' => 
+            array (
+            ),
+          ),
+        ),
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c167',
+        'dropdown' => 
+        array (
+          168 => 
+          array (
+            'category_id' => '168',
+            'parent_id' => '167',
+            'title' => 'Boys',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c168',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://localhost/test2/index.php?route=product/category&amp;path=166_167_168',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          169 => 
+          array (
+            'category_id' => '169',
+            'parent_id' => '167',
+            'title' => 'Girls',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c169',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://localhost/test2/index.php?route=product/category&amp;path=166_167_169',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://localhost/test2/index.php?route=product/category&amp;path=166_167',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    170 => 
+    array (
+      'category_id' => '170',
+      'parent_id' => '166',
+      'title' => 'Toys',
+      'items' => 
+      array (
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c170',
+        'dropdown' => 
+        array (
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://localhost/test2/index.php?route=product/category&amp;path=166_170',
+        'total' => '2',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+  ),
+  'classes' => 
+  array (
+    0 => 'menu-item menu-item-c166',
+    'dropdown' => 
+    array (
+      171 => 
+      array (
+        'category_id' => '171',
+        'parent_id' => '166',
+        'title' => 'Baby Care',
+        'items' => 
+        array (
+          174 => 
+          array (
+            'category_id' => '174',
+            'parent_id' => '171',
+            'title' => 'Bedding',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c174',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://localhost/test2/index.php?route=product/category&amp;path=166_171_174',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          172 => 
+          array (
+            'category_id' => '172',
+            'parent_id' => '171',
+            'title' => 'Diapers',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c172',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://localhost/test2/index.php?route=product/category&amp;path=166_171_172',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          173 => 
+          array (
+            'category_id' => '173',
+            'parent_id' => '171',
+            'title' => 'Wipes',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c173',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://localhost/test2/index.php?route=product/category&amp;path=166_171_173',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c171',
+          'dropdown' => 
+          array (
+            174 => 
+            array (
+              'category_id' => '174',
+              'parent_id' => '171',
+              'title' => 'Bedding',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c174',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://localhost/test2/index.php?route=product/category&amp;path=166_171_174',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            172 => 
+            array (
+              'category_id' => '172',
+              'parent_id' => '171',
+              'title' => 'Diapers',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c172',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://localhost/test2/index.php?route=product/category&amp;path=166_171_172',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            173 => 
+            array (
+              'category_id' => '173',
+              'parent_id' => '171',
+              'title' => 'Wipes',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c173',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://localhost/test2/index.php?route=product/category&amp;path=166_171_173',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://localhost/test2/index.php?route=product/category&amp;path=166_171',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      218 => 
+      array (
+        'category_id' => '218',
+        'parent_id' => '166',
+        'title' => 'Bath',
+        'items' => 
+        array (
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c218',
+          'dropdown' => 
+          array (
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://localhost/test2/index.php?route=product/category&amp;path=166_218',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      217 => 
+      array (
+        'category_id' => '217',
+        'parent_id' => '166',
+        'title' => 'Diepers',
+        'items' => 
+        array (
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c217',
+          'dropdown' => 
+          array (
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://localhost/test2/index.php?route=product/category&amp;path=166_217',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      167 => 
+      array (
+        'category_id' => '167',
+        'parent_id' => '166',
+        'title' => 'Fashion',
+        'items' => 
+        array (
+          168 => 
+          array (
+            'category_id' => '168',
+            'parent_id' => '167',
+            'title' => 'Boys',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c168',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://localhost/test2/index.php?route=product/category&amp;path=166_167_168',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          169 => 
+          array (
+            'category_id' => '169',
+            'parent_id' => '167',
+            'title' => 'Girls',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c169',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'http://localhost/test2/index.php?route=product/category&amp;path=166_167_169',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c167',
+          'dropdown' => 
+          array (
+            168 => 
+            array (
+              'category_id' => '168',
+              'parent_id' => '167',
+              'title' => 'Boys',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c168',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://localhost/test2/index.php?route=product/category&amp;path=166_167_168',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+            169 => 
+            array (
+              'category_id' => '169',
+              'parent_id' => '167',
+              'title' => 'Girls',
+              'items' => 
+              array (
+              ),
+              'classes' => 
+              array (
+                0 => 'menu-item menu-item-c169',
+                'dropdown' => 
+                array (
+                ),
+              ),
+              'link' => 
+              array (
+                'href' => 'http://localhost/test2/index.php?route=product/category&amp;path=166_167_169',
+                'total' => '0',
+                'classes' => 
+                array (
+                ),
+              ),
+            ),
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://localhost/test2/index.php?route=product/category&amp;path=166_167',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      170 => 
+      array (
+        'category_id' => '170',
+        'parent_id' => '166',
+        'title' => 'Toys',
+        'items' => 
+        array (
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c170',
+          'dropdown' => 
+          array (
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://localhost/test2/index.php?route=product/category&amp;path=166_170',
+          'total' => '2',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+    ),
+  ),
+  'link' => 
+  array (
+    'href' => 'http://localhost/test2/index.php?route=product/category&amp;path=166',
+    'total' => '0',
+    'classes' => 
+    array (
+    ),
+  ),
+);

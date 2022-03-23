@@ -1,0 +1,311 @@
+<?php $val = array (
+  'category_id' => '196',
+  'parent_id' => '0',
+  'title' => 'Flowers',
+  'items' => 
+  array (
+    199 => 
+    array (
+      'category_id' => '199',
+      'parent_id' => '196',
+      'title' => 'Lotus',
+      'items' => 
+      array (
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c199',
+        'dropdown' => 
+        array (
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://localhost/test2/index.php?route=product/category&amp;path=196_199',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    198 => 
+    array (
+      'category_id' => '198',
+      'parent_id' => '196',
+      'title' => 'Mixed Bouquets',
+      'items' => 
+      array (
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c198',
+        'dropdown' => 
+        array (
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://localhost/test2/index.php?route=product/category&amp;path=196_198',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    200 => 
+    array (
+      'category_id' => '200',
+      'parent_id' => '196',
+      'title' => 'Orchids',
+      'items' => 
+      array (
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c200',
+        'dropdown' => 
+        array (
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://localhost/test2/index.php?route=product/category&amp;path=196_200',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    204 => 
+    array (
+      'category_id' => '204',
+      'parent_id' => '196',
+      'title' => 'Roses',
+      'items' => 
+      array (
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c204',
+        'dropdown' => 
+        array (
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://localhost/test2/index.php?route=product/category&amp;path=196_204',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    197 => 
+    array (
+      'category_id' => '197',
+      'parent_id' => '196',
+      'title' => 'Sunflowers',
+      'items' => 
+      array (
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c197',
+        'dropdown' => 
+        array (
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://localhost/test2/index.php?route=product/category&amp;path=196_197',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    203 => 
+    array (
+      'category_id' => '203',
+      'parent_id' => '196',
+      'title' => 'Tulips',
+      'items' => 
+      array (
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c203',
+        'dropdown' => 
+        array (
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://localhost/test2/index.php?route=product/category&amp;path=196_203',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+  ),
+  'classes' => 
+  array (
+    0 => 'menu-item menu-item-c196',
+    'dropdown' => 
+    array (
+      199 => 
+      array (
+        'category_id' => '199',
+        'parent_id' => '196',
+        'title' => 'Lotus',
+        'items' => 
+        array (
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c199',
+          'dropdown' => 
+          array (
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://localhost/test2/index.php?route=product/category&amp;path=196_199',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      198 => 
+      array (
+        'category_id' => '198',
+        'parent_id' => '196',
+        'title' => 'Mixed Bouquets',
+        'items' => 
+        array (
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c198',
+          'dropdown' => 
+          array (
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://localhost/test2/index.php?route=product/category&amp;path=196_198',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      200 => 
+      array (
+        'category_id' => '200',
+        'parent_id' => '196',
+        'title' => 'Orchids',
+        'items' => 
+        array (
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c200',
+          'dropdown' => 
+          array (
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://localhost/test2/index.php?route=product/category&amp;path=196_200',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      204 => 
+      array (
+        'category_id' => '204',
+        'parent_id' => '196',
+        'title' => 'Roses',
+        'items' => 
+        array (
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c204',
+          'dropdown' => 
+          array (
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://localhost/test2/index.php?route=product/category&amp;path=196_204',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      197 => 
+      array (
+        'category_id' => '197',
+        'parent_id' => '196',
+        'title' => 'Sunflowers',
+        'items' => 
+        array (
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c197',
+          'dropdown' => 
+          array (
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://localhost/test2/index.php?route=product/category&amp;path=196_197',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      203 => 
+      array (
+        'category_id' => '203',
+        'parent_id' => '196',
+        'title' => 'Tulips',
+        'items' => 
+        array (
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c203',
+          'dropdown' => 
+          array (
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://localhost/test2/index.php?route=product/category&amp;path=196_203',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+    ),
+  ),
+  'link' => 
+  array (
+    'href' => 'http://localhost/test2/index.php?route=product/category&amp;path=196',
+    'total' => '0',
+    'classes' => 
+    array (
+    ),
+  ),
+);

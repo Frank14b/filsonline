@@ -60,7 +60,7 @@ span{white-space:normal;;border-radius:12px}',
     ),
     'lazyLoad' => false,
     'status' => true,
-    'id' => 'banners-6239c50ba2181',
+    'id' => 'banners-623aec02a7d1e',
     'module_id' => 380,
     'classes' => 
     array (

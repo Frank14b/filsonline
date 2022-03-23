@@ -1,0 +1,71 @@
+<?php $val = array (
+  'css' => '.module-grid-425 .grid-row-1{background:rgba(221, 221, 221, 1)}.module-grid-425 .grid-row-1::before{display:block;left:0;width:100vw}.module-grid-425 .grid-row-1 .grid-col-1{width:100%;background:none}.module-grid-425 .grid-row-1 .grid-col-1 .grid-item{height:auto}.module-grid-425 .grid-row-1 .grid-col-1 .grid-items{justify-content:center}',
+  'fonts' => 
+  array (
+  ),
+  'settings' => 
+  array (
+    'name' => 'New Column',
+    'grid_classes' => 
+    array (
+      0 => 'module',
+      1 => 'module-grid',
+      2 => 'module-grid-425',
+      3 => 'grid-rows',
+    ),
+    'rows' => 
+    array (
+      1 => 
+      array (
+        'classes' => 
+        array (
+          0 => 'grid-row',
+          1 => 'grid-row-1',
+        ),
+        'columns' => 
+        array (
+          1 => 
+          array (
+            'name' => 'New Column',
+            'classes' => 
+            array (
+              0 => 'grid-col',
+              1 => 'grid-col-1',
+            ),
+            'items' => 
+            array (
+              1 => 
+              array (
+                'classes' => 
+                array (
+                  0 => 'grid-item',
+                  1 => 'grid-item-1',
+                ),
+                'item' => 
+                array (
+                  'id' => '369',
+                  'name' => 'coupon zone',
+                  'type' => 'title',
+                ),
+              ),
+              2 => 
+              array (
+                'classes' => 
+                array (
+                  0 => 'grid-item',
+                  1 => 'grid-item-2',
+                ),
+                'item' => 
+                array (
+                  'id' => '426',
+                  'name' => 'buy 1 get 1 Copy',
+                  'type' => 'categories',
+                ),
+              ),
+            ),
+          ),
+        ),
+      ),
+    ),
+  ),
+);

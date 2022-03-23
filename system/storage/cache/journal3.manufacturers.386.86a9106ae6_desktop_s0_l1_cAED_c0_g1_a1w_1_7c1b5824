@@ -78,7 +78,7 @@ a{white-space:normal;overflow:visible;text-overflow:initial;font-size:11px;color
       'resize' => 'fill',
     ),
     'status' => true,
-    'id' => 'manufacturers-6239c50b94e33',
+    'id' => 'manufacturers-623aec029d527',
     'module_id' => 386,
     'classes' => 
     array (
