@@ -100,10 +100,41 @@ class ControllerCommonCart extends Controller {
 				$total = false;
 			}
 
+				
+				/* xml tmd vendor2 seler condtion  */
+				/* #####13 02 2021##### */
+				$vlbles = $this->config->get('vendor_languages');	
+				if(!empty($vlbles[$this->config->get('config_language_id')]['byseller'])) {
+				$data['text_byseller']= $vlbles[$this->config->get('config_language_id')]['byseller'].': ';
+				} else {			
+				$data['text_byseller'] = $this->language->get('text_byseller');
+				}
+				/* #####13 02 2021##### */
+				$data['customer2vendor'] = $this->config->get('vendor_customer2vendor');
+				/* tmd vendor2 seler condtion  */
+				if(isset($product['sellerdisplay'])){
+				$sellerdisplay = $product['sellerdisplay'];
+				} else {
+				$sellerdisplay = '';
+				}
+
+				if(isset($product['vendor_ids'])){
+				$vendor_ids = $product['vendor_ids'];
+				} else {
+				$vendor_ids = '';
+				}
+				/* xml */
+				
 			$data['products'][] = array(
 				'cart_id'   => $product['cart_id'],
 				'thumb'     => $image,
 				'name'      => $product['name'],
+
+				/* xml */
+				'sellerdisplay'   => $sellerdisplay,
+				'vendor_ids'      => $this->url->link('vendor/vendor_profile', 'vendor_id=' .$vendor_ids),
+				/* xml */
+				
 				'model'     => $product['model'],
 				'option'    => $option_data,
 				'recurring' => ($product['recurring'] ? $product['recurring']['name'] : ''),

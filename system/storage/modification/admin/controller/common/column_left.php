@@ -137,6 +137,159 @@ class ControllerCommonColumnLeft extends Controller {
 			}
 
 			// Extension
+
+			// Seller
+			$this->load->language('vendor/menu');
+			$seller = array();
+			
+			/* 03 10 2019 s */
+			if ($this->user->hasPermission('access', 'vendor/vendor')) {		
+				$seller[] = array(
+					'name'	   => $this->language->get('text_vendorsetting'),
+					'href'     => $this->url->link('vendor/vendor/setting', 'user_token=' . $this->session->data['user_token'], true),
+					'children' => array()		
+				);					
+			}	
+			
+			/* 03 10 2019 e */
+			
+			if ($this->user->hasPermission('access', 'vendor/vendor')) {
+				$seller[] = array(
+					'name'	   => $this->language->get('text_manageseller'),
+					'href'     => $this->url->link('vendor/vendor', 'user_token=' . $this->session->data['user_token'], true),
+					'children' => array()
+				);
+			}
+			
+		
+			
+			/* if ($this->user->hasPermission('access', 'vendor/store')) {
+				$seller[] = array(
+					'name'	   => $this->language->get('text_store'),
+					'href'     => $this->url->link('vendor/store', 'user_token=' . $this->session->data['user_token'], true),
+					'children' => array()
+				);
+			} */
+
+			if ($this->user->hasPermission('access', 'vendor/commission')) {
+				$seller[] = array(
+					'name'	   => $this->language->get('text_commission'),
+					'href'     => $this->url->link('vendor/commission', 'user_token=' . $this->session->data['user_token'], true),
+					'children' => array()
+				);
+			}
+
+			if ($this->user->hasPermission('access', 'vendor/commission_report')) {
+				$seller[] = array(
+					'name'	   => $this->language->get('text_commission_report'),
+					'href'     => $this->url->link('vendor/commission_report', 'user_token=' . $this->session->data['user_token'], true),
+					'children' => array()
+				);
+			}
+			if ($this->user->hasPermission('access', 'vendor/product')) {
+				$seller[] = array(
+					'name'	   => $this->language->get('text_sellerproduct'),
+					'href'     => $this->url->link('vendor/product', 'user_token=' . $this->session->data['user_token'], true),
+					'children' => array()
+				);
+			}
+			if ($this->user->hasPermission('access', 'vendor/report')) {
+				$seller[] = array(
+					'name'	   => $this->language->get('text_sellerorder'),
+					'href'     => $this->url->link('vendor/report', 'user_token=' . $this->session->data['user_token'], true),
+					'children' => array()
+				);
+			}
+			if ($this->user->hasPermission('access', 'vendor/review')) {
+				$seller[] = array(
+					'name'	   => $this->language->get('text_sellerreview'),
+					'href'     => $this->url->link('vendor/review', 'user_token=' . $this->session->data['user_token'], true),
+					'children' => array()
+				);
+			}
+			if ($this->user->hasPermission('access', 'vendor/review_field')) {
+				$seller[] = array(
+					'name'	   => $this->language->get('text_reviewfield'),
+					'href'     => $this->url->link('vendor/review_field', 'user_token=' . $this->session->data['user_token'], true),
+					'children' => array()
+				);
+			}
+
+			if ($this->user->hasPermission('access', 'vendor/mail')) {
+				$seller[] = array(
+					'name'	   => $this->language->get('text_sellermail'),
+					'href'     => $this->url->link('vendor/mail', 'user_token=' . $this->session->data['user_token'], true),
+					'children' => array()
+				);
+			}
+
+			if ($this->user->hasPermission('access', 'vendor/income')) {
+				$seller[] = array(
+					'name'	   => $this->language->get('text_income'),
+					'href'     => $this->url->link('vendor/income', 'user_token=' . $this->session->data['user_token'], true),
+					'children' => array()
+				);
+			}
+			/* if ($this->user->hasPermission('access', 'vendor/notification')) {
+				$seller[] = array(
+					'name'	   => $this->language->get('text_notification'),
+					'href'     => $this->url->link('vendor/notification', 'user_token=' . $this->session->data['user_token'], true),
+					'children' => array()
+				);
+			} */
+
+
+			if ($this->user->hasPermission('access', 'vendor/shipping')) {
+				$seller[] = array(
+					'name'	   => $this->language->get('text_shippingrate'),
+					'href'     => $this->url->link('vendor/shipping', 'user_token=' . $this->session->data['user_token'], true),
+					'children' => array()
+				);
+			}
+
+			if ($this->user->hasPermission('access', 'vendor/enquiry')) {
+				$seller[] = array(
+					'name'	   => $this->language->get('text_enquire'),
+					'href'     => $this->url->link('vendor/enquiry', 'user_token=' . $this->session->data['user_token'], true),
+					'children' => array()
+				);
+			}
+
+			if ($this->user->hasPermission('access', 'vendor/import')) {
+				$seller[] = array(
+					'name'	   => $this->language->get('text_import'),
+					'href'     => $this->url->link('vendor/import', 'user_token=' . $this->session->data['user_token'], true),
+					'children' => array()
+				);
+			}
+
+			if ($this->user->hasPermission('access', 'vendor/export')) {
+				$seller[] = array(
+					'name'	   => $this->language->get('text_export'),
+					'href'     => $this->url->link('vendor/export', 'user_token=' . $this->session->data['user_token'], true),
+					'children' => array()
+				);
+			}
+		
+			if ($this->user->hasPermission('access', 'vendor/shiftproduct')) {
+				$seller[] = array(
+					'name'	   => $this->language->get('text_shiftproduct'),
+					'href'     => $this->url->link('vendor/shiftproduct', 'user_token=' . $this->session->data['user_token'], true),
+					'children' => array()
+				);
+			}
+
+			if ($seller) {
+				$data['menus'][] = array(
+					'id'       => 'menu-seller',
+					'icon'	   => 'fa-users fw',
+					'name'	   => $this->language->get('text_seller'),
+					'href'     => '',
+					'children' => $seller
+				);
+			}
+
+			
 			$marketplace = array();
 
 			if ($this->user->hasPermission('access', 'marketplace/marketplace')) {
@@ -605,13 +758,7 @@ class ControllerCommonColumnLeft extends Controller {
 					'children' => array()
 				);
 			}
-if ($this->user->hasPermission('access', 'extension/export_import')) {
-				$maintenance[] = array(
-					'name'	   => $this->language->get('text_export_import'),
-					'href'     => $this->url->link('extension/export_import', 'user_token=' . $this->session->data['user_token'], true),
-					'children' => array()		
-				);
-			}
+
 
 			if ($this->user->hasPermission('access', 'extension/export_import')) {
 				$maintenance[] = array(

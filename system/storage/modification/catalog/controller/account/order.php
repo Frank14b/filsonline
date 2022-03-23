@@ -52,9 +52,61 @@ class ControllerAccountOrder extends Controller {
 			$product_total = $this->model_account_order->getTotalOrderProductsByOrderId($result['order_id']);
 			$voucher_total = $this->model_account_order->getTotalOrderVouchersByOrderId($result['order_id']);
 
+			/* xml */
+			$this->load->model('vendor/vendor');
+			$orderstatus_info = $this->model_vendor_vendor->getCustomerOrder($result['order_id']);
+			if(isset($orderstatus_info['order_status_id'])){
+			$order_status_id = $orderstatus_info['order_status_id'];
+			} else {
+			$order_status_id =0;
+			}
+			$status_info = $this->model_vendor_vendor->getCustomerOrderStatus($order_status_id);
+			if(isset($status_info['name'])) {
+				$statusname = $status_info['name'];
+			} else {
+				$statusname='';
+			}
+			
+			/* 03-10-2019 */
+			$this->load->model('vendor/vendor');
+			$data['column_productname'] = $this->language->get('column_productname');
+			
+			$productnameinfos = $this->model_vendor_vendor->getOrderProductsNames($result['order_id']);			
+			$productnames = array();
+			
+			foreach ($productnameinfos as $productnameinfo) {				
+				
+				$vendorstatusinfo = $this->model_vendor_vendor->getOrderProductstatus($productnameinfo['order_product_id']);
+				
+				$status_infos='';
+				
+				if(isset($vendorstatusinfo['status'])) {
+					$status_infos=$vendorstatusinfo['status'];
+				} else {
+					$status_infos=$result['status'];
+				}
+							 
+				$productnames[] = array (
+					'productname'=> $productnameinfo['name'],				
+					'vstatus'    => $status_infos
+				);				
+			}
+			/* 03-10-2019 */
+			/* xml */
+			
+
 			$data['orders'][] = array(
 				'order_id'   => $result['order_id'],
 				'name'       => $result['firstname'] . ' ' . $result['lastname'],
+
+			/* xml */
+			'statusname' => $statusname,
+			'order_status_id' => $order_status_id,
+			/* 03-10-2019 */
+				'productname' 	 => $productnames,
+			/* 03-10-2019 */
+			/* xml */
+			
 				'status'     => $result['status'],
 				'date_added' => date($this->language->get('date_format_short'), strtotime($result['date_added'])),
 				'products'   => ($product_total + $voucher_total),
@@ -135,6 +187,15 @@ class ControllerAccountOrder extends Controller {
 				'href' => $this->url->link('account/order/info', 'order_id=' . $this->request->get['order_id'] . $url, true)
 			);
 
+
+			/* xml */
+			$data['column_tracking'] = $this->language->get('column_tracking');
+			/* 03-10-2019 */
+			$data['column_productname'] = $this->language->get('column_productname');
+			$data['column_updatedstatus'] = $this->language->get('column_updatedstatus');			
+			/* 03-10-2019 */
+			/* xml */
+			
 			if (isset($this->session->data['error'])) {
 				$data['error_warning'] = $this->session->data['error'];
 
@@ -272,6 +333,21 @@ class ControllerAccountOrder extends Controller {
 					$reorder = '';
 				}
 
+
+			/* xml */
+			$this->load->model('vendor/vendor');
+			$tracking_info = $this->model_vendor_vendor->getSellerOrdertrack($order_info['order_id']);
+			
+			if(!empty($tracking_info['tracking'])) {
+			$tracking = $tracking_info['tracking'];
+			$data['tracking_code'] = $tracking_info['tracking'];
+			} else {
+			$tracking = '';
+			$data['tracking_code'] = '';
+			}
+			
+			/* xml */
+			
 				$data['products'][] = array(
 
                 'classes'        => array(
@@ -281,6 +357,11 @@ class ControllerAccountOrder extends Controller {
 					'name'     => $product['name'],
 					'model'    => $product['model'],
 					'option'   => $option_data,
+
+			/* xml */
+			'tracking' => $tracking,
+			/* xml */
+			
 					'quantity' => $product['quantity'],
 					'price'    => $this->currency->format($product['price'] + ($this->config->get('config_tax') ? $product['tax'] : 0), $order_info['currency_code'], $order_info['currency_value']),
 					'total'    => $this->currency->format($product['total'] + ($this->config->get('config_tax') ? ($product['tax'] * $product['quantity']) : 0), $order_info['currency_code'], $order_info['currency_value']),
@@ -318,9 +399,51 @@ class ControllerAccountOrder extends Controller {
 			// History
 			$data['histories'] = array();
 
-			$results = $this->model_account_order->getOrderHistories($this->request->get['order_id']);
+			
+				/* 06 102 2020 update */			
+				$chkvendor_id = $this->model_vendor_vendor->getVOrderHistories($this->request->get['order_id']);
+				$data['chkvendor_id'] = $this->model_vendor_vendor->getVOrderHistories($this->request->get['order_id']);
+				if(!empty($chkvendor_id)){
+					$results = $this->model_vendor_vendor->getVOrderHistories($this->request->get['order_id']);
+				} else {
+					$results = $this->model_account_order->getOrderHistories($this->request->get['order_id']);
+				}
+				/* 06 102 2020 update */			
+			
 
 			foreach ($results as $result) {
+
+				/* 06 102 2020 update */
+				if(!empty($chkvendor_id)){
+					$this->load->model('vendor/vendor');
+					$orderstatus_info = $this->model_vendor_vendor->getCustomerOrder($result['order_status_id']);
+					
+						$order_status_id = $orderstatus_info['order_status_id'];
+						$status_info = $this->model_vendor_vendor->getCustomerOrderStatus($orderstatus_info['order_status_id']);
+						
+						if(isset($status_info['name'])) {
+							$statusname = $status_info['name'];
+						} else {
+							$statusname='';
+						}
+						 
+						$productname = $this->model_vendor_vendor->getOrderProductsName($result['order_product_id']);
+						if(!empty($productname['name'])) {
+						$productname = $productname['name'];
+						} else{
+						$productname ='';
+						}
+						$data['histories'][] = array(
+							'date_added' => date($this->language->get('date_format_short'), strtotime($result['date_added'])),
+							'status' => $statusname,
+							'order_status_id'=> $order_status_id,
+							'productname'    => $productname,
+							'updatedstatus'  => $result['updateby'],	
+							'comment'        => nl2br($result['comment'])				
+					);
+				} else {
+				/* 06 102 2020 update */
+			
 				$data['histories'][] = array(
 					'date_added' => date($this->language->get('date_format_short'), strtotime($result['date_added'])),
 					'status'     => $result['status'],
@@ -328,6 +451,11 @@ class ControllerAccountOrder extends Controller {
 				);
 			}
 
+
+				/* 06 102 2020 update */			
+				}
+				/* 06 102 2020 update */			
+			
 			$data['continue'] = $this->url->link('account/order', '', true);
 
 			$data['column_left'] = $this->load->controller('common/column_left');

@@ -1,0 +1,314 @@
+<?php $val = array (
+  'css' => '.module-catalog-119 .module-item.swiper-slide{margin-right:0px;width:calc((100% - 9 * 0px) / 10 - 0.01px)}.module-catalog-119 .module-item:not(.swiper-slide){padding:0px;width:calc(100% / 10 - 0.01px)}.one-column #content .module-catalog-119 .module-item.swiper-slide{margin-right:0px;width:calc((100% - 5 * 0px) / 6 - 0.01px)}.one-column #content .module-catalog-119 .module-item:not(.swiper-slide){padding:0px;width:calc(100% / 6 - 0.01px)}.two-column #content .module-catalog-119 .module-item.swiper-slide{margin-right:0px;width:calc((100% - 2 * 0px) / 3 - 0.01px)}.two-column #content .module-catalog-119 .module-item:not(.swiper-slide){padding:0px;width:calc(100% / 3 - 0.01px)}.side-column .module-catalog-119 .module-item.swiper-slide{margin-right:0px;width:calc((100% - 0 * 0px) / 1 - 0.01px)}.side-column .module-catalog-119 .module-item:not(.swiper-slide){padding:0px;width:calc(100% / 1 - 0.01px)}.module-catalog-119 .catalog-title{margin-bottom:8px;display:flex;color:rgba(51, 51, 51, 1);font-weight:700;width:auto;margin-left:0;margin-right:auto;justify-content:flex-start;white-space:normal;overflow:visible;text-overflow:initial}.module-catalog-119
+.subitems{align-items:flex-start}.module-catalog-119 .subitem > a
+span{font-size:13px;color:rgba(58, 71, 84, 1)}.module-catalog-119 .subitem > a:hover
+span{text-decoration:underline}.module-catalog-119 .subitem.view-more a
+span{font-size:12px;color:rgba(105, 105, 115, 1);font-weight:700;text-decoration:underline}.module-catalog-119 .subitem.view-more a:hover
+span{color:rgba(15, 58, 141, 1)}.module-catalog-119 .subitem>a{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;padding-bottom:5px}.module-catalog-119 .subitem>a::before{content:\'\\e409\' !important;font-family:icomoon !important;font-size:10px}.module-catalog-119 .catalog-image
+img{border-width:1px;border-style:solid;border-color:rgba(221, 221, 221, 1)}.module-catalog-119 .catalog-image{margin-right:8px}.module-catalog-119 .item-assets{flex-direction:row}.module-catalog-119 .item-assets>a{max-width:40%;order:0}.module-catalog-119 .item-assets
+.subitems{width:60%}.module-catalog-119 .item-assets .catalog-image{display:block}.module-catalog-119 .title.module-title{font-family:montserratbold;font-weight:400;font-size:15px;color:rgba(51, 51, 51, 1);text-transform:capitalize;margin-bottom:15px;margin-left:60px;white-space:normal;overflow:visible;text-overflow:initial;text-align:left}.module-catalog-119 .title.module-title::after{display:none;margin-top:10px;left:initial;right:initial;margin-left:0;margin-right:auto;transform:none}.module-catalog-119 .title.module-title.page-title>span::after{display:none;margin-top:10px;left:initial;right:initial;margin-left:0;margin-right:auto;transform:none}.module-catalog-119 .title.module-title::after, .module-catalog-119 .title.module-title.page-title>span::after{width:50px;height:1px}.module-catalog-119 .item-content .catalog-image{margin-bottom:10px}@media (max-width: 1024px){.module-catalog-119 .module-item.swiper-slide{margin-right:0px;width:calc((100% - 5 * 0px) / 6 - 0.01px)}.module-catalog-119 .module-item:not(.swiper-slide){padding:0px;width:calc(100% / 6 - 0.01px)}}@media (max-width: 760px){.module-catalog-119 .module-item.swiper-slide{margin-right:0px;width:calc((100% - 2 * 0px) / 3 - 0.01px)}.module-catalog-119 .module-item:not(.swiper-slide){padding:0px;width:calc(100% / 3 - 0.01px)}}',
+  'fonts' => 
+  array (
+  ),
+  'settings' => 
+  array (
+    'schedule' => 
+    array (
+      'from' => '',
+      'to' => '',
+      'between' => true,
+    ),
+    'title' => 'Featured Sections',
+    'images' => true,
+    'imageDimensions' => 
+    array (
+      'width' => NULL,
+      'height' => NULL,
+      'resize' => 'fill',
+    ),
+    'itemsPerRow' => 
+    array (
+      'c0' => 
+      array (
+        0 => 
+        array (
+          'items' => 10,
+          'spacing' => 0,
+        ),
+        1024 => 
+        array (
+          'items' => 6,
+          'spacing' => 0,
+        ),
+        760 => 
+        array (
+          'items' => 3,
+          'spacing' => 0,
+        ),
+      ),
+      'c1' => 
+      array (
+        0 => 
+        array (
+          'items' => 6,
+          'spacing' => 0,
+        ),
+      ),
+      'c2' => 
+      array (
+        0 => 
+        array (
+          'items' => 3,
+          'spacing' => 0,
+        ),
+      ),
+      'sc' => 
+      array (
+        0 => 
+        array (
+          'items' => 1,
+          'spacing' => 0,
+        ),
+      ),
+    ),
+    'carousel' => true,
+    'carouselTablet' => true,
+    'carouselPhone' => true,
+    'viewMoreText' => 'View More',
+    'status' => true,
+    'id' => 'catalog-6239e177b542a',
+    'module_id' => 119,
+    'classes' => 
+    array (
+      0 => 'module',
+      1 => 'module-catalog',
+      2 => 'module-catalog-119',
+      'carousel-mode' => true,
+      'image-on-hover' => true,
+    ),
+    'carouselOptions' => 
+    array (
+      'speed' => 0,
+      'autoplay' => false,
+      'pauseOnHover' => false,
+      'loop' => false,
+    ),
+    'dummy_image' => 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAABlBMVEUAAAAEAgSXNbeIAAAAAXRSTlMAQObYZgAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=',
+    'items' => 
+    array (
+      1 => 
+      array (
+        'limit' => '1',
+        'id' => '119-1',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-1',
+          'swiper-slide' => true,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Macs',
+            'href' => 'http://localhost/test2/index.php?route=product/category&amp;path=18_46',
+            'image' => 'http://localhost/test2/image/cache/placeholder-1000x1000.png',
+            'image2x' => 'http://localhost/test2/image/cache/placeholder-1000x1000.png',
+          ),
+        ),
+        'image' => 'http://localhost/test2/image/cache/placeholder-1000x1000.png',
+        'name' => 'Laptops',
+        'href' => 'http://localhost/test2/index.php?route=product/category&amp;path=18',
+        'image2x' => 'http://localhost/test2/image/cache/placeholder-1000x1000.png',
+        'total' => '2',
+      ),
+      2 => 
+      array (
+        'limit' => '0',
+        'id' => '119-2',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-2',
+          'swiper-slide' => true,
+        ),
+        'items' => 
+        array (
+        ),
+        'image' => 'http://localhost/test2/image/cache/catalog/category/Asset%2010-71x67.png',
+        'name' => 'Toys',
+        'href' => 'http://localhost/test2/index.php?route=product/category&amp;path=170',
+        'image2x' => 'http://localhost/test2/image/cache/catalog/category/Asset%2010-71x67.png',
+        'total' => '0',
+      ),
+      3 => 
+      array (
+        'limit' => '0',
+        'id' => '119-3',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-3',
+          'swiper-slide' => true,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Boys',
+            'href' => 'http://localhost/test2/index.php?route=product/category&amp;path=167_168',
+            'image' => 'http://localhost/test2/image/cache/placeholder-1000x1000.png',
+            'image2x' => 'http://localhost/test2/image/cache/placeholder-1000x1000.png',
+          ),
+          1 => 
+          array (
+            'name' => 'Girls',
+            'href' => 'http://localhost/test2/index.php?route=product/category&amp;path=167_169',
+            'image' => 'http://localhost/test2/image/cache/placeholder-1000x1000.png',
+            'image2x' => 'http://localhost/test2/image/cache/placeholder-1000x1000.png',
+          ),
+        ),
+        'image' => 'http://localhost/test2/image/cache/catalog/category/Asset%205-102x93.png',
+        'name' => 'Fashion',
+        'href' => 'http://localhost/test2/index.php?route=product/category&amp;path=167',
+        'image2x' => 'http://localhost/test2/image/cache/catalog/category/Asset%205-102x93.png',
+        'total' => '2',
+      ),
+      4 => 
+      array (
+        'limit' => '1',
+        'id' => '119-4',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-4',
+          'swiper-slide' => true,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'MOBILES',
+            'href' => 'http://localhost/test2/index.php?route=product/category&amp;path=69_223',
+            'image' => 'http://localhost/test2/image/cache/placeholder-1000x1000.png',
+            'image2x' => 'http://localhost/test2/image/cache/placeholder-1000x1000.png',
+          ),
+        ),
+        'image' => 'http://localhost/test2/image/cache/catalog/category/Asset%206-71x71.png',
+        'name' => 'Electronics',
+        'href' => 'http://localhost/test2/index.php?route=product/category&amp;path=69',
+        'image2x' => 'http://localhost/test2/image/cache/catalog/category/Asset%206-71x71.png',
+        'total' => '7',
+      ),
+      5 => 
+      array (
+        'limit' => '1',
+        'id' => '119-5',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-5',
+          'swiper-slide' => true,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Accessories',
+            'href' => 'http://localhost/test2/index.php?route=product/category&amp;path=109_125',
+            'image' => 'http://localhost/test2/image/cache/placeholder-1000x1000.png',
+            'image2x' => 'http://localhost/test2/image/cache/placeholder-1000x1000.png',
+          ),
+        ),
+        'image' => 'http://localhost/test2/image/cache/catalog/category/Asset%209-71x69.png',
+        'name' => 'Health &amp; Beauty',
+        'href' => 'http://localhost/test2/index.php?route=product/category&amp;path=109',
+        'image2x' => 'http://localhost/test2/image/cache/catalog/category/Asset%209-71x69.png',
+        'total' => '6',
+      ),
+      6 => 
+      array (
+        'limit' => '0',
+        'id' => '119-6',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-6',
+          'swiper-slide' => true,
+        ),
+        'items' => 
+        array (
+        ),
+        'image' => 'http://localhost/test2/image/cache/catalog/category/Asset%209-71x69.png',
+        'name' => 'Makeup',
+        'href' => 'http://localhost/test2/index.php?route=product/category&amp;path=216',
+        'image2x' => 'http://localhost/test2/image/cache/catalog/category/Asset%209-71x69.png',
+        'total' => '0',
+      ),
+      7 => 
+      array (
+        'limit' => '0',
+        'id' => '119-7',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-7',
+          'swiper-slide' => true,
+        ),
+        'items' => 
+        array (
+        ),
+        'image' => 'http://localhost/test2/image/cache/catalog/category/Asset%2010-71x67.png',
+        'name' => 'Sports',
+        'href' => 'http://localhost/test2/index.php?route=product/category&amp;path=221',
+        'image2x' => 'http://localhost/test2/image/cache/catalog/category/Asset%2010-71x67.png',
+        'total' => '0',
+      ),
+      8 => 
+      array (
+        'limit' => '1',
+        'id' => '119-8',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-8',
+          'swiper-slide' => true,
+        ),
+        'items' => 
+        array (
+          0 => 
+          array (
+            'name' => 'Irons',
+            'href' => 'http://localhost/test2/index.php?route=product/category&amp;path=205_208',
+            'image' => 'http://localhost/test2/image/cache/placeholder-1000x1000.png',
+            'image2x' => 'http://localhost/test2/image/cache/placeholder-1000x1000.png',
+          ),
+        ),
+        'image' => 'http://localhost/test2/image/cache/placeholder-1000x1000.png',
+        'name' => 'Home Appliances',
+        'href' => 'http://localhost/test2/index.php?route=product/category&amp;path=205',
+        'image2x' => 'http://localhost/test2/image/cache/placeholder-1000x1000.png',
+        'total' => '5',
+      ),
+      9 => 
+      array (
+        'limit' => '0',
+        'id' => '119-9',
+        'classes' => 
+        array (
+          0 => 'module-item',
+          1 => 'module-item-9',
+          'swiper-slide' => true,
+        ),
+        'items' => 
+        array (
+        ),
+        'image' => 'http://localhost/test2/image/cache/catalog/demo/iphone_2-700x546.jpg',
+        'name' => 'Phones &amp; PDAs',
+        'href' => 'http://localhost/test2/index.php?route=product/category&amp;path=24',
+        'image2x' => 'http://localhost/test2/image/cache/catalog/demo/iphone_2-700x546.jpg',
+        'total' => '0',
+      ),
+    ),
+  ),
+);

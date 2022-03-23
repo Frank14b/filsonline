@@ -6,7 +6,11 @@
   'settings' => 
   array (
     'status' => false,
+<<<<<<< HEAD
     'id' => 'bottom-menu-623b084b77f3e',
+=======
+    'id' => 'bottom-menu-6239dcd93e7b8',
+>>>>>>> bce97a8671ad23763fd38cb2aa3d9089e25c5449
     'module_id' => 336,
     'classes' => 
     array (

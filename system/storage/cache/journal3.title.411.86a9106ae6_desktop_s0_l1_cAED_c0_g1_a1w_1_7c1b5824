@@ -1,0 +1,32 @@
+<?php $val = array (
+  'css' => '.module-title-411 .title-wrapper
+h3{font-family:montserratbold;font-weight:700;font-size:35px;color:rgba(226,41,61,1);text-align:center}.module-title-411{margin-top:10px;margin-right:10px}.module-title-411 .title-wrapper::before{opacity:.05;display:block}.module-title-411 .title-wrapper{text-align:center}.module-title-411 .title-divider{margin-left:auto;margin-right:auto}@media (max-width: 1024px){.module-title-411 .title-wrapper
+h3{font-family:montserratbold;font-weight:400;font-size:15px;color:rgba(226, 41, 61, 1)}}',
+  'fonts' => 
+  array (
+  ),
+  'settings' => 
+  array (
+    'schedule' => 
+    array (
+      'from' => '',
+      'to' => '',
+      'between' => true,
+    ),
+    'type' => 'custom',
+    'title' => '50-70% off',
+    'subtitle' => '',
+    'status' => true,
+    'id' => 'title-6239e1793c97b',
+    'module_id' => 411,
+    'classes' => 
+    array (
+      0 => 'module',
+      1 => 'module-title',
+      2 => 'module-title-411',
+    ),
+    'items' => 
+    array (
+    ),
+  ),
+);
