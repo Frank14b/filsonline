@@ -53,3 +53,15 @@
 2022-03-22 10:33:18 - PHP Warning:  fflush() expects parameter 1 to be resource, bool given in C:\xampp\htdocs\test2\system\storage\modification\system\library\cache\file.php on line 55
 2022-03-22 10:33:18 - PHP Warning:  flock() expects parameter 1 to be resource, bool given in C:\xampp\htdocs\test2\system\storage\modification\system\library\cache\file.php on line 57
 2022-03-22 10:33:18 - PHP Warning:  fclose() expects parameter 1 to be resource, bool given in C:\xampp\htdocs\test2\system\storage\modification\system\library\cache\file.php on line 59
+2022-03-23 15:50:16 - PHP Warning:  fopen(C:\xampp\htdocs\test2\system\storage/cache/cache.catalog.language.1648043416): failed to open stream: No such file or directory in C:\xampp\htdocs\test2\system\storage\modification\system\library\cache\file.php on line 49
+2022-03-23 15:50:16 - PHP Warning:  flock() expects parameter 1 to be resource, bool given in C:\xampp\htdocs\test2\system\storage\modification\system\library\cache\file.php on line 51
+2022-03-23 15:50:16 - PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in C:\xampp\htdocs\test2\system\storage\modification\system\library\cache\file.php on line 53
+2022-03-23 15:50:16 - PHP Warning:  fflush() expects parameter 1 to be resource, bool given in C:\xampp\htdocs\test2\system\storage\modification\system\library\cache\file.php on line 55
+2022-03-23 15:50:16 - PHP Warning:  flock() expects parameter 1 to be resource, bool given in C:\xampp\htdocs\test2\system\storage\modification\system\library\cache\file.php on line 57
+2022-03-23 15:50:16 - PHP Warning:  fclose() expects parameter 1 to be resource, bool given in C:\xampp\htdocs\test2\system\storage\modification\system\library\cache\file.php on line 59
+2022-03-23 15:50:16 - PHP Warning:  fopen(C:\xampp\htdocs\test2\system\storage/cache/cache.currency.1648043416): failed to open stream: No such file or directory in C:\xampp\htdocs\test2\system\storage\modification\system\library\cache\file.php on line 49
+2022-03-23 15:50:16 - PHP Warning:  flock() expects parameter 1 to be resource, bool given in C:\xampp\htdocs\test2\system\storage\modification\system\library\cache\file.php on line 51
+2022-03-23 15:50:16 - PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in C:\xampp\htdocs\test2\system\storage\modification\system\library\cache\file.php on line 53
+2022-03-23 15:50:16 - PHP Warning:  fflush() expects parameter 1 to be resource, bool given in C:\xampp\htdocs\test2\system\storage\modification\system\library\cache\file.php on line 55
+2022-03-23 15:50:16 - PHP Warning:  flock() expects parameter 1 to be resource, bool given in C:\xampp\htdocs\test2\system\storage\modification\system\library\cache\file.php on line 57
+2022-03-23 15:50:16 - PHP Warning:  fclose() expects parameter 1 to be resource, bool given in C:\xampp\htdocs\test2\system\storage\modification\system\library\cache\file.php on line 59

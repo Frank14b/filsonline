@@ -138,6 +138,10 @@ class ControllerStartupStartup extends Controller {
 		$customer = new Cart\Customer($this->registry);
 		$this->registry->set('customer', $customer);
 		
+
+			// vendor
+		    $vendor = new Cart\Vendor($this->registry);
+		    $this->registry->set('vendor', $vendor);
 		// Customer Group
 		if (isset($this->session->data['customer']) && isset($this->session->data['customer']['customer_group_id'])) {
 			// For API calls

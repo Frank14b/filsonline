@@ -1,0 +1,143 @@
+<div class="header header-compact header-sm">
+	<div class="top-bar navbar-nav row">
+
+		{% if j3.settings.get('langPosition') == 'top' %}
+			<div class="col-md-4 language-currency top-menu" style="margin-bottom:-10px; padding-bottom:3px;">
+				<div class="desktop-language-wrapper" style="border-right: 1px solid #aaa; padding-right:5px; margin-top: -10px;">
+					{{ language }}
+				</div>
+				<div class="desktop-currency-wrapper" style="border-right: 1px solid #fff; padding-right:5px; margin-top: -10px;">
+					{{ currency }}
+				</div>
+				<div class="third-menu">{{ j3.settings.get('desktop_top_menu_3') }}</div>
+			</div>
+		{% endif %}
+
+		<div class="col-md-4" style="font-size:11px; float:right; margin-top:-10px; margin-right:5%;">
+			<a class="bold-600"></a>
+		</div>
+
+		{# {{ j3.settings.get('desktop_top_menu') }} #}
+
+		<div class="col-md-4" style="text-align: right">
+			{# <label class="t-10" style="min-width:200px;">
+				<i class="fa fa-lock" style="background: #444; color:#fff;padding:5%; border-radius:4px;"></i>
+				Privacy Mode #}
+			</label>
+			{# {{ j3.settings.get('desktop_top_menu_2') }} #}
+		</div>
+
+	</div>
+
+	<div
+		class="mid-bar navbar-nav">
+		{# <div class="desktop-main-menu-wrapper">
+														      {{ j3.document.hasClass('mobile-header-active') ? '' : j3.settings.get('desktop_main_menu') }}
+														    </div> #}
+		<div class="desktop-logo-wrapper col-md-3">
+			<div id="logo">
+				{% if j3.settings.get('logo_src') %}
+					<a href="{{ home }}">
+						<img src="{{ j3.settings.get('logo_src') }}" {% if j3.settings.get('logo2x_src') %} srcset="{{ j3.settings.get('logo_src') }} 1x, {{ j3.settings.get('logo2x_src') }} 2x" {% endif %} width="{{ j3.settings.get('logo_width') }}" height="{{ j3.settings.get('logo_height') }}" alt="{{ name }}" title="{{ name }}"/>
+					</a>
+				{% else %}
+					<h1>
+						<a href="{{ home }}">{{ name }}</a>
+					</h1>
+				{% endif %}
+			</div>
+		</div>
+		<div class="desktop-search-wrapper col-md-5 full-search">
+			{{ search }}
+		</div>
+
+		<div class="header-cart-group">
+			{% if j3.settings.get('langPosition') == 'search' %}
+				<div class="language-currency top-menu">
+
+			<!--xml start-->
+			 <div class="top-menu">
+				<ul class="j-menu seller">
+				<!--/* tmd vendor2 seler condtion  */-->
+				{% if customer2vendor==1 %}
+				<li class="tmd-menubox"><a href="{{ allseller }}"><i class="fa fa-users fa-fw"></i> <span class="m-text">{{ text_allseller }}</span></a></li>
+				{% endif %}
+				{% if vendorlogged %}
+				<li class="dropdown tmd_vendorsub"><a href="#" title="{{ text_selleraccount }}" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-users"></i> <span class="m-text">{{ text_selleraccount }}</span></a>
+				  <ul class="dropdown-menu dropdown-menu-right ">
+
+					<li><a href="{{ vendor_profile }}"><i class="fa fa-user fa-fw"></i> {{ text_profile }}</a></li>
+					<li><a href="{{ dashboard }}"><i class="fa fa-dashboard fa-fw"></i> {{ text_dashboard }}</a></li>
+					<li><a href="{{ products }}"><i class="fa fa-list fa-fw"></i> {{ text_products }}</a></li>
+					<li><a href="{{ review }}"><i class="fa fa-star fa-fw"></i> {{ text_review }}</a></li>
+					<li><a href="{{ managestore }}"><i class="fa fa-cog fa-fw"></i> {{ text_managestore }}</a></li>
+					<li><a href="{{ manageprofile }}"><i class="fa fa-user fa-fw"></i> {{ text_manageprofile }}</a></li>
+					<li><a href="{{ vdownload }}"><i class="fa fa-cloud-download fa-fw"></i> {{ text_download }}</a></li>
+					<li><a href="{{ manufacture }}"><i class="fa fa-thumb-tack fa-fw"></i> {{ text_manufacture }}</a></li>
+					<li><a href="{{ logouts }}"><i class="fa fa-sign-out fa-fw"></i> {{ text_logout }}</a></li>
+
+				  </ul>
+				 </li>
+				{% else %}
+				 <li class="tmd-menubox"><a href="{{ sellerlogin }}"><i class="fa fa-sign-in fa-fw"></i> <span class="m-text">{{ text_loginseller }}</span></a></li>
+				{% endif %}
+				</ul>
+				</div>
+				<style>
+					.language-currency .top-menu{
+					 pointer-events: all;
+					}
+					.tmd_vendorsub::after{display:none;}
+				</style>
+			<!--xml end-->
+					<div class="desktop-language-wrapper">
+						{{ language }}
+					</div>
+					<div class="desktop-currency-wrapper">
+						{{ currency }}
+					</div>
+				</div>
+			{% endif %}
+			{% if j3.settings.get('secondaryMenuPosition') == 'cart' %}
+				<div class="top-menu secondary-menu">{{ j3.settings.get('desktop_top_menu_2') }}</div>
+			{% endif %}
+			<div class="desktop-cart-wrapper">
+				{{ cart }}
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Custom menu (3rd menu ) available only on desktop screen more than 1024px -->
+<div class="row custom-menu-div" style="background:#E6E6E6; min-height: 30px;">
+</div>
+
+<style>
+	.top-menu-item-6 {
+		display: none;
+	}
+	.custom-menu-div {
+		box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 2px !important;
+	}
+
+	{# .header-search > .search-button::before {
+		color: rgba(140, 187, 13, 0.993) !important;
+		font-size: 17px;
+	} #}
+
+	@media only screen and (max-width: 1024px) {
+		.custom-menu-div, .language-text, .currency-text{
+			display: none;
+		}
+	}
+
+	.bold-600 {
+		font-weight: 600 !important;
+	}
+
+  .top-menu-14 .j-menu li.top-menu-item-1>a::before,
+  .top-menu-14 .j-menu li.top-menu-item-5>a::before,
+  #cart>a>i::before {
+    color: rgba(140, 187, 13, 0.993) !important;
+  }
+</style>
