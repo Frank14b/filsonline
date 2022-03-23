@@ -1,0 +1,66 @@
+<?php $val = array (
+  'css' => '.module-layout_notice-393 .hn-close::before{content:\'\\f00d\' !important;font-family:icomoon !important}.module-layout_notice-393 .hn-close{margin-left:10px}.module-layout_notice-393 .module-body
+p{margin-bottom:7px}.module-layout_notice-393 .layout-notice-close-button{position:relative;top:auto;right:auto;bottom:auto;left:auto;transform:none}.module-layout_notice-393 .module-body{flex-direction:row}.module-layout_notice-393 .hn-body::before{float:none}.module-layout_notice-393 .hn-body{display:flex}',
+  'fonts' => 
+  array (
+  ),
+  'settings' => 
+  array (
+    'schedule' => 
+    array (
+      'from' => '',
+      'to' => '',
+      'between' => true,
+    ),
+    'cookie' => '5cc0861d',
+    'closeButton' => false,
+    'closeLink' => 
+    array (
+      'type' => '',
+      'id' => '',
+      'href' => '',
+      'name' => '',
+      'total' => NULL,
+      'attrs' => 
+      array (
+      ),
+      'classes' => 
+      array (
+      ),
+    ),
+    'closeText' => '',
+    'content' => '<div class="row">
+ <div class="col-md-4 colCounter">
+<label id="day-counter">00</label>
+<p>DAY</p>
+ </div>
+ <div class="col-md-4 colCounter">
+<label id="day-counter2">21</label>
+<p>HOUR</p>
+ </div>
+ <div class="col-md-4 colCounter">
+<label id="day-counter3">10</label>
+<p>MINUTES</p>
+ </div>
+</div>
+<div class="date-couter">03/23/2022 20:00:00</div>',
+    'status' => true,
+    'id' => 'layout_notice-6239dcd6cf24f',
+    'module_id' => 393,
+    'classes' => 
+    array (
+      0 => 'module',
+      1 => 'module-layout_notice',
+      2 => 'module-layout_notice-393',
+    ),
+    'options' => 
+    array (
+      'cookie' => '5cc0861d',
+      'ease' => 'easeInOutQuart',
+      'duration' => '600',
+    ),
+    'items' => 
+    array (
+    ),
+  ),
+);

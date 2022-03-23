@@ -95,6 +95,21 @@ class ControllerStartupSeoUrl extends Controller {
                 }
                 // End Journal Theme Modification
             
+
+			/////////////// TMD vendor SEO work
+			$query1 = $this->db->query("SELECT * FROM " . DB_PREFIX . "seo_url WHERE keyword = '" . $this->db->escape($part) . "'");
+
+			if($query1->num_rows) {
+			$url = explode('=', $query1->row['query']);
+				unset($this->request->get['route']);
+					if ($url[0] == 'vendor_id') {
+						$this->request->get['vendor_id'] = $url[1];
+						$this->request->get['route'] = 'vendor/vendor_profile';
+					}
+
+			}
+			/////////////// TMD vendor SEO work
+			
 			if (!isset($this->request->get['route'])) {
 				if (isset($this->request->get['product_id'])) {
 					$this->request->get['route'] = 'product/product';
@@ -156,7 +171,20 @@ class ControllerStartupSeoUrl extends Controller {
                     }
                 // End Journal Theme Modification
             
-				} elseif ($key == 'path') {
+				
+			/////////////////////tmd xml
+			} else if(($data['route'] == 'vendor/vendor_profile' && $key == 'vendor_id')) {
+					$url=str_replace('/vendor/vendor_profile','',$url);
+					$query = $this->db->query("SELECT * FROM " . DB_PREFIX . "seo_url WHERE `query` = '" . $this->db->escape($key . '=' . (int)$value) . "'");
+					if ($query->num_rows && $query->row['keyword']) {
+
+						$url .= '/' . $query->row['keyword'];
+
+						unset($data[$key]);
+					}
+				}
+				 elseif ($key == 'path') {
+				/////////////////////tmd xml
 					$categories = explode('_', $value);
 
 					foreach ($categories as $category) {
@@ -173,6 +201,14 @@ class ControllerStartupSeoUrl extends Controller {
 
 					unset($data[$key]);
 				}
+			} elseif ($key == 'route') {
+				$query = $this->db->query("SELECT * FROM " . DB_PREFIX . "seo_url WHERE `query` = '" . $this->db->escape($value) . "' AND store_id = '" . (int)$this->config->get('config_store_id') . "' AND language_id = '" . (int)$this->config->get('config_language_id') . "'");
+				if ($query->num_rows && $query->row['keyword']) {
+				$url .= '/' . $query->row['keyword'];
+				unset($data[$key]);
+				} else if ($data['route'] == "common/home") { 
+				$url .= '/'; 
+				} 
 			}
 		}
 

@@ -1,6 +1,6 @@
 <?php $val = array (
   'css' => '.module-popup-195 .popup-container{width:600px}.module-popup-195 .popup-content, .popup.module-popup-195 .site-wrapper{padding:0px
-!important}.module-popup-195 .title.popup-header{padding:20px;padding-bottom:0px}.module-popup-195 .popup-footer{background:rgba(240, 242, 245, 1);padding:15px}.module-popup-195 .popup-dont-show{padding:3px;padding-right:5px;padding-left:5px;position:absolute;left:5px;right:auto;top:50%;transform:translateY(-50%)}.module-popup-195 .grid-row-1{background:rgba(240, 242, 245, 1);background-image:url(\'http://localhost/test2/image/cache/catalog/journal3/slider/demo9/dillon-mangum-383677-unsplash-1800x858.jpg\');background-position:left top;background-repeat:no-repeat;background-size:cover}.module-popup-195 .grid-row-1::before{display:block;left:0;width:100vw}.module-popup-195 .grid-row-1 .grid-col-1{width:100%;padding:30px}.module-popup-195 .grid-row-1 .grid-col-1 .grid-items{justify-content:center}@media (max-width: 760px){.module-popup-195 .grid-row-1 .grid-col-1{padding:15px}}',
+!important}.module-popup-195 .title.popup-header{padding:20px;padding-bottom:0px}.module-popup-195 .popup-footer{background:rgba(240, 242, 245, 1);padding:15px}.module-popup-195 .popup-dont-show{padding:3px;padding-right:5px;padding-left:5px;position:absolute;left:5px;right:auto;top:50%;transform:translateY(-50%)}.module-popup-195 .grid-row-1{background:rgba(240, 242, 245, 1);background-image:url(\'http://localhost/test2/image/cache/catalog/journal3/slider/demo9/dillon-mangum-383677-unsplash-1800x858.jpg\');background-position:left top;background-repeat:no-repeat;background-size:cover}.module-popup-195 .grid-row-1::before{display:block;left:0;width:100vw}.module-popup-195 .grid-row-1 .grid-col-1{width:100%;padding:30px}.module-popup-195 .grid-row-1 .grid-col-1 .grid-item{height:auto}.module-popup-195 .grid-row-1 .grid-col-1 .grid-items{justify-content:center}@media (max-width: 760px){.module-popup-195 .grid-row-1 .grid-col-1{padding:15px}}',
   'fonts' => 
   array (
   ),
@@ -62,8 +62,8 @@
       array (
       ),
     ),
-    'status' => true,
-    'id' => 'popup-623aea2432049',
+    'status' => false,
+    'id' => 'popup-6239dcd91e753',
     'module_id' => 195,
     'classes' => 
     array (

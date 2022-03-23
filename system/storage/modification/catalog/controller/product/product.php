@@ -604,6 +604,102 @@ class ControllerProductProduct extends Controller {
             }
             
 			
+
+		
+			$this->load->model('vendor/vendor');
+			$vendorproduct_id = $this->model_vendor_vendor->getSellerProduct($this->request->get['product_id']);
+			
+			if(!empty($vendorproduct_id['vendor_id'])){
+			$vendor_ids = $vendorproduct_id['vendor_id'];
+			} else {
+			$vendor_ids = '';
+			}
+			$vendorchat_ids = $this->model_vendor_vendor->getChatid($vendor_ids);
+
+			if(!empty($vendorchat_ids['message'])){
+			$data['vendorchat_id'] = $vendorchat_ids['message'];
+			} else {
+			$data['vendorchat_id'] = '';
+			}
+			
+			/*############ 13 02 2021  ############*/
+			
+			if(!empty($vendorproduct_id['vendor_id'])){
+			$vendornameinfo = $this->model_vendor_vendor->getInProductSellerName($this->request->get['product_id'], $vendorproduct_id['vendor_id']);
+			}
+			
+			$vlbles = $this->config->get('vendor_languages');
+			
+			if(!empty($vlbles[$this->config->get('config_language_id')]['selernameinpro'])) {
+			$data['text_vendorname']= $vlbles[$this->config->get('config_language_id')]['selernameinpro'].': ';
+			} else {			
+			$data['text_vendorname'] = $this->language->get('text_vendorname');
+			}
+			
+			if(!empty($vendorproduct_id['vendor_id'])){
+			$data['chkvendor_ids'] = $vendorproduct_id['vendor_id'];
+			} else {
+			$data['chkvendor_ids'] = 0;
+			}
+			
+			if(!empty($vendornameinfo['firstname'])){					
+			    $vendornames = $vendornameinfo['firstname'].' '.$vendornameinfo['lastname'];
+			} else {				
+				$vendornames = '';
+			}
+
+			if(!empty($vendornameinfo['display_name'])){					
+			    $vendordisplay_name = $vendornameinfo['display_name'];
+			} else {				
+				$vendordisplay_name = '';
+			}
+
+			if(!empty($vendornameinfo['company'])){					
+			    $vendorcompany = $vendornameinfo['company'];
+			} else {				
+				$vendorcompany = '';
+			}
+			
+			if(!empty($vendornameinfo['storename'])){					
+			    $vendorstorename = $vendornameinfo['storename'];
+			} else {				
+				$vendorstorename = '';
+			}
+					
+			$find = array(
+				'{vendorname}',			
+				'{display_name}',
+				'{company}',
+				'{storename}'			
+			);
+			
+			$replace = array(
+				'vendorname' => $vendornames,	
+				'display_name' => $vendordisplay_name,
+				'company' => $vendorcompany,			
+				'storename' => $vendorstorename			
+			);			
+			
+			if(!empty($vlbles[$this->config->get('config_language_id')]['sellershortcut'])) {
+			$sellershortcut= $vlbles[$this->config->get('config_language_id')]['sellershortcut'];
+			} else {			
+			$sellershortcut = '';
+			}
+			if(!empty(strip_tags(html_entity_decode($vlbles[$this->config->get('config_language_id')]['sellershortcut'])))){
+				$data['vendorname'] = str_replace($find, $replace, strip_tags(html_entity_decode($sellershortcut, ENT_QUOTES, 'UTF-8')));
+			} else {
+				$data['vendorname'] = $vendornames;
+			}
+		
+		 /*############ 13 02 2021  ############*/
+			
+			$data['sellerlink'] = $this->url->link('vendor/vendor_profile&vendor_id='.$vendor_ids, '', true);
+			/* 23 04 2020 */
+			
+		
+		$data['column_inpro'] = $this->load->controller('common/column_inpro');
+		// vendor
+		
 			$data['column_left'] = $this->load->controller('common/column_left');
 			$data['column_right'] = $this->load->controller('common/column_right');
 			$data['content_top'] = $this->load->controller('common/content_top');
@@ -674,6 +770,102 @@ class ControllerProductProduct extends Controller {
 
 			$this->response->addHeader($this->request->server['SERVER_PROTOCOL'] . ' 404 Not Found');
 
+
+		
+			$this->load->model('vendor/vendor');
+			$vendorproduct_id = $this->model_vendor_vendor->getSellerProduct($this->request->get['product_id']);
+			
+			if(!empty($vendorproduct_id['vendor_id'])){
+			$vendor_ids = $vendorproduct_id['vendor_id'];
+			} else {
+			$vendor_ids = '';
+			}
+			$vendorchat_ids = $this->model_vendor_vendor->getChatid($vendor_ids);
+
+			if(!empty($vendorchat_ids['message'])){
+			$data['vendorchat_id'] = $vendorchat_ids['message'];
+			} else {
+			$data['vendorchat_id'] = '';
+			}
+			
+			/*############ 13 02 2021  ############*/
+			
+			if(!empty($vendorproduct_id['vendor_id'])){
+			$vendornameinfo = $this->model_vendor_vendor->getInProductSellerName($this->request->get['product_id'], $vendorproduct_id['vendor_id']);
+			}
+			
+			$vlbles = $this->config->get('vendor_languages');
+			
+			if(!empty($vlbles[$this->config->get('config_language_id')]['selernameinpro'])) {
+			$data['text_vendorname']= $vlbles[$this->config->get('config_language_id')]['selernameinpro'].': ';
+			} else {			
+			$data['text_vendorname'] = $this->language->get('text_vendorname');
+			}
+			
+			if(!empty($vendorproduct_id['vendor_id'])){
+			$data['chkvendor_ids'] = $vendorproduct_id['vendor_id'];
+			} else {
+			$data['chkvendor_ids'] = 0;
+			}
+			
+			if(!empty($vendornameinfo['firstname'])){					
+			    $vendornames = $vendornameinfo['firstname'].' '.$vendornameinfo['lastname'];
+			} else {				
+				$vendornames = '';
+			}
+
+			if(!empty($vendornameinfo['display_name'])){					
+			    $vendordisplay_name = $vendornameinfo['display_name'];
+			} else {				
+				$vendordisplay_name = '';
+			}
+
+			if(!empty($vendornameinfo['company'])){					
+			    $vendorcompany = $vendornameinfo['company'];
+			} else {				
+				$vendorcompany = '';
+			}
+			
+			if(!empty($vendornameinfo['storename'])){					
+			    $vendorstorename = $vendornameinfo['storename'];
+			} else {				
+				$vendorstorename = '';
+			}
+					
+			$find = array(
+				'{vendorname}',			
+				'{display_name}',
+				'{company}',
+				'{storename}'			
+			);
+			
+			$replace = array(
+				'vendorname' => $vendornames,	
+				'display_name' => $vendordisplay_name,
+				'company' => $vendorcompany,			
+				'storename' => $vendorstorename			
+			);			
+			
+			if(!empty($vlbles[$this->config->get('config_language_id')]['sellershortcut'])) {
+			$sellershortcut= $vlbles[$this->config->get('config_language_id')]['sellershortcut'];
+			} else {			
+			$sellershortcut = '';
+			}
+			if(!empty(strip_tags(html_entity_decode($vlbles[$this->config->get('config_language_id')]['sellershortcut'])))){
+				$data['vendorname'] = str_replace($find, $replace, strip_tags(html_entity_decode($sellershortcut, ENT_QUOTES, 'UTF-8')));
+			} else {
+				$data['vendorname'] = $vendornames;
+			}
+		
+		 /*############ 13 02 2021  ############*/
+			
+			$data['sellerlink'] = $this->url->link('vendor/vendor_profile&vendor_id='.$vendor_ids, '', true);
+			/* 23 04 2020 */
+			
+		
+		$data['column_inpro'] = $this->load->controller('common/column_inpro');
+		// vendor
+		
 			$data['column_left'] = $this->load->controller('common/column_left');
 			$data['column_right'] = $this->load->controller('common/column_right');
 			$data['content_top'] = $this->load->controller('common/content_top');

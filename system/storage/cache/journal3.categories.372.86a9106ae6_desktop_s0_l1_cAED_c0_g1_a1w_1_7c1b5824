@@ -84,7 +84,7 @@ a{white-space:normal;overflow:visible;text-overflow:initial;font-family:montserr
       'resize' => 'fit',
     ),
     'status' => true,
-    'id' => 'categories-623aec0255847',
+    'id' => 'categories-6239e178d1ff7',
     'module_id' => 372,
     'classes' => 
     array (

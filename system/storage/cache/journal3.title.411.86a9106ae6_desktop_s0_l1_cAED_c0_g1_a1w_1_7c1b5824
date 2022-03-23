@@ -17,7 +17,7 @@ h3{font-family:montserratbold;font-weight:400;font-size:15px;color:rgba(226, 41,
     'title' => '50-70% off',
     'subtitle' => '',
     'status' => true,
-    'id' => 'title-623aec0295f6b',
+    'id' => 'title-6239e1793c97b',
     'module_id' => 411,
     'classes' => 
     array (
