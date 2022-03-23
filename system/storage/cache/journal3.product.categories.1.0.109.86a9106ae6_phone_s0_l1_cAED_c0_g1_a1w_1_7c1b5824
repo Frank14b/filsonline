@@ -1,0 +1,311 @@
+<?php $val = array (
+  'category_id' => '109',
+  'parent_id' => '0',
+  'title' => 'Health &amp; Beauty',
+  'items' => 
+  array (
+    125 => 
+    array (
+      'category_id' => '125',
+      'parent_id' => '109',
+      'title' => 'Accessories',
+      'items' => 
+      array (
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c125',
+        'dropdown' => 
+        array (
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://localhost/test2/index.php?route=product/category&amp;path=109_125',
+        'total' => '1',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    164 => 
+    array (
+      'category_id' => '164',
+      'parent_id' => '109',
+      'title' => 'Body',
+      'items' => 
+      array (
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c164',
+        'dropdown' => 
+        array (
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://localhost/test2/index.php?route=product/category&amp;path=109_164',
+        'total' => '3',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    123 => 
+    array (
+      'category_id' => '123',
+      'parent_id' => '109',
+      'title' => 'Lipstick',
+      'items' => 
+      array (
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c123',
+        'dropdown' => 
+        array (
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://localhost/test2/index.php?route=product/category&amp;path=109_123',
+        'total' => '15',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    216 => 
+    array (
+      'category_id' => '216',
+      'parent_id' => '109',
+      'title' => 'Makeup',
+      'items' => 
+      array (
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c216',
+        'dropdown' => 
+        array (
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://localhost/test2/index.php?route=product/category&amp;path=109_216',
+        'total' => '40',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    124 => 
+    array (
+      'category_id' => '124',
+      'parent_id' => '109',
+      'title' => 'Mascara',
+      'items' => 
+      array (
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c124',
+        'dropdown' => 
+        array (
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://localhost/test2/index.php?route=product/category&amp;path=109_124',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    122 => 
+    array (
+      'category_id' => '122',
+      'parent_id' => '109',
+      'title' => 'Spa',
+      'items' => 
+      array (
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c122',
+        'dropdown' => 
+        array (
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://localhost/test2/index.php?route=product/category&amp;path=109_122',
+        'total' => '1',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+  ),
+  'classes' => 
+  array (
+    0 => 'menu-item menu-item-c109',
+    'dropdown' => 
+    array (
+      125 => 
+      array (
+        'category_id' => '125',
+        'parent_id' => '109',
+        'title' => 'Accessories',
+        'items' => 
+        array (
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c125',
+          'dropdown' => 
+          array (
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://localhost/test2/index.php?route=product/category&amp;path=109_125',
+          'total' => '1',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      164 => 
+      array (
+        'category_id' => '164',
+        'parent_id' => '109',
+        'title' => 'Body',
+        'items' => 
+        array (
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c164',
+          'dropdown' => 
+          array (
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://localhost/test2/index.php?route=product/category&amp;path=109_164',
+          'total' => '3',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      123 => 
+      array (
+        'category_id' => '123',
+        'parent_id' => '109',
+        'title' => 'Lipstick',
+        'items' => 
+        array (
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c123',
+          'dropdown' => 
+          array (
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://localhost/test2/index.php?route=product/category&amp;path=109_123',
+          'total' => '15',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      216 => 
+      array (
+        'category_id' => '216',
+        'parent_id' => '109',
+        'title' => 'Makeup',
+        'items' => 
+        array (
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c216',
+          'dropdown' => 
+          array (
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://localhost/test2/index.php?route=product/category&amp;path=109_216',
+          'total' => '40',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      124 => 
+      array (
+        'category_id' => '124',
+        'parent_id' => '109',
+        'title' => 'Mascara',
+        'items' => 
+        array (
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c124',
+          'dropdown' => 
+          array (
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://localhost/test2/index.php?route=product/category&amp;path=109_124',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      122 => 
+      array (
+        'category_id' => '122',
+        'parent_id' => '109',
+        'title' => 'Spa',
+        'items' => 
+        array (
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c122',
+          'dropdown' => 
+          array (
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://localhost/test2/index.php?route=product/category&amp;path=109_122',
+          'total' => '1',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+    ),
+  ),
+  'link' => 
+  array (
+    'href' => 'http://localhost/test2/index.php?route=product/category&amp;path=109',
+    'total' => '46',
+    'classes' => 
+    array (
+    ),
+  ),
+);

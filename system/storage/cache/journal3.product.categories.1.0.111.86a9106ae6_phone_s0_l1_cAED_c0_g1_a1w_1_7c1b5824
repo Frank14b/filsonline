@@ -1,0 +1,311 @@
+<?php $val = array (
+  'category_id' => '111',
+  'parent_id' => '0',
+  'title' => 'Footwear',
+  'items' => 
+  array (
+    133 => 
+    array (
+      'category_id' => '133',
+      'parent_id' => '111',
+      'title' => 'Flats',
+      'items' => 
+      array (
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c133',
+        'dropdown' => 
+        array (
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://localhost/test2/index.php?route=product/category&amp;path=111_133',
+        'total' => '1',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    215 => 
+    array (
+      'category_id' => '215',
+      'parent_id' => '111',
+      'title' => 'Flip Flops',
+      'items' => 
+      array (
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c215',
+        'dropdown' => 
+        array (
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://localhost/test2/index.php?route=product/category&amp;path=111_215',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    132 => 
+    array (
+      'category_id' => '132',
+      'parent_id' => '111',
+      'title' => 'Heels',
+      'items' => 
+      array (
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c132',
+        'dropdown' => 
+        array (
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://localhost/test2/index.php?route=product/category&amp;path=111_132',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    134 => 
+    array (
+      'category_id' => '134',
+      'parent_id' => '111',
+      'title' => 'Running',
+      'items' => 
+      array (
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c134',
+        'dropdown' => 
+        array (
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://localhost/test2/index.php?route=product/category&amp;path=111_134',
+        'total' => '2',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    214 => 
+    array (
+      'category_id' => '214',
+      'parent_id' => '111',
+      'title' => 'Shoes',
+      'items' => 
+      array (
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c214',
+        'dropdown' => 
+        array (
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://localhost/test2/index.php?route=product/category&amp;path=111_214',
+        'total' => '2',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    131 => 
+    array (
+      'category_id' => '131',
+      'parent_id' => '111',
+      'title' => 'Trainers',
+      'items' => 
+      array (
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c131',
+        'dropdown' => 
+        array (
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'http://localhost/test2/index.php?route=product/category&amp;path=111_131',
+        'total' => '1',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+  ),
+  'classes' => 
+  array (
+    0 => 'menu-item menu-item-c111',
+    'dropdown' => 
+    array (
+      133 => 
+      array (
+        'category_id' => '133',
+        'parent_id' => '111',
+        'title' => 'Flats',
+        'items' => 
+        array (
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c133',
+          'dropdown' => 
+          array (
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://localhost/test2/index.php?route=product/category&amp;path=111_133',
+          'total' => '1',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      215 => 
+      array (
+        'category_id' => '215',
+        'parent_id' => '111',
+        'title' => 'Flip Flops',
+        'items' => 
+        array (
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c215',
+          'dropdown' => 
+          array (
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://localhost/test2/index.php?route=product/category&amp;path=111_215',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      132 => 
+      array (
+        'category_id' => '132',
+        'parent_id' => '111',
+        'title' => 'Heels',
+        'items' => 
+        array (
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c132',
+          'dropdown' => 
+          array (
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://localhost/test2/index.php?route=product/category&amp;path=111_132',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      134 => 
+      array (
+        'category_id' => '134',
+        'parent_id' => '111',
+        'title' => 'Running',
+        'items' => 
+        array (
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c134',
+          'dropdown' => 
+          array (
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://localhost/test2/index.php?route=product/category&amp;path=111_134',
+          'total' => '2',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      214 => 
+      array (
+        'category_id' => '214',
+        'parent_id' => '111',
+        'title' => 'Shoes',
+        'items' => 
+        array (
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c214',
+          'dropdown' => 
+          array (
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://localhost/test2/index.php?route=product/category&amp;path=111_214',
+          'total' => '2',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      131 => 
+      array (
+        'category_id' => '131',
+        'parent_id' => '111',
+        'title' => 'Trainers',
+        'items' => 
+        array (
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c131',
+          'dropdown' => 
+          array (
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'http://localhost/test2/index.php?route=product/category&amp;path=111_131',
+          'total' => '1',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+    ),
+  ),
+  'link' => 
+  array (
+    'href' => 'http://localhost/test2/index.php?route=product/category&amp;path=111',
+    'total' => '6',
+    'classes' => 
+    array (
+    ),
+  ),
+);

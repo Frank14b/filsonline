@@ -1,0 +1,33 @@
+<?php $val = array (
+  'css' => '.module-title-405 .title-wrapper
+h3{font-family:montserratbold;font-weight:700;font-size:40px;color:rgba(238, 19, 72, 1);text-align:center}.module-title-405 .title-wrapper
+.subtitle{font-family:montserratbold;font-weight:400;font-size:20px;color:rgba(226,41,61,1)}.module-title-405{margin-top:10px;margin-left:0px}.module-title-405 .title-wrapper::before{opacity:.05;display:block}.module-title-405 .title-wrapper{text-align:center}.module-title-405 .title-divider{margin-left:auto;margin-right:auto}@media (max-width: 1024px){.module-title-405 .title-wrapper
+h3{font-family:montserratbold;font-weight:400;font-size:20px;color:rgba(226, 41, 61, 1);text-align:center}.module-title-405 .title-wrapper{text-align:center}.module-title-405 .title-divider{margin-left:auto;margin-right:auto}}',
+  'fonts' => 
+  array (
+  ),
+  'settings' => 
+  array (
+    'schedule' => 
+    array (
+      'from' => '',
+      'to' => '',
+      'between' => true,
+    ),
+    'type' => 'custom',
+    'title' => 'GET 1',
+    'subtitle' => '',
+    'status' => true,
+    'id' => 'title-623aeab021e2b',
+    'module_id' => 405,
+    'classes' => 
+    array (
+      0 => 'module',
+      1 => 'module-title',
+      2 => 'module-title-405',
+    ),
+    'items' => 
+    array (
+    ),
+  ),
+);
