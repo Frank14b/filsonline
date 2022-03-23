@@ -16,7 +16,7 @@ h3{font-family:montserratbold;font-weight:700;font-size:30px;color:rgba(19,32,58
     'title' => 'Most searched for',
     'subtitle' => '',
     'status' => true,
-    'id' => 'title-623aea231cf96',
+    'id' => 'title-623b084872236',
     'module_id' => 369,
     'classes' => 
     array (
