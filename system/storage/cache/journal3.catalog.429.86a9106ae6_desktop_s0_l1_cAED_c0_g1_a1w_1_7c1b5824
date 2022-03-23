@@ -76,7 +76,7 @@ img{border-width:1px;border-style:solid;border-color:rgba(221, 221, 221, 1);box-
     'carouselPhone' => true,
     'viewMoreText' => 'View More',
     'status' => true,
-    'id' => 'catalog-623aea23da649',
+    'id' => 'catalog-623b084a9239e',
     'module_id' => 429,
     'classes' => 
     array (
